@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccTwpS17.s 			page 1
+ARM GAS  /tmp/cctQgHTl.s 			page 1
 
 
    1              		.syntax unified
@@ -25,8 +25,8 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
   22              		.thumb_func
   23              		.type	GetArmPot, %function
   24              	GetArmPot:
-  25              	.LFB67:
-  26              		.file 1 "arm.c"
+  25              	.LFB65:
+  26              		.file 1 "common/arm.c"
   27              		.loc 1 26 0
   28              		.cfi_startproc
   29              		@ args = 0, pretend = 0, frame = 0
@@ -48,7 +48,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
   45 0016 44F34F00 		sbfx	r0, r4, #1, #16
   46 001a 10BD     		pop	{r4, pc}
   47              		.cfi_endproc
-  48              	.LFE67:
+  48              	.LFE65:
   49              		.size	GetArmPot, .-GetArmPot
   50              		.global	__aeabi_i2d
   51              		.global	__aeabi_ddiv
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
   55              		.global	autonSelect
   56              		.thumb
   57              		.thumb_func
-ARM GAS  /tmp/ccTwpS17.s 			page 2
+ARM GAS  /tmp/cctQgHTl.s 			page 2
 
 
   58              		.type	autonSelect, %function
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  112 0042 C0F20007 		movt	r7, #:upper16:.LANCHOR2
  113              		.loc 2 222 0
  114 0046 B346     		mov	fp, r6
-ARM GAS  /tmp/ccTwpS17.s 			page 3
+ARM GAS  /tmp/cctQgHTl.s 			page 3
 
 
  115 0048 C246     		mov	sl, r8
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  169 00c0 18D0     		beq	.L13
  170              		.loc 2 233 0
  171 00c2 022B     		cmp	r3, #2
-ARM GAS  /tmp/ccTwpS17.s 			page 4
+ARM GAS  /tmp/cctQgHTl.s 			page 4
 
 
  172 00c4 20D0     		beq	.L14
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  226              	.LVL17:
  227              	.L14:
  228              		.loc 2 234 0
-ARM GAS  /tmp/ccTwpS17.s 			page 5
+ARM GAS  /tmp/cctQgHTl.s 			page 5
 
 
  229 0108 BAF80030 		ldrh	r3, [sl, #0]
@@ -279,7 +279,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  263              		.thumb_func
  264              		.type	ArmPidController, %function
  265              	ArmPidController:
- 266              	.LFB68:
+ 266              	.LFB66:
  267              		.loc 1 33 0
  268              		.cfi_startproc
  269              		@ args = 0, pretend = 0, frame = 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  282              		.cfi_offset 3, -16
  283              		.loc 1 39 0
  284 0006 C0F20000 		movt	r0, #:upper16:.LC3
-ARM GAS  /tmp/ccTwpS17.s 			page 6
+ARM GAS  /tmp/cctQgHTl.s 			page 6
 
 
  285 000a 40F20005 		movw	r5, #:lower16:.LANCHOR4
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  339 006c D4D0     		beq	.L24
  340 006e 7F20     		movs	r0, #127
  341 0070 D9E7     		b	.L20
-ARM GAS  /tmp/ccTwpS17.s 			page 7
+ARM GAS  /tmp/cctQgHTl.s 			page 7
 
 
  342              	.L23:
@@ -366,7 +366,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  344 0072 4FF68170 		movw	r0, #65409
  345 0076 D6E7     		b	.L20
  346              		.cfi_endproc
- 347              	.LFE68:
+ 347              	.LFE66:
  348              		.size	ArmPidController, .-ArmPidController
  349 0078 AFF30080 		.section	.text.ArmTask,"ax",%progbits
  349      AFF30080 
@@ -377,7 +377,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  354              		.thumb_func
  355              		.type	ArmTask, %function
  356              	ArmTask:
- 357              	.LFB69:
+ 357              	.LFB67:
  358              		.loc 1 71 0
  359              		.cfi_startproc
  360              		@ args = 0, pretend = 0, frame = 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  395              	.LVL32:
  396              	.L27:
  397              	.LBE45:
-ARM GAS  /tmp/ccTwpS17.s 			page 8
+ARM GAS  /tmp/cctQgHTl.s 			page 8
 
 
  398              	.LBE44:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  452              		.loc 1 87 0
  453 0072 193A     		subs	r2, r2, #25
  454              	.LBB52:
-ARM GAS  /tmp/ccTwpS17.s 			page 9
+ARM GAS  /tmp/cctQgHTl.s 			page 9
 
 
  455              	.LBB53:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  509 00a8 1FFA80FC 		uxth	ip, r0
  510              		.loc 1 98 0
  511 00ac ACF5BA61 		sub	r1, ip, #1488
-ARM GAS  /tmp/ccTwpS17.s 			page 10
+ARM GAS  /tmp/cctQgHTl.s 			page 10
 
 
  512              		.loc 1 97 0
@@ -553,7 +553,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  521 00ba 2980     		strh	r1, [r5, #0]	@ movhi
  522 00bc BAE7     		b	.L27
  523              		.cfi_endproc
- 524              	.LFE69:
+ 524              	.LFE67:
  525              		.size	ArmTask, .-ArmTask
  526 00be 00BF     		.section	.text.IntakeSystemControl,"ax",%progbits
  527              		.align	2
@@ -563,8 +563,8 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  531              		.thumb_func
  532              		.type	IntakeSystemControl, %function
  533              	IntakeSystemControl:
- 534              	.LFB63:
- 535              		.file 3 "intake.c"
+ 534              	.LFB68:
+ 535              		.file 3 "common/intake.c"
  536              		.loc 3 6 0
  537              		.cfi_startproc
  538              		@ args = 0, pretend = 0, frame = 0
@@ -598,12 +598,12 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  566              		.loc 3 28 0
  567 0020 BDE81040 		pop	{r4, lr}
  568              		.loc 3 27 0
-ARM GAS  /tmp/ccTwpS17.s 			page 11
+ARM GAS  /tmp/cctQgHTl.s 			page 11
 
 
  569 0024 FFF7FEBF 		b	vexMotorSet
  570              		.cfi_endproc
- 571              	.LFE63:
+ 571              	.LFE68:
  572              		.size	IntakeSystemControl, .-IntakeSystemControl
  573 0028 AFF30080 		.section	.text.IntakeTask,"ax",%progbits
  573      AFF30080 
@@ -614,7 +614,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  578              		.thumb_func
  579              		.type	IntakeTask, %function
  580              	IntakeTask:
- 581              	.LFB64:
+ 581              	.LFB69:
  582              		.loc 3 37 0
  583              		.cfi_startproc
  584              		@ args = 0, pretend = 0, frame = 0
@@ -658,14 +658,14 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  622 0032 FFF7FEFF 		bl	IntakeSystemControl
  623              		.loc 3 56 0
  624 0036 1920     		movs	r0, #25
-ARM GAS  /tmp/ccTwpS17.s 			page 12
+ARM GAS  /tmp/cctQgHTl.s 			page 12
 
 
  625 0038 FFF7FEFF 		bl	vexSleep
  626              		.loc 3 57 0
  627 003c E7E7     		b	.L40
  628              		.cfi_endproc
- 629              	.LFE64:
+ 629              	.LFE69:
  630              		.size	IntakeTask, .-IntakeTask
  631              		.global	__aeabi_fadd
  632 003e 00BF     		.section	.text.DriveSystemArcadeDrive,"ax",%progbits
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  679              	.LVL54:
  680              		.loc 4 28 0
  681 0022 E001     		lsls	r0, r4, #7
-ARM GAS  /tmp/ccTwpS17.s 			page 13
+ARM GAS  /tmp/cctQgHTl.s 			page 13
 
 
  682              	.LVL55:
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  736              		.loc 4 41 0
  737 0068 323E     		subs	r6, r6, #50
  738              		.loc 4 33 0
-ARM GAS  /tmp/ccTwpS17.s 			page 14
+ARM GAS  /tmp/cctQgHTl.s 			page 14
 
 
  739 006a BFB2     		uxth	r7, r7
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  793 00b0 4CF6CD41 		movw	r1, #52429
  794 00b4 C3F64C61 		movt	r1, 15948
  795 00b8 FFF7FEFF 		bl	__aeabi_fmul
-ARM GAS  /tmp/ccTwpS17.s 			page 15
+ARM GAS  /tmp/cctQgHTl.s 			page 15
 
 
  796 00bc 0646     		mov	r6, r0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  848              	.LVL77:
  849              		.loc 4 74 0
  850 0010 0020     		movs	r0, #0
-ARM GAS  /tmp/ccTwpS17.s 			page 16
+ARM GAS  /tmp/cctQgHTl.s 			page 16
 
 
  851 0012 FFF7FEFF 		bl	vexControllerGet
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  905 006c 6333     		adds	r3, r3, #99
  906              		.loc 4 79 0
  907 006e 9E2A     		cmp	r2, #158
-ARM GAS  /tmp/ccTwpS17.s 			page 17
+ARM GAS  /tmp/cctQgHTl.s 			page 17
 
 
  908              		.loc 4 75 0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  961 0000 2DE9F047 		push	{r4, r5, r6, r7, r8, r9, sl, lr}
  962              	.LCFI9:
  963              		.cfi_def_cfa_offset 32
-ARM GAS  /tmp/ccTwpS17.s 			page 18
+ARM GAS  /tmp/cctQgHTl.s 			page 18
 
 
  964              		.cfi_offset 14, -4
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1018 004e 3C46     		mov	r4, r7
  1019 0050 17E0     		b	.L62
  1020              	.LVL91:
-ARM GAS  /tmp/ccTwpS17.s 			page 19
+ARM GAS  /tmp/cctQgHTl.s 			page 19
 
 
  1021              	.L65:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1075 00e4 FFF7FEFF 		bl	vexImeMotorGetCount
  1076 00e8 8246     		mov	sl, r0
  1077 00ea 0320     		movs	r0, #3
-ARM GAS  /tmp/ccTwpS17.s 			page 20
+ARM GAS  /tmp/cctQgHTl.s 			page 20
 
 
  1078 00ec FFF7FEFF 		bl	vexImeMotorGetCount
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1132 0190 B8F11E0F 		cmp	r8, #30
  1133 0194 1BDC     		bgt	.L61
  1134              	.L58:
-ARM GAS  /tmp/ccTwpS17.s 			page 21
+ARM GAS  /tmp/cctQgHTl.s 			page 21
 
 
  1135              		.loc 5 27 0
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1189 0204 0620     		movs	r0, #6
  1190 0206 0021     		movs	r1, #0
  1191 0208 FFF7FEFF 		bl	vexMotorSet
-ARM GAS  /tmp/ccTwpS17.s 			page 22
+ARM GAS  /tmp/cctQgHTl.s 			page 22
 
 
  1192              		.loc 5 47 0
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1245 0008 81EAE170 		eor	r0, r1, r1, asr #31
  1246 000c A0EBE170 		sub	r0, r0, r1, asr #31
  1247              	.LVL100:
-ARM GAS  /tmp/ccTwpS17.s 			page 23
+ARM GAS  /tmp/cctQgHTl.s 			page 23
 
 
  1248              		.loc 6 2 0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1302 007e 4946     		mov	r1, r9
  1303 0080 0420     		movs	r0, #4
  1304 0082 FFF7FEFF 		bl	vexMotorSet
-ARM GAS  /tmp/ccTwpS17.s 			page 24
+ARM GAS  /tmp/cctQgHTl.s 			page 24
 
 
  1305              		.loc 6 6 0
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1359 0102 7042     		negs	r0, r6
  1360 0104 FFF7FEFF 		bl	__aeabi_i2f
  1361 0108 FFF7FEFF 		bl	__aeabi_f2d
-ARM GAS  /tmp/ccTwpS17.s 			page 25
+ARM GAS  /tmp/cctQgHTl.s 			page 25
 
 
  1362 010c 5AA3     		adr	r3, .L78
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1416 01b6 0320     		movs	r0, #3
  1417 01b8 FFF7FEFF 		bl	vexImeMotorGetCount
  1418 01bc 4042     		negs	r0, r0
-ARM GAS  /tmp/ccTwpS17.s 			page 26
+ARM GAS  /tmp/cctQgHTl.s 			page 26
 
 
  1419 01be FFF7FEFF 		bl	__aeabi_i2f
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1473 0234 FFF7FEFF 		bl	vexMotorSet
  1474              		.loc 6 48 0
  1475 0238 0420     		movs	r0, #4
-ARM GAS  /tmp/ccTwpS17.s 			page 27
+ARM GAS  /tmp/cctQgHTl.s 			page 27
 
 
  1476 023a 5146     		mov	r1, sl
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1530              		.cfi_endproc
  1531              	.LFE74:
  1532              		.size	autonArm, .-autonArm
-ARM GAS  /tmp/ccTwpS17.s 			page 28
+ARM GAS  /tmp/cctQgHTl.s 			page 28
 
 
  1533 0002 00BFAFF3 		.section	.text.autonIntake,"ax",%progbits
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1582              		.cfi_endproc
  1583              	.LFE76:
  1584              		.size	auton0, .-auton0
-ARM GAS  /tmp/ccTwpS17.s 			page 29
+ARM GAS  /tmp/cctQgHTl.s 			page 29
 
 
  1585 000a 00BFAFF3 		.section	.text.auton1,"ax",%progbits
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1638              	.LBB68:
  1639              	.LBB69:
  1640              		.loc 2 26 0
-ARM GAS  /tmp/ccTwpS17.s 			page 30
+ARM GAS  /tmp/cctQgHTl.s 			page 30
 
 
  1641 0032 0020     		movs	r0, #0
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1695 0094 2388     		ldrh	r3, [r4, #0]
  1696              		.loc 2 78 0
  1697 0096 3020     		movs	r0, #48
-ARM GAS  /tmp/ccTwpS17.s 			page 31
+ARM GAS  /tmp/cctQgHTl.s 			page 31
 
 
  1698              		.loc 2 77 0
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1752 00f8 FFF7FEFF 		bl	autonDrive
  1753              		.loc 2 93 0
  1754 00fc C0F20006 		movt	r6, #:upper16:.LANCHOR6
-ARM GAS  /tmp/ccTwpS17.s 			page 32
+ARM GAS  /tmp/cctQgHTl.s 			page 32
 
 
  1755              		.loc 2 91 0
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1809 015a 2380     		strh	r3, [r4, #0]	@ movhi
  1810              		.loc 2 105 0
  1811 015c 1821     		movs	r1, #24
-ARM GAS  /tmp/ccTwpS17.s 			page 33
+ARM GAS  /tmp/cctQgHTl.s 			page 33
 
 
  1812 015e FFF7FEFF 		bl	autonDrive
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1864              	.LBB76:
  1865              	.LBB77:
  1866              		.loc 2 26 0
-ARM GAS  /tmp/ccTwpS17.s 			page 34
+ARM GAS  /tmp/cctQgHTl.s 			page 34
 
 
  1867 0004 4FF0FF30 		mov	r0, #-1
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1921 0066 FFF7FEFF 		bl	vexSleep
  1922              		.loc 2 141 0
  1923 006a 6100     		lsls	r1, r4, #1
-ARM GAS  /tmp/ccTwpS17.s 			page 35
+ARM GAS  /tmp/cctQgHTl.s 			page 35
 
 
  1924 006c 4020     		movs	r0, #64
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  1978 00c4 C0F20000 		movt	r0, #:upper16:.LANCHOR7
  1979 00c8 0388     		ldrh	r3, [r0, #0]
  1980 00ca 2380     		strh	r3, [r4, #0]	@ movhi
-ARM GAS  /tmp/ccTwpS17.s 			page 36
+ARM GAS  /tmp/cctQgHTl.s 			page 36
 
 
  1981              		.loc 2 155 0
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2035              		.loc 2 163 0
  2036 002a 0246     		mov	r2, r0
  2037              		.loc 2 164 0
-ARM GAS  /tmp/ccTwpS17.s 			page 37
+ARM GAS  /tmp/cctQgHTl.s 			page 37
 
 
  2038 002c ACF5487E 		sub	lr, ip, #800
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2092 0082 4020     		movs	r0, #64
  2093 0084 FFF7FEFF 		bl	autonTurn
  2094              		.loc 2 178 0
-ARM GAS  /tmp/ccTwpS17.s 			page 38
+ARM GAS  /tmp/cctQgHTl.s 			page 38
 
 
  2095 0088 C820     		movs	r0, #200
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2149              		.thumb
  2150              		.thumb_func
  2151              		.type	autonRun, %function
-ARM GAS  /tmp/ccTwpS17.s 			page 39
+ARM GAS  /tmp/cctQgHTl.s 			page 39
 
 
  2152              	autonRun:
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2206 005c 40F20002 		movw	r2, #:lower16:.LC11
  2207 0060 57F82030 		ldr	r3, [r7, r0, lsl #2]
  2208 0064 0121     		movs	r1, #1
-ARM GAS  /tmp/ccTwpS17.s 			page 40
+ARM GAS  /tmp/cctQgHTl.s 			page 40
 
 
  2209 0066 0020     		movs	r0, #0
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2263              	.LVL140:
  2264              	.L92:
  2265              		.loc 2 284 0
-ARM GAS  /tmp/ccTwpS17.s 			page 41
+ARM GAS  /tmp/cctQgHTl.s 			page 41
 
 
  2266 00cc FFF7FEFF 		bl	auton3
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2317      0080AFF3 
  2317      0080
  2318              		.align	2
-ARM GAS  /tmp/ccTwpS17.s 			page 42
+ARM GAS  /tmp/cctQgHTl.s 			page 42
 
 
  2319              		.p2align 4,,15
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2371              		.thumb
  2372              		.thumb_func
  2373              		.type	vexAutonomous, %function
-ARM GAS  /tmp/ccTwpS17.s 			page 43
+ARM GAS  /tmp/cctQgHTl.s 			page 43
 
 
  2374              	vexAutonomous:
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2426              		@ frame_needed = 0, uses_anonymous_args = 0
  2427              	.LVL149:
  2428 0000 2DE9F041 		push	{r4, r5, r6, r7, r8, lr}
-ARM GAS  /tmp/ccTwpS17.s 			page 44
+ARM GAS  /tmp/cctQgHTl.s 			page 44
 
 
  2429              	.LCFI22:
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2483 0068 0820     		movs	r0, #8
  2484 006a 0021     		movs	r1, #0
  2485 006c FFF7FEFF 		bl	vexDigitalPinSet
-ARM GAS  /tmp/ccTwpS17.s 			page 45
+ARM GAS  /tmp/cctQgHTl.s 			page 45
 
 
  2486              		.loc 7 155 0
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2540 010c 0021     		movs	r1, #0
  2541 010e 0120     		movs	r0, #1
  2542 0110 FFF7FEFF 		bl	vexLcdPrintf
-ARM GAS  /tmp/ccTwpS17.s 			page 46
+ARM GAS  /tmp/cctQgHTl.s 			page 46
 
 
  2543              		.loc 7 163 0
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2597 019e FFF7FEFF 		bl	vexControllerGet
  2598 01a2 0128     		cmp	r0, #1
  2599 01a4 0646     		mov	r6, r0
-ARM GAS  /tmp/ccTwpS17.s 			page 47
+ARM GAS  /tmp/cctQgHTl.s 			page 47
 
 
  2600 01a6 7FF45FAF 		bne	.L103
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2653 000f 00       		.byte	0
  2654 0010 0000     		.short	0
  2655 0012 03       		.byte	3
-ARM GAS  /tmp/ccTwpS17.s 			page 48
+ARM GAS  /tmp/cctQgHTl.s 			page 48
 
 
  2656 0013 03       		.byte	3
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2710 0000 FC08     		.short	2300
  2711              		.section	.data.runAutonColor,"aw",%progbits
  2712              		.align	1
-ARM GAS  /tmp/ccTwpS17.s 			page 49
+ARM GAS  /tmp/cctQgHTl.s 			page 49
 
 
  2713              		.set	.LANCHOR1,. + 0
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2754      61736B00 
  2755              	.LC6:
  2756 0048 44726976 		.ascii	"Drive task\000"
-ARM GAS  /tmp/ccTwpS17.s 			page 50
+ARM GAS  /tmp/cctQgHTl.s 			page 50
 
 
  2756      65207461 
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2788      0000
  2789 000a 0000     		.section	.data.n1,"aw",%progbits
  2790              		.align	2
-ARM GAS  /tmp/ccTwpS17.s 			page 51
+ARM GAS  /tmp/cctQgHTl.s 			page 51
 
 
  2791              		.type	n1, %object
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2842 000a 0000     		.short	0
  2843 000c 02       		.byte	2
  2844 000d 01       		.byte	1
-ARM GAS  /tmp/ccTwpS17.s 			page 52
+ARM GAS  /tmp/cctQgHTl.s 			page 52
 
 
  2845 000e 00       		.byte	0
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2899 0000 00000000 		.word	n0
  2900 0004 00000000 		.word	n1
  2901 0008 00000000 		.word	n2
-ARM GAS  /tmp/ccTwpS17.s 			page 53
+ARM GAS  /tmp/cctQgHTl.s 			page 53
 
 
  2902 000c 00000000 		.word	n3
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  2956 003a FF0A0000 		.4byte	.LASF2
  2957 003e 02       		.uleb128 0x2
  2958 003f 02       		.byte	0x2
-ARM GAS  /tmp/ccTwpS17.s 			page 54
+ARM GAS  /tmp/cctQgHTl.s 			page 54
 
 
  2959 0040 05       		.byte	0x5
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3013 00a6 45000000 		.4byte	0x45
  3014 00aa 07       		.uleb128 0x7
  3015 00ab 960A0000 		.4byte	.LASF13
-ARM GAS  /tmp/ccTwpS17.s 			page 55
+ARM GAS  /tmp/cctQgHTl.s 			page 55
 
 
  3016 00af 08       		.byte	0x8
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3070 0124 09       		.byte	0x9
  3071 0125 35       		.byte	0x35
  3072 0126 B5000000 		.4byte	0xb5
-ARM GAS  /tmp/ccTwpS17.s 			page 56
+ARM GAS  /tmp/cctQgHTl.s 			page 56
 
 
  3073 012a 07       		.uleb128 0x7
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3127 018d 67       		.byte	0x67
  3128 018e 7F020000 		.4byte	0x27f
  3129 0192 02       		.byte	0x2
-ARM GAS  /tmp/ccTwpS17.s 			page 57
+ARM GAS  /tmp/cctQgHTl.s 			page 57
 
 
  3130 0193 23       		.byte	0x23
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3184 01f0 F0040000 		.4byte	0x4f0
  3185 01f4 02       		.byte	0x2
  3186 01f5 23       		.byte	0x23
-ARM GAS  /tmp/ccTwpS17.s 			page 58
+ARM GAS  /tmp/cctQgHTl.s 			page 58
 
 
  3187 01f6 24       		.uleb128 0x24
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3241 0256 02       		.byte	0x2
  3242 0257 23       		.byte	0x23
  3243 0258 44       		.uleb128 0x44
-ARM GAS  /tmp/ccTwpS17.s 			page 59
+ARM GAS  /tmp/cctQgHTl.s 			page 59
 
 
  3244 0259 00       		.byte	0
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3298 02b9 68000000 		.4byte	0x68
  3299 02bd 0C       		.uleb128 0xc
  3300 02be 66080000 		.4byte	.LASF48
-ARM GAS  /tmp/ccTwpS17.s 			page 60
+ARM GAS  /tmp/cctQgHTl.s 			page 60
 
 
  3301 02c2 24       		.byte	0x24
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3355 0323 0C       		.byte	0xc
  3356 0324 2501     		.2byte	0x125
  3357 0326 B2020000 		.4byte	0x2b2
-ARM GAS  /tmp/ccTwpS17.s 			page 61
+ARM GAS  /tmp/cctQgHTl.s 			page 61
 
 
  3358 032a 02       		.byte	0x2
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3412 0390 0D       		.byte	0xd
  3413 0391 5D       		.byte	0x5d
  3414 0392 96030000 		.4byte	0x396
-ARM GAS  /tmp/ccTwpS17.s 			page 62
+ARM GAS  /tmp/cctQgHTl.s 			page 62
 
 
  3415 0396 08       		.uleb128 0x8
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3469 03f3 30040000 		.4byte	0x430
  3470 03f7 09       		.uleb128 0x9
  3471 03f8 790B0000 		.4byte	.LASF52
-ARM GAS  /tmp/ccTwpS17.s 			page 63
+ARM GAS  /tmp/cctQgHTl.s 			page 63
 
 
  3472 03fc 0D       		.byte	0xd
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3526 045c 60       		.byte	0x60
  3527 045d FE000000 		.4byte	0xfe
  3528 0461 02       		.byte	0x2
-ARM GAS  /tmp/ccTwpS17.s 			page 64
+ARM GAS  /tmp/cctQgHTl.s 			page 64
 
 
  3529 0462 23       		.byte	0x23
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3583 04c2 09       		.uleb128 0x9
  3584 04c3 CE000000 		.4byte	.LASF68
  3585 04c7 0F       		.byte	0xf
-ARM GAS  /tmp/ccTwpS17.s 			page 65
+ARM GAS  /tmp/cctQgHTl.s 			page 65
 
 
  3586 04c8 2F       		.byte	0x2f
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3640 0534 14       		.uleb128 0x14
  3641 0535 29000000 		.4byte	0x29
  3642 0539 03       		.byte	0x3
-ARM GAS  /tmp/ccTwpS17.s 			page 66
+ARM GAS  /tmp/cctQgHTl.s 			page 66
 
 
  3643 053a 00       		.byte	0
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3697 05a0 96070000 		.4byte	.LASF87
  3698 05a4 02       		.sleb128 2
  3699 05a5 16       		.uleb128 0x16
-ARM GAS  /tmp/ccTwpS17.s 			page 67
+ARM GAS  /tmp/cctQgHTl.s 			page 67
 
 
  3700 05a6 A4070000 		.4byte	.LASF88
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3754 060f 00       		.sleb128 0
  3755 0610 16       		.uleb128 0x16
  3756 0611 CF0A0000 		.4byte	.LASF102
-ARM GAS  /tmp/ccTwpS17.s 			page 68
+ARM GAS  /tmp/cctQgHTl.s 			page 68
 
 
  3757 0615 01       		.sleb128 1
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3811 067e 00       		.byte	0
  3812 067f 07       		.uleb128 0x7
  3813 0680 46010000 		.4byte	.LASF118
-ARM GAS  /tmp/ccTwpS17.s 			page 69
+ARM GAS  /tmp/cctQgHTl.s 			page 69
 
 
  3814 0684 12       		.byte	0x12
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3868 06eb 80080000 		.4byte	.LASF132
  3869 06ef 03       		.sleb128 3
  3870 06f0 16       		.uleb128 0x16
-ARM GAS  /tmp/ccTwpS17.s 			page 70
+ARM GAS  /tmp/cctQgHTl.s 			page 70
 
 
  3871 06f1 96080000 		.4byte	.LASF133
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3925 075d 06       		.byte	0x6
  3926 075e 14       		.byte	0x14
  3927 075f 5F       		.byte	0x5f
-ARM GAS  /tmp/ccTwpS17.s 			page 71
+ARM GAS  /tmp/cctQgHTl.s 			page 71
 
 
  3928 0760 9D070000 		.4byte	0x79d
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  3982 07c3 F8030000 		.4byte	.LASF153
  3983 07c7 14       		.byte	0x14
  3984 07c8 71       		.byte	0x71
-ARM GAS  /tmp/ccTwpS17.s 			page 72
+ARM GAS  /tmp/cctQgHTl.s 			page 72
 
 
  3985 07c9 23060000 		.4byte	0x623
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4039 082f 04       		.sleb128 4
  4040 0830 16       		.uleb128 0x16
  4041 0831 FF070000 		.4byte	.LASF163
-ARM GAS  /tmp/ccTwpS17.s 			page 73
+ARM GAS  /tmp/cctQgHTl.s 			page 73
 
 
  4042 0835 05       		.sleb128 5
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4096 089e 16       		.uleb128 0x16
  4097 089f B5000000 		.4byte	.LASF175
  4098 08a3 0C       		.sleb128 12
-ARM GAS  /tmp/ccTwpS17.s 			page 74
+ARM GAS  /tmp/cctQgHTl.s 			page 74
 
 
  4099 08a4 16       		.uleb128 0x16
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4153 0917 16       		.uleb128 0x16
  4154 0918 AE0C0000 		.4byte	.LASF194
  4155 091c 8701     		.sleb128 135
-ARM GAS  /tmp/ccTwpS17.s 			page 75
+ARM GAS  /tmp/cctQgHTl.s 			page 75
 
 
  4156 091e 16       		.uleb128 0x16
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4210 0997 16       		.uleb128 0x16
  4211 0998 61040000 		.4byte	.LASF211
  4212 099c 00       		.sleb128 0
-ARM GAS  /tmp/ccTwpS17.s 			page 76
+ARM GAS  /tmp/cctQgHTl.s 			page 76
 
 
  4213 099d 16       		.uleb128 0x16
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4267 0a08 1C       		.uleb128 0x1c
  4268 0a09 01       		.byte	0x1
  4269 0a0a 03010000 		.4byte	.LASF224
-ARM GAS  /tmp/ccTwpS17.s 			page 77
+ARM GAS  /tmp/cctQgHTl.s 			page 77
 
 
  4270 0a0e 02       		.byte	0x2
@@ -4592,8 +4592,8 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4298 0a42 1A       		.byte	0x1a
  4299 0a43 01       		.byte	0x1
  4300 0a44 94000000 		.4byte	0x94
- 4301 0a48 00000000 		.4byte	.LFB67
- 4302 0a4c 1C000000 		.4byte	.LFE67
+ 4301 0a48 00000000 		.4byte	.LFB65
+ 4302 0a4c 1C000000 		.4byte	.LFE65
  4303 0a50 00000000 		.4byte	.LLST0
  4304 0a54 1E       		.uleb128 0x1e
  4305 0a55 01       		.byte	0x1
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4324 0a86 C9       		.byte	0xc9
  4325 0a87 94000000 		.4byte	0x94
  4326 0a8b 5F000000 		.4byte	.LLST3
-ARM GAS  /tmp/ccTwpS17.s 			page 78
+ARM GAS  /tmp/cctQgHTl.s 			page 78
 
 
  4327 0a8f 20       		.uleb128 0x20
@@ -4641,8 +4641,8 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4344 0ab5 21       		.byte	0x21
  4345 0ab6 01       		.byte	0x1
  4346 0ab7 D7090000 		.4byte	0x9d7
- 4347 0abb 00000000 		.4byte	.LFB68
- 4348 0abf 78000000 		.4byte	.LFE68
+ 4347 0abb 00000000 		.4byte	.LFB66
+ 4348 0abf 78000000 		.4byte	.LFE66
  4349 0ac3 08010000 		.4byte	.LLST6
  4350 0ac7 180B0000 		.4byte	0xb18
  4351 0acb 1F       		.uleb128 0x1f
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4381 0b13 9A99993E 		.4byte	0x3e99999a
  4382 0b17 00       		.byte	0
  4383 0b18 06       		.uleb128 0x6
-ARM GAS  /tmp/ccTwpS17.s 			page 79
+ARM GAS  /tmp/cctQgHTl.s 			page 79
 
 
  4384 0b19 D0090000 		.4byte	0x9d0
@@ -4689,8 +4689,8 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4389 0b24 47       		.byte	0x47
  4390 0b25 01       		.byte	0x1
  4391 0b26 D7090000 		.4byte	0x9d7
- 4392 0b2a 00000000 		.4byte	.LFB69
- 4393 0b2e BE000000 		.4byte	.LFE69
+ 4392 0b2a 00000000 		.4byte	.LFB67
+ 4393 0b2e BE000000 		.4byte	.LFE67
  4394 0b32 A2010000 		.4byte	.LLST11
  4395 0b36 120C0000 		.4byte	0xc12
  4396 0b3a 1F       		.uleb128 0x1f
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4438 0ba9 72000000 		.4byte	.LBE50
  4439 0bad 01       		.byte	0x1
  4440 0bae 57       		.byte	0x57
-ARM GAS  /tmp/ccTwpS17.s 			page 80
+ARM GAS  /tmp/cctQgHTl.s 			page 80
 
 
  4441 0baf 22       		.uleb128 0x22
@@ -4786,8 +4786,8 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4483 0c18 03       		.byte	0x3
  4484 0c19 06       		.byte	0x6
  4485 0c1a 01       		.byte	0x1
- 4486 0c1b 00000000 		.4byte	.LFB63
- 4487 0c1f 28000000 		.4byte	.LFE63
+ 4486 0c1b 00000000 		.4byte	.LFB68
+ 4487 0c1f 28000000 		.4byte	.LFE68
  4488 0c23 88020000 		.4byte	.LLST19
  4489 0c27 510C0000 		.4byte	0xc51
  4490 0c2b 27       		.uleb128 0x27
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4495 0c36 A8020000 		.4byte	.LLST20
  4496 0c3a 28       		.uleb128 0x28
  4497 0c3b 150A0000 		.4byte	.LASF237
-ARM GAS  /tmp/ccTwpS17.s 			page 81
+ARM GAS  /tmp/cctQgHTl.s 			page 81
 
 
  4498 0c3f 03       		.byte	0x3
@@ -4817,8 +4817,8 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4511 0c58 25       		.byte	0x25
  4512 0c59 01       		.byte	0x1
  4513 0c5a D7090000 		.4byte	0x9d7
- 4514 0c5e 00000000 		.4byte	.LFB64
- 4515 0c62 3E000000 		.4byte	.LFE64
+ 4514 0c5e 00000000 		.4byte	.LFB69
+ 4515 0c62 3E000000 		.4byte	.LFE69
  4516 0c66 BB020000 		.4byte	.LLST21
  4517 0c6a 8D0C0000 		.4byte	0xc8d
  4518 0c6e 1F       		.uleb128 0x1f
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4552 0cc0 34030000 		.4byte	.LLST26
  4553 0cc4 20       		.uleb128 0x20
  4554 0cc5 1A020000 		.4byte	.LASF244
-ARM GAS  /tmp/ccTwpS17.s 			page 82
+ARM GAS  /tmp/cctQgHTl.s 			page 82
 
 
  4555 0cc9 04       		.byte	0x4
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4609 0d44 D7090000 		.4byte	0x9d7
  4610 0d48 00000000 		.4byte	.LFB71
  4611 0d4c AA000000 		.4byte	.LFE71
-ARM GAS  /tmp/ccTwpS17.s 			page 83
+ARM GAS  /tmp/cctQgHTl.s 			page 83
 
 
  4612 0d50 94040000 		.4byte	.LLST33
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4666 0dd7 BA050000 		.4byte	.LLST41
  4667 0ddb 20       		.uleb128 0x20
  4668 0ddc 3F0B0000 		.4byte	.LASF254
-ARM GAS  /tmp/ccTwpS17.s 			page 84
+ARM GAS  /tmp/cctQgHTl.s 			page 84
 
 
  4669 0de0 05       		.byte	0x5
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4723 0e61 42030000 		.4byte	.LASF257
  4724 0e65 02       		.byte	0x2
  4725 0e66 14       		.byte	0x14
-ARM GAS  /tmp/ccTwpS17.s 			page 85
+ARM GAS  /tmp/cctQgHTl.s 			page 85
 
 
  4726 0e67 01       		.byte	0x1
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4780 0eeb 080A0000 		.4byte	0xa08
  4781 0eef 04000000 		.4byte	.LBB66
  4782 0ef3 0C000000 		.4byte	.LBE66
-ARM GAS  /tmp/ccTwpS17.s 			page 86
+ARM GAS  /tmp/cctQgHTl.s 			page 86
 
 
  4783 0ef7 02       		.byte	0x2
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4837 0f6f 4C000000 		.4byte	0x4c
  4838 0f73 AC070000 		.4byte	.LLST56
  4839 0f77 22       		.uleb128 0x22
-ARM GAS  /tmp/ccTwpS17.s 			page 87
+ARM GAS  /tmp/cctQgHTl.s 			page 87
 
 
  4840 0f78 080A0000 		.4byte	0xa08
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4894 0ff9 07100000 		.4byte	0x1007
  4895 0ffd 23       		.uleb128 0x23
  4896 0ffe EF090000 		.4byte	0x9ef
-ARM GAS  /tmp/ccTwpS17.s 			page 88
+ARM GAS  /tmp/cctQgHTl.s 			page 88
 
 
  4897 1002 08080000 		.4byte	.LLST59
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  4951 1084 220A0000 		.4byte	0xa22
  4952 1088 B4000000 		.4byte	.LBB90
  4953 108c C2000000 		.4byte	.LBE90
-ARM GAS  /tmp/ccTwpS17.s 			page 89
+ARM GAS  /tmp/cctQgHTl.s 			page 89
 
 
  4954 1090 02       		.byte	0x2
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5008 110f 1E       		.uleb128 0x1e
  5009 1110 01       		.byte	0x1
  5010 1111 92090000 		.4byte	.LASF264
-ARM GAS  /tmp/ccTwpS17.s 			page 90
+ARM GAS  /tmp/cctQgHTl.s 			page 90
 
 
  5011 1115 07       		.byte	0x7
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5065 1193 07       		.byte	0x7
  5066 1194 94000000 		.4byte	0x94
  5067 1198 05       		.byte	0x5
-ARM GAS  /tmp/ccTwpS17.s 			page 91
+ARM GAS  /tmp/cctQgHTl.s 			page 91
 
 
  5068 1199 03       		.byte	0x3
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5122 120e 05       		.byte	0x5
  5123 120f 03       		.byte	0x3
  5124 1210 00000000 		.4byte	runAutonProgram
-ARM GAS  /tmp/ccTwpS17.s 			page 92
+ARM GAS  /tmp/cctQgHTl.s 			page 92
 
 
  5125 1214 3B       		.uleb128 0x3b
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5179 127f 3F       		.uleb128 0x3f
  5180 1280 0C000000 		.4byte	.LASF278
  5181 1284 02       		.byte	0x2
-ARM GAS  /tmp/ccTwpS17.s 			page 93
+ARM GAS  /tmp/cctQgHTl.s 			page 93
 
 
  5182 1285 0C       		.byte	0xc
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5236 12f0 03       		.byte	0x3
  5237 12f1 00000000 		.4byte	n3
  5238 12f5 13       		.uleb128 0x13
-ARM GAS  /tmp/ccTwpS17.s 			page 94
+ARM GAS  /tmp/cctQgHTl.s 			page 94
 
 
  5239 12f6 71000000 		.4byte	0x71
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5293 0024 0B       		.uleb128 0xb
  5294 0025 3E       		.uleb128 0x3e
  5295 0026 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccTwpS17.s 			page 95
+ARM GAS  /tmp/cctQgHTl.s 			page 95
 
 
  5296 0027 03       		.uleb128 0x3
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5350 005d 00       		.byte	0
  5351 005e 09       		.uleb128 0x9
  5352 005f 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccTwpS17.s 			page 96
+ARM GAS  /tmp/cctQgHTl.s 			page 96
 
 
  5353 0060 00       		.byte	0
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5407 0096 00       		.byte	0
  5408 0097 00       		.byte	0
  5409 0098 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccTwpS17.s 			page 97
+ARM GAS  /tmp/cctQgHTl.s 			page 97
 
 
  5410 0099 0D       		.uleb128 0xd
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5464 00cf 0E       		.uleb128 0xe
  5465 00d0 3A       		.uleb128 0x3a
  5466 00d1 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccTwpS17.s 			page 98
+ARM GAS  /tmp/cctQgHTl.s 			page 98
 
 
  5467 00d2 3B       		.uleb128 0x3b
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5521 0108 0B       		.uleb128 0xb
  5522 0109 3B       		.uleb128 0x3b
  5523 010a 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccTwpS17.s 			page 99
+ARM GAS  /tmp/cctQgHTl.s 			page 99
 
 
  5524 010b 01       		.uleb128 0x1
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5578 0141 49       		.uleb128 0x49
  5579 0142 13       		.uleb128 0x13
  5580 0143 20       		.uleb128 0x20
-ARM GAS  /tmp/ccTwpS17.s 			page 100
+ARM GAS  /tmp/cctQgHTl.s 			page 100
 
 
  5581 0144 0B       		.uleb128 0xb
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5635 017a 27       		.uleb128 0x27
  5636 017b 0C       		.uleb128 0xc
  5637 017c 49       		.uleb128 0x49
-ARM GAS  /tmp/ccTwpS17.s 			page 101
+ARM GAS  /tmp/cctQgHTl.s 			page 101
 
 
  5638 017d 13       		.uleb128 0x13
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5692 01b3 00       		.byte	0
  5693 01b4 00       		.byte	0
  5694 01b5 22       		.uleb128 0x22
-ARM GAS  /tmp/ccTwpS17.s 			page 102
+ARM GAS  /tmp/cctQgHTl.s 			page 102
 
 
  5695 01b6 1D       		.uleb128 0x1d
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5749 01ec 00       		.byte	0
  5750 01ed 26       		.uleb128 0x26
  5751 01ee 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccTwpS17.s 			page 103
+ARM GAS  /tmp/cctQgHTl.s 			page 103
 
 
  5752 01ef 01       		.byte	0x1
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5806 0225 3A       		.uleb128 0x3a
  5807 0226 0B       		.uleb128 0xb
  5808 0227 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccTwpS17.s 			page 104
+ARM GAS  /tmp/cctQgHTl.s 			page 104
 
 
  5809 0228 0B       		.uleb128 0xb
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5863 025e 40       		.uleb128 0x40
  5864 025f 0A       		.uleb128 0xa
  5865 0260 01       		.uleb128 0x1
-ARM GAS  /tmp/ccTwpS17.s 			page 105
+ARM GAS  /tmp/cctQgHTl.s 			page 105
 
 
  5866 0261 13       		.uleb128 0x13
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5920 0297 0D       		.uleb128 0xd
  5921 0298 00       		.byte	0
  5922 0299 00       		.byte	0
-ARM GAS  /tmp/ccTwpS17.s 			page 106
+ARM GAS  /tmp/cctQgHTl.s 			page 106
 
 
  5923 029a 31       		.uleb128 0x31
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  5977 02d0 49       		.uleb128 0x49
  5978 02d1 13       		.uleb128 0x13
  5979 02d2 11       		.uleb128 0x11
-ARM GAS  /tmp/ccTwpS17.s 			page 107
+ARM GAS  /tmp/cctQgHTl.s 			page 107
 
 
  5980 02d3 01       		.uleb128 0x1
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6034 0309 38       		.uleb128 0x38
  6035 030a 1D       		.uleb128 0x1d
  6036 030b 01       		.byte	0x1
-ARM GAS  /tmp/ccTwpS17.s 			page 108
+ARM GAS  /tmp/cctQgHTl.s 			page 108
 
 
  6037 030c 31       		.uleb128 0x31
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6091 0342 00       		.byte	0
  6092 0343 3C       		.uleb128 0x3c
  6093 0344 34       		.uleb128 0x34
-ARM GAS  /tmp/ccTwpS17.s 			page 109
+ARM GAS  /tmp/cctQgHTl.s 			page 109
 
 
  6094 0345 00       		.byte	0
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6148 037b 3A       		.uleb128 0x3a
  6149 037c 0B       		.uleb128 0xb
  6150 037d 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccTwpS17.s 			page 110
+ARM GAS  /tmp/cctQgHTl.s 			page 110
 
 
  6151 037e 0B       		.uleb128 0xb
@@ -6554,13 +6554,13 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6161              		.section	.debug_loc,"",%progbits
  6162              	.Ldebug_loc0:
  6163              	.LLST0:
- 6164 0000 00000000 		.4byte	.LFB67
+ 6164 0000 00000000 		.4byte	.LFB65
  6165 0004 02000000 		.4byte	.LCFI0
  6166 0008 0200     		.2byte	0x2
  6167 000a 7D       		.byte	0x7d
  6168 000b 00       		.sleb128 0
  6169 000c 02000000 		.4byte	.LCFI0
- 6170 0010 1C000000 		.4byte	.LFE67
+ 6170 0010 1C000000 		.4byte	.LFE65
  6171 0014 0200     		.2byte	0x2
  6172 0016 7D       		.byte	0x7d
  6173 0017 08       		.sleb128 8
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6205 0069 30       		.byte	0x30
  6206 006a 9F       		.byte	0x9f
  6207 006b 3E000000 		.4byte	.LVL4
-ARM GAS  /tmp/ccTwpS17.s 			page 111
+ARM GAS  /tmp/cctQgHTl.s 			page 111
 
 
  6208 006f 4C000000 		.4byte	.LVL5
@@ -6658,16 +6658,16 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6262 0100 00000000 		.4byte	0
  6263 0104 00000000 		.4byte	0
  6264              	.LLST6:
-ARM GAS  /tmp/ccTwpS17.s 			page 112
+ARM GAS  /tmp/cctQgHTl.s 			page 112
 
 
- 6265 0108 00000000 		.4byte	.LFB68
+ 6265 0108 00000000 		.4byte	.LFB66
  6266 010c 06000000 		.4byte	.LCFI3
  6267 0110 0200     		.2byte	0x2
  6268 0112 7D       		.byte	0x7d
  6269 0113 00       		.sleb128 0
  6270 0114 06000000 		.4byte	.LCFI3
- 6271 0118 78000000 		.4byte	.LFE68
+ 6271 0118 78000000 		.4byte	.LFE66
  6272 011c 0200     		.2byte	0x2
  6273 011e 7D       		.byte	0x7d
  6274 011f 10       		.sleb128 16
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6319              	.LLST10:
  6320 0179 18000000 		.4byte	.LVL22
  6321 017d 26000000 		.4byte	.LVL23
-ARM GAS  /tmp/ccTwpS17.s 			page 113
+ARM GAS  /tmp/cctQgHTl.s 			page 113
 
 
  6322 0181 0100     		.2byte	0x1
@@ -6728,19 +6728,19 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6326 018c 0100     		.2byte	0x1
  6327 018e 50       		.byte	0x50
  6328 018f 63000000 		.4byte	.LVL28-1
- 6329 0193 78000000 		.4byte	.LFE68
+ 6329 0193 78000000 		.4byte	.LFE66
  6330 0197 0100     		.2byte	0x1
  6331 0199 54       		.byte	0x54
  6332 019a 00000000 		.4byte	0
  6333 019e 00000000 		.4byte	0
  6334              	.LLST11:
- 6335 01a2 00000000 		.4byte	.LFB69
+ 6335 01a2 00000000 		.4byte	.LFB67
  6336 01a6 06000000 		.4byte	.LCFI4
  6337 01aa 0200     		.2byte	0x2
  6338 01ac 7D       		.byte	0x7d
  6339 01ad 00       		.sleb128 0
  6340 01ae 06000000 		.4byte	.LCFI4
- 6341 01b2 BE000000 		.4byte	.LFE69
+ 6341 01b2 BE000000 		.4byte	.LFE67
  6342 01b6 0200     		.2byte	0x2
  6343 01b8 7D       		.byte	0x7d
  6344 01b9 18       		.sleb128 24
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6376 0203 02       		.byte	0x2
  6377 0204 40       		.byte	0x40
  6378 0205 24       		.byte	0x24
-ARM GAS  /tmp/ccTwpS17.s 			page 114
+ARM GAS  /tmp/cctQgHTl.s 			page 114
 
 
  6379 0206 40       		.byte	0x40
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6433              	.LLST18:
  6434 026f A2000000 		.4byte	.LVL41
  6435 0273 A7000000 		.4byte	.LVL42-1
-ARM GAS  /tmp/ccTwpS17.s 			page 115
+ARM GAS  /tmp/cctQgHTl.s 			page 115
 
 
  6436 0277 0700     		.2byte	0x7
@@ -6852,13 +6852,13 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6444 0280 00000000 		.4byte	0
  6445 0284 00000000 		.4byte	0
  6446              	.LLST19:
- 6447 0288 00000000 		.4byte	.LFB63
+ 6447 0288 00000000 		.4byte	.LFB68
  6448 028c 04000000 		.4byte	.LCFI5
  6449 0290 0200     		.2byte	0x2
  6450 0292 7D       		.byte	0x7d
  6451 0293 00       		.sleb128 0
  6452 0294 04000000 		.4byte	.LCFI5
- 6453 0298 28000000 		.4byte	.LFE63
+ 6453 0298 28000000 		.4byte	.LFE68
  6454 029c 0200     		.2byte	0x2
  6455 029e 7D       		.byte	0x7d
  6456 029f 08       		.sleb128 8
@@ -6872,13 +6872,13 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6464 02b3 00000000 		.4byte	0
  6465 02b7 00000000 		.4byte	0
  6466              	.LLST21:
- 6467 02bb 00000000 		.4byte	.LFB64
+ 6467 02bb 00000000 		.4byte	.LFB69
  6468 02bf 06000000 		.4byte	.LCFI6
  6469 02c3 0200     		.2byte	0x2
  6470 02c5 7D       		.byte	0x7d
  6471 02c6 00       		.sleb128 0
  6472 02c7 06000000 		.4byte	.LCFI6
- 6473 02cb 3E000000 		.4byte	.LFE64
+ 6473 02cb 3E000000 		.4byte	.LFE69
  6474 02cf 0200     		.2byte	0x2
  6475 02d1 7D       		.byte	0x7d
  6476 02d2 08       		.sleb128 8
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6490 02f8 50       		.byte	0x50
  6491 02f9 00000000 		.4byte	0
  6492 02fd 00000000 		.4byte	0
-ARM GAS  /tmp/ccTwpS17.s 			page 116
+ARM GAS  /tmp/cctQgHTl.s 			page 116
 
 
  6493              	.LLST24:
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6547 0390 54       		.byte	0x54
  6548 0391 30000000 		.4byte	.LVL59
  6549 0395 90000000 		.4byte	.LVL69
-ARM GAS  /tmp/ccTwpS17.s 			page 117
+ARM GAS  /tmp/cctQgHTl.s 			page 117
 
 
  6550 0399 0100     		.2byte	0x1
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6604 041e 00       		.sleb128 0
  6605 041f 22       		.byte	0x22
  6606 0420 9F       		.byte	0x9f
-ARM GAS  /tmp/ccTwpS17.s 			page 118
+ARM GAS  /tmp/cctQgHTl.s 			page 118
 
 
  6607 0421 74000000 		.4byte	.LVL63
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6661 0473 22       		.byte	0x22
  6662 0474 22       		.byte	0x22
  6663 0475 72       		.byte	0x72
-ARM GAS  /tmp/ccTwpS17.s 			page 119
+ARM GAS  /tmp/cctQgHTl.s 			page 119
 
 
  6664 0476 00       		.sleb128 0
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6718 0503 0100     		.2byte	0x1
  6719 0505 50       		.byte	0x50
  6720 0506 90000000 		.4byte	.LVL85
-ARM GAS  /tmp/ccTwpS17.s 			page 120
+ARM GAS  /tmp/cctQgHTl.s 			page 120
 
 
  6721 050a 95000000 		.4byte	.LVL86-1
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6775 0599 0100     		.2byte	0x1
  6776 059b 54       		.byte	0x54
  6777 059c B4010000 		.4byte	.LVL94
-ARM GAS  /tmp/ccTwpS17.s 			page 121
+ARM GAS  /tmp/cctQgHTl.s 			page 121
 
 
  6778 05a0 B6010000 		.4byte	.LVL95
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6832 062c 10000000 		.4byte	.LVL100
  6833 0630 0100     		.2byte	0x1
  6834 0632 50       		.byte	0x50
-ARM GAS  /tmp/ccTwpS17.s 			page 122
+ARM GAS  /tmp/cctQgHTl.s 			page 122
 
 
  6835 0633 10000000 		.4byte	.LVL100
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6889 06c6 00000000 		.4byte	.LVL99
  6890 06ca 98000000 		.4byte	.LVL106
  6891 06ce 0600     		.2byte	0x6
-ARM GAS  /tmp/ccTwpS17.s 			page 123
+ARM GAS  /tmp/cctQgHTl.s 			page 123
 
 
  6892 06d0 9E       		.byte	0x9e
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  6946 075a 02000000 		.4byte	.LCFI14
  6947 075e 84010000 		.4byte	.LFE77
  6948 0762 0200     		.2byte	0x2
-ARM GAS  /tmp/ccTwpS17.s 			page 124
+ARM GAS  /tmp/cctQgHTl.s 			page 124
 
 
  6949 0764 7D       		.byte	0x7d
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7003 07ee 07000000 		.4byte	.LVL130-1
  7004 07f2 0100     		.2byte	0x1
  7005 07f4 50       		.byte	0x50
-ARM GAS  /tmp/ccTwpS17.s 			page 125
+ARM GAS  /tmp/cctQgHTl.s 			page 125
 
 
  7006 07f5 07000000 		.4byte	.LVL130-1
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7060 0877 C2000000 		.4byte	.LVL138
  7061 087b C5000000 		.4byte	.LVL139-1
  7062 087f 0100     		.2byte	0x1
-ARM GAS  /tmp/ccTwpS17.s 			page 126
+ARM GAS  /tmp/cctQgHTl.s 			page 126
 
 
  7063 0881 50       		.byte	0x50
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7117 0901 02       		.byte	0x2
  7118 0902 40       		.byte	0x40
  7119 0903 24       		.byte	0x24
-ARM GAS  /tmp/ccTwpS17.s 			page 127
+ARM GAS  /tmp/cctQgHTl.s 			page 127
 
 
  7120 0904 40       		.byte	0x40
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7174 098b 30       		.byte	0x30
  7175 098c 9F       		.byte	0x9f
  7176 098d 68000000 		.4byte	.LVL151
-ARM GAS  /tmp/ccTwpS17.s 			page 128
+ARM GAS  /tmp/cctQgHTl.s 			page 128
 
 
  7177 0991 82010000 		.4byte	.LVL152
@@ -7638,18 +7638,18 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7191 000b 00       		.byte	0
  7192 000c 0000     		.2byte	0
  7193 000e 0000     		.2byte	0
- 7194 0010 00000000 		.4byte	.LFB67
- 7195 0014 1C000000 		.4byte	.LFE67-.LFB67
+ 7194 0010 00000000 		.4byte	.LFB65
+ 7195 0014 1C000000 		.4byte	.LFE65-.LFB65
  7196 0018 00000000 		.4byte	.LFB80
  7197 001c 28010000 		.4byte	.LFE80-.LFB80
- 7198 0020 00000000 		.4byte	.LFB68
- 7199 0024 78000000 		.4byte	.LFE68-.LFB68
- 7200 0028 00000000 		.4byte	.LFB69
- 7201 002c BE000000 		.4byte	.LFE69-.LFB69
- 7202 0030 00000000 		.4byte	.LFB63
- 7203 0034 28000000 		.4byte	.LFE63-.LFB63
- 7204 0038 00000000 		.4byte	.LFB64
- 7205 003c 3E000000 		.4byte	.LFE64-.LFB64
+ 7198 0020 00000000 		.4byte	.LFB66
+ 7199 0024 78000000 		.4byte	.LFE66-.LFB66
+ 7200 0028 00000000 		.4byte	.LFB67
+ 7201 002c BE000000 		.4byte	.LFE67-.LFB67
+ 7202 0030 00000000 		.4byte	.LFB68
+ 7203 0034 28000000 		.4byte	.LFE68-.LFB68
+ 7204 0038 00000000 		.4byte	.LFB69
+ 7205 003c 3E000000 		.4byte	.LFE69-.LFB69
  7206 0040 00000000 		.4byte	.LFB70
  7207 0044 E6000000 		.4byte	.LFE70-.LFB70
  7208 0048 00000000 		.4byte	.LFB71
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7231 00a4 36000000 		.4byte	.LFE83-.LFB83
  7232 00a8 00000000 		.4byte	.LFB84
  7233 00ac 36000000 		.4byte	.LFE84-.LFB84
-ARM GAS  /tmp/ccTwpS17.s 			page 129
+ARM GAS  /tmp/cctQgHTl.s 			page 129
 
 
  7234 00b0 00000000 		.4byte	.LFB85
@@ -7707,18 +7707,18 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7257 0044 56000000 		.4byte	.LBE87
  7258 0048 00000000 		.4byte	0
  7259 004c 00000000 		.4byte	0
- 7260 0050 00000000 		.4byte	.LFB67
- 7261 0054 1C000000 		.4byte	.LFE67
+ 7260 0050 00000000 		.4byte	.LFB65
+ 7261 0054 1C000000 		.4byte	.LFE65
  7262 0058 00000000 		.4byte	.LFB80
  7263 005c 28010000 		.4byte	.LFE80
- 7264 0060 00000000 		.4byte	.LFB68
- 7265 0064 78000000 		.4byte	.LFE68
- 7266 0068 00000000 		.4byte	.LFB69
- 7267 006c BE000000 		.4byte	.LFE69
- 7268 0070 00000000 		.4byte	.LFB63
- 7269 0074 28000000 		.4byte	.LFE63
- 7270 0078 00000000 		.4byte	.LFB64
- 7271 007c 3E000000 		.4byte	.LFE64
+ 7264 0060 00000000 		.4byte	.LFB66
+ 7265 0064 78000000 		.4byte	.LFE66
+ 7266 0068 00000000 		.4byte	.LFB67
+ 7267 006c BE000000 		.4byte	.LFE67
+ 7268 0070 00000000 		.4byte	.LFB68
+ 7269 0074 28000000 		.4byte	.LFE68
+ 7270 0078 00000000 		.4byte	.LFB69
+ 7271 007c 3E000000 		.4byte	.LFE69
  7272 0080 00000000 		.4byte	.LFB70
  7273 0084 E6000000 		.4byte	.LFE70
  7274 0088 00000000 		.4byte	.LFB71
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7288 00c0 00000000 		.4byte	.LFB78
  7289 00c4 CE000000 		.4byte	.LFE78
  7290 00c8 00000000 		.4byte	.LFB79
-ARM GAS  /tmp/ccTwpS17.s 			page 130
+ARM GAS  /tmp/cctQgHTl.s 			page 130
 
 
  7291 00cc DC000000 		.4byte	.LFE79
@@ -7756,8 +7756,8 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7303 00fc 00000000 		.4byte	0
  7304              		.section	.debug_line,"",%progbits
  7305              	.Ldebug_line0:
- 7306 0000 E3060000 		.section	.debug_str,"MS",%progbits,1
- 7306      02006502 
+ 7306 0000 EA060000 		.section	.debug_str,"MS",%progbits,1
+ 7306      02006C02 
  7306      00000201 
  7306      FB0E0D00 
  7306      01010101 
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7322      70757400 
  7323              	.LASF47:
  7324 005e 72656761 		.ascii	"regarm_t\000"
-ARM GAS  /tmp/ccTwpS17.s 			page 131
+ARM GAS  /tmp/cctQgHTl.s 			page 131
 
 
  7324      726D5F74 
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7352 00f0 705F6D73 		.ascii	"p_msgqueue\000"
  7352      67717565 
  7352      756500
-ARM GAS  /tmp/ccTwpS17.s 			page 132
+ARM GAS  /tmp/cctQgHTl.s 			page 132
 
 
  7353              	.LASF53:
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7379              	.LASF272:
  7380 0193 6779726F 		.ascii	"gyro_err\000"
  7380      5F657272 
-ARM GAS  /tmp/ccTwpS17.s 			page 133
+ARM GAS  /tmp/cctQgHTl.s 			page 133
 
 
  7380      00
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7406      436F6E66 
  7406      6967536F 
  7406      6E61724F 
-ARM GAS  /tmp/ccTwpS17.s 			page 134
+ARM GAS  /tmp/cctQgHTl.s 			page 134
 
 
  7406      757400
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7436 02bf 74707269 		.ascii	"tprio_t\000"
  7436      6F5F7400 
  7437              	.LASF146:
-ARM GAS  /tmp/ccTwpS17.s 			page 135
+ARM GAS  /tmp/cctQgHTl.s 			page 135
 
 
  7438 02c7 74566578 		.ascii	"tVexDigitalConfig\000"
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7464      6B00
  7465              	.LASF203:
  7466 035b 4163636C 		.ascii	"AcclXXmtr2\000"
-ARM GAS  /tmp/ccTwpS17.s 			page 136
+ARM GAS  /tmp/cctQgHTl.s 			page 136
 
 
  7466      58586D74 
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7492      5F7400
  7493              	.LASF104:
  7494 0405 6B566578 		.ascii	"kVexMotor393S\000"
-ARM GAS  /tmp/ccTwpS17.s 			page 137
+ARM GAS  /tmp/cctQgHTl.s 			page 137
 
 
  7494      4D6F746F 
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7518      00
  7519              	.LASF32:
  7520 04a4 705F6E61 		.ascii	"p_name\000"
-ARM GAS  /tmp/ccTwpS17.s 			page 138
+ARM GAS  /tmp/cctQgHTl.s 			page 138
 
 
  7520      6D6500
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7546      6D6500
  7547              	.LASF18:
  7548 053e 74737461 		.ascii	"tstate_t\000"
-ARM GAS  /tmp/ccTwpS17.s 			page 139
+ARM GAS  /tmp/cctQgHTl.s 			page 139
 
 
  7548      74655F74 
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7576 05db 6B566578 		.ascii	"kVexMotor_6\000"
  7576      4D6F746F 
  7576      725F3600 
-ARM GAS  /tmp/ccTwpS17.s 			page 140
+ARM GAS  /tmp/cctQgHTl.s 			page 140
 
 
  7577              	.LASF113:
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7600      416E616C 
  7600      6F675F38 
  7600      00
-ARM GAS  /tmp/ccTwpS17.s 			page 141
+ARM GAS  /tmp/cctQgHTl.s 			page 141
 
 
  7601              	.LASF212:
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7627              	.LASF242:
  7628 071a 666F7277 		.ascii	"forward\000"
  7628      61726400 
-ARM GAS  /tmp/ccTwpS17.s 			page 142
+ARM GAS  /tmp/cctQgHTl.s 			page 142
 
 
  7629              	.LASF239:
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7654 07b2 6B566578 		.ascii	"kVexDigital_5\000"
  7654      44696769 
  7654      74616C5F 
-ARM GAS  /tmp/ccTwpS17.s 			page 143
+ARM GAS  /tmp/cctQgHTl.s 			page 143
 
 
  7654      3500
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7678      00
  7679              	.LASF283:
  7680 0858 5F766578 		.ascii	"_vexLcdButton\000"
-ARM GAS  /tmp/ccTwpS17.s 			page 144
+ARM GAS  /tmp/cctQgHTl.s 			page 144
 
 
  7680      4C636442 
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7704 08f6 6B496D65 		.ascii	"kImeChannel_6\000"
  7704      4368616E 
  7704      6E656C5F 
-ARM GAS  /tmp/ccTwpS17.s 			page 145
+ARM GAS  /tmp/cctQgHTl.s 			page 145
 
 
  7704      3600
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7732 098b 6175746F 		.ascii	"auton3\000"
  7732      6E3300
  7733              	.LASF264:
-ARM GAS  /tmp/ccTwpS17.s 			page 146
+ARM GAS  /tmp/cctQgHTl.s 			page 146
 
 
  7734 0992 7665784F 		.ascii	"vexOperator\000"
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7758      00
  7759              	.LASF158:
  7760 0a31 6B4C6364 		.ascii	"kLcdButtonNone\000"
-ARM GAS  /tmp/ccTwpS17.s 			page 147
+ARM GAS  /tmp/cctQgHTl.s 			page 147
 
 
  7760      42757474 
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7786 0ac7 696E6368 		.ascii	"inchesR\000"
  7786      65735200 
  7787              	.LASF102:
-ARM GAS  /tmp/ccTwpS17.s 			page 148
+ARM GAS  /tmp/cctQgHTl.s 			page 148
 
 
  7788 0acf 6B566578 		.ascii	"kVexMotor269\000"
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7816 0b5d 4163636C 		.ascii	"AcclZ\000"
  7816      5A00
  7817              	.LASF96:
-ARM GAS  /tmp/ccTwpS17.s 			page 149
+ARM GAS  /tmp/cctQgHTl.s 			page 149
 
 
  7818 0b63 6B566578 		.ascii	"kVexDigital_12\000"
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7842      7369676E 
  7842      65642069 
  7842      6E7400
-ARM GAS  /tmp/ccTwpS17.s 			page 150
+ARM GAS  /tmp/cctQgHTl.s 			page 150
 
 
  7843              	.LASF61:
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7870      42757474 
  7870      6F6E4C65 
  7870      66744365 
-ARM GAS  /tmp/ccTwpS17.s 			page 151
+ARM GAS  /tmp/cctQgHTl.s 			page 151
 
 
  7870      6E746572 
@@ -9026,131 +9026,131 @@ ARM GAS  /tmp/ccTwpS17.s 			page 1
  7882      6164734C 
  7882      69737400 
  7883              		.ident	"GCC: (Sourcery CodeBench Lite 2012.03-56) 4.6.3"
-ARM GAS  /tmp/ccTwpS17.s 			page 152
+ARM GAS  /tmp/cctQgHTl.s 			page 152
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 vexuser.c
-     /tmp/ccTwpS17.s:19     .text.GetArmPot:00000000 $t
-     /tmp/ccTwpS17.s:24     .text.GetArmPot:00000000 GetArmPot
-     /tmp/ccTwpS17.s:53     .text.autonSelect:00000000 $t
-     /tmp/ccTwpS17.s:59     .text.autonSelect:00000000 autonSelect
-     /tmp/ccTwpS17.s:2740   .rodata.str1.4:00000000 .LC0
-     /tmp/ccTwpS17.s:2713   .data.runAutonColor:00000000 .LANCHOR1
-     /tmp/ccTwpS17.s:2733   .bss.runAutonProgram:00000000 .LANCHOR3
-     /tmp/ccTwpS17.s:2809   .data.ColorName:00000000 .LANCHOR0
-     /tmp/ccTwpS17.s:2895   .data.ProgName:00000000 .LANCHOR2
-     /tmp/ccTwpS17.s:2742   .rodata.str1.4:0000000c .LC1
-     /tmp/ccTwpS17.s:2745   .rodata.str1.4:00000020 .LC2
-     /tmp/ccTwpS17.s:248    .text.autonSelect:00000120 $d
-     /tmp/ccTwpS17.s:259    .text.ArmPidController:00000000 $t
-     /tmp/ccTwpS17.s:265    .text.ArmPidController:00000000 ArmPidController
-     /tmp/ccTwpS17.s:2748   .rodata.str1.4:00000028 .LC3
-     /tmp/ccTwpS17.s:2692   .bss.armRequestedValue:00000000 .LANCHOR4
-     /tmp/ccTwpS17.s:350    .text.ArmTask:00000000 $t
-     /tmp/ccTwpS17.s:356    .text.ArmTask:00000000 ArmTask
-     /tmp/ccTwpS17.s:2750   .rodata.str1.4:00000030 .LC4
-     /tmp/ccTwpS17.s:2706   .data.armPositionHigh:00000000 .LANCHOR5
-     /tmp/ccTwpS17.s:2905   .data.armPositionMid:00000000 .LANCHOR6
-     /tmp/ccTwpS17.s:2726   .data.armPositionLow:00000000 .LANCHOR7
-     /tmp/ccTwpS17.s:527    .text.IntakeSystemControl:00000000 $t
-     /tmp/ccTwpS17.s:533    .text.IntakeSystemControl:00000000 IntakeSystemControl
-     /tmp/ccTwpS17.s:574    .text.IntakeTask:00000000 $t
-     /tmp/ccTwpS17.s:580    .text.IntakeTask:00000000 IntakeTask
-     /tmp/ccTwpS17.s:2753   .rodata.str1.4:0000003c .LC5
-     /tmp/ccTwpS17.s:633    .text.DriveSystemArcadeDrive:00000000 $t
-     /tmp/ccTwpS17.s:639    .text.DriveSystemArcadeDrive:00000000 DriveSystemArcadeDrive
-     /tmp/ccTwpS17.s:2699   .bss.gyro_base:00000000 .LANCHOR8
-     /tmp/ccTwpS17.s:2784   .bss.gyro_err:00000000 .LANCHOR9
-     /tmp/ccTwpS17.s:821    .text.DriveTask:00000000 $t
-     /tmp/ccTwpS17.s:827    .text.DriveTask:00000000 DriveTask
-     /tmp/ccTwpS17.s:2755   .rodata.str1.4:00000048 .LC6
-     /tmp/ccTwpS17.s:947    .text.autonDrive:00000000 $t
-     /tmp/ccTwpS17.s:953    .text.autonDrive:00000000 autonDrive
-     /tmp/ccTwpS17.s:2758   .rodata.str1.4:00000054 .LC7
-     /tmp/ccTwpS17.s:1207   .text.autonDrive:00000228 $d
-     /tmp/ccTwpS17.s:1214   .text.autonTurn:00000000 $t
-     /tmp/ccTwpS17.s:1220   .text.autonTurn:00000000 autonTurn
-     /tmp/ccTwpS17.s:2760   .rodata.str1.4:00000064 .LC8
-     /tmp/ccTwpS17.s:1508   .text.autonTurn:00000278 $d
-     /tmp/ccTwpS17.s:1514   .text.autonArm:00000000 $t
-     /tmp/ccTwpS17.s:1520   .text.autonArm:00000000 autonArm
-     /tmp/ccTwpS17.s:1534   .text.autonIntake:00000000 $t
-     /tmp/ccTwpS17.s:1540   .text.autonIntake:00000000 autonIntake
-     /tmp/ccTwpS17.s:1558   .text.auton0:00000000 $t
-     /tmp/ccTwpS17.s:1564   .text.auton0:00000000 auton0
-     /tmp/ccTwpS17.s:1586   .text.auton1:00000000 $t
-     /tmp/ccTwpS17.s:1592   .text.auton1:00000000 auton1
-     /tmp/ccTwpS17.s:1844   .text.auton2:00000000 $t
-     /tmp/ccTwpS17.s:1850   .text.auton2:00000000 auton2
-     /tmp/ccTwpS17.s:1987   .text.auton3:00000000 $t
-     /tmp/ccTwpS17.s:1993   .text.auton3:00000000 auton3
-     /tmp/ccTwpS17.s:2146   .text.autonRun:00000000 $t
-ARM GAS  /tmp/ccTwpS17.s 			page 153
+     /tmp/cctQgHTl.s:19     .text.GetArmPot:00000000 $t
+     /tmp/cctQgHTl.s:24     .text.GetArmPot:00000000 GetArmPot
+     /tmp/cctQgHTl.s:53     .text.autonSelect:00000000 $t
+     /tmp/cctQgHTl.s:59     .text.autonSelect:00000000 autonSelect
+     /tmp/cctQgHTl.s:2740   .rodata.str1.4:00000000 .LC0
+     /tmp/cctQgHTl.s:2713   .data.runAutonColor:00000000 .LANCHOR1
+     /tmp/cctQgHTl.s:2733   .bss.runAutonProgram:00000000 .LANCHOR3
+     /tmp/cctQgHTl.s:2809   .data.ColorName:00000000 .LANCHOR0
+     /tmp/cctQgHTl.s:2895   .data.ProgName:00000000 .LANCHOR2
+     /tmp/cctQgHTl.s:2742   .rodata.str1.4:0000000c .LC1
+     /tmp/cctQgHTl.s:2745   .rodata.str1.4:00000020 .LC2
+     /tmp/cctQgHTl.s:248    .text.autonSelect:00000120 $d
+     /tmp/cctQgHTl.s:259    .text.ArmPidController:00000000 $t
+     /tmp/cctQgHTl.s:265    .text.ArmPidController:00000000 ArmPidController
+     /tmp/cctQgHTl.s:2748   .rodata.str1.4:00000028 .LC3
+     /tmp/cctQgHTl.s:2692   .bss.armRequestedValue:00000000 .LANCHOR4
+     /tmp/cctQgHTl.s:350    .text.ArmTask:00000000 $t
+     /tmp/cctQgHTl.s:356    .text.ArmTask:00000000 ArmTask
+     /tmp/cctQgHTl.s:2750   .rodata.str1.4:00000030 .LC4
+     /tmp/cctQgHTl.s:2706   .data.armPositionHigh:00000000 .LANCHOR5
+     /tmp/cctQgHTl.s:2905   .data.armPositionMid:00000000 .LANCHOR6
+     /tmp/cctQgHTl.s:2726   .data.armPositionLow:00000000 .LANCHOR7
+     /tmp/cctQgHTl.s:527    .text.IntakeSystemControl:00000000 $t
+     /tmp/cctQgHTl.s:533    .text.IntakeSystemControl:00000000 IntakeSystemControl
+     /tmp/cctQgHTl.s:574    .text.IntakeTask:00000000 $t
+     /tmp/cctQgHTl.s:580    .text.IntakeTask:00000000 IntakeTask
+     /tmp/cctQgHTl.s:2753   .rodata.str1.4:0000003c .LC5
+     /tmp/cctQgHTl.s:633    .text.DriveSystemArcadeDrive:00000000 $t
+     /tmp/cctQgHTl.s:639    .text.DriveSystemArcadeDrive:00000000 DriveSystemArcadeDrive
+     /tmp/cctQgHTl.s:2699   .bss.gyro_base:00000000 .LANCHOR8
+     /tmp/cctQgHTl.s:2784   .bss.gyro_err:00000000 .LANCHOR9
+     /tmp/cctQgHTl.s:821    .text.DriveTask:00000000 $t
+     /tmp/cctQgHTl.s:827    .text.DriveTask:00000000 DriveTask
+     /tmp/cctQgHTl.s:2755   .rodata.str1.4:00000048 .LC6
+     /tmp/cctQgHTl.s:947    .text.autonDrive:00000000 $t
+     /tmp/cctQgHTl.s:953    .text.autonDrive:00000000 autonDrive
+     /tmp/cctQgHTl.s:2758   .rodata.str1.4:00000054 .LC7
+     /tmp/cctQgHTl.s:1207   .text.autonDrive:00000228 $d
+     /tmp/cctQgHTl.s:1214   .text.autonTurn:00000000 $t
+     /tmp/cctQgHTl.s:1220   .text.autonTurn:00000000 autonTurn
+     /tmp/cctQgHTl.s:2760   .rodata.str1.4:00000064 .LC8
+     /tmp/cctQgHTl.s:1508   .text.autonTurn:00000278 $d
+     /tmp/cctQgHTl.s:1514   .text.autonArm:00000000 $t
+     /tmp/cctQgHTl.s:1520   .text.autonArm:00000000 autonArm
+     /tmp/cctQgHTl.s:1534   .text.autonIntake:00000000 $t
+     /tmp/cctQgHTl.s:1540   .text.autonIntake:00000000 autonIntake
+     /tmp/cctQgHTl.s:1558   .text.auton0:00000000 $t
+     /tmp/cctQgHTl.s:1564   .text.auton0:00000000 auton0
+     /tmp/cctQgHTl.s:1586   .text.auton1:00000000 $t
+     /tmp/cctQgHTl.s:1592   .text.auton1:00000000 auton1
+     /tmp/cctQgHTl.s:1844   .text.auton2:00000000 $t
+     /tmp/cctQgHTl.s:1850   .text.auton2:00000000 auton2
+     /tmp/cctQgHTl.s:1987   .text.auton3:00000000 $t
+     /tmp/cctQgHTl.s:1993   .text.auton3:00000000 auton3
+     /tmp/cctQgHTl.s:2146   .text.autonRun:00000000 $t
+ARM GAS  /tmp/cctQgHTl.s 			page 153
 
 
-     /tmp/ccTwpS17.s:2152   .text.autonRun:00000000 autonRun
-     /tmp/ccTwpS17.s:2763   .rodata.str1.4:00000070 .LC9
-     /tmp/ccTwpS17.s:2766   .rodata.str1.4:0000007c .LC10
-     /tmp/ccTwpS17.s:2768   .rodata.str1.4:0000008c .LC11
-     /tmp/ccTwpS17.s:2281   .text.vexUserSetup:00000000 $t
-     /tmp/ccTwpS17.s:2287   .text.vexUserSetup:00000000 vexUserSetup
-     /tmp/ccTwpS17.s:2829   .data.dConfig:00000000 .LANCHOR10
-     /tmp/ccTwpS17.s:2636   .data.mConfig:00000000 .LANCHOR11
-     /tmp/ccTwpS17.s:2318   .text.vexUserInit:00000000 $t
-     /tmp/ccTwpS17.s:2324   .text.vexUserInit:00000000 vexUserInit
-     /tmp/ccTwpS17.s:2368   .text.vexAutonomous:00000000 $t
-     /tmp/ccTwpS17.s:2374   .text.vexAutonomous:00000000 vexAutonomous
-     /tmp/ccTwpS17.s:2771   .rodata.str1.4:00000098 .LC12
-     /tmp/ccTwpS17.s:2415   .text.vexOperator:00000000 $t
-     /tmp/ccTwpS17.s:2421   .text.vexOperator:00000000 vexOperator
-     /tmp/ccTwpS17.s:2774   .rodata.str1.4:000000a0 .LC13
-     /tmp/ccTwpS17.s:2777   .rodata.str1.4:000000ac .LC14
-     /tmp/ccTwpS17.s:2780   .rodata.str1.4:000000bc .LC15
-     /tmp/ccTwpS17.s:2619   .text.vexOperator:000001c8 $d
-     /tmp/ccTwpS17.s:2898   .data.ProgName:00000000 ProgName
-     /tmp/ccTwpS17.s:2805   .data.n3:00000000 n3
-     /tmp/ccTwpS17.s:2799   .data.n2:00000000 n2
-     /tmp/ccTwpS17.s:2793   .data.n1:00000000 n1
-     /tmp/ccTwpS17.s:2722   .data.n0:00000000 n0
-     /tmp/ccTwpS17.s:2812   .data.ColorName:00000000 ColorName
-     /tmp/ccTwpS17.s:2825   .data.c1:00000000 c1
-     /tmp/ccTwpS17.s:2819   .data.c0:00000000 c0
-     /tmp/ccTwpS17.s:2635   .data.mConfig:00000000 $d
-     /tmp/ccTwpS17.s:2639   .data.mConfig:00000000 mConfig
-     /tmp/ccTwpS17.s:2691   .bss.armRequestedValue:00000000 $d
-     /tmp/ccTwpS17.s:2695   .bss.armRequestedValue:00000000 armRequestedValue
-     /tmp/ccTwpS17.s:2698   .bss.gyro_base:00000000 $d
-     /tmp/ccTwpS17.s:2702   .bss.gyro_base:00000000 gyro_base
-     /tmp/ccTwpS17.s:2705   .data.armPositionHigh:00000000 $d
-     /tmp/ccTwpS17.s:2709   .data.armPositionHigh:00000000 armPositionHigh
-     /tmp/ccTwpS17.s:2712   .data.runAutonColor:00000000 $d
-     /tmp/ccTwpS17.s:2716   .data.runAutonColor:00000000 runAutonColor
-     /tmp/ccTwpS17.s:2719   .data.n0:00000000 $d
-     /tmp/ccTwpS17.s:2725   .data.armPositionLow:00000000 $d
-     /tmp/ccTwpS17.s:2729   .data.armPositionLow:00000000 armPositionLow
-     /tmp/ccTwpS17.s:2732   .bss.runAutonProgram:00000000 $d
-     /tmp/ccTwpS17.s:2736   .bss.runAutonProgram:00000000 runAutonProgram
-     /tmp/ccTwpS17.s:2739   .rodata.str1.4:00000000 $d
-     /tmp/ccTwpS17.s:2783   .bss.gyro_err:00000000 $d
-     /tmp/ccTwpS17.s:2787   .bss.gyro_err:00000000 gyro_err
-     /tmp/ccTwpS17.s:2790   .data.n1:00000000 $d
-     /tmp/ccTwpS17.s:2796   .data.n2:00000000 $d
-     /tmp/ccTwpS17.s:2802   .data.n3:00000000 $d
-     /tmp/ccTwpS17.s:2808   .data.ColorName:00000000 $d
-     /tmp/ccTwpS17.s:2816   .data.c0:00000000 $d
-     /tmp/ccTwpS17.s:2822   .data.c1:00000000 $d
-     /tmp/ccTwpS17.s:2828   .data.dConfig:00000000 $d
-     /tmp/ccTwpS17.s:2832   .data.dConfig:00000000 dConfig
-     /tmp/ccTwpS17.s:2894   .data.ProgName:00000000 $d
-     /tmp/ccTwpS17.s:2904   .data.armPositionMid:00000000 $d
-     /tmp/ccTwpS17.s:2908   .data.armPositionMid:00000000 armPositionMid
+     /tmp/cctQgHTl.s:2152   .text.autonRun:00000000 autonRun
+     /tmp/cctQgHTl.s:2763   .rodata.str1.4:00000070 .LC9
+     /tmp/cctQgHTl.s:2766   .rodata.str1.4:0000007c .LC10
+     /tmp/cctQgHTl.s:2768   .rodata.str1.4:0000008c .LC11
+     /tmp/cctQgHTl.s:2281   .text.vexUserSetup:00000000 $t
+     /tmp/cctQgHTl.s:2287   .text.vexUserSetup:00000000 vexUserSetup
+     /tmp/cctQgHTl.s:2829   .data.dConfig:00000000 .LANCHOR10
+     /tmp/cctQgHTl.s:2636   .data.mConfig:00000000 .LANCHOR11
+     /tmp/cctQgHTl.s:2318   .text.vexUserInit:00000000 $t
+     /tmp/cctQgHTl.s:2324   .text.vexUserInit:00000000 vexUserInit
+     /tmp/cctQgHTl.s:2368   .text.vexAutonomous:00000000 $t
+     /tmp/cctQgHTl.s:2374   .text.vexAutonomous:00000000 vexAutonomous
+     /tmp/cctQgHTl.s:2771   .rodata.str1.4:00000098 .LC12
+     /tmp/cctQgHTl.s:2415   .text.vexOperator:00000000 $t
+     /tmp/cctQgHTl.s:2421   .text.vexOperator:00000000 vexOperator
+     /tmp/cctQgHTl.s:2774   .rodata.str1.4:000000a0 .LC13
+     /tmp/cctQgHTl.s:2777   .rodata.str1.4:000000ac .LC14
+     /tmp/cctQgHTl.s:2780   .rodata.str1.4:000000bc .LC15
+     /tmp/cctQgHTl.s:2619   .text.vexOperator:000001c8 $d
+     /tmp/cctQgHTl.s:2898   .data.ProgName:00000000 ProgName
+     /tmp/cctQgHTl.s:2805   .data.n3:00000000 n3
+     /tmp/cctQgHTl.s:2799   .data.n2:00000000 n2
+     /tmp/cctQgHTl.s:2793   .data.n1:00000000 n1
+     /tmp/cctQgHTl.s:2722   .data.n0:00000000 n0
+     /tmp/cctQgHTl.s:2812   .data.ColorName:00000000 ColorName
+     /tmp/cctQgHTl.s:2825   .data.c1:00000000 c1
+     /tmp/cctQgHTl.s:2819   .data.c0:00000000 c0
+     /tmp/cctQgHTl.s:2635   .data.mConfig:00000000 $d
+     /tmp/cctQgHTl.s:2639   .data.mConfig:00000000 mConfig
+     /tmp/cctQgHTl.s:2691   .bss.armRequestedValue:00000000 $d
+     /tmp/cctQgHTl.s:2695   .bss.armRequestedValue:00000000 armRequestedValue
+     /tmp/cctQgHTl.s:2698   .bss.gyro_base:00000000 $d
+     /tmp/cctQgHTl.s:2702   .bss.gyro_base:00000000 gyro_base
+     /tmp/cctQgHTl.s:2705   .data.armPositionHigh:00000000 $d
+     /tmp/cctQgHTl.s:2709   .data.armPositionHigh:00000000 armPositionHigh
+     /tmp/cctQgHTl.s:2712   .data.runAutonColor:00000000 $d
+     /tmp/cctQgHTl.s:2716   .data.runAutonColor:00000000 runAutonColor
+     /tmp/cctQgHTl.s:2719   .data.n0:00000000 $d
+     /tmp/cctQgHTl.s:2725   .data.armPositionLow:00000000 $d
+     /tmp/cctQgHTl.s:2729   .data.armPositionLow:00000000 armPositionLow
+     /tmp/cctQgHTl.s:2732   .bss.runAutonProgram:00000000 $d
+     /tmp/cctQgHTl.s:2736   .bss.runAutonProgram:00000000 runAutonProgram
+     /tmp/cctQgHTl.s:2739   .rodata.str1.4:00000000 $d
+     /tmp/cctQgHTl.s:2783   .bss.gyro_err:00000000 $d
+     /tmp/cctQgHTl.s:2787   .bss.gyro_err:00000000 gyro_err
+     /tmp/cctQgHTl.s:2790   .data.n1:00000000 $d
+     /tmp/cctQgHTl.s:2796   .data.n2:00000000 $d
+     /tmp/cctQgHTl.s:2802   .data.n3:00000000 $d
+     /tmp/cctQgHTl.s:2808   .data.ColorName:00000000 $d
+     /tmp/cctQgHTl.s:2816   .data.c0:00000000 $d
+     /tmp/cctQgHTl.s:2822   .data.c1:00000000 $d
+     /tmp/cctQgHTl.s:2828   .data.dConfig:00000000 $d
+     /tmp/cctQgHTl.s:2832   .data.dConfig:00000000 dConfig
+     /tmp/cctQgHTl.s:2894   .data.ProgName:00000000 $d
+     /tmp/cctQgHTl.s:2904   .data.armPositionMid:00000000 $d
+     /tmp/cctQgHTl.s:2908   .data.armPositionMid:00000000 armPositionMid
                      .debug_frame:00000010 $d
-ARM GAS  /tmp/ccTwpS17.s 			page 154
+ARM GAS  /tmp/cctQgHTl.s 			page 154
 
 
-     /tmp/ccTwpS17.s:258    .text.autonSelect:00000128 $t
-     /tmp/ccTwpS17.s:2634   .text.vexOperator:000001d8 $t
+     /tmp/cctQgHTl.s:258    .text.autonSelect:00000128 $t
+     /tmp/cctQgHTl.s:2634   .text.vexOperator:000001d8 $t
 
 UNDEFINED SYMBOLS
 vexAdcGet

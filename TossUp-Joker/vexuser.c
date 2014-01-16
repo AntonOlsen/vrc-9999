@@ -55,8 +55,8 @@
 
 #include "9999.h"
 
-#include "intake.c"
-#include "arm.c"
+#include "common/arm.c"
+#include "common/intake.c"
 #include "drive/drive.c"
 #include "auton/auton.c"
 
