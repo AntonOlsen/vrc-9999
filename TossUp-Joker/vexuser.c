@@ -55,13 +55,10 @@
 
 #include "9999.h"
 
-#include "ime.c"
-
 #include "intake.c"
 #include "arm.c"
 #include "drive.c"
-#include "auton.c"
-
+#include "auton/auton.c"
 
 /*-----------------------------------------------------------------------------*/
 /** @brief      User setup                                                     */

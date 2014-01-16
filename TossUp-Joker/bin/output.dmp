@@ -28,25 +28,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, ALLOC, LOAD, DATA
   5 .bss          00001f2c  20000c80  0800cde8  00018c80  2**3
                   ALLOC
-  6 .debug_info   0001fd7a  00000000  00000000  00018c80  2**0
+  6 .debug_info   0001fd6e  00000000  00000000  00018c80  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_abbrev 00006fe7  00000000  00000000  000389fa  2**0
+  7 .debug_abbrev 00006f8e  00000000  00000000  000389ee  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_loc    0000d6dd  00000000  00000000  0003f9e1  2**0
+  8 .debug_loc    0000d6dd  00000000  00000000  0003f97c  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_aranges 000013c8  00000000  00000000  0004d0be  2**0
+  9 .debug_aranges 000013c8  00000000  00000000  0004d059  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_ranges 000022a8  00000000  00000000  0004e486  2**0
+ 10 .debug_ranges 000022a8  00000000  00000000  0004e421  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_line   0000b1b6  00000000  00000000  0005072e  2**0
+ 11 .debug_line   0000b1d3  00000000  00000000  000506c9  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_str    00004be0  00000000  00000000  0005b8e4  2**0
+ 12 .debug_str    00004c03  00000000  00000000  0005b89c  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .comment      00000030  00000000  00000000  000604c4  2**0
+ 13 .comment      00000030  00000000  00000000  0006049f  2**0
                   CONTENTS, READONLY
- 14 .ARM.attributes 00000033  00000000  00000000  000604f4  2**0
+ 14 .ARM.attributes 00000033  00000000  00000000  000604cf  2**0
                   CONTENTS, READONLY
- 15 .debug_frame  000035e8  00000000  00000000  00060528  2**2
+ 15 .debug_frame  000035e8  00000000  00000000  00060504  2**2
                   CONTENTS, READONLY, DEBUGGING
 SYMBOL TABLE:
 08000000 l    d  startup	00000000 startup

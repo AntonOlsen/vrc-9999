@@ -2910,7 +2910,7 @@ destructors     0x08000130        0x0
                 0x20010000                __heap_end__ = __ram_end__
 OUTPUT(bin/output.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x1fd7a
+.debug_info     0x00000000    0x1fd6e
  .debug_info    0x00000000      0x299 bin/obj/crt0.o
  .debug_info    0x00000299      0x1e8 bin/obj/vectors.o
  .debug_info    0x00000481       0x92 bin/obj/chcore.o
@@ -2965,10 +2965,10 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .debug_info    0x0001cb1d      0x6e4 bin/obj/vextest.o
  .debug_info    0x0001d201      0x6ca bin/obj/robotc_glue.o
  .debug_info    0x0001d8cb      0x6ad bin/obj/vexgyro.o
- .debug_info    0x0001df78     0x1324 bin/obj/vexuser.o
- .debug_info    0x0001f29c      0xade bin/obj/main.o
+ .debug_info    0x0001df78     0x1318 bin/obj/vexuser.o
+ .debug_info    0x0001f290      0xade bin/obj/main.o
 
-.debug_abbrev   0x00000000     0x6fe7
+.debug_abbrev   0x00000000     0x6f8e
  .debug_abbrev  0x00000000       0xe1 bin/obj/crt0.o
  .debug_abbrev  0x000000e1       0xae bin/obj/vectors.o
  .debug_abbrev  0x0000018f       0x41 bin/obj/chcore.o
@@ -3023,8 +3023,8 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .debug_abbrev  0x00006537      0x1a4 bin/obj/vextest.o
  .debug_abbrev  0x000066db      0x1eb bin/obj/robotc_glue.o
  .debug_abbrev  0x000068c6      0x1b2 bin/obj/vexgyro.o
- .debug_abbrev  0x00006a78      0x3e1 bin/obj/vexuser.o
- .debug_abbrev  0x00006e59      0x18e bin/obj/main.o
+ .debug_abbrev  0x00006a78      0x388 bin/obj/vexuser.o
+ .debug_abbrev  0x00006e00      0x18e bin/obj/main.o
 
 .debug_loc      0x00000000     0xd6dd
  .debug_loc     0x00000000       0x96 bin/obj/crt0.o
@@ -3253,7 +3253,7 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .debug_ranges  0x00002198      0x100 bin/obj/vexuser.o
  .debug_ranges  0x00002298       0x10 bin/obj/main.o
 
-.debug_line     0x00000000     0xb1b6
+.debug_line     0x00000000     0xb1d3
  .debug_line    0x00000000      0x14b bin/obj/crt0.o
  .debug_line    0x0000014b       0xce bin/obj/vectors.o
  .debug_line    0x00000219       0x5e bin/obj/chcore.o
@@ -3308,10 +3308,10 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .debug_line    0x0000a07b      0x241 bin/obj/vextest.o
  .debug_line    0x0000a2bc      0x2ee bin/obj/robotc_glue.o
  .debug_line    0x0000a5aa      0x24c bin/obj/vexgyro.o
- .debug_line    0x0000a7f6      0x6c4 bin/obj/vexuser.o
- .debug_line    0x0000aeba      0x2fc bin/obj/main.o
+ .debug_line    0x0000a7f6      0x6e1 bin/obj/vexuser.o
+ .debug_line    0x0000aed7      0x2fc bin/obj/main.o
 
-.debug_str      0x00000000     0x4be0
+.debug_str      0x00000000     0x4c03
  .debug_str     0x00000000      0x1bb bin/obj/crt0.o
                                 0x1f5 (size before relaxing)
  .debug_str     0x000001bb      0x147 bin/obj/vectors.o
@@ -3420,9 +3420,9 @@ OUTPUT(bin/output.elf elf32-littlearm)
                                 0x491 (size before relaxing)
  .debug_str     0x000047d5      0x169 bin/obj/vexgyro.o
                                 0x578 (size before relaxing)
- .debug_str     0x0000493e      0x283 bin/obj/vexuser.o
-                                0xcdb (size before relaxing)
- .debug_str     0x00004bc1       0x1f bin/obj/main.o
+ .debug_str     0x0000493e      0x2a6 bin/obj/vexuser.o
+                                0xce2 (size before relaxing)
+ .debug_str     0x00004be4       0x1f bin/obj/main.o
                                 0x614 (size before relaxing)
 
 .comment        0x00000000       0x30
