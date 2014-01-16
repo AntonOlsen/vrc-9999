@@ -96,7 +96,7 @@ bin/obj/vexuser.o: vexuser.c \
  ../convex/cortex/fw/vexsensor.h ../convex/cortex/fw/vexprintf.h \
  ../convex/cortex/fw/vexshell.h ../convex/cortex/fw/vexbkup.h \
  ../convex/cortex/opt/smartmotor.h ../convex/cortex/opt/vexgyro.h \
- ../convex/cortex/opt/robotc_glue.h 9999.h intake.c arm.c drive.c \
+ ../convex/cortex/opt/robotc_glue.h 9999.h intake.c arm.c drive/drive.c \
  auton/auton.c auton/autonDrive.c auton/autonTurn.c
 
 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/include/stdlib.h:
@@ -327,7 +327,7 @@ intake.c:
 
 arm.c:
 
-drive.c:
+drive/drive.c:
 
 auton/auton.c:
 
