@@ -1,3 +1,8 @@
+/*
+
+Joker port definitiions.
+
+*/
 
 // Digi IO configuration
 static  vexDigiCfg  dConfig[kVexDigital_Num] = {
@@ -18,6 +23,15 @@ static  vexDigiCfg  dConfig[kVexDigital_Num] = {
 #define armLimitL        kVexDigital_8
 #define armLimitR        kVexDigital_3
 
+/*
+
+Joke Motors. 9999 always starts from the center with drive wheels, arm, and intake.
+
+Robots with power expanders will use 5/6 for drive and Y to the expander. Robots
+with no expander will use 45/67 for drive. 
+
+*/
+
 static  vexMotorCfg mConfig[kVexMotorNum] = {
         { kVexMotor_1,      kVexMotorUndefined, kVexMotorReversed,  kVexSensorNone,  0 },
         { kVexMotor_2,      kVexMotor393T,      kVexMotorReversed,  kVexSensorNone,  0 },
@@ -31,10 +45,19 @@ static  vexMotorCfg mConfig[kVexMotorNum] = {
         { kVexMotor_10,     kVexMotorUndefined, kVexMotorNormal,    kVexSensorNone,  0 }
 };
 
+
+#define MotorIntakeR	 kVexMotor_2
+#define MotorArmR        kVexMotor_3
+
 #define MotorDriveR2     kVexMotor_4
 #define MotorDriveR1     kVexMotor_5
+
 #define MotorDriveL1     kVexMotor_6
 #define MotorDriveL2     kVexMotor_7
+
+#define MotorArmL 	 kVexMotor_8
+#define MotorIntakeL  	 kVexMotor_9
+
 
 #define resetImeLeft()  vexImeSetCount( kImeChannel_2, 0 )
 #define resetImeRight() vexImeSetCount( kImeChannel_1, 0 )
@@ -45,11 +68,7 @@ static  vexMotorCfg mConfig[kVexMotorNum] = {
 #define getInchesLeft()  (float) ( (float) vexImeMotorGetCount( kVexMotor_7 )/29.2)
 #define getInchesRight() (float) ( (float)-vexImeMotorGetCount( kVexMotor_4 )/29.2)
 
-#define MotorArmL 		 kVexMotor_8
-#define MotorArmR		 kVexMotor_3
 
 #define ArmPotL          kVexAnalog_8
 #define ArmPotR          kVexAnalog_3
 
-#define MotorIntakeL  	 kVexMotor_9
-#define MotorIntakeR	 kVexMotor_2
