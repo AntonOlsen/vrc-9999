@@ -1442,7 +1442,7 @@ destructors     0x08000130        0x0
  *(SORT(.fini_array.*))
                 0x08000130                PROVIDE (__fini_array_end, .)
 
-.text           0x08000130     0xc834
+.text           0x08000130     0xc864
  *(.text.startup.*)
  .text.startup.main
                 0x08000130       0x90 bin/obj/main.o
@@ -2473,198 +2473,201 @@ destructors     0x08000130        0x0
  .text.ArmPidController
                 0x0800adb0       0x80 bin/obj/vexuser.o
                 0x0800adb0                ArmPidController
- .text.ArmTask  0x0800ae30       0xc0 bin/obj/vexuser.o
-                0x0800ae30                ArmTask
+ .text.FlipperTask
+                0x0800ae30       0x50 bin/obj/vexuser.o
+                0x0800ae30                FlipperTask
+ .text.ArmTask  0x0800ae80       0xc0 bin/obj/vexuser.o
+                0x0800ae80                ArmTask
  .text.IntakeSystemControl
-                0x0800aef0       0x30 bin/obj/vexuser.o
-                0x0800aef0                IntakeSystemControl
+                0x0800af40       0x30 bin/obj/vexuser.o
+                0x0800af40                IntakeSystemControl
  .text.IntakeTask
-                0x0800af20       0x40 bin/obj/vexuser.o
-                0x0800af20                IntakeTask
+                0x0800af70       0x40 bin/obj/vexuser.o
+                0x0800af70                IntakeTask
  .text.DriveSystemArcadeDrive
-                0x0800af60       0xf0 bin/obj/vexuser.o
-                0x0800af60                DriveSystemArcadeDrive
+                0x0800afb0       0xf0 bin/obj/vexuser.o
+                0x0800afb0                DriveSystemArcadeDrive
  .text.DriveTask
-                0x0800b050       0xb0 bin/obj/vexuser.o
-                0x0800b050                DriveTask
+                0x0800b0a0       0xb0 bin/obj/vexuser.o
+                0x0800b0a0                DriveTask
  .text.autonDrive
-                0x0800b100      0x230 bin/obj/vexuser.o
-                0x0800b100                autonDrive
+                0x0800b150      0x230 bin/obj/vexuser.o
+                0x0800b150                autonDrive
  .text.autonTurn
-                0x0800b330      0x280 bin/obj/vexuser.o
-                0x0800b330                autonTurn
- .text.auton1   0x0800b5b0      0x190 bin/obj/vexuser.o
-                0x0800b5b0                auton1
- .text.auton2   0x0800b740       0xd0 bin/obj/vexuser.o
-                0x0800b740                auton2
- .text.auton3   0x0800b810       0xe0 bin/obj/vexuser.o
-                0x0800b810                auton3
+                0x0800b380      0x280 bin/obj/vexuser.o
+                0x0800b380                autonTurn
+ .text.auton1   0x0800b600      0x190 bin/obj/vexuser.o
+                0x0800b600                auton1
+ .text.auton2   0x0800b790       0xd0 bin/obj/vexuser.o
+                0x0800b790                auton2
+ .text.auton3   0x0800b860       0xe0 bin/obj/vexuser.o
+                0x0800b860                auton3
  .text.autonRun
-                0x0800b8f0       0xe0 bin/obj/vexuser.o
-                0x0800b8f0                autonRun
+                0x0800b940       0xe0 bin/obj/vexuser.o
+                0x0800b940                autonRun
  .text.vexUserSetup
-                0x0800b9d0       0x30 bin/obj/vexuser.o
-                0x0800b9d0                vexUserSetup
+                0x0800ba20       0x30 bin/obj/vexuser.o
+                0x0800ba20                vexUserSetup
  .text.vexUserInit
-                0x0800ba00       0x40 bin/obj/vexuser.o
-                0x0800ba00                vexUserInit
+                0x0800ba50       0x40 bin/obj/vexuser.o
+                0x0800ba50                vexUserInit
  .text.vexAutonomous
-                0x0800ba40       0x40 bin/obj/vexuser.o
-                0x0800ba40                vexAutonomous
+                0x0800ba90       0x40 bin/obj/vexuser.o
+                0x0800ba90                vexAutonomous
  .text.vexOperator
-                0x0800ba80      0x1e0 bin/obj/vexuser.o
-                0x0800ba80                vexOperator
+                0x0800bad0      0x1b0 bin/obj/vexuser.o
+                0x0800bad0                vexOperator
  *(.rodata)
- .rodata        0x0800bc60        0x4 bin/obj/vexshell.o
- *fill*         0x0800bc64        0xc 00
- .rodata        0x0800bc70      0x104 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-ctype_.o)
-                0x0800bc70                _ctype_
+ .rodata        0x0800bc80        0x4 bin/obj/vexshell.o
+ *fill*         0x0800bc84        0xc 00
+ .rodata        0x0800bc90      0x104 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-ctype_.o)
+                0x0800bc90                _ctype_
  *(.rodata.*)
- *fill*         0x0800bd74        0xc 00
+ *fill*         0x0800bd94        0xc 00
  .rodata.str1.4
-                0x0800bd80        0x5 bin/obj/chsys.o
+                0x0800bda0        0x5 bin/obj/chsys.o
                                   0x8 (size before relaxing)
- *fill*         0x0800bd85        0xb 00
+ *fill*         0x0800bda5        0xb 00
  .rodata.ch_debug
-                0x0800bd90       0x18 bin/obj/chregistry.o
-                0x0800bd90                ch_debug
- *fill*         0x0800bda8        0x8 00
- .rodata.vmt    0x0800bdb0       0x20 bin/obj/serial.o
+                0x0800bdb0       0x18 bin/obj/chregistry.o
+                0x0800bdb0                ch_debug
+ *fill*         0x0800bdc8        0x8 00
+ .rodata.vmt    0x0800bdd0       0x20 bin/obj/serial.o
  .rodata._stm32_dma_streams
-                0x0800bdd0       0x90 bin/obj/stm32_dma.o
-                0x0800bdd0                _stm32_dma_streams
+                0x0800bdf0       0x90 bin/obj/stm32_dma.o
+                0x0800bdf0                _stm32_dma_streams
  .rodata.cfgtab.6358
-                0x0800be60       0x14 bin/obj/pal_lld.o
- *fill*         0x0800be74        0xc 00
+                0x0800be80       0x14 bin/obj/pal_lld.o
+ *fill*         0x0800be94        0xc 00
  .rodata.default_config
-                0x0800be80        0xc bin/obj/serial_lld.o
- *fill*         0x0800be8c        0x4 00
+                0x0800bea0        0xc bin/obj/serial_lld.o
+ *fill*         0x0800beac        0x4 00
  .rodata.pal_default_config
-                0x0800be90       0x54 bin/obj/board.o
-                0x0800be90                pal_default_config
- *fill*         0x0800bee4        0xc 00
+                0x0800beb0       0x54 bin/obj/board.o
+                0x0800beb0                pal_default_config
+ *fill*         0x0800bf04        0xc 00
  .rodata.str1.4
-                0x0800bef0        0x7 bin/obj/chprintf.o
+                0x0800bf10        0x7 bin/obj/chprintf.o
                                   0x8 (size before relaxing)
- *fill*         0x0800bef7        0x9 00
+ *fill*         0x0800bf17        0x9 00
  .rodata.states.7548
-                0x0800bf00       0x3c bin/obj/vexshell.o
- *fill*         0x0800bf3c        0x4 00
+                0x0800bf20       0x3c bin/obj/vexshell.o
+ *fill*         0x0800bf5c        0x4 00
  .rodata.str1.4
-                0x0800bf40      0x4c2 bin/obj/vexshell.o
+                0x0800bf60      0x4c2 bin/obj/vexshell.o
                                 0x4cc (size before relaxing)
- *fill*         0x0800c402        0xe 00
+ *fill*         0x0800c422        0xe 00
  .rodata.lcd_config
-                0x0800c410        0xc bin/obj/vexcortex.o
- *fill*         0x0800c41c        0x4 00
+                0x0800c430        0xc bin/obj/vexcortex.o
+ *fill*         0x0800c43c        0x4 00
  .rodata.console_config
-                0x0800c420        0xc bin/obj/vexcortex.o
- *fill*         0x0800c42c        0x4 00
+                0x0800c440        0xc bin/obj/vexcortex.o
+ *fill*         0x0800c44c        0x4 00
  .rodata.str1.4
-                0x0800c430       0x4c bin/obj/vexcortex.o
+                0x0800c450       0x4c bin/obj/vexcortex.o
                                  0x70 (size before relaxing)
- *fill*         0x0800c47c        0x4 00
+ *fill*         0x0800c49c        0x4 00
  .rodata._vqe_cb_a
-                0x0800c480       0x14 bin/obj/vexencoder.o
- *fill*         0x0800c494        0xc 00
- .rodata._vqe_cb_b
                 0x0800c4a0       0x14 bin/obj/vexencoder.o
  *fill*         0x0800c4b4        0xc 00
+ .rodata._vqe_cb_b
+                0x0800c4c0       0x14 bin/obj/vexencoder.o
+ *fill*         0x0800c4d4        0xc 00
  .rodata.str1.4
-                0x0800c4c0       0x11 bin/obj/vexencoder.o
+                0x0800c4e0       0x11 bin/obj/vexencoder.o
                                  0x14 (size before relaxing)
- *fill*         0x0800c4d1        0xf 00
+ *fill*         0x0800c4f1        0xf 00
  .rodata.vexSonarGpt
-                0x0800c4e0        0xc bin/obj/vexsonar.o
- *fill*         0x0800c4ec        0x4 00
+                0x0800c500        0xc bin/obj/vexsonar.o
+ *fill*         0x0800c50c        0x4 00
  .rodata.str1.4
-                0x0800c4f0       0x30 bin/obj/vexsonar.o
+                0x0800c510       0x30 bin/obj/vexsonar.o
  .rodata.str1.4
-                0x0800c520       0x5d bin/obj/vexmotor.o
+                0x0800c540       0x5d bin/obj/vexmotor.o
                                  0x68 (size before relaxing)
- *fill*         0x0800c57d        0x3 00
+ *fill*         0x0800c59d        0x3 00
  .rodata.txInitData
-                0x0800c580       0x20 bin/obj/vexspi.o
+                0x0800c5a0       0x20 bin/obj/vexspi.o
  .rodata.vexSpiGpt
-                0x0800c5a0        0xc bin/obj/vexspi.o
- *fill*         0x0800c5ac        0x4 00
+                0x0800c5c0        0xc bin/obj/vexspi.o
+ *fill*         0x0800c5cc        0x4 00
  .rodata.str1.4
-                0x0800c5b0       0x67 bin/obj/vexspi.o
+                0x0800c5d0       0x67 bin/obj/vexspi.o
                                  0x6c (size before relaxing)
- *fill*         0x0800c617        0x9 00
+ *fill*         0x0800c637        0x9 00
  .rodata.str1.4
-                0x0800c620       0x45 bin/obj/vexlcd.o
+                0x0800c640       0x45 bin/obj/vexlcd.o
                                  0x4c (size before relaxing)
- *fill*         0x0800c665        0xb 00
+ *fill*         0x0800c685        0xb 00
  .rodata.str1.4
-                0x0800c670       0x13 bin/obj/vexanalog.o
+                0x0800c690       0x13 bin/obj/vexanalog.o
                                  0x14 (size before relaxing)
- *fill*         0x0800c683        0xd 00
+ *fill*         0x0800c6a3        0xd 00
  .rodata.str1.4
-                0x0800c690       0xef bin/obj/vexime.o
+                0x0800c6b0       0xef bin/obj/vexime.o
                                 0x104 (size before relaxing)
- *fill*         0x0800c77f        0x1 00
+ *fill*         0x0800c79f        0x1 00
  .rodata.imeI2cConfig
-                0x0800c780        0xc bin/obj/vexime.o
- *fill*         0x0800c78c        0x4 00
+                0x0800c7a0        0xc bin/obj/vexime.o
+ *fill*         0x0800c7ac        0x4 00
  .rodata.str1.4
-                0x0800c790        0x2 bin/obj/vexprintf.o
+                0x0800c7b0        0x2 bin/obj/vexprintf.o
                                   0xc (size before relaxing)
- *fill*         0x0800c792        0xe 00
+ *fill*         0x0800c7b2        0xe 00
  .rodata.round_nums
-                0x0800c7a0       0x40 bin/obj/vexprintf.o
+                0x0800c7c0       0x40 bin/obj/vexprintf.o
  .rodata.str1.4
-                0x0800c7e0        0x5 bin/obj/vextest.o
-                                  0x8 (size before relaxing)
- *fill*         0x0800c7e5        0xb 00
- .rodata.str1.4
-                0x0800c7f0        0xc bin/obj/robotc_glue.o
- *fill*         0x0800c7fc        0x4 00
- .rodata.str1.4
-                0x0800c800        0x5 bin/obj/vexgyro.o
+                0x0800c800        0x5 bin/obj/vextest.o
                                   0x8 (size before relaxing)
  *fill*         0x0800c805        0xb 00
  .rodata.str1.4
-                0x0800c810       0xc2 bin/obj/vexuser.o
-                                 0xc4 (size before relaxing)
- *fill*         0x0800c8d2        0xe 00
+                0x0800c810        0xc bin/obj/robotc_glue.o
+ *fill*         0x0800c81c        0x4 00
+ .rodata.str1.4
+                0x0800c820        0x5 bin/obj/vexgyro.o
+                                  0x8 (size before relaxing)
+ *fill*         0x0800c825        0xb 00
+ .rodata.str1.4
+                0x0800c830       0xd2 bin/obj/vexuser.o
+                                 0xd4 (size before relaxing)
+ *fill*         0x0800c902        0xe 00
  .rodata.commands
-                0x0800c8e0       0x48 bin/obj/main.o
- *fill*         0x0800c928        0x8 00
- .rodata.shell_cfg1
-                0x0800c930        0x8 bin/obj/main.o
- *fill*         0x0800c938        0x8 00
- .rodata.str1.4
-                0x0800c940       0x18 bin/obj/main.o
-                                 0x28 (size before relaxing)
+                0x0800c910       0x48 bin/obj/main.o
  *fill*         0x0800c958        0x8 00
+ .rodata.shell_cfg1
+                0x0800c960        0x8 bin/obj/main.o
+ *fill*         0x0800c968        0x8 00
  .rodata.str1.4
-                0x0800c960        0x4 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                0x0800c970       0x18 bin/obj/main.o
+                                 0x28 (size before relaxing)
+ *fill*         0x0800c988        0x8 00
+ .rodata.str1.4
+                0x0800c990        0x4 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.gcc*)
 
-.vfp11_veneer   0x0800c964        0x0
+.vfp11_veneer   0x0800c994        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x0800c964        0x0
+.v4_bx          0x0800c994        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x0800c964        0x0
+.iplt           0x0800c994        0x0
  .iplt          0x00000000        0x0 bin/obj/crt0.o
 
-.rel.dyn        0x0800c964        0x0
+.rel.dyn        0x0800c994        0x0
  .rel.iplt      0x00000000        0x0 bin/obj/crt0.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x0800c964        0x0
-                0x0800c964                PROVIDE (__exidx_start, .)
+.ARM.exidx      0x0800c994        0x0
+                0x0800c994                PROVIDE (__exidx_start, .)
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0800c964                PROVIDE (__exidx_end, .)
+                0x0800c994                PROVIDE (__exidx_end, .)
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
@@ -2672,11 +2675,11 @@ destructors     0x08000130        0x0
 .eh_frame
  *(.eh_frame)
 
-.textalign      0x0800c964        0x4
-                0x0800c968                . = ALIGN (0x8)
- *fill*         0x0800c964        0x4 00
-                0x0800c968                _etext = .
-                0x0800c968                _textdata = _etext
+.textalign      0x0800c994        0x4
+                0x0800c998                . = ALIGN (0x8)
+ *fill*         0x0800c994        0x4 00
+                0x0800c998                _etext = .
+                0x0800c998                _textdata = _etext
 
 .stacks         0x20000000      0x800
                 0x20000000                . = ALIGN (0x8)
@@ -2693,7 +2696,7 @@ destructors     0x08000130        0x0
                 0x20000800                __process_stack_end__ = .
                 0x20000800                __main_thread_stack_end__ = .
 
-.data           0x20000800      0x480 load address 0x0800c968
+.data           0x20000800      0x480 load address 0x0800c998
                 0x20000800                . = ALIGN (0x4)
                 0x20000800                PROVIDE (_data, .)
  *(.data)
@@ -2763,10 +2766,10 @@ destructors     0x08000130        0x0
                 0x20000c80                . = ALIGN (0x4)
                 0x20000c80                PROVIDE (_edata, .)
 
-.igot.plt       0x20000c80        0x0 load address 0x0800cde8
+.igot.plt       0x20000c80        0x0 load address 0x0800ce18
  .igot.plt      0x00000000        0x0 bin/obj/crt0.o
 
-.bss            0x20000c80     0x1f2c load address 0x0800cde8
+.bss            0x20000c80     0x1f2c load address 0x0800ce18
                 0x20000c80                . = ALIGN (0x4)
                 0x20000c80                PROVIDE (_bss_start, .)
  *(.bss)
@@ -2910,7 +2913,7 @@ destructors     0x08000130        0x0
                 0x20010000                __heap_end__ = __ram_end__
 OUTPUT(bin/output.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x1fd6e
+.debug_info     0x00000000    0x1fda6
  .debug_info    0x00000000      0x299 bin/obj/crt0.o
  .debug_info    0x00000299      0x1e8 bin/obj/vectors.o
  .debug_info    0x00000481       0x92 bin/obj/chcore.o
@@ -2965,8 +2968,8 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .debug_info    0x0001cb1d      0x6e4 bin/obj/vextest.o
  .debug_info    0x0001d201      0x6ca bin/obj/robotc_glue.o
  .debug_info    0x0001d8cb      0x6ad bin/obj/vexgyro.o
- .debug_info    0x0001df78     0x1318 bin/obj/vexuser.o
- .debug_info    0x0001f290      0xade bin/obj/main.o
+ .debug_info    0x0001df78     0x1350 bin/obj/vexuser.o
+ .debug_info    0x0001f2c8      0xade bin/obj/main.o
 
 .debug_abbrev   0x00000000     0x6f8e
  .debug_abbrev  0x00000000       0xe1 bin/obj/crt0.o
@@ -3026,7 +3029,7 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .debug_abbrev  0x00006a78      0x388 bin/obj/vexuser.o
  .debug_abbrev  0x00006e00      0x18e bin/obj/main.o
 
-.debug_loc      0x00000000     0xd6dd
+.debug_loc      0x00000000     0xd705
  .debug_loc     0x00000000       0x96 bin/obj/crt0.o
  .debug_loc     0x00000096       0xf4 bin/obj/chcore_v7m.o
  .debug_loc     0x0000018a      0x115 bin/obj/nvic.o
@@ -3078,10 +3081,10 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .debug_loc     0x0000c4a0       0x5f bin/obj/vextest.o
  .debug_loc     0x0000c4ff      0x689 bin/obj/robotc_glue.o
  .debug_loc     0x0000cb88      0x135 bin/obj/vexgyro.o
- .debug_loc     0x0000ccbd      0x9ab bin/obj/vexuser.o
- .debug_loc     0x0000d668       0x75 bin/obj/main.o
+ .debug_loc     0x0000ccbd      0x9d3 bin/obj/vexuser.o
+ .debug_loc     0x0000d690       0x75 bin/obj/main.o
 
-.debug_aranges  0x00000000     0x13c8
+.debug_aranges  0x00000000     0x13d0
  .debug_aranges
                 0x00000000       0x38 bin/obj/crt0.o
  .debug_aranges
@@ -3191,11 +3194,11 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .debug_aranges
                 0x000012b8       0x30 bin/obj/vexgyro.o
  .debug_aranges
-                0x000012e8       0xc0 bin/obj/vexuser.o
+                0x000012e8       0xc8 bin/obj/vexuser.o
  .debug_aranges
-                0x000013a8       0x20 bin/obj/main.o
+                0x000013b0       0x20 bin/obj/main.o
 
-.debug_ranges   0x00000000     0x22a8
+.debug_ranges   0x00000000     0x22b0
  .debug_ranges  0x00000000       0x58 bin/obj/crt0.o
  .debug_ranges  0x00000058       0x10 bin/obj/vectors.o
  .debug_ranges  0x00000068       0x10 bin/obj/chcore.o
@@ -3250,10 +3253,10 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .debug_ranges  0x00002130       0x20 bin/obj/vextest.o
  .debug_ranges  0x00002150       0x28 bin/obj/robotc_glue.o
  .debug_ranges  0x00002178       0x20 bin/obj/vexgyro.o
- .debug_ranges  0x00002198      0x100 bin/obj/vexuser.o
- .debug_ranges  0x00002298       0x10 bin/obj/main.o
+ .debug_ranges  0x00002198      0x108 bin/obj/vexuser.o
+ .debug_ranges  0x000022a0       0x10 bin/obj/main.o
 
-.debug_line     0x00000000     0xb1e0
+.debug_line     0x00000000     0xb200
  .debug_line    0x00000000      0x14b bin/obj/crt0.o
  .debug_line    0x0000014b       0xce bin/obj/vectors.o
  .debug_line    0x00000219       0x5e bin/obj/chcore.o
@@ -3308,10 +3311,10 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .debug_line    0x0000a07b      0x241 bin/obj/vextest.o
  .debug_line    0x0000a2bc      0x2ee bin/obj/robotc_glue.o
  .debug_line    0x0000a5aa      0x24c bin/obj/vexgyro.o
- .debug_line    0x0000a7f6      0x6ee bin/obj/vexuser.o
- .debug_line    0x0000aee4      0x2fc bin/obj/main.o
+ .debug_line    0x0000a7f6      0x70e bin/obj/vexuser.o
+ .debug_line    0x0000af04      0x2fc bin/obj/main.o
 
-.debug_str      0x00000000     0x4c03
+.debug_str      0x00000000     0x4c0f
  .debug_str     0x00000000      0x1bb bin/obj/crt0.o
                                 0x1f5 (size before relaxing)
  .debug_str     0x000001bb      0x147 bin/obj/vectors.o
@@ -3420,9 +3423,9 @@ OUTPUT(bin/output.elf elf32-littlearm)
                                 0x491 (size before relaxing)
  .debug_str     0x000047d5      0x169 bin/obj/vexgyro.o
                                 0x578 (size before relaxing)
- .debug_str     0x0000493e      0x2a6 bin/obj/vexuser.o
-                                0xce2 (size before relaxing)
- .debug_str     0x00004be4       0x1f bin/obj/main.o
+ .debug_str     0x0000493e      0x2b2 bin/obj/vexuser.o
+                                0xcee (size before relaxing)
+ .debug_str     0x00004bf0       0x1f bin/obj/main.o
                                 0x614 (size before relaxing)
 
 .comment        0x00000000       0x30
@@ -3641,7 +3644,7 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .ARM.attributes
                 0x00000dd4       0x1b /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_dvmd_tls.o)
 
-.debug_frame    0x00000000     0x35e8
+.debug_frame    0x00000000     0x3604
  .debug_frame   0x00000000       0x50 bin/obj/crt0.o
  .debug_frame   0x00000050       0x20 bin/obj/vectors.o
  .debug_frame   0x00000070       0x20 bin/obj/chcore.o
@@ -3696,16 +3699,16 @@ OUTPUT(bin/output.elf elf32-littlearm)
  .debug_frame   0x0000300c       0x58 bin/obj/vextest.o
  .debug_frame   0x00003064       0xa0 bin/obj/robotc_glue.o
  .debug_frame   0x00003104       0x68 bin/obj/vexgyro.o
- .debug_frame   0x0000316c      0x2d4 bin/obj/vexuser.o
- .debug_frame   0x00003440       0x2c bin/obj/main.o
- .debug_frame   0x0000346c       0x30 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-atoi.o)
- .debug_frame   0x0000349c       0x2c /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
- .debug_frame   0x000034c8       0x2c /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcasecmp.o)
- .debug_frame   0x000034f4       0x2c /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strchr.o)
- .debug_frame   0x00003520       0x2c /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strncpy.o)
- .debug_frame   0x0000354c       0x2c /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strspn.o)
- .debug_frame   0x00003578       0x50 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strtol.o)
- .debug_frame   0x000035c8       0x20 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000316c      0x2f0 bin/obj/vexuser.o
+ .debug_frame   0x0000345c       0x2c bin/obj/main.o
+ .debug_frame   0x00003488       0x30 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-atoi.o)
+ .debug_frame   0x000034b8       0x2c /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .debug_frame   0x000034e4       0x2c /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcasecmp.o)
+ .debug_frame   0x00003510       0x2c /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strchr.o)
+ .debug_frame   0x0000353c       0x2c /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strncpy.o)
+ .debug_frame   0x00003568       0x2c /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strspn.o)
+ .debug_frame   0x00003594       0x50 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strtol.o)
+ .debug_frame   0x000035e4       0x20 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a(_udivsi3.o)
 
 Cross Reference Table
 
@@ -3738,6 +3741,7 @@ FLASH_ProgramWord                                 bin/obj/stm32_flash.o
 FLASH_UnlockBank1                                 bin/obj/stm32_flash.o
                                                   bin/obj/vexflash.o
 FLASH_WaitForLastOperation                        bin/obj/stm32_flash.o
+FlipperTask                                       bin/obj/vexuser.o
 GPTD1                                             bin/obj/gpt_lld.o
 GPTD2                                             bin/obj/gpt_lld.o
                                                   bin/obj/vexspi.o

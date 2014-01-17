@@ -33,7 +33,7 @@ with no expander will use 45/67 for drive.
 */
 
 static  vexMotorCfg mConfig[kVexMotorNum] = {
-        { kVexMotor_1,      kVexMotorUndefined, kVexMotorReversed,  kVexSensorNone,  0 },
+        { kVexMotor_1,      kVexMotor393T,      kVexMotorReversed,  kVexSensorNone,  0 },
         { kVexMotor_2,      kVexMotor393T,      kVexMotorReversed,  kVexSensorNone,  0 },
         { kVexMotor_3,      kVexMotor393T,      kVexMotorReversed,  kVexSensorNone,  0 },
         { kVexMotor_4,      kVexMotor393S,      kVexMotorReversed,  kVexSensorIME,   kImeChannel_1 },
@@ -42,9 +42,10 @@ static  vexMotorCfg mConfig[kVexMotorNum] = {
         { kVexMotor_7,      kVexMotor393S,      kVexMotorNormal,    kVexSensorIME,   kImeChannel_2 },
         { kVexMotor_8,      kVexMotor393T,      kVexMotorNormal,    kVexSensorNone,  0 },
         { kVexMotor_9,      kVexMotor393T,      kVexMotorNormal,    kVexSensorNone,  0 },
-        { kVexMotor_10,     kVexMotorUndefined, kVexMotorNormal,    kVexSensorNone,  0 }
+        { kVexMotor_10,     kVexMotor393T,      kVexMotorNormal,    kVexSensorNone,  0 }
 };
 
+#define MotorFlipperR	 kVexMotor_1
 
 #define MotorIntakeR	 kVexMotor_2
 #define MotorArmR        kVexMotor_3
@@ -55,8 +56,10 @@ static  vexMotorCfg mConfig[kVexMotorNum] = {
 #define MotorDriveL1     kVexMotor_6
 #define MotorDriveL2     kVexMotor_7
 
-#define MotorArmL 	 kVexMotor_8
+#define MotorArmL 	     kVexMotor_8
 #define MotorIntakeL  	 kVexMotor_9
+
+#define MotorFlipperL  	 kVexMotor_10
 
 
 #define resetImeLeft()  vexImeSetCount( kImeChannel_2, 0 )

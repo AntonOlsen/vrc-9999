@@ -57,6 +57,7 @@
 
 #include "common/arm.c"
 #include "common/intake.c"
+#include "common/flipper.c"
 #include "drive/drive.c"
 #include "auton/auton.c"
 
@@ -139,21 +140,13 @@ msg_t vexOperator( void *arg ) {
     StartTask( ArmPidController );
     StartTask( ArmTask );
     StartTask( IntakeTask );
+    StartTask( FlipperTask );
     StartTask( DriveTask );
 
 	// Run until asked to terminate
 	while(!chThdShouldTerminate()) {
 		// flash led/digi out
 		vexDigitalPinSet( kVexDigital_12, (blink++ >> 3) & 1);	// Slow blink the enabled heartbeat (Green LED)
-
-		// Trigger the kicker
-		if (  vexControllerGet( Btn7D ) == 1 && vexControllerGet( Btn7L ) == 1) {
-			vexDigitalPinSet( kVexDigital_9, 1);
-			vexDigitalPinSet( kVexDigital_10, 1);
-		} else {
-			vexDigitalPinSet( kVexDigital_9, 0);
-			vexDigitalPinSet( kVexDigital_10, 0);
-		}
 
 		// status on LCD
 		vexLcdPrintf( VEX_LCD_DISPLAY_1, VEX_LCD_LINE_1, "%4.2fV   %8.1f", vexSpiGetMainBattery() / 1000.0, chTimeNow() / 1000.0 );
