@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc0EqP4a.s 			page 1
+ARM GAS  /tmp/ccVmgj5V.s 			page 1
 
 
    1              		.syntax unified
@@ -28,7 +28,7 @@ ARM GAS  /tmp/cc0EqP4a.s 			page 1
   25 0006 00000000 		.4byte	.Ldebug_abbrev0
   26 000a 04       		.byte	0x4
   27 000b 01       		.uleb128 0x1
-  28 000c CD000000 		.4byte	.LASF11
+  28 000c D4000000 		.4byte	.LASF11
   29 0010 01       		.byte	0x1
   30 0011 2E000000 		.4byte	.LASF12
   31 0015 AB000000 		.4byte	.LASF13
@@ -46,7 +46,7 @@ ARM GAS  /tmp/cc0EqP4a.s 			page 1
   43 0033 03       		.uleb128 0x3
   44 0034 01       		.byte	0x1
   45 0035 06       		.byte	0x6
-  46 0036 E6000000 		.4byte	.LASF1
+  46 0036 ED000000 		.4byte	.LASF1
   47 003a 03       		.uleb128 0x3
   48 003b 01       		.byte	0x1
   49 003c 08       		.byte	0x8
@@ -54,16 +54,16 @@ ARM GAS  /tmp/cc0EqP4a.s 			page 1
   51 0041 03       		.uleb128 0x3
   52 0042 02       		.byte	0x2
   53 0043 05       		.byte	0x5
-  54 0044 F2000000 		.4byte	.LASF3
+  54 0044 F9000000 		.4byte	.LASF3
   55 0048 03       		.uleb128 0x3
   56 0049 02       		.byte	0x2
   57 004a 07       		.byte	0x7
-ARM GAS  /tmp/cc0EqP4a.s 			page 2
+ARM GAS  /tmp/ccVmgj5V.s 			page 2
 
 
   58 004b 0E000000 		.4byte	.LASF4
   59 004f 04       		.uleb128 0x4
-  60 0050 FC000000 		.4byte	.LASF14
+  60 0050 03010000 		.4byte	.LASF14
   61 0054 01       		.byte	0x1
   62 0055 4F       		.byte	0x4f
   63 0056 5A000000 		.4byte	0x5a
@@ -86,7 +86,7 @@ ARM GAS  /tmp/cc0EqP4a.s 			page 1
   80 0076 03       		.uleb128 0x3
   81 0077 01       		.byte	0x1
   82 0078 02       		.byte	0x2
-  83 0079 C7000000 		.4byte	.LASF9
+  83 0079 CE000000 		.4byte	.LASF9
   84 007d 03       		.uleb128 0x3
   85 007e 01       		.byte	0x1
   86 007f 08       		.byte	0x8
@@ -94,7 +94,7 @@ ARM GAS  /tmp/cc0EqP4a.s 			page 1
   88 0084 05       		.uleb128 0x5
   89 0085 4F000000 		.4byte	0x4f
   90 0089 06       		.uleb128 0x6
-  91 008a D9000000 		.4byte	.LASF15
+  91 008a E0000000 		.4byte	.LASF15
   92 008e 02       		.byte	0x2
   93 008f 0706     		.2byte	0x607
   94 0091 84000000 		.4byte	0x84
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc0EqP4a.s 			page 1
  112 000c 01       		.uleb128 0x1
  113 000d 12       		.uleb128 0x12
  114 000e 01       		.uleb128 0x1
-ARM GAS  /tmp/cc0EqP4a.s 			page 3
+ARM GAS  /tmp/ccVmgj5V.s 			page 3
 
 
  115 000f 10       		.uleb128 0x10
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc0EqP4a.s 			page 1
  169 0045 05       		.uleb128 0x5
  170 0046 49       		.uleb128 0x49
  171 0047 13       		.uleb128 0x13
-ARM GAS  /tmp/cc0EqP4a.s 			page 4
+ARM GAS  /tmp/ccVmgj5V.s 			page 4
 
 
  172 0048 3F       		.uleb128 0x3f
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc0EqP4a.s 			page 1
  196      7200
  197              	.LASF10:
  198 009d 63686172 		.ascii	"char\000"
-ARM GAS  /tmp/cc0EqP4a.s 			page 5
+ARM GAS  /tmp/ccVmgj5V.s 			page 5
 
 
  198      00
@@ -247,36 +247,36 @@ ARM GAS  /tmp/cc0EqP4a.s 			page 1
  200      20696E74 
  200      00
  201              	.LASF13:
- 202 00ab 2F686F6D 		.ascii	"/home/aolsen/pros/9999-0.13\000"
+ 202 00ab 2F686F6D 		.ascii	"/home/aolsen/vrc-9999/TossUp-Joker\000"
  202      652F616F 
  202      6C73656E 
- 202      2F70726F 
- 202      732F3939 
+ 202      2F767263 
+ 202      2D393939 
  203              	.LASF9:
- 204 00c7 5F426F6F 		.ascii	"_Bool\000"
+ 204 00ce 5F426F6F 		.ascii	"_Bool\000"
  204      6C00
  205              	.LASF11:
- 206 00cd 474E5520 		.ascii	"GNU C 4.6.3\000"
+ 206 00d4 474E5520 		.ascii	"GNU C 4.6.3\000"
  206      4320342E 
  206      362E3300 
  207              	.LASF15:
- 208 00d9 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 208 00e0 49544D5F 		.ascii	"ITM_RxBuffer\000"
  208      52784275 
  208      66666572 
  208      00
  209              	.LASF1:
- 210 00e6 7369676E 		.ascii	"signed char\000"
+ 210 00ed 7369676E 		.ascii	"signed char\000"
  210      65642063 
  210      68617200 
  211              	.LASF3:
- 212 00f2 73686F72 		.ascii	"short int\000"
+ 212 00f9 73686F72 		.ascii	"short int\000"
  212      7420696E 
  212      7400
  213              	.LASF14:
- 214 00fc 696E7433 		.ascii	"int32_t\000"
+ 214 0103 696E7433 		.ascii	"int32_t\000"
  214      325F7400 
  215              		.ident	"GCC: (Sourcery CodeBench Lite 2012.03-56) 4.6.3"
-ARM GAS  /tmp/cc0EqP4a.s 			page 6
+ARM GAS  /tmp/ccVmgj5V.s 			page 6
 
 
 DEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccjUNKpy.s 			page 1
+ARM GAS  /tmp/ccbULlcr.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
   55              	.LBB15:
   56              	.LBB11:
   57              		.loc 1 356 0
-ARM GAS  /tmp/ccjUNKpy.s 			page 2
+ARM GAS  /tmp/ccbULlcr.s 			page 2
 
 
   58 0012 40F20003 		movw	r3, #:lower16:.LANCHOR1
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  109              		.cfi_offset 5, -16
  110              		.cfi_offset 4, -20
  111              		.cfi_offset 3, -24
-ARM GAS  /tmp/ccjUNKpy.s 			page 3
+ARM GAS  /tmp/ccbULlcr.s 			page 3
 
 
  112              		.loc 1 277 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  166 0050 43F8042C 		str	r2, [r3, #-4]
  167              		.loc 1 301 0
  168 0054 0833     		adds	r3, r3, #8
-ARM GAS  /tmp/ccjUNKpy.s 			page 4
+ARM GAS  /tmp/ccbULlcr.s 			page 4
 
 
  169 0056 A042     		cmp	r0, r4
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  223 00aa 0346     		mov	r3, r0
  224              		.loc 1 294 0
  225 00ac 40F20001 		movw	r1, #:lower16:.LANCHOR6
-ARM GAS  /tmp/ccjUNKpy.s 			page 5
+ARM GAS  /tmp/ccbULlcr.s 			page 5
 
 
  226              		.loc 1 293 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  278              		.loc 1 327 0
  279 000e FFF7FEFF 		bl	chHeapFree
  280              		.loc 1 329 0
-ARM GAS  /tmp/ccjUNKpy.s 			page 6
+ARM GAS  /tmp/ccbULlcr.s 			page 6
 
 
  281 0012 40F20003 		movw	r3, #:lower16:.LANCHOR5
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  330              		.loc 1 368 0
  331              		.cfi_startproc
  332              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccjUNKpy.s 			page 7
+ARM GAS  /tmp/ccbULlcr.s 			page 7
 
 
  333              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  387              	.LFE71:
  388              		.size	vexAudioSetNextChipTone, .-vexAudioSetNextChipTone
  389              		.section	.text.vexAudioDebugChipTone,"ax",%progbits
-ARM GAS  /tmp/ccjUNKpy.s 			page 8
+ARM GAS  /tmp/ccbULlcr.s 			page 8
 
 
  390              		.align	2
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  444              		.loc 1 404 0 discriminator 2
  445 0044 2868     		ldr	r0, [r5, #0]
  446 0046 0134     		adds	r4, r4, #1
-ARM GAS  /tmp/ccjUNKpy.s 			page 9
+ARM GAS  /tmp/ccbULlcr.s 			page 9
 
 
  447              	.LVL17:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  501              		.loc 1 490 0
  502 0020 C9BF     		itett	gt
  503 0022 1068     		ldrgt	r0, [r2, #0]
-ARM GAS  /tmp/ccjUNKpy.s 			page 10
+ARM GAS  /tmp/ccbULlcr.s 			page 10
 
 
  504              		.loc 1 488 0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  556      0080
  557              		.align	2
  558              		.p2align 4,,15
-ARM GAS  /tmp/ccjUNKpy.s 			page 11
+ARM GAS  /tmp/ccbULlcr.s 			page 11
 
 
  559              		.global	VSL_CreateSineWave
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  613 0036 2946     		mov	r1, r5
  614 0038 FFF7FEFF 		bl	__aeabi_fadd
  615 003c FFF7FEFF 		bl	__aeabi_f2d
-ARM GAS  /tmp/ccjUNKpy.s 			page 12
+ARM GAS  /tmp/ccbULlcr.s 			page 12
 
 
  616              		.loc 1 541 0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  669 0008 10B4     		push	{r4}
  670              	.LCFI7:
  671              		.cfi_def_cfa_offset 4
-ARM GAS  /tmp/ccjUNKpy.s 			page 13
+ARM GAS  /tmp/ccbULlcr.s 			page 13
 
 
  672              		.cfi_offset 4, -4
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  726 0054 B3F804C0 		ldrh	ip, [r3, #4]
  727 0058 2CF07001 		bic	r1, ip, #112
  728              	.LVL42:
-ARM GAS  /tmp/ccjUNKpy.s 			page 14
+ARM GAS  /tmp/ccbULlcr.s 			page 14
 
 
  729 005c 0804     		lsls	r0, r1, #16
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  781 0024 CCF81C10 		str	r1, [ip, #28]
  782              		.loc 1 623 0
  783 0028 C4F20004 		movt	r4, 16384
-ARM GAS  /tmp/ccjUNKpy.s 			page 15
+ARM GAS  /tmp/ccbULlcr.s 			page 15
 
 
  784 002c 2368     		ldr	r3, [r4, #0]
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  838 0084 2368     		ldr	r3, [r4, #0]
  839 0086 43F48052 		orr	r2, r3, #4096
  840 008a 2260     		str	r2, [r4, #0]
-ARM GAS  /tmp/ccjUNKpy.s 			page 16
+ARM GAS  /tmp/ccbULlcr.s 			page 16
 
 
  841              	.LVL51:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  893 001a 14B9     		cbnz	r4, .L58
  894              		.loc 1 174 0
  895 001c 2646     		mov	r6, r4
-ARM GAS  /tmp/ccjUNKpy.s 			page 17
+ARM GAS  /tmp/ccbULlcr.s 			page 17
 
 
  896              	.LVL54:
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  950 0088 C4F20002 		movt	r2, 16384
  951 008c 1188     		ldrh	r1, [r2, #0]
  952              		.loc 1 201 0
-ARM GAS  /tmp/ccjUNKpy.s 			page 18
+ARM GAS  /tmp/ccbULlcr.s 			page 18
 
 
  953 008e 40F2000C 		movw	ip, #:lower16:.LANCHOR0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1004              	.LFB73:
  1005              		.loc 1 426 0
  1006              		.cfi_startproc
-ARM GAS  /tmp/ccjUNKpy.s 			page 19
+ARM GAS  /tmp/ccbULlcr.s 			page 19
 
 
  1007              		@ args = 0, pretend = 0, frame = 0
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1061              		.loc 1 447 0
  1062 0054 2068     		ldr	r0, [r4, #0]
  1063              		.loc 1 450 0
-ARM GAS  /tmp/ccjUNKpy.s 			page 20
+ARM GAS  /tmp/ccbULlcr.s 			page 20
 
 
  1064 0056 2A68     		ldr	r2, [r5, #0]
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1118              		.loc 1 342 0
  1119 000e 40F20002 		movw	r2, #:lower16:.LANCHOR1
  1120              		.loc 1 343 0
-ARM GAS  /tmp/ccjUNKpy.s 			page 21
+ARM GAS  /tmp/ccbULlcr.s 			page 21
 
 
  1121 0012 40F2000C 		movw	ip, #:lower16:.LANCHOR6
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1175              		.loc 1 114 0
  1176 001e 40F20005 		movw	r5, #:lower16:.LANCHOR0
  1177              		.loc 1 110 0
-ARM GAS  /tmp/ccjUNKpy.s 			page 22
+ARM GAS  /tmp/ccbULlcr.s 			page 22
 
 
  1178 0022 C0F20006 		movt	r6, #:upper16:.LANCHOR12
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1232 005e 40F20000 		movw	r0, #:lower16:.LANCHOR12
  1233              		.loc 1 122 0
  1234 0062 B142     		cmp	r1, r6
-ARM GAS  /tmp/ccjUNKpy.s 			page 23
+ARM GAS  /tmp/ccbULlcr.s 			page 23
 
 
  1235              		.loc 1 123 0
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1289 009e 0028     		cmp	r0, #0
  1290 00a0 EBD1     		bne	.L82
  1291              	.LBB46:
-ARM GAS  /tmp/ccjUNKpy.s 			page 24
+ARM GAS  /tmp/ccbULlcr.s 			page 24
 
 
  1292              	.LBB41:
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1346              		.cfi_def_cfa_offset 40
  1347              		.loc 1 217 0
  1348 0008 C0F20004 		movt	r4, #:upper16:.LANCHOR12
-ARM GAS  /tmp/ccjUNKpy.s 			page 25
+ARM GAS  /tmp/ccbULlcr.s 			page 25
 
 
  1349              		.loc 1 213 0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1403 0016 030C     		lsrs	r3, r0, #16
  1404 0018 ACF80030 		strh	r3, [ip, #0]	@ movhi
  1405              		.loc 1 671 0
-ARM GAS  /tmp/ccjUNKpy.s 			page 26
+ARM GAS  /tmp/ccbULlcr.s 			page 26
 
 
  1406 001c C4F20002 		movt	r2, 16384
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1460              		.set	.LANCHOR10,. + 0
  1461              		.type	vslThread, %object
  1462              		.size	vslThread, 4
-ARM GAS  /tmp/ccjUNKpy.s 			page 27
+ARM GAS  /tmp/ccbULlcr.s 			page 27
 
 
  1463              	vslThread:
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1510      64202564 
  1510      0D0A00
  1511 000b 00       		.space	1
-ARM GAS  /tmp/ccjUNKpy.s 			page 28
+ARM GAS  /tmp/ccbULlcr.s 			page 28
 
 
  1512              	.LC1:
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1565              		.file 16 "../ChibiOS_2.6.2/os/ports/common/ARMCMx/CMSIS/include/core_cm3.h"
  1566              		.section	.debug_info,"",%progbits
  1567              	.Ldebug_info0:
-ARM GAS  /tmp/ccjUNKpy.s 			page 29
+ARM GAS  /tmp/ccbULlcr.s 			page 29
 
 
  1568 0000 FC100000 		.4byte	0x10fc
@@ -1686,10 +1686,10 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1570 0006 00000000 		.4byte	.Ldebug_abbrev0
  1571 000a 04       		.byte	0x4
  1572 000b 01       		.uleb128 0x1
- 1573 000c 7F060000 		.4byte	.LASF208
+ 1573 000c A2060000 		.4byte	.LASF208
  1574 0010 01       		.byte	0x1
- 1575 0011 ED030000 		.4byte	.LASF209
- 1576 0015 C7070000 		.4byte	.LASF210
+ 1575 0011 10040000 		.4byte	.LASF209
+ 1576 0015 AC020000 		.4byte	.LASF210
  1577 0019 00000000 		.4byte	0
  1578 001d 00000000 		.4byte	0
  1579 0021 C8000000 		.4byte	.Ldebug_ranges0+0xc8
@@ -1707,18 +1707,18 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1591 0039 06       		.byte	0x6
  1592 003a DF000000 		.4byte	.LASF1
  1593 003e 04       		.uleb128 0x4
- 1594 003f 3B080000 		.4byte	.LASF4
+ 1594 003f 4B080000 		.4byte	.LASF4
  1595 0043 02       		.byte	0x2
  1596 0044 2A       		.byte	0x2a
  1597 0045 49000000 		.4byte	0x49
  1598 0049 03       		.uleb128 0x3
  1599 004a 01       		.byte	0x1
  1600 004b 08       		.byte	0x8
- 1601 004c 81050000 		.4byte	.LASF2
+ 1601 004c A4050000 		.4byte	.LASF2
  1602 0050 03       		.uleb128 0x3
  1603 0051 02       		.byte	0x2
  1604 0052 05       		.byte	0x5
- 1605 0053 CA050000 		.4byte	.LASF3
+ 1605 0053 ED050000 		.4byte	.LASF3
  1606 0057 04       		.uleb128 0x4
  1607 0058 E3010000 		.4byte	.LASF5
  1608 005c 02       		.byte	0x2
@@ -1729,7 +1729,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1613 0064 07       		.byte	0x7
  1614 0065 15020000 		.4byte	.LASF6
  1615 0069 04       		.uleb128 0x4
- 1616 006a 79050000 		.4byte	.LASF7
+ 1616 006a 9C050000 		.4byte	.LASF7
  1617 006e 02       		.byte	0x2
  1618 006f 4F       		.byte	0x4f
  1619 0070 74000000 		.4byte	0x74
@@ -1738,17 +1738,17 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1622 0076 05       		.byte	0x5
  1623 0077 92010000 		.4byte	.LASF8
  1624 007b 04       		.uleb128 0x4
-ARM GAS  /tmp/ccjUNKpy.s 			page 30
+ARM GAS  /tmp/ccbULlcr.s 			page 30
 
 
- 1625 007c B8080000 		.4byte	.LASF9
+ 1625 007c EA070000 		.4byte	.LASF9
  1626 0080 02       		.byte	0x2
  1627 0081 50       		.byte	0x50
  1628 0082 86000000 		.4byte	0x86
  1629 0086 03       		.uleb128 0x3
  1630 0087 04       		.byte	0x4
  1631 0088 07       		.byte	0x7
- 1632 0089 95060000 		.4byte	.LASF10
+ 1632 0089 B8060000 		.4byte	.LASF10
  1633 008d 03       		.uleb128 0x3
  1634 008e 08       		.byte	0x8
  1635 008f 05       		.byte	0x5
@@ -1760,9 +1760,9 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1641 009b 03       		.uleb128 0x3
  1642 009c 01       		.byte	0x1
  1643 009d 02       		.byte	0x2
- 1644 009e 73050000 		.4byte	.LASF13
+ 1644 009e 96050000 		.4byte	.LASF13
  1645 00a2 04       		.uleb128 0x4
- 1646 00a3 81080000 		.4byte	.LASF14
+ 1646 00a3 91080000 		.4byte	.LASF14
  1647 00a7 03       		.byte	0x3
  1648 00a8 2C       		.byte	0x2c
  1649 00a9 3E000000 		.4byte	0x3e
@@ -1772,40 +1772,40 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1653 00b3 2D       		.byte	0x2d
  1654 00b4 3E000000 		.4byte	0x3e
  1655 00b8 04       		.uleb128 0x4
- 1656 00b9 16050000 		.4byte	.LASF16
+ 1656 00b9 39050000 		.4byte	.LASF16
  1657 00bd 03       		.byte	0x3
  1658 00be 2E       		.byte	0x2e
  1659 00bf 3E000000 		.4byte	0x3e
  1660 00c3 04       		.uleb128 0x4
- 1661 00c4 8B060000 		.4byte	.LASF17
+ 1661 00c4 AE060000 		.4byte	.LASF17
  1662 00c8 03       		.byte	0x3
  1663 00c9 2F       		.byte	0x2f
  1664 00ca 3E000000 		.4byte	0x3e
  1665 00ce 04       		.uleb128 0x4
- 1666 00cf 6B050000 		.4byte	.LASF18
+ 1666 00cf 8E050000 		.4byte	.LASF18
  1667 00d3 03       		.byte	0x3
  1668 00d4 30       		.byte	0x30
  1669 00d5 7B000000 		.4byte	0x7b
  1670 00d9 04       		.uleb128 0x4
- 1671 00da 0F030000 		.4byte	.LASF19
+ 1671 00da 32030000 		.4byte	.LASF19
  1672 00de 03       		.byte	0x3
  1673 00df 31       		.byte	0x31
  1674 00e0 69000000 		.4byte	0x69
  1675 00e4 04       		.uleb128 0x4
- 1676 00e5 BD030000 		.4byte	.LASF20
+ 1676 00e5 E0030000 		.4byte	.LASF20
  1677 00e9 03       		.byte	0x3
  1678 00ea 33       		.byte	0x33
  1679 00eb 7B000000 		.4byte	0x7b
  1680 00ef 04       		.uleb128 0x4
- 1681 00f0 BB070000 		.4byte	.LASF21
-ARM GAS  /tmp/ccjUNKpy.s 			page 31
+ 1681 00f0 DE070000 		.4byte	.LASF21
+ARM GAS  /tmp/ccbULlcr.s 			page 31
 
 
  1682 00f4 03       		.byte	0x3
  1683 00f5 34       		.byte	0x34
  1684 00f6 7B000000 		.4byte	0x7b
  1685 00fa 04       		.uleb128 0x4
- 1686 00fb 53070000 		.4byte	.LASF22
+ 1686 00fb 76070000 		.4byte	.LASF22
  1687 00ff 03       		.byte	0x3
  1688 0100 35       		.byte	0x35
  1689 0101 7B000000 		.4byte	0x7b
@@ -1826,7 +1826,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1704 0122 5E       		.byte	0x5e
  1705 0123 40020000 		.4byte	0x240
  1706 0127 06       		.uleb128 0x6
- 1707 0128 57040000 		.4byte	.LASF25
+ 1707 0128 7A040000 		.4byte	.LASF25
  1708 012c 05       		.byte	0x5
  1709 012d 5F       		.byte	0x5f
  1710 012e 65020000 		.4byte	0x265
@@ -1834,7 +1834,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1712 0133 23       		.byte	0x23
  1713 0134 00       		.uleb128 0
  1714 0135 06       		.uleb128 0x6
- 1715 0136 50050000 		.4byte	.LASF26
+ 1715 0136 73050000 		.4byte	.LASF26
  1716 013a 05       		.byte	0x5
  1717 013b 61       		.byte	0x61
  1718 013c 65020000 		.4byte	0x265
@@ -1850,7 +1850,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1728 014f 23       		.byte	0x23
  1729 0150 08       		.uleb128 0x8
  1730 0151 06       		.uleb128 0x6
- 1731 0152 C1080000 		.4byte	.LASF28
+ 1731 0152 C8080000 		.4byte	.LASF28
  1732 0156 05       		.byte	0x5
  1733 0157 64       		.byte	0x64
  1734 0158 33030000 		.4byte	0x333
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1736 015d 23       		.byte	0x23
  1737 015e 0C       		.uleb128 0xc
  1738 015f 06       		.uleb128 0x6
-ARM GAS  /tmp/ccjUNKpy.s 			page 32
+ARM GAS  /tmp/ccbULlcr.s 			page 32
 
 
  1739 0160 05020000 		.4byte	.LASF29
@@ -1869,7 +1869,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1744 016b 23       		.byte	0x23
  1745 016c 10       		.uleb128 0x10
  1746 016d 06       		.uleb128 0x6
- 1747 016e 66040000 		.4byte	.LASF30
+ 1747 016e 89040000 		.4byte	.LASF30
  1748 0172 05       		.byte	0x5
  1749 0173 67       		.byte	0x67
  1750 0174 65020000 		.4byte	0x265
@@ -1877,7 +1877,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1752 0179 23       		.byte	0x23
  1753 017a 14       		.uleb128 0x14
  1754 017b 06       		.uleb128 0x6
- 1755 017c 63080000 		.4byte	.LASF31
+ 1755 017c 73080000 		.4byte	.LASF31
  1756 0180 05       		.byte	0x5
  1757 0181 6E       		.byte	0x6e
  1758 0182 F5040000 		.4byte	0x4f5
@@ -1885,7 +1885,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1760 0187 23       		.byte	0x23
  1761 0188 18       		.uleb128 0x18
  1762 0189 06       		.uleb128 0x6
- 1763 018a D4050000 		.4byte	.LASF32
+ 1763 018a F7050000 		.4byte	.LASF32
  1764 018e 05       		.byte	0x5
  1765 018f 79       		.byte	0x79
  1766 0190 AD000000 		.4byte	0xad
@@ -1893,7 +1893,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1768 0195 23       		.byte	0x23
  1769 0196 1C       		.uleb128 0x1c
  1770 0197 06       		.uleb128 0x6
- 1771 0198 16060000 		.4byte	.LASF33
+ 1771 0198 39060000 		.4byte	.LASF33
  1772 019c 05       		.byte	0x5
  1773 019d 7D       		.byte	0x7d
  1774 019e A2000000 		.4byte	0xa2
@@ -1909,7 +1909,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1784 01b1 23       		.byte	0x23
  1785 01b2 1E       		.uleb128 0x1e
  1786 01b3 06       		.uleb128 0x6
- 1787 01b4 ED040000 		.4byte	.LASF35
+ 1787 01b4 10050000 		.4byte	.LASF35
  1788 01b8 05       		.byte	0x5
  1789 01b9 88       		.byte	0x88
  1790 01ba C3000000 		.4byte	0xc3
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1793 01c0 1F       		.uleb128 0x1f
  1794 01c1 06       		.uleb128 0x6
  1795 01c2 EC010000 		.4byte	.LASF36
-ARM GAS  /tmp/ccjUNKpy.s 			page 33
+ARM GAS  /tmp/ccbULlcr.s 			page 33
 
 
  1796 01c6 05       		.byte	0x5
@@ -1936,7 +1936,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1808 01db 23       		.byte	0x23
  1809 01dc 24       		.uleb128 0x24
  1810 01dd 06       		.uleb128 0x6
- 1811 01de C7080000 		.4byte	.LASF37
+ 1811 01de CE080000 		.4byte	.LASF37
  1812 01e2 05       		.byte	0x5
  1813 01e3 B9       		.byte	0xb9
  1814 01e4 8D020000 		.4byte	0x28d
@@ -1944,7 +1944,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1816 01e9 23       		.byte	0x23
  1817 01ea 28       		.uleb128 0x28
  1818 01eb 06       		.uleb128 0x6
- 1819 01ec C9020000 		.4byte	.LASF38
+ 1819 01ec EC020000 		.4byte	.LASF38
  1820 01f0 05       		.byte	0x5
  1821 01f1 BF       		.byte	0xbf
  1822 01f2 6B020000 		.4byte	0x26b
@@ -1952,7 +1952,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1824 01f7 23       		.byte	0x23
  1825 01f8 2C       		.uleb128 0x2c
  1826 01f9 06       		.uleb128 0x6
- 1827 01fa 91080000 		.4byte	.LASF39
+ 1827 01fa A1080000 		.4byte	.LASF39
  1828 01fe 05       		.byte	0x5
  1829 01ff C3       		.byte	0xc3
  1830 0200 D9000000 		.4byte	0xd9
@@ -1960,7 +1960,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1832 0205 23       		.byte	0x23
  1833 0206 34       		.uleb128 0x34
  1834 0207 06       		.uleb128 0x6
- 1835 0208 35060000 		.4byte	.LASF40
+ 1835 0208 58060000 		.4byte	.LASF40
  1836 020c 05       		.byte	0x5
  1837 020d C9       		.byte	0xc9
  1838 020e E4000000 		.4byte	0xe4
@@ -1968,7 +1968,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1840 0213 23       		.byte	0x23
  1841 0214 38       		.uleb128 0x38
  1842 0215 06       		.uleb128 0x6
- 1843 0216 C0050000 		.4byte	.LASF41
+ 1843 0216 E3050000 		.4byte	.LASF41
  1844 021a 05       		.byte	0x5
  1845 021b D0       		.byte	0xd0
  1846 021c 07050000 		.4byte	0x507
@@ -1976,9 +1976,9 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1848 0221 23       		.byte	0x23
  1849 0222 3C       		.uleb128 0x3c
  1850 0223 06       		.uleb128 0x6
- 1851 0224 5D070000 		.4byte	.LASF42
+ 1851 0224 80070000 		.4byte	.LASF42
  1852 0228 05       		.byte	0x5
-ARM GAS  /tmp/ccjUNKpy.s 			page 34
+ARM GAS  /tmp/ccbULlcr.s 			page 34
 
 
  1853 0229 D4       		.byte	0xd4
@@ -2001,7 +2001,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1870 0243 61       		.byte	0x61
  1871 0244 65020000 		.4byte	0x265
  1872 0248 06       		.uleb128 0x6
- 1873 0249 57040000 		.4byte	.LASF25
+ 1873 0249 7A040000 		.4byte	.LASF25
  1874 024d 04       		.byte	0x4
  1875 024e 62       		.byte	0x62
  1876 024f 65020000 		.4byte	0x265
@@ -2009,7 +2009,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1878 0254 23       		.byte	0x23
  1879 0255 00       		.uleb128 0
  1880 0256 06       		.uleb128 0x6
- 1881 0257 50050000 		.4byte	.LASF26
+ 1881 0257 73050000 		.4byte	.LASF26
  1882 025b 04       		.byte	0x4
  1883 025c 64       		.byte	0x64
  1884 025d 65020000 		.4byte	0x265
@@ -2021,7 +2021,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1890 0266 04       		.byte	0x4
  1891 0267 10010000 		.4byte	0x110
  1892 026b 04       		.uleb128 0x4
- 1893 026c 8E040000 		.4byte	.LASF44
+ 1893 026c B1040000 		.4byte	.LASF44
  1894 0270 04       		.byte	0x4
  1895 0271 66       		.byte	0x66
  1896 0272 40020000 		.4byte	0x240
@@ -2031,19 +2031,19 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1900 0279 6B       		.byte	0x6b
  1901 027a 8D020000 		.4byte	0x28d
  1902 027e 06       		.uleb128 0x6
- 1903 027f 57040000 		.4byte	.LASF25
+ 1903 027f 7A040000 		.4byte	.LASF25
  1904 0283 04       		.byte	0x4
  1905 0284 6D       		.byte	0x6d
  1906 0285 65020000 		.4byte	0x265
  1907 0289 02       		.byte	0x2
  1908 028a 23       		.byte	0x23
  1909 028b 00       		.uleb128 0
-ARM GAS  /tmp/ccjUNKpy.s 			page 35
+ARM GAS  /tmp/ccbULlcr.s 			page 35
 
 
  1910 028c 00       		.byte	0
  1911 028d 04       		.uleb128 0x4
- 1912 028e A9030000 		.4byte	.LASF45
+ 1912 028e CC030000 		.4byte	.LASF45
  1913 0292 04       		.byte	0x4
  1914 0293 70       		.byte	0x70
  1915 0294 76020000 		.4byte	0x276
@@ -2055,7 +2055,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1921 02a3 0A       		.uleb128 0xa
  1922 02a4 04       		.byte	0x4
  1923 02a5 0B       		.uleb128 0xb
- 1924 02a6 96070000 		.4byte	.LASF47
+ 1924 02a6 B9070000 		.4byte	.LASF47
  1925 02aa 24       		.byte	0x24
  1926 02ab 06       		.byte	0x6
  1927 02ac 0C01     		.2byte	0x10c
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  1964 02ef 2301     		.2byte	0x123
  1965 02f1 98020000 		.4byte	0x298
  1966 02f5 02       		.byte	0x2
-ARM GAS  /tmp/ccjUNKpy.s 			page 36
+ARM GAS  /tmp/ccbULlcr.s 			page 36
 
 
  1967 02f6 23       		.byte	0x23
@@ -2137,7 +2137,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2000 0331 20       		.uleb128 0x20
  2001 0332 00       		.byte	0
  2002 0333 0B       		.uleb128 0xb
- 2003 0334 78070000 		.4byte	.LASF48
+ 2003 0334 9B070000 		.4byte	.LASF48
  2004 0338 04       		.byte	0x4
  2005 0339 06       		.byte	0x6
  2006 033a 3101     		.2byte	0x131
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2021 0357 7B000000 		.4byte	0x7b
  2022 035b 0D       		.uleb128 0xd
  2023 035c FA000000 		.4byte	0xfa
-ARM GAS  /tmp/ccjUNKpy.s 			page 37
+ARM GAS  /tmp/ccbULlcr.s 			page 37
 
 
  2024 0360 08       		.uleb128 0x8
@@ -2167,7 +2167,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2027 0363 5E       		.byte	0x5e
  2028 0364 BD030000 		.4byte	0x3bd
  2029 0368 06       		.uleb128 0x6
- 2030 0369 66060000 		.4byte	.LASF49
+ 2030 0369 89060000 		.4byte	.LASF49
  2031 036d 07       		.byte	0x7
  2032 036e 5F       		.byte	0x5f
  2033 036f 6B020000 		.4byte	0x26b
@@ -2175,7 +2175,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2035 0374 23       		.byte	0x23
  2036 0375 00       		.uleb128 0
  2037 0376 06       		.uleb128 0x6
- 2038 0377 EF050000 		.4byte	.LASF50
+ 2038 0377 12060000 		.4byte	.LASF50
  2039 037b 07       		.byte	0x7
  2040 037c 60       		.byte	0x60
  2041 037d CE000000 		.4byte	0xce
@@ -2183,7 +2183,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2043 0382 23       		.byte	0x23
  2044 0383 08       		.uleb128 0x8
  2045 0384 06       		.uleb128 0x6
- 2046 0385 6E040000 		.4byte	.LASF51
+ 2046 0385 91040000 		.4byte	.LASF51
  2047 0389 07       		.byte	0x7
  2048 038a 62       		.byte	0x62
  2049 038b 33030000 		.4byte	0x333
@@ -2199,7 +2199,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2059 039e 23       		.byte	0x23
  2060 039f 10       		.uleb128 0x10
  2061 03a0 06       		.uleb128 0x6
- 2062 03a1 BB040000 		.4byte	.LASF53
+ 2062 03a1 DE040000 		.4byte	.LASF53
  2063 03a5 07       		.byte	0x7
  2064 03a6 66       		.byte	0x66
  2065 03a7 65020000 		.4byte	0x265
@@ -2207,7 +2207,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2067 03ac 23       		.byte	0x23
  2068 03ad 14       		.uleb128 0x14
  2069 03ae 06       		.uleb128 0x6
- 2070 03af B1040000 		.4byte	.LASF54
+ 2070 03af D4040000 		.4byte	.LASF54
  2071 03b3 07       		.byte	0x7
  2072 03b4 69       		.byte	0x69
  2073 03b5 65020000 		.4byte	0x265
@@ -2218,13 +2218,13 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2078 03bd 04       		.uleb128 0x4
  2079 03be 1E000000 		.4byte	.LASF55
  2080 03c2 07       		.byte	0x7
-ARM GAS  /tmp/ccjUNKpy.s 			page 38
+ARM GAS  /tmp/ccbULlcr.s 			page 38
 
 
  2081 03c3 6B       		.byte	0x6b
  2082 03c4 60030000 		.4byte	0x360
  2083 03c8 05       		.uleb128 0x5
- 2084 03c9 B1070000 		.4byte	.LASF56
+ 2084 03c9 D4070000 		.4byte	.LASF56
  2085 03cd 0C       		.byte	0xc
  2086 03ce 08       		.byte	0x8
  2087 03cf 2C       		.byte	0x2c
@@ -2238,7 +2238,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2095 03e0 23       		.byte	0x23
  2096 03e1 00       		.uleb128 0
  2097 03e2 06       		.uleb128 0x6
- 2098 03e3 FB020000 		.4byte	.LASF58
+ 2098 03e3 1E030000 		.4byte	.LASF58
  2099 03e7 08       		.byte	0x8
  2100 03e8 2F       		.byte	0x2f
  2101 03e9 05010000 		.4byte	0x105
@@ -2247,12 +2247,12 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2104 03ef 08       		.uleb128 0x8
  2105 03f0 00       		.byte	0
  2106 03f1 04       		.uleb128 0x4
- 2107 03f2 B1070000 		.4byte	.LASF56
+ 2107 03f2 D4070000 		.4byte	.LASF56
  2108 03f6 08       		.byte	0x8
  2109 03f7 30       		.byte	0x30
  2110 03f8 C8030000 		.4byte	0x3c8
  2111 03fc 05       		.uleb128 0x5
- 2112 03fd 36040000 		.4byte	.LASF59
+ 2112 03fd 59040000 		.4byte	.LASF59
  2113 0401 10       		.byte	0x10
  2114 0402 09       		.byte	0x9
  2115 0403 2C       		.byte	0x2c
@@ -2266,7 +2266,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2123 0414 23       		.byte	0x23
  2124 0415 00       		.uleb128 0
  2125 0416 06       		.uleb128 0x6
- 2126 0417 A8080000 		.4byte	.LASF61
+ 2126 0417 B8080000 		.4byte	.LASF61
  2127 041b 09       		.byte	0x9
  2128 041c 2F       		.byte	0x2f
  2129 041d 65020000 		.4byte	0x265
@@ -2274,11 +2274,11 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2131 0422 23       		.byte	0x23
  2132 0423 08       		.uleb128 0x8
  2133 0424 06       		.uleb128 0x6
- 2134 0425 A2040000 		.4byte	.LASF62
+ 2134 0425 C5040000 		.4byte	.LASF62
  2135 0429 09       		.byte	0x9
  2136 042a 31       		.byte	0x31
  2137 042b 33040000 		.4byte	0x433
-ARM GAS  /tmp/ccjUNKpy.s 			page 39
+ARM GAS  /tmp/ccbULlcr.s 			page 39
 
 
  2138 042f 02       		.byte	0x2
@@ -2289,23 +2289,23 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2143 0434 04       		.byte	0x4
  2144 0435 FC030000 		.4byte	0x3fc
  2145 0439 04       		.uleb128 0x4
- 2146 043a 36040000 		.4byte	.LASF59
+ 2146 043a 59040000 		.4byte	.LASF59
  2147 043e 09       		.byte	0x9
  2148 043f 33       		.byte	0x33
  2149 0440 FC030000 		.4byte	0x3fc
  2150 0444 04       		.uleb128 0x4
- 2151 0445 4E080000 		.4byte	.LASF63
+ 2151 0445 5E080000 		.4byte	.LASF63
  2152 0449 0A       		.byte	0xa
  2153 044a 2C       		.byte	0x2c
  2154 044b 4F040000 		.4byte	0x44f
  2155 044f 05       		.uleb128 0x5
- 2156 0450 4E080000 		.4byte	.LASF63
+ 2156 0450 5E080000 		.4byte	.LASF63
  2157 0454 10       		.byte	0x10
  2158 0455 0A       		.byte	0xa
  2159 0456 31       		.byte	0x31
  2160 0457 94040000 		.4byte	0x494
  2161 045b 06       		.uleb128 0x6
- 2162 045c 2A030000 		.4byte	.LASF64
+ 2162 045c 4D030000 		.4byte	.LASF64
  2163 0460 0A       		.byte	0xa
  2164 0461 32       		.byte	0x32
  2165 0462 94040000 		.4byte	0x494
@@ -2313,7 +2313,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2167 0467 23       		.byte	0x23
  2168 0468 00       		.uleb128 0
  2169 0469 06       		.uleb128 0x6
- 2170 046a A2050000 		.4byte	.LASF65
+ 2170 046a C5050000 		.4byte	.LASF65
  2171 046e 0A       		.byte	0xa
  2172 046f 35       		.byte	0x35
  2173 0470 65020000 		.4byte	0x265
@@ -2321,7 +2321,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2175 0475 23       		.byte	0x23
  2176 0476 04       		.uleb128 0x4
  2177 0477 06       		.uleb128 0x6
- 2178 0478 5E040000 		.4byte	.LASF66
+ 2178 0478 81040000 		.4byte	.LASF66
  2179 047c 0A       		.byte	0xa
  2180 047d 37       		.byte	0x37
  2181 047e E4000000 		.4byte	0xe4
@@ -2329,7 +2329,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2183 0483 23       		.byte	0x23
  2184 0484 08       		.uleb128 0x8
  2185 0485 06       		.uleb128 0x6
- 2186 0486 B7050000 		.4byte	.LASF67
+ 2186 0486 DA050000 		.4byte	.LASF67
  2187 048a 0A       		.byte	0xa
  2188 048b 3A       		.byte	0x3a
  2189 048c EF000000 		.4byte	0xef
@@ -2338,19 +2338,19 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2192 0492 0C       		.uleb128 0xc
  2193 0493 00       		.byte	0
  2194 0494 09       		.uleb128 0x9
-ARM GAS  /tmp/ccjUNKpy.s 			page 40
+ARM GAS  /tmp/ccbULlcr.s 			page 40
 
 
  2195 0495 04       		.byte	0x4
  2196 0496 44040000 		.4byte	0x444
  2197 049a 05       		.uleb128 0x5
- 2198 049b 06080000 		.4byte	.LASF68
+ 2198 049b 16080000 		.4byte	.LASF68
  2199 049f 04       		.byte	0x4
  2200 04a0 0A       		.byte	0xa
  2201 04a1 41       		.byte	0x41
  2202 04a2 B5040000 		.4byte	0x4b5
  2203 04a6 06       		.uleb128 0x6
- 2204 04a7 FE070000 		.4byte	.LASF69
+ 2204 04a7 0E080000 		.4byte	.LASF69
  2205 04ab 0A       		.byte	0xa
  2206 04ac 42       		.byte	0x42
  2207 04ad 94040000 		.4byte	0x494
@@ -2359,7 +2359,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2210 04b3 00       		.uleb128 0
  2211 04b4 00       		.byte	0
  2212 04b5 04       		.uleb128 0x4
- 2213 04b6 06080000 		.4byte	.LASF68
+ 2213 04b6 16080000 		.4byte	.LASF68
  2214 04ba 0A       		.byte	0xa
  2215 04bb 45       		.byte	0x45
  2216 04bc 9A040000 		.4byte	0x49a
@@ -2379,12 +2379,12 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2230 04d9 A4       		.byte	0xa4
  2231 04da D9000000 		.4byte	0xd9
  2232 04de 0F       		.uleb128 0xf
- 2233 04df 5C080000 		.4byte	.LASF72
+ 2233 04df 6C080000 		.4byte	.LASF72
  2234 04e3 05       		.byte	0x5
  2235 04e4 AB       		.byte	0xab
  2236 04e5 A3020000 		.4byte	0x2a3
  2237 04e9 0F       		.uleb128 0xf
- 2238 04ea F6050000 		.4byte	.LASF73
+ 2238 04ea 19060000 		.4byte	.LASF73
  2239 04ee 05       		.byte	0x5
  2240 04ef B2       		.byte	0xb2
  2241 04f0 E4000000 		.4byte	0xe4
@@ -2397,8 +2397,8 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2248 0500 03       		.uleb128 0x3
  2249 0501 01       		.byte	0x1
  2250 0502 08       		.byte	0x8
- 2251 0503 AE060000 		.4byte	.LASF74
-ARM GAS  /tmp/ccjUNKpy.s 			page 41
+ 2251 0503 D1060000 		.4byte	.LASF74
+ARM GAS  /tmp/ccbULlcr.s 			page 41
 
 
  2252 0507 09       		.uleb128 0x9
@@ -2422,7 +2422,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2270 052c 23       		.byte	0x23
  2271 052d 00       		.uleb128 0
  2272 052e 12       		.uleb128 0x12
- 2273 052f 12080000 		.4byte	.LASF75
+ 2273 052f 22080000 		.4byte	.LASF75
  2274 0533 0B       		.byte	0xb
  2275 0534 0E03     		.2byte	0x30e
  2276 0536 56030000 		.4byte	0x356
@@ -2430,7 +2430,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2278 053b 23       		.byte	0x23
  2279 053c 04       		.uleb128 0x4
  2280 053d 12       		.uleb128 0x12
- 2281 053e 56060000 		.4byte	.LASF76
+ 2281 053e 79060000 		.4byte	.LASF76
  2282 0542 0B       		.byte	0xb
  2283 0543 0F03     		.2byte	0x30f
  2284 0545 56030000 		.4byte	0x356
@@ -2438,7 +2438,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2286 054a 23       		.byte	0x23
  2287 054b 08       		.uleb128 0x8
  2288 054c 12       		.uleb128 0x12
- 2289 054d 68070000 		.4byte	.LASF77
+ 2289 054d 8B070000 		.4byte	.LASF77
  2290 0551 0B       		.byte	0xb
  2291 0552 1003     		.2byte	0x310
  2292 0554 56030000 		.4byte	0x356
@@ -2454,18 +2454,18 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2302 0568 23       		.byte	0x23
  2303 0569 10       		.uleb128 0x10
  2304 056a 12       		.uleb128 0x12
- 2305 056b 5E060000 		.4byte	.LASF79
+ 2305 056b 81060000 		.4byte	.LASF79
  2306 056f 0B       		.byte	0xb
  2307 0570 1203     		.2byte	0x312
  2308 0572 56030000 		.4byte	0x356
-ARM GAS  /tmp/ccjUNKpy.s 			page 42
+ARM GAS  /tmp/ccbULlcr.s 			page 42
 
 
  2309 0576 02       		.byte	0x2
  2310 0577 23       		.byte	0x23
  2311 0578 14       		.uleb128 0x14
  2312 0579 12       		.uleb128 0x12
- 2313 057a 89080000 		.4byte	.LASF80
+ 2313 057a 99080000 		.4byte	.LASF80
  2314 057e 0B       		.byte	0xb
  2315 057f 1303     		.2byte	0x313
  2316 0581 56030000 		.4byte	0x356
@@ -2473,7 +2473,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2318 0586 23       		.byte	0x23
  2319 0587 18       		.uleb128 0x18
  2320 0588 12       		.uleb128 0x12
- 2321 0589 2E060000 		.4byte	.LASF81
+ 2321 0589 51060000 		.4byte	.LASF81
  2322 058d 0B       		.byte	0xb
  2323 058e 1403     		.2byte	0x314
  2324 0590 56030000 		.4byte	0x356
@@ -2481,7 +2481,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2326 0595 23       		.byte	0x23
  2327 0596 1C       		.uleb128 0x1c
  2328 0597 12       		.uleb128 0x12
- 2329 0598 F9060000 		.4byte	.LASF82
+ 2329 0598 1C070000 		.4byte	.LASF82
  2330 059c 0B       		.byte	0xb
  2331 059d 1503     		.2byte	0x315
  2332 059f 56030000 		.4byte	0x356
@@ -2489,7 +2489,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2334 05a4 23       		.byte	0x23
  2335 05a5 20       		.uleb128 0x20
  2336 05a6 12       		.uleb128 0x12
- 2337 05a7 B0080000 		.4byte	.LASF83
+ 2337 05a7 C0080000 		.4byte	.LASF83
  2338 05ab 0B       		.byte	0xb
  2339 05ac 1603     		.2byte	0x316
  2340 05ae 56030000 		.4byte	0x356
@@ -2497,7 +2497,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2342 05b3 23       		.byte	0x23
  2343 05b4 24       		.uleb128 0x24
  2344 05b5 12       		.uleb128 0x12
- 2345 05b6 78060000 		.4byte	.LASF84
+ 2345 05b6 9B060000 		.4byte	.LASF84
  2346 05ba 0B       		.byte	0xb
  2347 05bb 1703     		.2byte	0x317
  2348 05bd 56030000 		.4byte	0x356
@@ -2505,7 +2505,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2350 05c2 23       		.byte	0x23
  2351 05c3 28       		.uleb128 0x28
  2352 05c4 12       		.uleb128 0x12
- 2353 05c5 F7040000 		.4byte	.LASF85
+ 2353 05c5 1A050000 		.4byte	.LASF85
  2354 05c9 0B       		.byte	0xb
  2355 05ca 1803     		.2byte	0x318
  2356 05cc 56030000 		.4byte	0x356
@@ -2513,19 +2513,19 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2358 05d1 23       		.byte	0x23
  2359 05d2 2C       		.uleb128 0x2c
  2360 05d3 12       		.uleb128 0x12
- 2361 05d4 FC040000 		.4byte	.LASF86
+ 2361 05d4 1F050000 		.4byte	.LASF86
  2362 05d8 0B       		.byte	0xb
  2363 05d9 1903     		.2byte	0x319
  2364 05db 56030000 		.4byte	0x356
  2365 05df 02       		.byte	0x2
-ARM GAS  /tmp/ccjUNKpy.s 			page 43
+ARM GAS  /tmp/ccbULlcr.s 			page 43
 
 
  2366 05e0 23       		.byte	0x23
  2367 05e1 30       		.uleb128 0x30
  2368 05e2 00       		.byte	0
  2369 05e3 13       		.uleb128 0x13
- 2370 05e4 F2070000 		.4byte	.LASF87
+ 2370 05e4 02080000 		.4byte	.LASF87
  2371 05e8 0B       		.byte	0xb
  2372 05e9 1D03     		.2byte	0x31d
  2373 05eb 17050000 		.4byte	0x517
@@ -2543,7 +2543,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2385 0605 23       		.byte	0x23
  2386 0606 00       		.uleb128 0
  2387 0607 12       		.uleb128 0x12
- 2388 0608 1A080000 		.4byte	.LASF88
+ 2388 0608 2A080000 		.4byte	.LASF88
  2389 060c 0B       		.byte	0xb
  2390 060d 3003     		.2byte	0x330
  2391 060f 56030000 		.4byte	0x356
@@ -2551,7 +2551,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2393 0614 23       		.byte	0x23
  2394 0615 04       		.uleb128 0x4
  2395 0616 12       		.uleb128 0x12
- 2396 0617 AC020000 		.4byte	.LASF89
+ 2396 0617 CF020000 		.4byte	.LASF89
  2397 061b 0B       		.byte	0xb
  2398 061c 3103     		.2byte	0x331
  2399 061e 56030000 		.4byte	0x356
@@ -2559,7 +2559,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2401 0623 23       		.byte	0x23
  2402 0624 08       		.uleb128 0x8
  2403 0625 12       		.uleb128 0x12
- 2404 0626 DF030000 		.4byte	.LASF90
+ 2404 0626 02040000 		.4byte	.LASF90
  2405 062a 0B       		.byte	0xb
  2406 062b 3203     		.2byte	0x332
  2407 062d 56030000 		.4byte	0x356
@@ -2568,7 +2568,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2410 0633 0C       		.uleb128 0xc
  2411 0634 00       		.byte	0
  2412 0635 13       		.uleb128 0x13
- 2413 0636 E0020000 		.4byte	.LASF91
+ 2413 0636 03030000 		.4byte	.LASF91
  2414 063a 0B       		.byte	0xb
  2415 063b 3303     		.2byte	0x333
  2416 063d EF050000 		.4byte	0x5ef
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2420 0644 4304     		.2byte	0x443
  2421 0646 E0060000 		.4byte	0x6e0
  2422 064a 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccjUNKpy.s 			page 44
+ARM GAS  /tmp/ccbULlcr.s 			page 44
 
 
  2423 064b 435200   		.ascii	"CR\000"
@@ -2589,7 +2589,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2428 0656 23       		.byte	0x23
  2429 0657 00       		.uleb128 0
  2430 0658 12       		.uleb128 0x12
- 2431 0659 7C080000 		.4byte	.LASF92
+ 2431 0659 8C080000 		.4byte	.LASF92
  2432 065d 0B       		.byte	0xb
  2433 065e 4604     		.2byte	0x446
  2434 0660 56030000 		.4byte	0x356
@@ -2621,7 +2621,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2460 0692 23       		.byte	0x23
  2461 0693 10       		.uleb128 0x10
  2462 0694 12       		.uleb128 0x12
- 2463 0695 15030000 		.4byte	.LASF95
+ 2463 0695 38030000 		.4byte	.LASF95
  2464 0699 0B       		.byte	0xb
  2465 069a 4A04     		.2byte	0x44a
  2466 069c 56030000 		.4byte	0x356
@@ -2629,7 +2629,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2468 06a1 23       		.byte	0x23
  2469 06a2 14       		.uleb128 0x14
  2470 06a3 12       		.uleb128 0x12
- 2471 06a4 1E060000 		.4byte	.LASF96
+ 2471 06a4 41060000 		.4byte	.LASF96
  2472 06a8 0B       		.byte	0xb
  2473 06a9 4B04     		.2byte	0x44b
  2474 06ab 56030000 		.4byte	0x356
@@ -2637,8 +2637,8 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2476 06b0 23       		.byte	0x23
  2477 06b1 18       		.uleb128 0x18
  2478 06b2 12       		.uleb128 0x12
- 2479 06b3 70070000 		.4byte	.LASF97
-ARM GAS  /tmp/ccjUNKpy.s 			page 45
+ 2479 06b3 93070000 		.4byte	.LASF97
+ARM GAS  /tmp/ccbULlcr.s 			page 45
 
 
  2480 06b7 0B       		.byte	0xb
@@ -2648,7 +2648,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2484 06bf 23       		.byte	0x23
  2485 06c0 1C       		.uleb128 0x1c
  2486 06c1 12       		.uleb128 0x12
- 2487 06c2 20080000 		.4byte	.LASF98
+ 2487 06c2 30080000 		.4byte	.LASF98
  2488 06c6 0B       		.byte	0xb
  2489 06c7 4D04     		.2byte	0x44d
  2490 06c9 56030000 		.4byte	0x356
@@ -2665,7 +2665,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2501 06de 24       		.uleb128 0x24
  2502 06df 00       		.byte	0
  2503 06e0 13       		.uleb128 0x13
- 2504 06e1 D4020000 		.4byte	.LASF99
+ 2504 06e1 F7020000 		.4byte	.LASF99
  2505 06e5 0B       		.byte	0xb
  2506 06e6 5904     		.2byte	0x459
  2507 06e8 41060000 		.4byte	0x641
@@ -2683,7 +2683,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2519 0702 23       		.byte	0x23
  2520 0703 00       		.uleb128 0
  2521 0704 12       		.uleb128 0x12
- 2522 0705 1E050000 		.4byte	.LASF100
+ 2522 0705 41050000 		.4byte	.LASF100
  2523 0709 0B       		.byte	0xb
  2524 070a B404     		.2byte	0x4b4
  2525 070c 57000000 		.4byte	0x57
@@ -2698,11 +2698,11 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2534 071f 02       		.byte	0x2
  2535 0720 23       		.byte	0x23
  2536 0721 04       		.uleb128 0x4
-ARM GAS  /tmp/ccjUNKpy.s 			page 46
+ARM GAS  /tmp/ccbULlcr.s 			page 46
 
 
  2537 0722 12       		.uleb128 0x12
- 2538 0723 28050000 		.4byte	.LASF101
+ 2538 0723 4B050000 		.4byte	.LASF101
  2539 0727 0B       		.byte	0xb
  2540 0728 B604     		.2byte	0x4b6
  2541 072a 57000000 		.4byte	0x57
@@ -2710,7 +2710,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2543 072f 23       		.byte	0x23
  2544 0730 06       		.uleb128 0x6
  2545 0731 12       		.uleb128 0x12
- 2546 0732 01030000 		.4byte	.LASF102
+ 2546 0732 24030000 		.4byte	.LASF102
  2547 0736 0B       		.byte	0xb
  2548 0737 B704     		.2byte	0x4b7
  2549 0739 0D050000 		.4byte	0x50d
@@ -2718,7 +2718,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2551 073e 23       		.byte	0x23
  2552 073f 08       		.uleb128 0x8
  2553 0740 12       		.uleb128 0x12
- 2554 0741 32050000 		.4byte	.LASF103
+ 2554 0741 55050000 		.4byte	.LASF103
  2555 0745 0B       		.byte	0xb
  2556 0746 B804     		.2byte	0x4b8
  2557 0748 57000000 		.4byte	0x57
@@ -2734,7 +2734,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2567 075c 23       		.byte	0x23
  2568 075d 0C       		.uleb128 0xc
  2569 075e 12       		.uleb128 0x12
- 2570 075f 3C050000 		.4byte	.LASF105
+ 2570 075f 5F050000 		.4byte	.LASF105
  2571 0763 0B       		.byte	0xb
  2572 0764 BA04     		.2byte	0x4ba
  2573 0766 57000000 		.4byte	0x57
@@ -2750,7 +2750,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2583 0779 23       		.byte	0x23
  2584 077a 10       		.uleb128 0x10
  2585 077b 12       		.uleb128 0x12
- 2586 077c 46050000 		.4byte	.LASF106
+ 2586 077c 69050000 		.4byte	.LASF106
  2587 0780 0B       		.byte	0xb
  2588 0781 BC04     		.2byte	0x4bc
  2589 0783 57000000 		.4byte	0x57
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2591 0788 23       		.byte	0x23
  2592 0789 12       		.uleb128 0x12
  2593 078a 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccjUNKpy.s 			page 47
+ARM GAS  /tmp/ccbULlcr.s 			page 47
 
 
  2594 078b 45475200 		.ascii	"EGR\000"
@@ -2769,7 +2769,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2599 0797 23       		.byte	0x23
  2600 0798 14       		.uleb128 0x14
  2601 0799 12       		.uleb128 0x12
- 2602 079a 4C060000 		.4byte	.LASF107
+ 2602 079a 6F060000 		.4byte	.LASF107
  2603 079e 0B       		.byte	0xb
  2604 079f BE04     		.2byte	0x4be
  2605 07a1 57000000 		.4byte	0x57
@@ -2785,7 +2785,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2615 07b5 23       		.byte	0x23
  2616 07b6 18       		.uleb128 0x18
  2617 07b7 12       		.uleb128 0x12
- 2618 07b8 57050000 		.4byte	.LASF109
+ 2618 07b8 7A050000 		.4byte	.LASF109
  2619 07bc 0B       		.byte	0xb
  2620 07bd C004     		.2byte	0x4c0
  2621 07bf 57000000 		.4byte	0x57
@@ -2801,7 +2801,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2631 07d3 23       		.byte	0x23
  2632 07d4 1C       		.uleb128 0x1c
  2633 07d5 12       		.uleb128 0x12
- 2634 07d6 A7070000 		.4byte	.LASF111
+ 2634 07d6 CA070000 		.4byte	.LASF111
  2635 07da 0B       		.byte	0xb
  2636 07db C204     		.2byte	0x4c2
  2637 07dd 57000000 		.4byte	0x57
@@ -2809,7 +2809,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2639 07e2 23       		.byte	0x23
  2640 07e3 1E       		.uleb128 0x1e
  2641 07e4 12       		.uleb128 0x12
- 2642 07e5 41070000 		.4byte	.LASF112
+ 2642 07e5 64070000 		.4byte	.LASF112
  2643 07e9 0B       		.byte	0xb
  2644 07ea C304     		.2byte	0x4c3
  2645 07ec 0D050000 		.4byte	0x50d
@@ -2817,8 +2817,8 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2647 07f1 23       		.byte	0x23
  2648 07f2 20       		.uleb128 0x20
  2649 07f3 12       		.uleb128 0x12
- 2650 07f4 61050000 		.4byte	.LASF113
-ARM GAS  /tmp/ccjUNKpy.s 			page 48
+ 2650 07f4 84050000 		.4byte	.LASF113
+ARM GAS  /tmp/ccbULlcr.s 			page 48
 
 
  2651 07f8 0B       		.byte	0xb
@@ -2836,7 +2836,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2663 080f 23       		.byte	0x23
  2664 0810 24       		.uleb128 0x24
  2665 0811 12       		.uleb128 0x12
- 2666 0812 6E060000 		.4byte	.LASF114
+ 2666 0812 91060000 		.4byte	.LASF114
  2667 0816 0B       		.byte	0xb
  2668 0817 C604     		.2byte	0x4c6
  2669 0819 57000000 		.4byte	0x57
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2705 085c 0C       		.uleb128 0xc
  2706 085d 52435200 		.ascii	"RCR\000"
  2707 0861 0B       		.byte	0xb
-ARM GAS  /tmp/ccjUNKpy.s 			page 49
+ARM GAS  /tmp/ccbULlcr.s 			page 49
 
 
  2708 0862 CB04     		.2byte	0x4cb
@@ -2895,7 +2895,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2719 0878 23       		.byte	0x23
  2720 0879 32       		.uleb128 0x32
  2721 087a 12       		.uleb128 0x12
- 2722 087b E3070000 		.4byte	.LASF118
+ 2722 087b F3070000 		.4byte	.LASF118
  2723 087f 0B       		.byte	0xb
  2724 0880 CD04     		.2byte	0x4cd
  2725 0882 0D050000 		.4byte	0x50d
@@ -2911,7 +2911,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2735 0896 23       		.byte	0x23
  2736 0897 36       		.uleb128 0x36
  2737 0898 12       		.uleb128 0x12
- 2738 0899 E8070000 		.4byte	.LASF120
+ 2738 0899 F8070000 		.4byte	.LASF120
  2739 089d 0B       		.byte	0xb
  2740 089e CF04     		.2byte	0x4cf
  2741 08a0 0D050000 		.4byte	0x50d
@@ -2927,7 +2927,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2751 08b4 23       		.byte	0x23
  2752 08b5 3A       		.uleb128 0x3a
  2753 08b6 12       		.uleb128 0x12
- 2754 08b7 ED070000 		.4byte	.LASF122
+ 2754 08b7 FD070000 		.4byte	.LASF122
  2755 08bb 0B       		.byte	0xb
  2756 08bc D104     		.2byte	0x4d1
  2757 08be 0D050000 		.4byte	0x50d
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2762 08c6 5B010000 		.4byte	.LASF123
  2763 08ca 0B       		.byte	0xb
  2764 08cb D204     		.2byte	0x4d2
-ARM GAS  /tmp/ccjUNKpy.s 			page 50
+ARM GAS  /tmp/ccbULlcr.s 			page 50
 
 
  2765 08cd 57000000 		.4byte	0x57
@@ -2994,11 +2994,11 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2815 092c 23       		.byte	0x23
  2816 092d 4A       		.uleb128 0x4a
  2817 092e 12       		.uleb128 0x12
- 2818 092f 0F070000 		.4byte	.LASF129
+ 2818 092f 32070000 		.4byte	.LASF129
  2819 0933 0B       		.byte	0xb
  2820 0934 D904     		.2byte	0x4d9
  2821 0936 0D050000 		.4byte	0x50d
-ARM GAS  /tmp/ccjUNKpy.s 			page 51
+ARM GAS  /tmp/ccbULlcr.s 			page 51
 
 
  2822 093a 02       		.byte	0x2
@@ -3024,7 +3024,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2842 095c C1       		.byte	0xc1
  2843 095d A8090000 		.4byte	0x9a8
  2844 0961 06       		.uleb128 0x6
- 2845 0962 26060000 		.4byte	.LASF132
+ 2845 0962 49060000 		.4byte	.LASF132
  2846 0966 0C       		.byte	0xc
  2847 0967 C2       		.byte	0xc2
  2848 0968 A8090000 		.4byte	0x9a8
@@ -3032,7 +3032,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2850 096d 23       		.byte	0x23
  2851 096e 00       		.uleb128 0
  2852 096f 06       		.uleb128 0x6
- 2853 0970 07050000 		.4byte	.LASF133
+ 2853 0970 2A050000 		.4byte	.LASF133
  2854 0974 0C       		.byte	0xc
  2855 0975 C3       		.byte	0xc3
  2856 0976 AE090000 		.4byte	0x9ae
@@ -3040,7 +3040,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2858 097b 23       		.byte	0x23
  2859 097c 04       		.uleb128 0x4
  2860 097d 06       		.uleb128 0x6
- 2861 097e F4020000 		.4byte	.LASF134
+ 2861 097e 17030000 		.4byte	.LASF134
  2862 0982 0C       		.byte	0xc
  2863 0983 C4       		.byte	0xc4
  2864 0984 3E000000 		.4byte	0x3e
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2876 0999 06       		.uleb128 0x6
  2877 099a 80000000 		.4byte	.LASF136
  2878 099e 0C       		.byte	0xc
-ARM GAS  /tmp/ccjUNKpy.s 			page 52
+ARM GAS  /tmp/ccbULlcr.s 			page 52
 
 
  2879 099f C7       		.byte	0xc7
@@ -3074,7 +3074,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2889 09af 04       		.byte	0x4
  2890 09b0 56030000 		.4byte	0x356
  2891 09b4 04       		.uleb128 0x4
- 2892 09b5 8F050000 		.4byte	.LASF137
+ 2892 09b5 B2050000 		.4byte	.LASF137
  2893 09b9 0C       		.byte	0xc
  2894 09ba C8       		.byte	0xc8
  2895 09bb 59090000 		.4byte	0x959
@@ -3089,46 +3089,46 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2904 09cd 8D       		.byte	0x8d
  2905 09ce 270A0000 		.4byte	0xa27
  2906 09d2 15       		.uleb128 0x15
- 2907 09d3 C3040000 		.4byte	.LASF138
+ 2907 09d3 E6040000 		.4byte	.LASF138
  2908 09d7 7F       		.sleb128 -1
  2909 09d8 15       		.uleb128 0x15
  2910 09d9 BB010000 		.4byte	.LASF139
  2911 09dd 00       		.sleb128 0
  2912 09de 15       		.uleb128 0x15
- 2913 09df 39030000 		.4byte	.LASF140
+ 2913 09df 5C030000 		.4byte	.LASF140
  2914 09e3 01       		.sleb128 1
  2915 09e4 15       		.uleb128 0x15
- 2916 09e5 47030000 		.4byte	.LASF141
+ 2916 09e5 6A030000 		.4byte	.LASF141
  2917 09e9 02       		.sleb128 2
  2918 09ea 15       		.uleb128 0x15
- 2919 09eb 55030000 		.4byte	.LASF142
+ 2919 09eb 78030000 		.4byte	.LASF142
  2920 09ef 03       		.sleb128 3
  2921 09f0 15       		.uleb128 0x15
- 2922 09f1 63030000 		.4byte	.LASF143
+ 2922 09f1 86030000 		.4byte	.LASF143
  2923 09f5 04       		.sleb128 4
  2924 09f6 15       		.uleb128 0x15
- 2925 09f7 71030000 		.4byte	.LASF144
+ 2925 09f7 94030000 		.4byte	.LASF144
  2926 09fb 05       		.sleb128 5
  2927 09fc 15       		.uleb128 0x15
- 2928 09fd 7F030000 		.4byte	.LASF145
+ 2928 09fd A2030000 		.4byte	.LASF145
  2929 0a01 06       		.sleb128 6
  2930 0a02 15       		.uleb128 0x15
- 2931 0a03 8D030000 		.4byte	.LASF146
+ 2931 0a03 B0030000 		.4byte	.LASF146
  2932 0a07 07       		.sleb128 7
  2933 0a08 15       		.uleb128 0x15
- 2934 0a09 9B030000 		.4byte	.LASF147
+ 2934 0a09 BE030000 		.4byte	.LASF147
  2935 0a0d 08       		.sleb128 8
-ARM GAS  /tmp/ccjUNKpy.s 			page 53
+ARM GAS  /tmp/ccbULlcr.s 			page 53
 
 
  2936 0a0e 15       		.uleb128 0x15
- 2937 0a0f 14070000 		.4byte	.LASF148
+ 2937 0a0f 37070000 		.4byte	.LASF148
  2938 0a13 09       		.sleb128 9
  2939 0a14 15       		.uleb128 0x15
- 2940 0a15 23070000 		.4byte	.LASF149
+ 2940 0a15 46070000 		.4byte	.LASF149
  2941 0a19 0A       		.sleb128 10
  2942 0a1a 15       		.uleb128 0x15
- 2943 0a1b 32070000 		.4byte	.LASF150
+ 2943 0a1b 55070000 		.4byte	.LASF150
  2944 0a1f 0B       		.sleb128 11
  2945 0a20 15       		.uleb128 0x15
  2946 0a21 70000000 		.4byte	.LASF151
@@ -3140,7 +3140,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2952 0a2a A2       		.byte	0xa2
  2953 0a2b 3C0A0000 		.4byte	0xa3c
  2954 0a2f 15       		.uleb128 0x15
- 2955 0a30 D8080000 		.4byte	.LASF152
+ 2955 0a30 DF080000 		.4byte	.LASF152
  2956 0a34 00       		.sleb128 0
  2957 0a35 15       		.uleb128 0x15
  2958 0a36 3B000000 		.4byte	.LASF153
@@ -3152,41 +3152,41 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  2964 0a3f 46       		.byte	0x46
  2965 0a40 820A0000 		.4byte	0xa82
  2966 0a44 15       		.uleb128 0x15
- 2967 0a45 1C030000 		.4byte	.LASF154
+ 2967 0a45 3F030000 		.4byte	.LASF154
  2968 0a49 00       		.sleb128 0
  2969 0a4a 15       		.uleb128 0x15
- 2970 0a4b B3060000 		.4byte	.LASF155
+ 2970 0a4b D6060000 		.4byte	.LASF155
  2971 0a4f 01       		.sleb128 1
  2972 0a50 15       		.uleb128 0x15
- 2973 0a51 C1060000 		.4byte	.LASF156
+ 2973 0a51 E4060000 		.4byte	.LASF156
  2974 0a55 02       		.sleb128 2
  2975 0a56 15       		.uleb128 0x15
- 2976 0a57 CF060000 		.4byte	.LASF157
+ 2976 0a57 F2060000 		.4byte	.LASF157
  2977 0a5b 03       		.sleb128 3
  2978 0a5c 15       		.uleb128 0x15
- 2979 0a5d DD060000 		.4byte	.LASF158
+ 2979 0a5d 00070000 		.4byte	.LASF158
  2980 0a61 04       		.sleb128 4
  2981 0a62 15       		.uleb128 0x15
- 2982 0a63 EB060000 		.4byte	.LASF159
+ 2982 0a63 0E070000 		.4byte	.LASF159
  2983 0a67 05       		.sleb128 5
  2984 0a68 15       		.uleb128 0x15
  2985 0a69 4C020000 		.4byte	.LASF160
  2986 0a6d 06       		.sleb128 6
  2987 0a6e 15       		.uleb128 0x15
- 2988 0a6f 01070000 		.4byte	.LASF161
+ 2988 0a6f 24070000 		.4byte	.LASF161
  2989 0a73 07       		.sleb128 7
  2990 0a74 15       		.uleb128 0x15
  2991 0a75 5A020000 		.4byte	.LASF162
  2992 0a79 08       		.sleb128 8
-ARM GAS  /tmp/ccjUNKpy.s 			page 54
+ARM GAS  /tmp/ccbULlcr.s 			page 54
 
 
  2993 0a7a 15       		.uleb128 0x15
- 2994 0a7b 2B080000 		.4byte	.LASF163
+ 2994 0a7b 3B080000 		.4byte	.LASF163
  2995 0a7f E300     		.sleb128 99
  2996 0a81 00       		.byte	0
  2997 0a82 05       		.uleb128 0x5
- 2998 0a83 A9040000 		.4byte	.LASF164
+ 2998 0a83 CC040000 		.4byte	.LASF164
  2999 0a87 08       		.byte	0x8
  3000 0a88 0F       		.byte	0xf
  3001 0a89 61       		.byte	0x61
@@ -3200,7 +3200,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3009 0a9a 23       		.byte	0x23
  3010 0a9b 00       		.uleb128 0
  3011 0a9c 06       		.uleb128 0x6
- 3012 0a9d 32030000 		.4byte	.LASF166
+ 3012 0a9d 55030000 		.4byte	.LASF166
  3013 0aa1 0F       		.byte	0xf
  3014 0aa2 63       		.byte	0x63
  3015 0aa3 29000000 		.4byte	0x29
@@ -3215,7 +3215,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3024 0ab2 820A0000 		.4byte	0xa82
  3025 0ab6 16       		.uleb128 0x16
  3026 0ab7 01       		.byte	0x1
- 3027 0ab8 FD050000 		.4byte	.LASF175
+ 3027 0ab8 20060000 		.4byte	.LASF175
  3028 0abc 01       		.byte	0x1
  3029 0abd 6201     		.2byte	0x162
  3030 0abf 01       		.byte	0x1
@@ -3229,7 +3229,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3038 0acb 01       		.byte	0x1
  3039 0acc F10A0000 		.4byte	0xaf1
  3040 0ad0 18       		.uleb128 0x18
- 3041 0ad1 9E080000 		.4byte	.LASF171
+ 3041 0ad1 AE080000 		.4byte	.LASF171
  3042 0ad5 01       		.byte	0x1
  3043 0ad6 0A02     		.2byte	0x20a
  3044 0ad8 29000000 		.4byte	0x29
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3047 0adf 01       		.byte	0x1
  3048 0ae0 0C02     		.2byte	0x20c
  3049 0ae2 29000000 		.4byte	0x29
-ARM GAS  /tmp/ccjUNKpy.s 			page 55
+ARM GAS  /tmp/ccbULlcr.s 			page 55
 
 
  3050 0ae6 19       		.uleb128 0x19
@@ -3253,7 +3253,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3059 0af4 F3010000 		.4byte	.LASF168
  3060 0af8 17       		.uleb128 0x17
  3061 0af9 01       		.byte	0x1
- 3062 0afa D1030000 		.4byte	.LASF170
+ 3062 0afa F4030000 		.4byte	.LASF170
  3063 0afe 01       		.byte	0x1
  3064 0aff 2A02     		.2byte	0x22a
  3065 0b01 01       		.byte	0x1
@@ -3270,14 +3270,14 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3076 0b19 2A02     		.2byte	0x22a
  3077 0b1b 29000000 		.4byte	0x29
  3078 0b1f 1A       		.uleb128 0x1a
- 3079 0b20 16040000 		.4byte	.LASF174
+ 3079 0b20 39040000 		.4byte	.LASF174
  3080 0b24 01       		.byte	0x1
  3081 0b25 2F02     		.2byte	0x22f
  3082 0b27 57000000 		.4byte	0x57
  3083 0b2b 00       		.byte	0
  3084 0b2c 1B       		.uleb128 0x1b
  3085 0b2d 01       		.byte	0x1
- 3086 0b2e 1D040000 		.4byte	.LASF211
+ 3086 0b2e 40040000 		.4byte	.LASF211
  3087 0b32 01       		.byte	0x1
  3088 0b33 A901     		.2byte	0x1a9
  3089 0b35 01       		.byte	0x1
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3104 0b55 09       		.uleb128 0x9
  3105 0b56 04       		.byte	0x4
  3106 0b57 AB0A0000 		.4byte	0xaab
-ARM GAS  /tmp/ccjUNKpy.s 			page 56
+ARM GAS  /tmp/ccbULlcr.s 			page 56
 
 
  3107 0b5b 16       		.uleb128 0x16
@@ -3327,7 +3327,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3130 0b8e 00       		.byte	0
  3131 0b8f 1E       		.uleb128 0x1e
  3132 0b90 01       		.byte	0x1
- 3133 0b91 D4040000 		.4byte	.LASF212
+ 3133 0b91 F7040000 		.4byte	.LASF212
  3134 0b95 01       		.byte	0x1
  3135 0b96 0F01     		.2byte	0x10f
  3136 0b98 01       		.byte	0x1
@@ -3357,8 +3357,8 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3160 0bd9 00       		.byte	0
  3161 0bda 21       		.uleb128 0x21
  3162 0bdb 01       		.byte	0x1
- 3163 0bdc 3C040000 		.4byte	.LASF213
-ARM GAS  /tmp/ccjUNKpy.s 			page 57
+ 3163 0bdc 5F040000 		.4byte	.LASF213
+ARM GAS  /tmp/ccbULlcr.s 			page 57
 
 
  3164 0be0 01       		.byte	0x1
@@ -3376,7 +3376,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3176 0bff 00       		.sleb128 0
  3177 0c00 23       		.uleb128 0x23
  3178 0c01 01       		.byte	0x1
- 3179 0c02 B1020000 		.4byte	.LASF178
+ 3179 0c02 D4020000 		.4byte	.LASF178
  3180 0c06 01       		.byte	0x1
  3181 0c07 6F01     		.2byte	0x16f
  3182 0c09 01       		.byte	0x1
@@ -3392,13 +3392,13 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3192 0c26 01       		.byte	0x1
  3193 0c27 50       		.byte	0x50
  3194 0c28 25       		.uleb128 0x25
- 3195 0c29 9E080000 		.4byte	.LASF171
+ 3195 0c29 AE080000 		.4byte	.LASF171
  3196 0c2d 01       		.byte	0x1
  3197 0c2e 6F01     		.2byte	0x16f
  3198 0c30 29000000 		.4byte	0x29
  3199 0c34 DD000000 		.4byte	.LLST7
  3200 0c38 24       		.uleb128 0x24
- 3201 0c39 32030000 		.4byte	.LASF166
+ 3201 0c39 55030000 		.4byte	.LASF166
  3202 0c3d 01       		.byte	0x1
  3203 0c3e 6F01     		.2byte	0x16f
  3204 0c40 29000000 		.4byte	0x29
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3218 0c5c 8D01     		.2byte	0x18d
  3219 0c5e 01       		.byte	0x1
  3220 0c5f 00000000 		.4byte	.LFB72
-ARM GAS  /tmp/ccjUNKpy.s 			page 58
+ARM GAS  /tmp/ccbULlcr.s 			page 58
 
 
  3221 0c63 4E000000 		.4byte	.LFE72
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3275 0ce1 29000000 		.4byte	0x29
  3276 0ce5 27       		.uleb128 0x27
  3277 0ce6 C10A0000 		.4byte	0xac1
-ARM GAS  /tmp/ccjUNKpy.s 			page 59
+ARM GAS  /tmp/ccbULlcr.s 			page 59
 
 
  3278 0cea 00000000 		.4byte	.LFB75
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3332 0d7f AF020000 		.4byte	.LLST22
  3333 0d83 2F       		.uleb128 0x2f
  3334 0d84 3A000000 		.4byte	.LBB29
-ARM GAS  /tmp/ccjUNKpy.s 			page 60
+ARM GAS  /tmp/ccbULlcr.s 			page 60
 
 
  3335 0d88 70000000 		.4byte	.LBE29
@@ -3550,7 +3550,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3341 0d97 00       		.byte	0
  3342 0d98 23       		.uleb128 0x23
  3343 0d99 01       		.byte	0x1
- 3344 0d9a AE050000 		.4byte	.LASF181
+ 3344 0d9a D1050000 		.4byte	.LASF181
  3345 0d9e 01       		.byte	0x1
  3346 0d9f 5702     		.2byte	0x257
  3347 0da1 01       		.byte	0x1
@@ -3559,13 +3559,13 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3350 0daa ED020000 		.4byte	.LLST24
  3351 0dae ED0D0000 		.4byte	0xded
  3352 0db2 31       		.uleb128 0x31
- 3353 0db3 DC050000 		.4byte	.LASF182
+ 3353 0db3 FF050000 		.4byte	.LASF182
  3354 0db7 01       		.byte	0x1
  3355 0db8 5902     		.2byte	0x259
  3356 0dba 7B000000 		.4byte	0x7b
  3357 0dbe 0D030000 		.4byte	.LLST25
  3358 0dc2 31       		.uleb128 0x31
- 3359 0dc3 B5030000 		.4byte	.LASF183
+ 3359 0dc3 D8030000 		.4byte	.LASF183
  3360 0dc7 01       		.byte	0x1
  3361 0dc8 5902     		.2byte	0x259
  3362 0dca 7B000000 		.4byte	0x7b
@@ -3574,7 +3574,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3365 0dd3 4A000000 		.4byte	.LBB30
  3366 0dd7 94000000 		.4byte	.LBE30
  3367 0ddb 31       		.uleb128 0x31
- 3368 0ddc 97080000 		.4byte	.LASF184
+ 3368 0ddc A7080000 		.4byte	.LASF184
  3369 0de0 01       		.byte	0x1
  3370 0de1 7C02     		.2byte	0x27c
  3371 0de3 7B000000 		.4byte	0x7b
@@ -3598,22 +3598,22 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3389 0e0d 29000000 		.4byte	0x29
  3390 0e11 B0030000 		.4byte	.LLST29
  3391 0e15 32       		.uleb128 0x32
-ARM GAS  /tmp/ccjUNKpy.s 			page 61
+ARM GAS  /tmp/ccbULlcr.s 			page 61
 
 
- 3392 0e16 9E080000 		.4byte	.LASF171
+ 3392 0e16 AE080000 		.4byte	.LASF171
  3393 0e1a 01       		.byte	0x1
  3394 0e1b 98       		.byte	0x98
  3395 0e1c 29000000 		.4byte	0x29
  3396 0e20 E4030000 		.4byte	.LLST30
  3397 0e24 32       		.uleb128 0x32
- 3398 0e25 32030000 		.4byte	.LASF166
+ 3398 0e25 55030000 		.4byte	.LASF166
  3399 0e29 01       		.byte	0x1
  3400 0e2a 98       		.byte	0x98
  3401 0e2b 29000000 		.4byte	0x29
  3402 0e2f 23040000 		.4byte	.LLST31
  3403 0e33 33       		.uleb128 0x33
- 3404 0e34 6A080000 		.4byte	.LASF186
+ 3404 0e34 7A080000 		.4byte	.LASF186
  3405 0e38 01       		.byte	0x1
  3406 0e39 9A       		.byte	0x9a
  3407 0e3a 29000000 		.4byte	0x29
@@ -3658,14 +3658,14 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3446 0e9f 29       		.uleb128 0x29
  3447 0ea0 490B0000 		.4byte	0xb49
  3448 0ea4 00       		.byte	0
-ARM GAS  /tmp/ccjUNKpy.s 			page 62
+ARM GAS  /tmp/ccbULlcr.s 			page 62
 
 
  3449 0ea5 00       		.byte	0
  3450 0ea6 00       		.byte	0
  3451 0ea7 35       		.uleb128 0x35
  3452 0ea8 01       		.byte	0x1
- 3453 0ea9 74040000 		.4byte	.LASF187
+ 3453 0ea9 97040000 		.4byte	.LASF187
  3454 0ead 01       		.byte	0x1
  3455 0eae 5201     		.2byte	0x152
  3456 0eb0 01       		.byte	0x1
@@ -3676,14 +3676,14 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3461 0ebb 00       		.sleb128 0
  3462 0ebc D10E0000 		.4byte	0xed1
  3463 0ec0 25       		.uleb128 0x25
- 3464 0ec1 A7060000 		.4byte	.LASF188
+ 3464 0ec1 CA060000 		.4byte	.LASF188
  3465 0ec5 01       		.byte	0x1
  3466 0ec6 5201     		.2byte	0x152
  3467 0ec8 29000000 		.4byte	0x29
  3468 0ecc 9C040000 		.4byte	.LLST36
  3469 0ed0 00       		.byte	0
  3470 0ed1 36       		.uleb128 0x36
- 3471 0ed2 46070000 		.4byte	.LASF214
+ 3471 0ed2 69070000 		.4byte	.LASF214
  3472 0ed6 01       		.byte	0x1
  3473 0ed7 67       		.byte	0x67
  3474 0ed8 01       		.byte	0x1
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3503 0f28 746D7000 		.ascii	"tmp\000"
  3504 0f2c 01       		.byte	0x1
  3505 0f2d 79       		.byte	0x79
-ARM GAS  /tmp/ccjUNKpy.s 			page 63
+ARM GAS  /tmp/ccbULlcr.s 			page 63
 
 
  3506 0f2e 7B000000 		.4byte	0x7b
@@ -3737,7 +3737,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3519 0f50 00       		.byte	0
  3520 0f51 1C       		.uleb128 0x1c
  3521 0f52 01       		.byte	0x1
- 3522 0f53 80070000 		.4byte	.LASF190
+ 3522 0f53 A3070000 		.4byte	.LASF190
  3523 0f57 01       		.byte	0x1
  3524 0f58 D4       		.byte	0xd4
  3525 0f59 01       		.byte	0x1
@@ -3752,13 +3752,13 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3534 0f71 29000000 		.4byte	0x29
  3535 0f75 68050000 		.4byte	.LLST43
  3536 0f79 32       		.uleb128 0x32
- 3537 0f7a 9E080000 		.4byte	.LASF171
+ 3537 0f7a AE080000 		.4byte	.LASF171
  3538 0f7e 01       		.byte	0x1
  3539 0f7f D4       		.byte	0xd4
  3540 0f80 29000000 		.4byte	0x29
  3541 0f84 86050000 		.4byte	.LLST44
  3542 0f88 32       		.uleb128 0x32
- 3543 0f89 32030000 		.4byte	.LASF166
+ 3543 0f89 55030000 		.4byte	.LASF166
  3544 0f8d 01       		.byte	0x1
  3545 0f8e D4       		.byte	0xd4
  3546 0f8f 29000000 		.4byte	0x29
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3560 0fae 2E000000 		.4byte	.LFE78
  3561 0fb2 02       		.byte	0x2
  3562 0fb3 7D       		.byte	0x7d
-ARM GAS  /tmp/ccjUNKpy.s 			page 64
+ARM GAS  /tmp/ccbULlcr.s 			page 64
 
 
  3563 0fb4 00       		.sleb128 0
@@ -3790,7 +3790,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3569 0fc3 1F       		.byte	0x1f
  3570 0fc4 00       		.byte	0
  3571 0fc5 33       		.uleb128 0x33
- 3572 0fc6 0C040000 		.4byte	.LASF191
+ 3572 0fc6 2F040000 		.4byte	.LASF191
  3573 0fca 01       		.byte	0x1
  3574 0fcb 47       		.byte	0x47
  3575 0fcc B50F0000 		.4byte	0xfb5
@@ -3798,7 +3798,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3577 0fd1 03       		.byte	0x3
  3578 0fd2 00000000 		.4byte	Sine12bit
  3579 0fd6 3D       		.uleb128 0x3d
- 3580 0fd7 C9030000 		.4byte	.LASF192
+ 3580 0fd7 EC030000 		.4byte	.LASF192
  3581 0fdb 01       		.byte	0x1
  3582 0fdc 4A       		.byte	0x4a
  3583 0fdd E10F0000 		.4byte	0xfe1
@@ -3813,7 +3813,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3592 0ff2 03       		.byte	0x3
  3593 0ff3 00000000 		.4byte	VSL_Counter
  3594 0ff7 33       		.uleb128 0x33
- 3595 0ff8 0C050000 		.4byte	.LASF194
+ 3595 0ff8 2F050000 		.4byte	.LASF194
  3596 0ffc 01       		.byte	0x1
  3597 0ffd 50       		.byte	0x50
  3598 0ffe 65020000 		.4byte	0x265
@@ -3821,7 +3821,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3600 1003 03       		.byte	0x3
  3601 1004 00000000 		.4byte	vslThread
  3602 1008 33       		.uleb128 0x33
- 3603 1009 43080000 		.4byte	.LASF195
+ 3603 1009 53080000 		.4byte	.LASF195
  3604 100d 01       		.byte	0x1
  3605 100e 53       		.byte	0x53
  3606 100f B5040000 		.4byte	0x4b5
@@ -3829,7 +3829,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3608 1014 03       		.byte	0x3
  3609 1015 00000000 		.4byte	sound_done
  3610 1019 33       		.uleb128 0x33
- 3611 101a 9B040000 		.4byte	.LASF196
+ 3611 101a BE040000 		.4byte	.LASF196
  3612 101e 01       		.byte	0x1
  3613 101f 56       		.byte	0x56
  3614 1020 F1030000 		.4byte	0x3f1
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3617 1026 00000000 		.4byte	vslSem
  3618 102a 33       		.uleb128 0x33
  3619 102b 00000000 		.4byte	.LASF197
-ARM GAS  /tmp/ccjUNKpy.s 			page 65
+ARM GAS  /tmp/ccbULlcr.s 			page 65
 
 
  3620 102f 01       		.byte	0x1
@@ -3848,7 +3848,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3624 1036 03       		.byte	0x3
  3625 1037 00000000 		.4byte	VSL_ctarray
  3626 103b 33       		.uleb128 0x33
- 3627 103c 06030000 		.4byte	.LASF198
+ 3627 103c 29030000 		.4byte	.LASF198
  3628 1040 01       		.byte	0x1
  3629 1041 FE       		.byte	0xfe
  3630 1042 29000000 		.4byte	0x29
@@ -3856,7 +3856,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3632 1047 03       		.byte	0x3
  3633 1048 00000000 		.4byte	ctSetPtr
  3634 104c 33       		.uleb128 0x33
- 3635 104d 9D070000 		.4byte	.LASF199
+ 3635 104d C0070000 		.4byte	.LASF199
  3636 1051 01       		.byte	0x1
  3637 1052 FF       		.byte	0xff
  3638 1053 29000000 		.4byte	0x29
@@ -3864,7 +3864,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3640 1058 03       		.byte	0x3
  3641 1059 00000000 		.4byte	ctPlayPtr
  3642 105d 3E       		.uleb128 0x3e
- 3643 105e D1080000 		.4byte	.LASF200
+ 3643 105e D8080000 		.4byte	.LASF200
  3644 1062 01       		.byte	0x1
  3645 1063 0001     		.2byte	0x100
  3646 1065 29000000 		.4byte	0x29
@@ -3872,7 +3872,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3648 106a 03       		.byte	0x3
  3649 106b 00000000 		.4byte	ctSize
  3650 106f 3E       		.uleb128 0x3e
- 3651 1070 E4030000 		.4byte	.LASF201
+ 3651 1070 07040000 		.4byte	.LASF201
  3652 1074 01       		.byte	0x1
  3653 1075 0101     		.2byte	0x101
  3654 1077 29000000 		.4byte	0x29
@@ -3880,7 +3880,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3656 107c 03       		.byte	0x3
  3657 107d 00000000 		.4byte	ctRepeat
  3658 1081 3E       		.uleb128 0x3e
- 3659 1082 40060000 		.4byte	.LASF202
+ 3659 1082 63060000 		.4byte	.LASF202
  3660 1086 01       		.byte	0x1
  3661 1087 0201     		.2byte	0x102
  3662 1089 29000000 		.4byte	0x29
@@ -3897,12 +3897,12 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3673 10a3 03       		.uleb128 0x3
  3674 10a4 04       		.byte	0x4
  3675 10a5 04       		.byte	0x4
- 3676 10a6 01050000 		.4byte	.LASF203
-ARM GAS  /tmp/ccjUNKpy.s 			page 66
+ 3676 10a6 24050000 		.4byte	.LASF203
+ARM GAS  /tmp/ccbULlcr.s 			page 66
 
 
  3677 10aa 3E       		.uleb128 0x3e
- 3678 10ab E4050000 		.4byte	.LASF204
+ 3678 10ab 07060000 		.4byte	.LASF204
  3679 10af 01       		.byte	0x1
  3680 10b0 0202     		.2byte	0x202
  3681 10b2 BC100000 		.4byte	0x10bc
@@ -3912,7 +3912,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3685 10bc 10       		.uleb128 0x10
  3686 10bd 93100000 		.4byte	0x1093
  3687 10c1 3F       		.uleb128 0x3f
- 3688 10c2 25080000 		.4byte	.LASF205
+ 3688 10c2 35080000 		.4byte	.LASF205
  3689 10c6 07       		.byte	0x7
  3690 10c7 6F       		.byte	0x6f
  3691 10c8 BD030000 		.4byte	0x3bd
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3731 000b 11       		.uleb128 0x11
  3732 000c 01       		.uleb128 0x1
  3733 000d 52       		.uleb128 0x52
-ARM GAS  /tmp/ccjUNKpy.s 			page 67
+ARM GAS  /tmp/ccbULlcr.s 			page 67
 
 
  3734 000e 01       		.uleb128 0x1
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3788 0044 13       		.uleb128 0x13
  3789 0045 00       		.byte	0
  3790 0046 00       		.byte	0
-ARM GAS  /tmp/ccjUNKpy.s 			page 68
+ARM GAS  /tmp/ccbULlcr.s 			page 68
 
 
  3791 0047 06       		.uleb128 0x6
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3845 007d 00       		.byte	0
  3846 007e 0B       		.uleb128 0xb
  3847 007f 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccjUNKpy.s 			page 69
+ARM GAS  /tmp/ccbULlcr.s 			page 69
 
 
  3848 0080 00       		.byte	0
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3902 00b6 00       		.byte	0
  3903 00b7 03       		.uleb128 0x3
  3904 00b8 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccjUNKpy.s 			page 70
+ARM GAS  /tmp/ccbULlcr.s 			page 70
 
 
  3905 00b9 3A       		.uleb128 0x3a
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  3959 00ef 00       		.byte	0
  3960 00f0 00       		.byte	0
  3961 00f1 14       		.uleb128 0x14
-ARM GAS  /tmp/ccjUNKpy.s 			page 71
+ARM GAS  /tmp/ccbULlcr.s 			page 71
 
 
  3962 00f2 04       		.uleb128 0x4
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4016 0128 13       		.uleb128 0x13
  4017 0129 00       		.byte	0
  4018 012a 00       		.byte	0
-ARM GAS  /tmp/ccjUNKpy.s 			page 72
+ARM GAS  /tmp/ccbULlcr.s 			page 72
 
 
  4019 012b 18       		.uleb128 0x18
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4073 0161 20       		.uleb128 0x20
  4074 0162 0B       		.uleb128 0xb
  4075 0163 01       		.uleb128 0x1
-ARM GAS  /tmp/ccjUNKpy.s 			page 73
+ARM GAS  /tmp/ccbULlcr.s 			page 73
 
 
  4076 0164 13       		.uleb128 0x13
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4130 019a 49       		.uleb128 0x49
  4131 019b 13       		.uleb128 0x13
  4132 019c 11       		.uleb128 0x11
-ARM GAS  /tmp/ccjUNKpy.s 			page 74
+ARM GAS  /tmp/ccbULlcr.s 			page 74
 
 
  4133 019d 01       		.uleb128 0x1
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4187 01d3 12       		.uleb128 0x12
  4188 01d4 01       		.uleb128 0x1
  4189 01d5 40       		.uleb128 0x40
-ARM GAS  /tmp/ccjUNKpy.s 			page 75
+ARM GAS  /tmp/ccbULlcr.s 			page 75
 
 
  4190 01d6 06       		.uleb128 0x6
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4244 020c 25       		.uleb128 0x25
  4245 020d 05       		.uleb128 0x5
  4246 020e 00       		.byte	0
-ARM GAS  /tmp/ccjUNKpy.s 			page 76
+ARM GAS  /tmp/ccbULlcr.s 			page 76
 
 
  4247 020f 03       		.uleb128 0x3
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4301 0245 31       		.uleb128 0x31
  4302 0246 13       		.uleb128 0x13
  4303 0247 00       		.byte	0
-ARM GAS  /tmp/ccjUNKpy.s 			page 77
+ARM GAS  /tmp/ccbULlcr.s 			page 77
 
 
  4304 0248 00       		.byte	0
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4358 027e 2F       		.uleb128 0x2f
  4359 027f 0B       		.uleb128 0xb
  4360 0280 01       		.byte	0x1
-ARM GAS  /tmp/ccjUNKpy.s 			page 78
+ARM GAS  /tmp/ccbULlcr.s 			page 78
 
 
  4361 0281 11       		.uleb128 0x11
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4415 02b7 49       		.uleb128 0x49
  4416 02b8 13       		.uleb128 0x13
  4417 02b9 02       		.uleb128 0x2
-ARM GAS  /tmp/ccjUNKpy.s 			page 79
+ARM GAS  /tmp/ccbULlcr.s 			page 79
 
 
  4418 02ba 0A       		.uleb128 0xa
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4472 02f0 11       		.uleb128 0x11
  4473 02f1 01       		.uleb128 0x1
  4474 02f2 12       		.uleb128 0x12
-ARM GAS  /tmp/ccjUNKpy.s 			page 80
+ARM GAS  /tmp/ccbULlcr.s 			page 80
 
 
  4475 02f3 01       		.uleb128 0x1
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4529 0329 0B       		.uleb128 0xb
  4530 032a 3B       		.uleb128 0x3b
  4531 032b 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccjUNKpy.s 			page 81
+ARM GAS  /tmp/ccbULlcr.s 			page 81
 
 
  4532 032c 49       		.uleb128 0x49
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4586 0362 00       		.byte	0
  4587 0363 03       		.uleb128 0x3
  4588 0364 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccjUNKpy.s 			page 82
+ARM GAS  /tmp/ccbULlcr.s 			page 82
 
 
  4589 0365 3A       		.uleb128 0x3a
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4643 0036 7D       		.byte	0x7d
  4644 0037 18       		.sleb128 24
  4645 0038 00000000 		.4byte	0
-ARM GAS  /tmp/ccjUNKpy.s 			page 83
+ARM GAS  /tmp/ccbULlcr.s 			page 83
 
 
  4646 003c 00000000 		.4byte	0
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4700 00c7 7D       		.byte	0x7d
  4701 00c8 00       		.sleb128 0
  4702 00c9 0C000000 		.4byte	.LCFI3
-ARM GAS  /tmp/ccjUNKpy.s 			page 84
+ARM GAS  /tmp/ccbULlcr.s 			page 84
 
 
  4703 00cd 46000000 		.4byte	.LFE71
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4757 015a 54       		.byte	0x54
  4758 015b 00000000 		.4byte	0
  4759 015f 00000000 		.4byte	0
-ARM GAS  /tmp/ccjUNKpy.s 			page 85
+ARM GAS  /tmp/ccbULlcr.s 			page 85
 
 
  4760              	.LLST11:
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4814 01f1 0100     		.2byte	0x1
  4815 01f3 53       		.byte	0x53
  4816 01f4 00000000 		.4byte	0
-ARM GAS  /tmp/ccjUNKpy.s 			page 86
+ARM GAS  /tmp/ccbULlcr.s 			page 86
 
 
  4817 01f8 00000000 		.4byte	0
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4871 0282 0300     		.2byte	0x3
  4872 0284 71       		.byte	0x71
  4873 0285 01       		.sleb128 1
-ARM GAS  /tmp/ccjUNKpy.s 			page 87
+ARM GAS  /tmp/ccbULlcr.s 			page 87
 
 
  4874 0286 9F       		.byte	0x9f
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4928 030d 00000000 		.4byte	.LVL44
  4929 0311 2E000000 		.4byte	.LVL45
  4930 0315 0200     		.2byte	0x2
-ARM GAS  /tmp/ccjUNKpy.s 			page 88
+ARM GAS  /tmp/ccbULlcr.s 			page 88
 
 
  4931 0317 30       		.byte	0x30
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  4985 039c 10000000 		.4byte	.LCFI10
  4986 03a0 E2000000 		.4byte	.LFE64
  4987 03a4 0200     		.2byte	0x2
-ARM GAS  /tmp/ccjUNKpy.s 			page 89
+ARM GAS  /tmp/ccbULlcr.s 			page 89
 
 
  4988 03a6 7D       		.byte	0x7d
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  5042 0438 58       		.byte	0x58
  5043 0439 00000000 		.4byte	0
  5044 043d 00000000 		.4byte	0
-ARM GAS  /tmp/ccjUNKpy.s 			page 90
+ARM GAS  /tmp/ccbULlcr.s 			page 90
 
 
  5045              	.LLST32:
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  5099 04ca D0000000 		.4byte	.LFE63
  5100 04ce 0200     		.2byte	0x2
  5101 04d0 7D       		.byte	0x7d
-ARM GAS  /tmp/ccjUNKpy.s 			page 91
+ARM GAS  /tmp/ccbULlcr.s 			page 91
 
 
  5102 04d1 20       		.sleb128 32
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  5156 055f 28       		.sleb128 40
  5157 0560 00000000 		.4byte	0
  5158 0564 00000000 		.4byte	0
-ARM GAS  /tmp/ccjUNKpy.s 			page 92
+ARM GAS  /tmp/ccbULlcr.s 			page 92
 
 
  5159              	.LLST43:
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  5213 0044 56000000 		.4byte	.LFE74-.LFB74
  5214 0048 00000000 		.4byte	.LFB75
  5215 004c 58000000 		.4byte	.LFE75-.LFB75
-ARM GAS  /tmp/ccjUNKpy.s 			page 93
+ARM GAS  /tmp/ccbULlcr.s 			page 93
 
 
  5216 0050 00000000 		.4byte	.LFB76
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  5270 0088 0E000000 		.4byte	.LBB34
  5271 008c 36000000 		.4byte	.LBE34
  5272 0090 38000000 		.4byte	.LBB35
-ARM GAS  /tmp/ccjUNKpy.s 			page 94
+ARM GAS  /tmp/ccbULlcr.s 			page 94
 
 
  5273 0094 7C000000 		.4byte	.LBE35
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  5323              	.LASF197:
  5324 0000 56534C5F 		.ascii	"VSL_ctarray\000"
  5324      63746172 
-ARM GAS  /tmp/ccjUNKpy.s 			page 95
+ARM GAS  /tmp/ccbULlcr.s 			page 95
 
 
  5324      72617900 
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  5352 009a 76657841 		.ascii	"vexAudioDebugChipTone\000"
  5352      7564696F 
  5352      44656275 
-ARM GAS  /tmp/ccjUNKpy.s 			page 96
+ARM GAS  /tmp/ccbULlcr.s 			page 96
 
 
  5352      67436869 
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  5380      52564544 
  5380      313100
  5381              	.LASF117:
-ARM GAS  /tmp/ccjUNKpy.s 			page 97
+ARM GAS  /tmp/ccbULlcr.s 			page 97
 
 
  5382 013a 52455345 		.ascii	"RESERVED12\000"
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  5408 01c9 705F7265 		.ascii	"p_refs\000"
  5408      667300
  5409              	.LASF169:
-ARM GAS  /tmp/ccjUNKpy.s 			page 98
+ARM GAS  /tmp/ccbULlcr.s 			page 98
 
 
  5410 01d0 56534C5F 		.ascii	"VSL_CreateSineWave\000"
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  5436      6C00
  5437              	.LASF24:
  5438 0264 54687265 		.ascii	"Thread\000"
-ARM GAS  /tmp/ccjUNKpy.s 			page 99
+ARM GAS  /tmp/ccbULlcr.s 			page 99
 
 
  5438      616400
@@ -5907,710 +5907,710 @@ ARM GAS  /tmp/ccjUNKpy.s 			page 1
  5450      506C6179 
  5450      536F756E 
  5450      6400
- 5451              	.LASF89:
- 5452 02ac 43504152 		.ascii	"CPAR\000"
- 5452      00
- 5453              	.LASF178:
- 5454 02b1 76657841 		.ascii	"vexAudioSetNextChipTone\000"
- 5454      7564696F 
- 5454      5365744E 
- 5454      65787443 
- 5454      68697054 
- 5455              	.LASF38:
- 5456 02c9 705F6D73 		.ascii	"p_msgqueue\000"
- 5456      67717565 
- 5456      756500
- 5457              	.LASF99:
- 5458 02d4 5243435F 		.ascii	"RCC_TypeDef\000"
- 5458      54797065 
- 5458      44656600 
- 5459              	.LASF91:
- 5460 02e0 444D415F 		.ascii	"DMA_Channel_TypeDef\000"
- 5460      4368616E 
- 5460      6E656C5F 
+ 5451              	.LASF210:
+ 5452 02ac 2F686F6D 		.ascii	"/home/aolsen/vrc-9999/TossUp-Joker\000"
+ 5452      652F616F 
+ 5452      6C73656E 
+ 5452      2F767263 
+ 5452      2D393939 
+ 5453              	.LASF89:
+ 5454 02cf 43504152 		.ascii	"CPAR\000"
+ 5454      00
+ 5455              	.LASF178:
+ 5456 02d4 76657841 		.ascii	"vexAudioSetNextChipTone\000"
+ 5456      7564696F 
+ 5456      5365744E 
+ 5456      65787443 
+ 5456      68697054 
+ 5457              	.LASF38:
+ 5458 02ec 705F6D73 		.ascii	"p_msgqueue\000"
+ 5458      67717565 
+ 5458      756500
+ 5459              	.LASF99:
+ 5460 02f7 5243435F 		.ascii	"RCC_TypeDef\000"
  5460      54797065 
  5460      44656600 
- 5461              	.LASF134:
- 5462 02f4 69736869 		.ascii	"ishift\000"
- 5462      667400
- 5463              	.LASF58:
- 5464 02fb 735F636E 		.ascii	"s_cnt\000"
- 5464      7400
- 5465              	.LASF102:
- 5466 0301 534D4352 		.ascii	"SMCR\000"
-ARM GAS  /tmp/ccjUNKpy.s 			page 100
+ 5461              	.LASF91:
+ 5462 0303 444D415F 		.ascii	"DMA_Channel_TypeDef\000"
+ 5462      4368616E 
+ 5462      6E656C5F 
+ 5462      54797065 
+ 5462      44656600 
+ 5463              	.LASF134:
+ 5464 0317 69736869 		.ascii	"ishift\000"
+ARM GAS  /tmp/ccbULlcr.s 			page 100
 
 
- 5466      00
- 5467              	.LASF198:
- 5468 0306 63745365 		.ascii	"ctSetPtr\000"
- 5468      74507472 
+ 5464      667400
+ 5465              	.LASF58:
+ 5466 031e 735F636E 		.ascii	"s_cnt\000"
+ 5466      7400
+ 5467              	.LASF102:
+ 5468 0324 534D4352 		.ascii	"SMCR\000"
  5468      00
- 5469              	.LASF19:
- 5470 030f 6D73675F 		.ascii	"msg_t\000"
- 5470      7400
- 5471              	.LASF95:
- 5472 0315 41484245 		.ascii	"AHBENR\000"
- 5472      4E5200
- 5473              	.LASF154:
- 5474 031c 6B496D65 		.ascii	"kImeChannel_1\000"
- 5474      4368616E 
- 5474      6E656C5F 
- 5474      3100
- 5475              	.LASF64:
- 5476 032a 656C5F6E 		.ascii	"el_next\000"
- 5476      65787400 
- 5477              	.LASF166:
- 5478 0332 74696D65 		.ascii	"timems\000"
- 5478      6D7300
- 5479              	.LASF140:
- 5480 0339 6B566578 		.ascii	"kVexDigital_2\000"
- 5480      44696769 
- 5480      74616C5F 
- 5480      3200
- 5481              	.LASF141:
- 5482 0347 6B566578 		.ascii	"kVexDigital_3\000"
+ 5469              	.LASF198:
+ 5470 0329 63745365 		.ascii	"ctSetPtr\000"
+ 5470      74507472 
+ 5470      00
+ 5471              	.LASF19:
+ 5472 0332 6D73675F 		.ascii	"msg_t\000"
+ 5472      7400
+ 5473              	.LASF95:
+ 5474 0338 41484245 		.ascii	"AHBENR\000"
+ 5474      4E5200
+ 5475              	.LASF154:
+ 5476 033f 6B496D65 		.ascii	"kImeChannel_1\000"
+ 5476      4368616E 
+ 5476      6E656C5F 
+ 5476      3100
+ 5477              	.LASF64:
+ 5478 034d 656C5F6E 		.ascii	"el_next\000"
+ 5478      65787400 
+ 5479              	.LASF166:
+ 5480 0355 74696D65 		.ascii	"timems\000"
+ 5480      6D7300
+ 5481              	.LASF140:
+ 5482 035c 6B566578 		.ascii	"kVexDigital_2\000"
  5482      44696769 
  5482      74616C5F 
- 5482      3300
- 5483              	.LASF142:
- 5484 0355 6B566578 		.ascii	"kVexDigital_4\000"
+ 5482      3200
+ 5483              	.LASF141:
+ 5484 036a 6B566578 		.ascii	"kVexDigital_3\000"
  5484      44696769 
  5484      74616C5F 
- 5484      3400
- 5485              	.LASF143:
- 5486 0363 6B566578 		.ascii	"kVexDigital_5\000"
+ 5484      3300
+ 5485              	.LASF142:
+ 5486 0378 6B566578 		.ascii	"kVexDigital_4\000"
  5486      44696769 
  5486      74616C5F 
- 5486      3500
- 5487              	.LASF144:
- 5488 0371 6B566578 		.ascii	"kVexDigital_6\000"
+ 5486      3400
+ 5487              	.LASF143:
+ 5488 0386 6B566578 		.ascii	"kVexDigital_5\000"
  5488      44696769 
  5488      74616C5F 
- 5488      3600
- 5489              	.LASF145:
- 5490 037f 6B566578 		.ascii	"kVexDigital_7\000"
+ 5488      3500
+ 5489              	.LASF144:
+ 5490 0394 6B566578 		.ascii	"kVexDigital_6\000"
  5490      44696769 
  5490      74616C5F 
- 5490      3700
- 5491              	.LASF146:
- 5492 038d 6B566578 		.ascii	"kVexDigital_8\000"
+ 5490      3600
+ 5491              	.LASF145:
+ 5492 03a2 6B566578 		.ascii	"kVexDigital_7\000"
  5492      44696769 
  5492      74616C5F 
- 5492      3800
-ARM GAS  /tmp/ccjUNKpy.s 			page 101
+ARM GAS  /tmp/ccbULlcr.s 			page 101
 
 
- 5493              	.LASF147:
- 5494 039b 6B566578 		.ascii	"kVexDigital_9\000"
+ 5492      3700
+ 5493              	.LASF146:
+ 5494 03b0 6B566578 		.ascii	"kVexDigital_8\000"
  5494      44696769 
  5494      74616C5F 
- 5494      3900
- 5495              	.LASF45:
- 5496 03a9 54687265 		.ascii	"ThreadsList\000"
- 5496      6164734C 
- 5496      69737400 
- 5497              	.LASF183:
- 5498 03b5 746D7072 		.ascii	"tmpreg2\000"
- 5498      65673200 
- 5499              	.LASF20:
- 5500 03bd 6576656E 		.ascii	"eventmask_t\000"
- 5500      746D6173 
- 5500      6B5F7400 
- 5501              	.LASF192:
- 5502 03c9 76736C5F 		.ascii	"vsl_dma\000"
- 5502      646D6100 
- 5503              	.LASF170:
- 5504 03d1 56534C5F 		.ascii	"VSL_InitTimer\000"
- 5504      496E6974 
- 5504      54696D65 
- 5504      7200
- 5505              	.LASF90:
- 5506 03df 434D4152 		.ascii	"CMAR\000"
- 5506      00
- 5507              	.LASF201:
- 5508 03e4 63745265 		.ascii	"ctRepeat\000"
- 5508      70656174 
+ 5494      3800
+ 5495              	.LASF147:
+ 5496 03be 6B566578 		.ascii	"kVexDigital_9\000"
+ 5496      44696769 
+ 5496      74616C5F 
+ 5496      3900
+ 5497              	.LASF45:
+ 5498 03cc 54687265 		.ascii	"ThreadsList\000"
+ 5498      6164734C 
+ 5498      69737400 
+ 5499              	.LASF183:
+ 5500 03d8 746D7072 		.ascii	"tmpreg2\000"
+ 5500      65673200 
+ 5501              	.LASF20:
+ 5502 03e0 6576656E 		.ascii	"eventmask_t\000"
+ 5502      746D6173 
+ 5502      6B5F7400 
+ 5503              	.LASF192:
+ 5504 03ec 76736C5F 		.ascii	"vsl_dma\000"
+ 5504      646D6100 
+ 5505              	.LASF170:
+ 5506 03f4 56534C5F 		.ascii	"VSL_InitTimer\000"
+ 5506      496E6974 
+ 5506      54696D65 
+ 5506      7200
+ 5507              	.LASF90:
+ 5508 0402 434D4152 		.ascii	"CMAR\000"
  5508      00
- 5509              	.LASF209:
- 5510 03ed 2E2E2F63 		.ascii	"../convex/cortex/fw/vexaudio.c\000"
- 5510      6F6E7665 
- 5510      782F636F 
- 5510      72746578 
- 5510      2F66772F 
- 5511              	.LASF191:
- 5512 040c 53696E65 		.ascii	"Sine12bit\000"
- 5512      31326269 
- 5512      7400
- 5513              	.LASF174:
- 5514 0416 746D7063 		.ascii	"tmpcr1\000"
- 5514      723100
- 5515              	.LASF211:
- 5516 041d 76657841 		.ascii	"vexAudioPlayNextChipTone\000"
- 5516      7564696F 
- 5516      506C6179 
- 5516      4E657874 
- 5516      43686970 
- 5517              	.LASF59:
- 5518 0436 4D757465 		.ascii	"Mutex\000"
- 5518      7800
- 5519              	.LASF213:
- 5520 043c 76657841 		.ascii	"vexAudioDeinitChipToneSong\000"
- 5520      7564696F 
- 5520      4465696E 
-ARM GAS  /tmp/ccjUNKpy.s 			page 102
+ 5509              	.LASF201:
+ 5510 0407 63745265 		.ascii	"ctRepeat\000"
+ 5510      70656174 
+ 5510      00
+ 5511              	.LASF209:
+ 5512 0410 2E2E2F63 		.ascii	"../convex/cortex/fw/vexaudio.c\000"
+ 5512      6F6E7665 
+ 5512      782F636F 
+ 5512      72746578 
+ 5512      2F66772F 
+ 5513              	.LASF191:
+ 5514 042f 53696E65 		.ascii	"Sine12bit\000"
+ 5514      31326269 
+ 5514      7400
+ 5515              	.LASF174:
+ 5516 0439 746D7063 		.ascii	"tmpcr1\000"
+ 5516      723100
+ 5517              	.LASF211:
+ 5518 0440 76657841 		.ascii	"vexAudioPlayNextChipTone\000"
+ 5518      7564696F 
+ 5518      506C6179 
+ 5518      4E657874 
+ 5518      43686970 
+ 5519              	.LASF59:
+ARM GAS  /tmp/ccbULlcr.s 			page 102
 
 
- 5520      69744368 
- 5520      6970546F 
- 5521              	.LASF25:
- 5522 0457 705F6E65 		.ascii	"p_next\000"
- 5522      787400
- 5523              	.LASF66:
- 5524 045e 656C5F6D 		.ascii	"el_mask\000"
- 5524      61736B00 
- 5525              	.LASF30:
- 5526 0466 705F6F6C 		.ascii	"p_older\000"
- 5526      64657200 
- 5527              	.LASF51:
- 5528 046e 725F6374 		.ascii	"r_ctx\000"
- 5528      7800
- 5529              	.LASF187:
- 5530 0474 76657841 		.ascii	"vexAudioStartChipToneSong\000"
- 5530      7564696F 
- 5530      53746172 
- 5530      74436869 
- 5530      70546F6E 
- 5531              	.LASF44:
- 5532 048e 54687265 		.ascii	"ThreadsQueue\000"
- 5532      61647351 
- 5532      75657565 
- 5532      00
- 5533              	.LASF196:
- 5534 049b 76736C53 		.ascii	"vslSem\000"
- 5534      656D00
- 5535              	.LASF62:
- 5536 04a2 6D5F6E65 		.ascii	"m_next\000"
- 5536      787400
- 5537              	.LASF164:
- 5538 04a9 5F76736C 		.ascii	"_vsl_ct\000"
- 5538      5F637400 
- 5539              	.LASF54:
- 5540 04b1 725F6375 		.ascii	"r_current\000"
- 5540      7272656E 
- 5540      7400
- 5541              	.LASF53:
- 5542 04bb 725F6F6C 		.ascii	"r_older\000"
- 5542      64657200 
- 5543              	.LASF138:
- 5544 04c3 6B566578 		.ascii	"kVexDigital_None\000"
- 5544      44696769 
- 5544      74616C5F 
- 5544      4E6F6E65 
- 5544      00
- 5545              	.LASF212:
- 5546 04d4 76657841 		.ascii	"vexAudioInitChipToneSong\000"
- 5546      7564696F 
- 5546      496E6974 
- 5546      43686970 
- 5546      546F6E65 
- 5547              	.LASF35:
- 5548 04ed 705F7072 		.ascii	"p_preempt\000"
- 5548      65656D70 
- 5548      7400
-ARM GAS  /tmp/ccjUNKpy.s 			page 103
+ 5520 0459 4D757465 		.ascii	"Mutex\000"
+ 5520      7800
+ 5521              	.LASF213:
+ 5522 045f 76657841 		.ascii	"vexAudioDeinitChipToneSong\000"
+ 5522      7564696F 
+ 5522      4465696E 
+ 5522      69744368 
+ 5522      6970546F 
+ 5523              	.LASF25:
+ 5524 047a 705F6E65 		.ascii	"p_next\000"
+ 5524      787400
+ 5525              	.LASF66:
+ 5526 0481 656C5F6D 		.ascii	"el_mask\000"
+ 5526      61736B00 
+ 5527              	.LASF30:
+ 5528 0489 705F6F6C 		.ascii	"p_older\000"
+ 5528      64657200 
+ 5529              	.LASF51:
+ 5530 0491 725F6374 		.ascii	"r_ctx\000"
+ 5530      7800
+ 5531              	.LASF187:
+ 5532 0497 76657841 		.ascii	"vexAudioStartChipToneSong\000"
+ 5532      7564696F 
+ 5532      53746172 
+ 5532      74436869 
+ 5532      70546F6E 
+ 5533              	.LASF44:
+ 5534 04b1 54687265 		.ascii	"ThreadsQueue\000"
+ 5534      61647351 
+ 5534      75657565 
+ 5534      00
+ 5535              	.LASF196:
+ 5536 04be 76736C53 		.ascii	"vslSem\000"
+ 5536      656D00
+ 5537              	.LASF62:
+ 5538 04c5 6D5F6E65 		.ascii	"m_next\000"
+ 5538      787400
+ 5539              	.LASF164:
+ 5540 04cc 5F76736C 		.ascii	"_vsl_ct\000"
+ 5540      5F637400 
+ 5541              	.LASF54:
+ 5542 04d4 725F6375 		.ascii	"r_current\000"
+ 5542      7272656E 
+ 5542      7400
+ 5543              	.LASF53:
+ 5544 04de 725F6F6C 		.ascii	"r_older\000"
+ 5544      64657200 
+ 5545              	.LASF138:
+ 5546 04e6 6B566578 		.ascii	"kVexDigital_None\000"
+ 5546      44696769 
+ 5546      74616C5F 
+ 5546      4E6F6E65 
+ 5546      00
+ 5547              	.LASF212:
+ 5548 04f7 76657841 		.ascii	"vexAudioInitChipToneSong\000"
+ 5548      7564696F 
+ 5548      496E6974 
+ARM GAS  /tmp/ccbULlcr.s 			page 103
 
 
- 5549              	.LASF85:
- 5550 04f7 444F5231 		.ascii	"DOR1\000"
- 5550      00
- 5551              	.LASF86:
- 5552 04fc 444F5232 		.ascii	"DOR2\000"
+ 5548      43686970 
+ 5548      546F6E65 
+ 5549              	.LASF35:
+ 5550 0510 705F7072 		.ascii	"p_preempt\000"
+ 5550      65656D70 
+ 5550      7400
+ 5551              	.LASF85:
+ 5552 051a 444F5231 		.ascii	"DOR1\000"
  5552      00
- 5553              	.LASF203:
- 5554 0501 666C6F61 		.ascii	"float\000"
- 5554      7400
- 5555              	.LASF133:
- 5556 0507 69666372 		.ascii	"ifcr\000"
- 5556      00
- 5557              	.LASF194:
- 5558 050c 76736C54 		.ascii	"vslThread\000"
- 5558      68726561 
- 5558      6400
- 5559              	.LASF16:
- 5560 0516 74726566 		.ascii	"trefs_t\000"
- 5560      735F7400 
- 5561              	.LASF100:
- 5562 051e 52455345 		.ascii	"RESERVED0\000"
- 5562      52564544 
- 5562      3000
- 5563              	.LASF101:
- 5564 0528 52455345 		.ascii	"RESERVED1\000"
+ 5553              	.LASF86:
+ 5554 051f 444F5232 		.ascii	"DOR2\000"
+ 5554      00
+ 5555              	.LASF203:
+ 5556 0524 666C6F61 		.ascii	"float\000"
+ 5556      7400
+ 5557              	.LASF133:
+ 5558 052a 69666372 		.ascii	"ifcr\000"
+ 5558      00
+ 5559              	.LASF194:
+ 5560 052f 76736C54 		.ascii	"vslThread\000"
+ 5560      68726561 
+ 5560      6400
+ 5561              	.LASF16:
+ 5562 0539 74726566 		.ascii	"trefs_t\000"
+ 5562      735F7400 
+ 5563              	.LASF100:
+ 5564 0541 52455345 		.ascii	"RESERVED0\000"
  5564      52564544 
- 5564      3100
- 5565              	.LASF103:
- 5566 0532 52455345 		.ascii	"RESERVED2\000"
+ 5564      3000
+ 5565              	.LASF101:
+ 5566 054b 52455345 		.ascii	"RESERVED1\000"
  5566      52564544 
- 5566      3200
- 5567              	.LASF105:
- 5568 053c 52455345 		.ascii	"RESERVED3\000"
+ 5566      3100
+ 5567              	.LASF103:
+ 5568 0555 52455345 		.ascii	"RESERVED2\000"
  5568      52564544 
- 5568      3300
- 5569              	.LASF106:
- 5570 0546 52455345 		.ascii	"RESERVED4\000"
+ 5568      3200
+ 5569              	.LASF105:
+ 5570 055f 52455345 		.ascii	"RESERVED3\000"
  5570      52564544 
- 5570      3400
- 5571              	.LASF26:
- 5572 0550 705F7072 		.ascii	"p_prev\000"
- 5572      657600
- 5573              	.LASF109:
- 5574 0557 52455345 		.ascii	"RESERVED6\000"
- 5574      52564544 
- 5574      3600
- 5575              	.LASF113:
- 5576 0561 52455345 		.ascii	"RESERVED8\000"
+ 5570      3300
+ 5571              	.LASF106:
+ 5572 0569 52455345 		.ascii	"RESERVED4\000"
+ 5572      52564544 
+ 5572      3400
+ 5573              	.LASF26:
+ 5574 0573 705F7072 		.ascii	"p_prev\000"
+ 5574      657600
+ 5575              	.LASF109:
+ 5576 057a 52455345 		.ascii	"RESERVED6\000"
  5576      52564544 
- 5576      3800
- 5577              	.LASF18:
- 5578 056b 74707269 		.ascii	"tprio_t\000"
- 5578      6F5F7400 
- 5579              	.LASF13:
- 5580 0573 5F426F6F 		.ascii	"_Bool\000"
- 5580      6C00
- 5581              	.LASF7:
-ARM GAS  /tmp/ccjUNKpy.s 			page 104
+ 5576      3600
+ 5577              	.LASF113:
+ 5578 0584 52455345 		.ascii	"RESERVED8\000"
+ 5578      52564544 
+ 5578      3800
+ 5579              	.LASF18:
+ARM GAS  /tmp/ccbULlcr.s 			page 104
 
 
- 5582 0579 696E7433 		.ascii	"int32_t\000"
- 5582      325F7400 
- 5583              	.LASF2:
- 5584 0581 756E7369 		.ascii	"unsigned char\000"
- 5584      676E6564 
- 5584      20636861 
- 5584      7200
- 5585              	.LASF137:
- 5586 058f 73746D33 		.ascii	"stm32_dma_stream_t\000"
- 5586      325F646D 
- 5586      615F7374 
- 5586      7265616D 
- 5586      5F7400
- 5587              	.LASF65:
- 5588 05a2 656C5F6C 		.ascii	"el_listener\000"
- 5588      69737465 
- 5588      6E657200 
- 5589              	.LASF181:
- 5590 05ae 56534C5F 		.ascii	"VSL_Init\000"
- 5590      496E6974 
- 5590      00
- 5591              	.LASF67:
- 5592 05b7 656C5F66 		.ascii	"el_flags\000"
- 5592      6C616773 
+ 5580 058e 74707269 		.ascii	"tprio_t\000"
+ 5580      6F5F7400 
+ 5581              	.LASF13:
+ 5582 0596 5F426F6F 		.ascii	"_Bool\000"
+ 5582      6C00
+ 5583              	.LASF7:
+ 5584 059c 696E7433 		.ascii	"int32_t\000"
+ 5584      325F7400 
+ 5585              	.LASF2:
+ 5586 05a4 756E7369 		.ascii	"unsigned char\000"
+ 5586      676E6564 
+ 5586      20636861 
+ 5586      7200
+ 5587              	.LASF137:
+ 5588 05b2 73746D33 		.ascii	"stm32_dma_stream_t\000"
+ 5588      325F646D 
+ 5588      615F7374 
+ 5588      7265616D 
+ 5588      5F7400
+ 5589              	.LASF65:
+ 5590 05c5 656C5F6C 		.ascii	"el_listener\000"
+ 5590      69737465 
+ 5590      6E657200 
+ 5591              	.LASF181:
+ 5592 05d1 56534C5F 		.ascii	"VSL_Init\000"
+ 5592      496E6974 
  5592      00
- 5593              	.LASF41:
- 5594 05c0 705F6D74 		.ascii	"p_mtxlist\000"
- 5594      786C6973 
- 5594      7400
- 5595              	.LASF3:
- 5596 05ca 73686F72 		.ascii	"short int\000"
- 5596      7420696E 
+ 5593              	.LASF67:
+ 5594 05da 656C5F66 		.ascii	"el_flags\000"
+ 5594      6C616773 
+ 5594      00
+ 5595              	.LASF41:
+ 5596 05e3 705F6D74 		.ascii	"p_mtxlist\000"
+ 5596      786C6973 
  5596      7400
- 5597              	.LASF32:
- 5598 05d4 705F7374 		.ascii	"p_state\000"
- 5598      61746500 
- 5599              	.LASF182:
- 5600 05dc 746D7072 		.ascii	"tmpreg1\000"
- 5600      65673100 
- 5601              	.LASF204:
- 5602 05e4 73696E50 		.ascii	"sinPreCalc\000"
- 5602      72654361 
- 5602      6C6300
- 5603              	.LASF50:
- 5604 05ef 725F7072 		.ascii	"r_prio\000"
- 5604      696F00
- 5605              	.LASF73:
- 5606 05f6 65776D61 		.ascii	"ewmask\000"
- 5606      736B00
- 5607              	.LASF175:
- 5608 05fd 76657841 		.ascii	"vexAudioStopChipToneSong\000"
- 5608      7564696F 
- 5608      53746F70 
- 5608      43686970 
- 5608      546F6E65 
- 5609              	.LASF33:
- 5610 0616 705F666C 		.ascii	"p_flags\000"
-ARM GAS  /tmp/ccjUNKpy.s 			page 105
+ 5597              	.LASF3:
+ 5598 05ed 73686F72 		.ascii	"short int\000"
+ 5598      7420696E 
+ 5598      7400
+ 5599              	.LASF32:
+ 5600 05f7 705F7374 		.ascii	"p_state\000"
+ 5600      61746500 
+ 5601              	.LASF182:
+ 5602 05ff 746D7072 		.ascii	"tmpreg1\000"
+ 5602      65673100 
+ 5603              	.LASF204:
+ 5604 0607 73696E50 		.ascii	"sinPreCalc\000"
+ 5604      72654361 
+ 5604      6C6300
+ 5605              	.LASF50:
+ 5606 0612 725F7072 		.ascii	"r_prio\000"
+ 5606      696F00
+ 5607              	.LASF73:
+ 5608 0619 65776D61 		.ascii	"ewmask\000"
+ 5608      736B00
+ 5609              	.LASF175:
+ 5610 0620 76657841 		.ascii	"vexAudioStopChipToneSong\000"
+ARM GAS  /tmp/ccbULlcr.s 			page 105
 
 
- 5610      61677300 
- 5611              	.LASF96:
- 5612 061e 41504232 		.ascii	"APB2ENR\000"
- 5612      454E5200 
- 5613              	.LASF132:
- 5614 0626 6368616E 		.ascii	"channel\000"
- 5614      6E656C00 
- 5615              	.LASF81:
- 5616 062e 44485238 		.ascii	"DHR8R2\000"
- 5616      523200
- 5617              	.LASF40:
- 5618 0635 705F6570 		.ascii	"p_epending\000"
- 5618      656E6469 
- 5618      6E6700
- 5619              	.LASF202:
- 5620 0640 6374416D 		.ascii	"ctAmplitude\000"
- 5620      706C6974 
- 5620      75646500 
- 5621              	.LASF107:
- 5622 064c 52455345 		.ascii	"RESERVED5\000"
- 5622      52564544 
- 5622      3500
- 5623              	.LASF76:
- 5624 0656 44485231 		.ascii	"DHR12R1\000"
- 5624      32523100 
- 5625              	.LASF79:
- 5626 065e 44485231 		.ascii	"DHR12R2\000"
- 5626      32523200 
- 5627              	.LASF49:
- 5628 0666 725F7175 		.ascii	"r_queue\000"
- 5628      65756500 
- 5629              	.LASF114:
- 5630 066e 52455345 		.ascii	"RESERVED9\000"
- 5630      52564544 
- 5630      3900
- 5631              	.LASF84:
- 5632 0678 44485238 		.ascii	"DHR8RD\000"
- 5632      524400
- 5633              	.LASF208:
- 5634 067f 474E5520 		.ascii	"GNU C 4.6.3\000"
- 5634      4320342E 
- 5634      362E3300 
- 5635              	.LASF17:
- 5636 068b 74736C69 		.ascii	"tslices_t\000"
- 5636      6365735F 
- 5636      7400
- 5637              	.LASF10:
- 5638 0695 6C6F6E67 		.ascii	"long unsigned int\000"
- 5638      20756E73 
- 5638      69676E65 
- 5638      6420696E 
+ 5610      7564696F 
+ 5610      53746F70 
+ 5610      43686970 
+ 5610      546F6E65 
+ 5611              	.LASF33:
+ 5612 0639 705F666C 		.ascii	"p_flags\000"
+ 5612      61677300 
+ 5613              	.LASF96:
+ 5614 0641 41504232 		.ascii	"APB2ENR\000"
+ 5614      454E5200 
+ 5615              	.LASF132:
+ 5616 0649 6368616E 		.ascii	"channel\000"
+ 5616      6E656C00 
+ 5617              	.LASF81:
+ 5618 0651 44485238 		.ascii	"DHR8R2\000"
+ 5618      523200
+ 5619              	.LASF40:
+ 5620 0658 705F6570 		.ascii	"p_epending\000"
+ 5620      656E6469 
+ 5620      6E6700
+ 5621              	.LASF202:
+ 5622 0663 6374416D 		.ascii	"ctAmplitude\000"
+ 5622      706C6974 
+ 5622      75646500 
+ 5623              	.LASF107:
+ 5624 066f 52455345 		.ascii	"RESERVED5\000"
+ 5624      52564544 
+ 5624      3500
+ 5625              	.LASF76:
+ 5626 0679 44485231 		.ascii	"DHR12R1\000"
+ 5626      32523100 
+ 5627              	.LASF79:
+ 5628 0681 44485231 		.ascii	"DHR12R2\000"
+ 5628      32523200 
+ 5629              	.LASF49:
+ 5630 0689 725F7175 		.ascii	"r_queue\000"
+ 5630      65756500 
+ 5631              	.LASF114:
+ 5632 0691 52455345 		.ascii	"RESERVED9\000"
+ 5632      52564544 
+ 5632      3900
+ 5633              	.LASF84:
+ 5634 069b 44485238 		.ascii	"DHR8RD\000"
+ 5634      524400
+ 5635              	.LASF208:
+ 5636 06a2 474E5520 		.ascii	"GNU C 4.6.3\000"
+ 5636      4320342E 
+ 5636      362E3300 
+ 5637              	.LASF17:
+ 5638 06ae 74736C69 		.ascii	"tslices_t\000"
+ 5638      6365735F 
  5638      7400
- 5639              	.LASF188:
- 5640 06a7 72657065 		.ascii	"repeat\000"
- 5640      617400
- 5641              	.LASF74:
- 5642 06ae 63686172 		.ascii	"char\000"
-ARM GAS  /tmp/ccjUNKpy.s 			page 106
+ 5639              	.LASF10:
+ 5640 06b8 6C6F6E67 		.ascii	"long unsigned int\000"
+ 5640      20756E73 
+ 5640      69676E65 
+ 5640      6420696E 
+ARM GAS  /tmp/ccbULlcr.s 			page 106
 
 
- 5642      00
- 5643              	.LASF155:
- 5644 06b3 6B496D65 		.ascii	"kImeChannel_2\000"
- 5644      4368616E 
- 5644      6E656C5F 
- 5644      3200
- 5645              	.LASF156:
- 5646 06c1 6B496D65 		.ascii	"kImeChannel_3\000"
+ 5640      7400
+ 5641              	.LASF188:
+ 5642 06ca 72657065 		.ascii	"repeat\000"
+ 5642      617400
+ 5643              	.LASF74:
+ 5644 06d1 63686172 		.ascii	"char\000"
+ 5644      00
+ 5645              	.LASF155:
+ 5646 06d6 6B496D65 		.ascii	"kImeChannel_2\000"
  5646      4368616E 
  5646      6E656C5F 
- 5646      3300
- 5647              	.LASF157:
- 5648 06cf 6B496D65 		.ascii	"kImeChannel_4\000"
+ 5646      3200
+ 5647              	.LASF156:
+ 5648 06e4 6B496D65 		.ascii	"kImeChannel_3\000"
  5648      4368616E 
  5648      6E656C5F 
- 5648      3400
- 5649              	.LASF158:
- 5650 06dd 6B496D65 		.ascii	"kImeChannel_5\000"
+ 5648      3300
+ 5649              	.LASF157:
+ 5650 06f2 6B496D65 		.ascii	"kImeChannel_4\000"
  5650      4368616E 
  5650      6E656C5F 
- 5650      3500
- 5651              	.LASF159:
- 5652 06eb 6B496D65 		.ascii	"kImeChannel_6\000"
+ 5650      3400
+ 5651              	.LASF158:
+ 5652 0700 6B496D65 		.ascii	"kImeChannel_5\000"
  5652      4368616E 
  5652      6E656C5F 
- 5652      3600
- 5653              	.LASF82:
- 5654 06f9 44485231 		.ascii	"DHR12RD\000"
- 5654      32524400 
- 5655              	.LASF161:
- 5656 0701 6B496D65 		.ascii	"kImeChannel_8\000"
- 5656      4368616E 
- 5656      6E656C5F 
- 5656      3800
- 5657              	.LASF129:
- 5658 070f 444D4152 		.ascii	"DMAR\000"
- 5658      00
- 5659              	.LASF148:
- 5660 0714 6B566578 		.ascii	"kVexDigital_10\000"
- 5660      44696769 
- 5660      74616C5F 
- 5660      313000
- 5661              	.LASF149:
- 5662 0723 6B566578 		.ascii	"kVexDigital_11\000"
+ 5652      3500
+ 5653              	.LASF159:
+ 5654 070e 6B496D65 		.ascii	"kImeChannel_6\000"
+ 5654      4368616E 
+ 5654      6E656C5F 
+ 5654      3600
+ 5655              	.LASF82:
+ 5656 071c 44485231 		.ascii	"DHR12RD\000"
+ 5656      32524400 
+ 5657              	.LASF161:
+ 5658 0724 6B496D65 		.ascii	"kImeChannel_8\000"
+ 5658      4368616E 
+ 5658      6E656C5F 
+ 5658      3800
+ 5659              	.LASF129:
+ 5660 0732 444D4152 		.ascii	"DMAR\000"
+ 5660      00
+ 5661              	.LASF148:
+ 5662 0737 6B566578 		.ascii	"kVexDigital_10\000"
  5662      44696769 
  5662      74616C5F 
- 5662      313100
- 5663              	.LASF150:
- 5664 0732 6B566578 		.ascii	"kVexDigital_12\000"
+ 5662      313000
+ 5663              	.LASF149:
+ 5664 0746 6B566578 		.ascii	"kVexDigital_11\000"
  5664      44696769 
  5664      74616C5F 
- 5664      313200
- 5665              	.LASF112:
- 5666 0741 43434552 		.ascii	"CCER\000"
- 5666      00
- 5667              	.LASF214:
- 5668 0746 76657841 		.ascii	"vexAudioTask\000"
-ARM GAS  /tmp/ccjUNKpy.s 			page 107
+ 5664      313100
+ 5665              	.LASF150:
+ 5666 0755 6B566578 		.ascii	"kVexDigital_12\000"
+ 5666      44696769 
+ 5666      74616C5F 
+ARM GAS  /tmp/ccbULlcr.s 			page 107
 
 
- 5668      7564696F 
- 5668      5461736B 
+ 5666      313200
+ 5667              	.LASF112:
+ 5668 0764 43434552 		.ascii	"CCER\000"
  5668      00
- 5669              	.LASF22:
- 5670 0753 73797374 		.ascii	"systime_t\000"
- 5670      696D655F 
- 5670      7400
- 5671              	.LASF42:
- 5672 075d 705F7265 		.ascii	"p_realprio\000"
- 5672      616C7072 
- 5672      696F00
- 5673              	.LASF77:
- 5674 0768 44485231 		.ascii	"DHR12L1\000"
- 5674      324C3100 
- 5675              	.LASF97:
- 5676 0770 41504231 		.ascii	"APB1ENR\000"
- 5676      454E5200 
- 5677              	.LASF48:
- 5678 0778 636F6E74 		.ascii	"context\000"
- 5678      65787400 
- 5679              	.LASF190:
- 5680 0780 76657841 		.ascii	"vexAudioPlaySoundWait\000"
- 5680      7564696F 
- 5680      506C6179 
- 5680      536F756E 
- 5680      64576169 
- 5681              	.LASF47:
- 5682 0796 696E7463 		.ascii	"intctx\000"
- 5682      747800
- 5683              	.LASF199:
- 5684 079d 6374506C 		.ascii	"ctPlayPtr\000"
- 5684      61795074 
- 5684      7200
- 5685              	.LASF111:
- 5686 07a7 52455345 		.ascii	"RESERVED7\000"
- 5686      52564544 
- 5686      3700
- 5687              	.LASF56:
- 5688 07b1 53656D61 		.ascii	"Semaphore\000"
- 5688      70686F72 
- 5688      6500
- 5689              	.LASF21:
- 5690 07bb 666C6167 		.ascii	"flagsmask_t\000"
- 5690      736D6173 
- 5690      6B5F7400 
- 5691              	.LASF210:
- 5692 07c7 2F686F6D 		.ascii	"/home/aolsen/pros/9999-0.13\000"
- 5692      652F616F 
- 5692      6C73656E 
- 5692      2F70726F 
- 5692      732F3939 
- 5693              	.LASF118:
- 5694 07e3 43435231 		.ascii	"CCR1\000"
+ 5669              	.LASF214:
+ 5670 0769 76657841 		.ascii	"vexAudioTask\000"
+ 5670      7564696F 
+ 5670      5461736B 
+ 5670      00
+ 5671              	.LASF22:
+ 5672 0776 73797374 		.ascii	"systime_t\000"
+ 5672      696D655F 
+ 5672      7400
+ 5673              	.LASF42:
+ 5674 0780 705F7265 		.ascii	"p_realprio\000"
+ 5674      616C7072 
+ 5674      696F00
+ 5675              	.LASF77:
+ 5676 078b 44485231 		.ascii	"DHR12L1\000"
+ 5676      324C3100 
+ 5677              	.LASF97:
+ 5678 0793 41504231 		.ascii	"APB1ENR\000"
+ 5678      454E5200 
+ 5679              	.LASF48:
+ 5680 079b 636F6E74 		.ascii	"context\000"
+ 5680      65787400 
+ 5681              	.LASF190:
+ 5682 07a3 76657841 		.ascii	"vexAudioPlaySoundWait\000"
+ 5682      7564696F 
+ 5682      506C6179 
+ 5682      536F756E 
+ 5682      64576169 
+ 5683              	.LASF47:
+ 5684 07b9 696E7463 		.ascii	"intctx\000"
+ 5684      747800
+ 5685              	.LASF199:
+ 5686 07c0 6374506C 		.ascii	"ctPlayPtr\000"
+ 5686      61795074 
+ 5686      7200
+ 5687              	.LASF111:
+ 5688 07ca 52455345 		.ascii	"RESERVED7\000"
+ 5688      52564544 
+ 5688      3700
+ 5689              	.LASF56:
+ 5690 07d4 53656D61 		.ascii	"Semaphore\000"
+ 5690      70686F72 
+ 5690      6500
+ 5691              	.LASF21:
+ 5692 07de 666C6167 		.ascii	"flagsmask_t\000"
+ 5692      736D6173 
+ 5692      6B5F7400 
+ 5693              	.LASF9:
+ 5694 07ea 75696E74 		.ascii	"uint32_t\000"
+ 5694      33325F74 
  5694      00
- 5695              	.LASF120:
- 5696 07e8 43435232 		.ascii	"CCR2\000"
+ 5695              	.LASF118:
+ 5696 07f3 43435231 		.ascii	"CCR1\000"
+ARM GAS  /tmp/ccbULlcr.s 			page 108
+
+
  5696      00
-ARM GAS  /tmp/ccjUNKpy.s 			page 108
-
-
- 5697              	.LASF122:
- 5698 07ed 43435233 		.ascii	"CCR3\000"
+ 5697              	.LASF120:
+ 5698 07f8 43435232 		.ascii	"CCR2\000"
  5698      00
- 5699              	.LASF87:
- 5700 07f2 4441435F 		.ascii	"DAC_TypeDef\000"
- 5700      54797065 
- 5700      44656600 
- 5701              	.LASF69:
- 5702 07fe 65735F6E 		.ascii	"es_next\000"
- 5702      65787400 
- 5703              	.LASF68:
- 5704 0806 4576656E 		.ascii	"EventSource\000"
- 5704      74536F75 
- 5704      72636500 
- 5705              	.LASF75:
- 5706 0812 53575452 		.ascii	"SWTRIGR\000"
- 5706      49475200 
- 5707              	.LASF88:
- 5708 081a 434E4454 		.ascii	"CNDTR\000"
- 5708      5200
- 5709              	.LASF98:
- 5710 0820 42444352 		.ascii	"BDCR\000"
- 5710      00
- 5711              	.LASF205:
- 5712 0825 726C6973 		.ascii	"rlist\000"
- 5712      7400
- 5713              	.LASF163:
- 5714 082b 6B496D65 		.ascii	"kImeChannelNone\000"
- 5714      4368616E 
- 5714      6E656C4E 
- 5714      6F6E6500 
- 5715              	.LASF4:
- 5716 083b 75696E74 		.ascii	"uint8_t\000"
- 5716      385F7400 
- 5717              	.LASF195:
- 5718 0843 736F756E 		.ascii	"sound_done\000"
- 5718      645F646F 
- 5718      6E6500
- 5719              	.LASF63:
- 5720 084e 4576656E 		.ascii	"EventListener\000"
- 5720      744C6973 
- 5720      74656E65 
- 5720      7200
- 5721              	.LASF72:
- 5722 085c 77746F62 		.ascii	"wtobjp\000"
- 5722      6A7000
- 5723              	.LASF31:
- 5724 0863 705F6E61 		.ascii	"p_name\000"
- 5724      6D6500
- 5725              	.LASF186:
- 5726 086a 63757272 		.ascii	"current_amplitude\000"
- 5726      656E745F 
- 5726      616D706C 
- 5726      69747564 
- 5726      6500
- 5727              	.LASF92:
- 5728 087c 43464752 		.ascii	"CFGR\000"
-ARM GAS  /tmp/ccjUNKpy.s 			page 109
+ 5699              	.LASF122:
+ 5700 07fd 43435233 		.ascii	"CCR3\000"
+ 5700      00
+ 5701              	.LASF87:
+ 5702 0802 4441435F 		.ascii	"DAC_TypeDef\000"
+ 5702      54797065 
+ 5702      44656600 
+ 5703              	.LASF69:
+ 5704 080e 65735F6E 		.ascii	"es_next\000"
+ 5704      65787400 
+ 5705              	.LASF68:
+ 5706 0816 4576656E 		.ascii	"EventSource\000"
+ 5706      74536F75 
+ 5706      72636500 
+ 5707              	.LASF75:
+ 5708 0822 53575452 		.ascii	"SWTRIGR\000"
+ 5708      49475200 
+ 5709              	.LASF88:
+ 5710 082a 434E4454 		.ascii	"CNDTR\000"
+ 5710      5200
+ 5711              	.LASF98:
+ 5712 0830 42444352 		.ascii	"BDCR\000"
+ 5712      00
+ 5713              	.LASF205:
+ 5714 0835 726C6973 		.ascii	"rlist\000"
+ 5714      7400
+ 5715              	.LASF163:
+ 5716 083b 6B496D65 		.ascii	"kImeChannelNone\000"
+ 5716      4368616E 
+ 5716      6E656C4E 
+ 5716      6F6E6500 
+ 5717              	.LASF4:
+ 5718 084b 75696E74 		.ascii	"uint8_t\000"
+ 5718      385F7400 
+ 5719              	.LASF195:
+ 5720 0853 736F756E 		.ascii	"sound_done\000"
+ 5720      645F646F 
+ 5720      6E6500
+ 5721              	.LASF63:
+ 5722 085e 4576656E 		.ascii	"EventListener\000"
+ 5722      744C6973 
+ 5722      74656E65 
+ 5722      7200
+ 5723              	.LASF72:
+ 5724 086c 77746F62 		.ascii	"wtobjp\000"
+ 5724      6A7000
+ 5725              	.LASF31:
+ 5726 0873 705F6E61 		.ascii	"p_name\000"
+ 5726      6D6500
+ 5727              	.LASF186:
+ 5728 087a 63757272 		.ascii	"current_amplitude\000"
+ 5728      656E745F 
+ 5728      616D706C 
+ARM GAS  /tmp/ccbULlcr.s 			page 109
 
 
- 5728      00
- 5729              	.LASF14:
- 5730 0881 746D6F64 		.ascii	"tmode_t\000"
- 5730      655F7400 
- 5731              	.LASF80:
- 5732 0889 44485231 		.ascii	"DHR12L2\000"
- 5732      324C3200 
- 5733              	.LASF39:
- 5734 0891 705F6D73 		.ascii	"p_msg\000"
- 5734      6700
- 5735              	.LASF184:
- 5736 0897 746D7072 		.ascii	"tmpreg\000"
- 5736      656700
- 5737              	.LASF171:
- 5738 089e 616D706C 		.ascii	"amplitude\000"
- 5738      69747564 
- 5738      6500
- 5739              	.LASF61:
- 5740 08a8 6D5F6F77 		.ascii	"m_owner\000"
- 5740      6E657200 
- 5741              	.LASF83:
- 5742 08b0 44485231 		.ascii	"DHR12LD\000"
- 5742      324C4400 
- 5743              	.LASF9:
- 5744 08b8 75696E74 		.ascii	"uint32_t\000"
- 5744      33325F74 
- 5744      00
+ 5728      69747564 
+ 5728      6500
+ 5729              	.LASF92:
+ 5730 088c 43464752 		.ascii	"CFGR\000"
+ 5730      00
+ 5731              	.LASF14:
+ 5732 0891 746D6F64 		.ascii	"tmode_t\000"
+ 5732      655F7400 
+ 5733              	.LASF80:
+ 5734 0899 44485231 		.ascii	"DHR12L2\000"
+ 5734      324C3200 
+ 5735              	.LASF39:
+ 5736 08a1 705F6D73 		.ascii	"p_msg\000"
+ 5736      6700
+ 5737              	.LASF184:
+ 5738 08a7 746D7072 		.ascii	"tmpreg\000"
+ 5738      656700
+ 5739              	.LASF171:
+ 5740 08ae 616D706C 		.ascii	"amplitude\000"
+ 5740      69747564 
+ 5740      6500
+ 5741              	.LASF61:
+ 5742 08b8 6D5F6F77 		.ascii	"m_owner\000"
+ 5742      6E657200 
+ 5743              	.LASF83:
+ 5744 08c0 44485231 		.ascii	"DHR12LD\000"
+ 5744      324C4400 
  5745              	.LASF28:
- 5746 08c1 705F6374 		.ascii	"p_ctx\000"
+ 5746 08c8 705F6374 		.ascii	"p_ctx\000"
  5746      7800
  5747              	.LASF37:
- 5748 08c7 705F7761 		.ascii	"p_waiting\000"
+ 5748 08ce 705F7761 		.ascii	"p_waiting\000"
  5748      6974696E 
  5748      6700
  5749              	.LASF200:
- 5750 08d1 63745369 		.ascii	"ctSize\000"
+ 5750 08d8 63745369 		.ascii	"ctSize\000"
  5750      7A6500
  5751              	.LASF152:
- 5752 08d8 6B566578 		.ascii	"kVexDigitalInput\000"
+ 5752 08df 6B566578 		.ascii	"kVexDigitalInput\000"
  5752      44696769 
  5752      74616C49 
  5752      6E707574 
  5752      00
  5753              		.ident	"GCC: (Sourcery CodeBench Lite 2012.03-56) 4.6.3"
-ARM GAS  /tmp/ccjUNKpy.s 			page 110
+ARM GAS  /tmp/ccbULlcr.s 			page 110
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 vexaudio.c
-     /tmp/ccjUNKpy.s:19     .text.vexAudioStopSound:00000000 $t
-     /tmp/ccjUNKpy.s:25     .text.vexAudioStopSound:00000000 vexAudioStopSound
-     /tmp/ccjUNKpy.s:1502   .bss.ctSetPtr:00000000 .LANCHOR2
-     /tmp/ccjUNKpy.s:1544   .bss.VSL_Counter:00000000 .LANCHOR0
-     /tmp/ccjUNKpy.s:1481   .bss.ctPlayPtr:00000000 .LANCHOR1
-     /tmp/ccjUNKpy.s:1467   .bss.vslSem:00000000 .LANCHOR3
-     /tmp/ccjUNKpy.s:90     .text.vexAudioInitChipToneSong:00000000 $t
-     /tmp/ccjUNKpy.s:96     .text.vexAudioInitChipToneSong:00000000 vexAudioInitChipToneSong
-     /tmp/ccjUNKpy.s:1523   .bss.VSL_ctarray:00000000 .LANCHOR4
-     /tmp/ccjUNKpy.s:1530   .bss.ctSize:00000000 .LANCHOR5
-     /tmp/ccjUNKpy.s:1488   .bss.ctRepeat:00000000 .LANCHOR6
-     /tmp/ccjUNKpy.s:256    .text.vexAudioDeinitChipToneSong:00000000 $t
-     /tmp/ccjUNKpy.s:262    .text.vexAudioDeinitChipToneSong:00000000 vexAudioDeinitChipToneSong
-     /tmp/ccjUNKpy.s:296    .text.vexAudioStopChipToneSong:00000000 $t
-     /tmp/ccjUNKpy.s:302    .text.vexAudioStopChipToneSong:00000000 vexAudioStopChipToneSong
-     /tmp/ccjUNKpy.s:322    .text.vexAudioSetNextChipTone:00000000 $t
-     /tmp/ccjUNKpy.s:328    .text.vexAudioSetNextChipTone:00000000 vexAudioSetNextChipTone
-     /tmp/ccjUNKpy.s:1516   .bss.ctAmplitude:00000000 .LANCHOR7
-     /tmp/ccjUNKpy.s:390    .text.vexAudioDebugChipTone:00000000 $t
-     /tmp/ccjUNKpy.s:396    .text.vexAudioDebugChipTone:00000000 vexAudioDebugChipTone
-     /tmp/ccjUNKpy.s:1509   .rodata.str1.4:00000000 .LC0
-     /tmp/ccjUNKpy.s:457    .text.VSL_Factorize:00000000 $t
-     /tmp/ccjUNKpy.s:463    .text.VSL_Factorize:00000000 VSL_Factorize
-     /tmp/ccjUNKpy.s:557    .text.VSL_CreateSineWave:00000000 $t
-     /tmp/ccjUNKpy.s:563    .text.VSL_CreateSineWave:00000000 VSL_CreateSineWave
-     /tmp/ccjUNKpy.s:643    .text.VSL_CreateSineWave:00000050 $d
-     /tmp/ccjUNKpy.s:651    .text.VSL_InitTimer:00000000 $t
-     /tmp/ccjUNKpy.s:657    .text.VSL_InitTimer:00000000 VSL_InitTimer
-     /tmp/ccjUNKpy.s:748    .text.VSL_Init:00000000 $t
-     /tmp/ccjUNKpy.s:754    .text.VSL_Init:00000000 VSL_Init
-     /tmp/ccjUNKpy.s:1474   .bss.Sine12bit:00000000 .LANCHOR9
-     /tmp/ccjUNKpy.s:847    .text.VSL_Init:00000090 $d
-     /tmp/ccjUNKpy.s:853    .text.vexAudioPlaySound:00000000 $t
-     /tmp/ccjUNKpy.s:859    .text.vexAudioPlaySound:00000000 vexAudioPlaySound
-     /tmp/ccjUNKpy.s:1460   .bss.vslThread:00000000 .LANCHOR10
-     /tmp/ccjUNKpy.s:1537   .data.current_amplitude.7187:00000000 .LANCHOR11
-     /tmp/ccjUNKpy.s:1146   .text.vexAudioTask:00000000 vexAudioTask
-     /tmp/ccjUNKpy.s:997    .text.vexAudioPlayNextChipTone:00000000 $t
-     /tmp/ccjUNKpy.s:1003   .text.vexAudioPlayNextChipTone:00000000 vexAudioPlayNextChipTone
-     /tmp/ccjUNKpy.s:1098   .text.vexAudioStartChipToneSong:00000000 $t
-     /tmp/ccjUNKpy.s:1104   .text.vexAudioStartChipToneSong:00000000 vexAudioStartChipToneSong
-     /tmp/ccjUNKpy.s:1141   .text.vexAudioTask:00000000 $t
-     /tmp/ccjUNKpy.s:1512   .rodata.str1.4:0000000c .LC1
-     /tmp/ccjUNKpy.s:1495   .data.sound_done:00000000 .LANCHOR12
-     /tmp/ccjUNKpy.s:1320   .text.vexAudioPlaySoundWait:00000000 $t
-     /tmp/ccjUNKpy.s:1326   .text.vexAudioPlaySoundWait:00000000 vexAudioPlaySoundWait
-     /tmp/ccjUNKpy.s:1381   .text.VSL_Deinit:00000000 $t
-     /tmp/ccjUNKpy.s:1387   .text.VSL_Deinit:00000000 VSL_Deinit
-     /tmp/ccjUNKpy.s:1421   .rodata.sinPreCalc:00000000 $d
-     /tmp/ccjUNKpy.s:1425   .rodata.sinPreCalc:00000000 sinPreCalc
-     /tmp/ccjUNKpy.s:1459   .bss.vslThread:00000000 $d
-     /tmp/ccjUNKpy.s:1463   .bss.vslThread:00000000 vslThread
-     /tmp/ccjUNKpy.s:1466   .bss.vslSem:00000000 $d
-     /tmp/ccjUNKpy.s:1470   .bss.vslSem:00000000 vslSem
-     /tmp/ccjUNKpy.s:1473   .bss.Sine12bit:00000000 $d
-ARM GAS  /tmp/ccjUNKpy.s 			page 111
+     /tmp/ccbULlcr.s:19     .text.vexAudioStopSound:00000000 $t
+     /tmp/ccbULlcr.s:25     .text.vexAudioStopSound:00000000 vexAudioStopSound
+     /tmp/ccbULlcr.s:1502   .bss.ctSetPtr:00000000 .LANCHOR2
+     /tmp/ccbULlcr.s:1544   .bss.VSL_Counter:00000000 .LANCHOR0
+     /tmp/ccbULlcr.s:1481   .bss.ctPlayPtr:00000000 .LANCHOR1
+     /tmp/ccbULlcr.s:1467   .bss.vslSem:00000000 .LANCHOR3
+     /tmp/ccbULlcr.s:90     .text.vexAudioInitChipToneSong:00000000 $t
+     /tmp/ccbULlcr.s:96     .text.vexAudioInitChipToneSong:00000000 vexAudioInitChipToneSong
+     /tmp/ccbULlcr.s:1523   .bss.VSL_ctarray:00000000 .LANCHOR4
+     /tmp/ccbULlcr.s:1530   .bss.ctSize:00000000 .LANCHOR5
+     /tmp/ccbULlcr.s:1488   .bss.ctRepeat:00000000 .LANCHOR6
+     /tmp/ccbULlcr.s:256    .text.vexAudioDeinitChipToneSong:00000000 $t
+     /tmp/ccbULlcr.s:262    .text.vexAudioDeinitChipToneSong:00000000 vexAudioDeinitChipToneSong
+     /tmp/ccbULlcr.s:296    .text.vexAudioStopChipToneSong:00000000 $t
+     /tmp/ccbULlcr.s:302    .text.vexAudioStopChipToneSong:00000000 vexAudioStopChipToneSong
+     /tmp/ccbULlcr.s:322    .text.vexAudioSetNextChipTone:00000000 $t
+     /tmp/ccbULlcr.s:328    .text.vexAudioSetNextChipTone:00000000 vexAudioSetNextChipTone
+     /tmp/ccbULlcr.s:1516   .bss.ctAmplitude:00000000 .LANCHOR7
+     /tmp/ccbULlcr.s:390    .text.vexAudioDebugChipTone:00000000 $t
+     /tmp/ccbULlcr.s:396    .text.vexAudioDebugChipTone:00000000 vexAudioDebugChipTone
+     /tmp/ccbULlcr.s:1509   .rodata.str1.4:00000000 .LC0
+     /tmp/ccbULlcr.s:457    .text.VSL_Factorize:00000000 $t
+     /tmp/ccbULlcr.s:463    .text.VSL_Factorize:00000000 VSL_Factorize
+     /tmp/ccbULlcr.s:557    .text.VSL_CreateSineWave:00000000 $t
+     /tmp/ccbULlcr.s:563    .text.VSL_CreateSineWave:00000000 VSL_CreateSineWave
+     /tmp/ccbULlcr.s:643    .text.VSL_CreateSineWave:00000050 $d
+     /tmp/ccbULlcr.s:651    .text.VSL_InitTimer:00000000 $t
+     /tmp/ccbULlcr.s:657    .text.VSL_InitTimer:00000000 VSL_InitTimer
+     /tmp/ccbULlcr.s:748    .text.VSL_Init:00000000 $t
+     /tmp/ccbULlcr.s:754    .text.VSL_Init:00000000 VSL_Init
+     /tmp/ccbULlcr.s:1474   .bss.Sine12bit:00000000 .LANCHOR9
+     /tmp/ccbULlcr.s:847    .text.VSL_Init:00000090 $d
+     /tmp/ccbULlcr.s:853    .text.vexAudioPlaySound:00000000 $t
+     /tmp/ccbULlcr.s:859    .text.vexAudioPlaySound:00000000 vexAudioPlaySound
+     /tmp/ccbULlcr.s:1460   .bss.vslThread:00000000 .LANCHOR10
+     /tmp/ccbULlcr.s:1537   .data.current_amplitude.7187:00000000 .LANCHOR11
+     /tmp/ccbULlcr.s:1146   .text.vexAudioTask:00000000 vexAudioTask
+     /tmp/ccbULlcr.s:997    .text.vexAudioPlayNextChipTone:00000000 $t
+     /tmp/ccbULlcr.s:1003   .text.vexAudioPlayNextChipTone:00000000 vexAudioPlayNextChipTone
+     /tmp/ccbULlcr.s:1098   .text.vexAudioStartChipToneSong:00000000 $t
+     /tmp/ccbULlcr.s:1104   .text.vexAudioStartChipToneSong:00000000 vexAudioStartChipToneSong
+     /tmp/ccbULlcr.s:1141   .text.vexAudioTask:00000000 $t
+     /tmp/ccbULlcr.s:1512   .rodata.str1.4:0000000c .LC1
+     /tmp/ccbULlcr.s:1495   .data.sound_done:00000000 .LANCHOR12
+     /tmp/ccbULlcr.s:1320   .text.vexAudioPlaySoundWait:00000000 $t
+     /tmp/ccbULlcr.s:1326   .text.vexAudioPlaySoundWait:00000000 vexAudioPlaySoundWait
+     /tmp/ccbULlcr.s:1381   .text.VSL_Deinit:00000000 $t
+     /tmp/ccbULlcr.s:1387   .text.VSL_Deinit:00000000 VSL_Deinit
+     /tmp/ccbULlcr.s:1421   .rodata.sinPreCalc:00000000 $d
+     /tmp/ccbULlcr.s:1425   .rodata.sinPreCalc:00000000 sinPreCalc
+     /tmp/ccbULlcr.s:1459   .bss.vslThread:00000000 $d
+     /tmp/ccbULlcr.s:1463   .bss.vslThread:00000000 vslThread
+     /tmp/ccbULlcr.s:1466   .bss.vslSem:00000000 $d
+     /tmp/ccbULlcr.s:1470   .bss.vslSem:00000000 vslSem
+     /tmp/ccbULlcr.s:1473   .bss.Sine12bit:00000000 $d
+ARM GAS  /tmp/ccbULlcr.s 			page 111
 
 
-     /tmp/ccjUNKpy.s:1477   .bss.Sine12bit:00000000 Sine12bit
-     /tmp/ccjUNKpy.s:1480   .bss.ctPlayPtr:00000000 $d
-     /tmp/ccjUNKpy.s:1484   .bss.ctPlayPtr:00000000 ctPlayPtr
-     /tmp/ccjUNKpy.s:1487   .bss.ctRepeat:00000000 $d
-     /tmp/ccjUNKpy.s:1491   .bss.ctRepeat:00000000 ctRepeat
-     /tmp/ccjUNKpy.s:1494   .data.sound_done:00000000 $d
-     /tmp/ccjUNKpy.s:1498   .data.sound_done:00000000 sound_done
-     /tmp/ccjUNKpy.s:1501   .bss.ctSetPtr:00000000 $d
-     /tmp/ccjUNKpy.s:1505   .bss.ctSetPtr:00000000 ctSetPtr
-     /tmp/ccjUNKpy.s:1508   .rodata.str1.4:00000000 $d
-     /tmp/ccjUNKpy.s:1515   .bss.ctAmplitude:00000000 $d
-     /tmp/ccjUNKpy.s:1519   .bss.ctAmplitude:00000000 ctAmplitude
-     /tmp/ccjUNKpy.s:1522   .bss.VSL_ctarray:00000000 $d
-     /tmp/ccjUNKpy.s:1526   .bss.VSL_ctarray:00000000 VSL_ctarray
-     /tmp/ccjUNKpy.s:1529   .bss.ctSize:00000000 $d
-     /tmp/ccjUNKpy.s:1533   .bss.ctSize:00000000 ctSize
-     /tmp/ccjUNKpy.s:1536   .data.current_amplitude.7187:00000000 $d
-     /tmp/ccjUNKpy.s:1540   .data.current_amplitude.7187:00000000 current_amplitude.7187
-     /tmp/ccjUNKpy.s:1543   .bss.VSL_Counter:00000000 $d
-     /tmp/ccjUNKpy.s:1547   .bss.VSL_Counter:00000000 VSL_Counter
+     /tmp/ccbULlcr.s:1477   .bss.Sine12bit:00000000 Sine12bit
+     /tmp/ccbULlcr.s:1480   .bss.ctPlayPtr:00000000 $d
+     /tmp/ccbULlcr.s:1484   .bss.ctPlayPtr:00000000 ctPlayPtr
+     /tmp/ccbULlcr.s:1487   .bss.ctRepeat:00000000 $d
+     /tmp/ccbULlcr.s:1491   .bss.ctRepeat:00000000 ctRepeat
+     /tmp/ccbULlcr.s:1494   .data.sound_done:00000000 $d
+     /tmp/ccbULlcr.s:1498   .data.sound_done:00000000 sound_done
+     /tmp/ccbULlcr.s:1501   .bss.ctSetPtr:00000000 $d
+     /tmp/ccbULlcr.s:1505   .bss.ctSetPtr:00000000 ctSetPtr
+     /tmp/ccbULlcr.s:1508   .rodata.str1.4:00000000 $d
+     /tmp/ccbULlcr.s:1515   .bss.ctAmplitude:00000000 $d
+     /tmp/ccbULlcr.s:1519   .bss.ctAmplitude:00000000 ctAmplitude
+     /tmp/ccbULlcr.s:1522   .bss.VSL_ctarray:00000000 $d
+     /tmp/ccbULlcr.s:1526   .bss.VSL_ctarray:00000000 VSL_ctarray
+     /tmp/ccbULlcr.s:1529   .bss.ctSize:00000000 $d
+     /tmp/ccbULlcr.s:1533   .bss.ctSize:00000000 ctSize
+     /tmp/ccbULlcr.s:1536   .data.current_amplitude.7187:00000000 $d
+     /tmp/ccbULlcr.s:1540   .data.current_amplitude.7187:00000000 current_amplitude.7187
+     /tmp/ccbULlcr.s:1543   .bss.VSL_Counter:00000000 $d
+     /tmp/ccbULlcr.s:1547   .bss.VSL_Counter:00000000 VSL_Counter
                      .debug_frame:00000010 $d
-     /tmp/ccjUNKpy.s:650    .text.VSL_CreateSineWave:00000058 $t
-     /tmp/ccjUNKpy.s:852    .text.VSL_Init:00000094 $t
+     /tmp/ccbULlcr.s:650    .text.VSL_CreateSineWave:00000058 $t
+     /tmp/ccbULlcr.s:852    .text.VSL_Init:00000094 $t
 
 UNDEFINED SYMBOLS
 chSemReset

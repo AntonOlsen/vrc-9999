@@ -28,7 +28,7 @@ void DriveSystemArcadeDrive( short forward, short turn ) {
         drive_r_motor = 127 * drive_r_motor  / max;
     }
 
-    gyro_raw = vexAdcGet( kVexAnalog_1 );
+    gyro_raw = vexAdcGet( kVexAnalog_2 );
 
     gyro_error = (gyro_base - gyro_raw);
     for( i=0;i<4;i++) {
@@ -57,36 +57,29 @@ void DriveSystemArcadeDrive( short forward, short turn ) {
 /*  Drive control task                                                         */
 /*-----------------------------------------------------------------------------*/
 
-task DriveTask(void *arg) {
+void operatorDrive(void *arg) {
     short   forward, turn;
 
     (void)arg;
-    vexTaskRegister("Drive task");
 
-    while( TRUE ) {
+  	// Get controller
+    if( abs( vexControllerGet( Ch3 ) ) > 10 )
+       forward = vexControllerGet( Ch3 );
+    else
+        forward = 0;
 
-    	// Get controller
-        if( abs( vexControllerGet( Ch3 ) ) > 10 )
-            forward = vexControllerGet( Ch3 );
-        else
-            forward = 0;
+    if( abs( vexControllerGet( Ch1 ) ) > 10 )
+        turn = vexControllerGet( Ch1 );
+    else
+        turn = 0;
 
-        if( abs( vexControllerGet( Ch1 ) ) > 10 )
-            turn = vexControllerGet( Ch1 );
-        else
-            turn = 0;
-
-        if( abs(turn) < 80) {
-        	turn *= 0.50;
-        } else if( abs(turn) < 100 ) {
-        	turn *= 0.75;
-        }
-
-        DriveSystemArcadeDrive( forward, turn );
-
-        wait1Msec(25);
+    if( abs(turn) < 80) {
+     	turn *= 0.50;
+    } else if( abs(turn) < 100 ) {
+      	turn *= 0.75;
     }
 
-    return( (msg_t) 0);
+    DriveSystemArcadeDrive( forward, turn );
+
 }
 

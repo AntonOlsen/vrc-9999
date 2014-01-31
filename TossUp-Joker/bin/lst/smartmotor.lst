@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccXOsttd.s 			page 1
+ARM GAS  /tmp/ccdUEzgz.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
   55              	.LCFI1:
   56              		.cfi_def_cfa_offset 64
   57              		.loc 1 1601 0
-ARM GAS  /tmp/ccXOsttd.s 			page 2
+ARM GAS  /tmp/ccdUEzgz.s 			page 2
 
 
   58 000e 0121     		movs	r1, #1
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  112 0072 0A22     		movs	r2, #10
  113 0074 0A20     		movs	r0, #10
  114              		.loc 1 1613 0
-ARM GAS  /tmp/ccXOsttd.s 			page 3
+ARM GAS  /tmp/ccdUEzgz.s 			page 3
 
 
  115 0076 059B     		ldr	r3, [sp, #20]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  169 00cc 029A     		ldr	r2, [sp, #8]
  170 00ce 0C32     		adds	r2, r2, #12
  171 00d0 0292     		str	r2, [sp, #8]
-ARM GAS  /tmp/ccXOsttd.s 			page 4
+ARM GAS  /tmp/ccdUEzgz.s 			page 4
 
 
  172              	.LVL4:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  226 0132 8146     		mov	r9, r0
  227              	.LVL11:
  228              		.loc 1 1628 0
-ARM GAS  /tmp/ccXOsttd.s 			page 5
+ARM GAS  /tmp/ccdUEzgz.s 			page 5
 
 
  229 0134 002A     		cmp	r2, #0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  283 0196 40F07882 		bne	.L52
  284              	.L55:
  285              		.loc 1 1641 0
-ARM GAS  /tmp/ccXOsttd.s 			page 6
+ARM GAS  /tmp/ccdUEzgz.s 			page 6
 
 
  286 019a 8B4B     		ldr	r3, .L313+4
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  340 01f6 BE42     		cmp	r6, r7
  341 01f8 11D0     		beq	.L84
  342              		.loc 1 1647 0
-ARM GAS  /tmp/ccXOsttd.s 			page 7
+ARM GAS  /tmp/ccdUEzgz.s 			page 7
 
 
  343 01fa 80F2D382 		bge	.L306
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  397 025c 8742     		cmp	r7, r0
  398 025e B4BF     		ite	lt
  399 0260 B946     		movlt	r9, r7
-ARM GAS  /tmp/ccXOsttd.s 			page 8
+ARM GAS  /tmp/ccdUEzgz.s 			page 8
 
 
  400 0262 8146     		movge	r9, r0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  454 02be 96F90000 		ldrsb	r0, [r6, #0]
  455 02c2 FFF7FEFF 		bl	vexMotorSet
  456              	.L120:
-ARM GAS  /tmp/ccXOsttd.s 			page 9
+ARM GAS  /tmp/ccdUEzgz.s 			page 9
 
 
  457              	.LVL35:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  511 0324 B4F90070 		ldrsh	r7, [r4, #0]
  512              		.loc 1 1625 0
  513 0328 0646     		mov	r6, r0
-ARM GAS  /tmp/ccXOsttd.s 			page 10
+ARM GAS  /tmp/ccdUEzgz.s 			page 10
 
 
  514 032a 8146     		mov	r9, r0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  568              	.LVL47:
  569 0388 B0F90030 		ldrsh	r3, [r0, #0]
  570 038c 002B     		cmp	r3, #0
-ARM GAS  /tmp/ccXOsttd.s 			page 11
+ARM GAS  /tmp/ccdUEzgz.s 			page 11
 
 
  571 038e 40F0C280 		bne	.L160
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  625              		.loc 1 1628 0
  626 03f6 002F     		cmp	r7, #0
  627 03f8 40F0A980 		bne	.L178
-ARM GAS  /tmp/ccXOsttd.s 			page 12
+ARM GAS  /tmp/ccdUEzgz.s 			page 12
 
 
  628              		.loc 1 1628 0 is_stmt 0 discriminator 2
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  682 0456 8146     		mov	r9, r0
  683              	.LVL57:
  684              		.loc 1 1628 0
-ARM GAS  /tmp/ccXOsttd.s 			page 13
+ARM GAS  /tmp/ccdUEzgz.s 			page 13
 
 
  685 0458 002F     		cmp	r7, #0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  739              	.LBB68:
  740              		.loc 1 142 0
  741 04ae FFF7FEFF 		bl	__aeabi_fcmpeq
-ARM GAS  /tmp/ccXOsttd.s 			page 14
+ARM GAS  /tmp/ccdUEzgz.s 			page 14
 
 
  742              	.LVL62:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  796 0528 B2F80CB0 		ldrh	fp, [r2, #12]
  797 052c 88EAE872 		eor	r2, r8, r8, asr #31
  798 0530 A2EBE872 		sub	r2, r2, r8, asr #31
-ARM GAS  /tmp/ccXOsttd.s 			page 15
+ARM GAS  /tmp/ccdUEzgz.s 			page 15
 
 
  799 0534 0FFA8BF7 		sxth	r7, fp
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  853              	.LBE43:
  854              	.LBE89:
  855              		.loc 1 1632 0
-ARM GAS  /tmp/ccXOsttd.s 			page 16
+ARM GAS  /tmp/ccdUEzgz.s 			page 16
 
 
  856 05a6 4046     		mov	r0, r8
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  910 0608 A0EBE770 		sub	r0, r0, r7, asr #31
  911 060c 9042     		cmp	r0, r2
  912 060e 00F38B81 		bgt	.L74
-ARM GAS  /tmp/ccXOsttd.s 			page 17
+ARM GAS  /tmp/ccdUEzgz.s 			page 17
 
 
  913              		.loc 1 1638 0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  967              		.loc 1 1630 0
  968 069c B2F80CB0 		ldrh	fp, [r2, #12]
  969 06a0 88EAE872 		eor	r2, r8, r8, asr #31
-ARM GAS  /tmp/ccXOsttd.s 			page 18
+ARM GAS  /tmp/ccdUEzgz.s 			page 18
 
 
  970 06a4 A2EBE872 		sub	r2, r2, r8, asr #31
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1024              		.loc 1 1635 0
  1025 0732 A5F80EB0 		strh	fp, [r5, #14]	@ movhi
  1026 0736 E2E4     		b	.L18
-ARM GAS  /tmp/ccXOsttd.s 			page 19
+ARM GAS  /tmp/ccdUEzgz.s 			page 19
 
 
  1027              	.LVL77:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1081 078c ECE4     		b	.L51
  1082              	.LVL85:
  1083              	.L305:
-ARM GAS  /tmp/ccXOsttd.s 			page 20
+ARM GAS  /tmp/ccdUEzgz.s 			page 20
 
 
  1084              		.loc 1 1656 0
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1138              	.LVL93:
  1139              	.L309:
  1140              		.loc 1 1656 0
-ARM GAS  /tmp/ccXOsttd.s 			page 21
+ARM GAS  /tmp/ccdUEzgz.s 			page 21
 
 
  1141 07e6 7FF791AD 		ble	.L141
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1195              	.LVL99:
  1196 0840 0028     		cmp	r0, #0
  1197 0842 00F0B281 		beq	.L253
-ARM GAS  /tmp/ccXOsttd.s 			page 22
+ARM GAS  /tmp/ccdUEzgz.s 			page 22
 
 
  1198 0846 0023     		movs	r3, #0
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1252              	.LBE96:
  1253              		.loc 1 1632 0
  1254 088c 0190     		str	r0, [sp, #4]	@ float
-ARM GAS  /tmp/ccXOsttd.s 			page 23
+ARM GAS  /tmp/ccdUEzgz.s 			page 23
 
 
  1255              	.LVL103:
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1309              		.loc 1 1632 0
  1310 08d6 3846     		mov	r0, r7
  1311 08d8 FFF7FEFF 		bl	__aeabi_i2f
-ARM GAS  /tmp/ccXOsttd.s 			page 24
+ARM GAS  /tmp/ccdUEzgz.s 			page 24
 
 
  1312              	.LBB100:
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1366 091a 0028     		cmp	r0, #0
  1367 091c 40F01E81 		bne	.L61
  1368              		.loc 1 1635 0
-ARM GAS  /tmp/ccXOsttd.s 			page 25
+ARM GAS  /tmp/ccdUEzgz.s 			page 25
 
 
  1369 0920 6B4A     		ldr	r2, .L318+12
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1423 0960 0021     		movs	r1, #0
  1424 0962 CBF68071 		movt	r1, 49024
  1425              	.L80:
-ARM GAS  /tmp/ccXOsttd.s 			page 26
+ARM GAS  /tmp/ccdUEzgz.s 			page 26
 
 
  1426              	.LBE78:
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1480              	.LVL121:
  1481              	.LBB111:
  1482              	.LBB80:
-ARM GAS  /tmp/ccXOsttd.s 			page 27
+ARM GAS  /tmp/ccdUEzgz.s 			page 27
 
 
  1483              		.loc 1 142 0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1537              	.LBB114:
  1538              	.LBB81:
  1539              		.loc 1 142 0
-ARM GAS  /tmp/ccXOsttd.s 			page 28
+ARM GAS  /tmp/ccdUEzgz.s 			page 28
 
 
  1540 09f2 0021     		movs	r1, #0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1594 0a38 0023     		movs	r3, #0
  1595 0a3a 0193     		str	r3, [sp, #4]	@ float
  1596              	.L136:
-ARM GAS  /tmp/ccXOsttd.s 			page 29
+ARM GAS  /tmp/ccdUEzgz.s 			page 29
 
 
  1597              	.LBE57:
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1651              	.LVL134:
  1652              	.LBB121:
  1653              	.LBB59:
-ARM GAS  /tmp/ccXOsttd.s 			page 30
+ARM GAS  /tmp/ccdUEzgz.s 			page 30
 
 
  1654              		.loc 1 142 0
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1708 0ad0 F8000000 		.word	.LANCHOR0+248
  1709 0ad4 74010000 		.word	.LANCHOR0+372
  1710 0ad8 6C020000 		.word	.LANCHOR0+620
-ARM GAS  /tmp/ccXOsttd.s 			page 31
+ARM GAS  /tmp/ccdUEzgz.s 			page 31
 
 
  1711 0adc E0030000 		.word	.LANCHOR0+992
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1765 0b44 FFF7FFBB 		b	.L144
  1766              	.LVL143:
  1767              	.L265:
-ARM GAS  /tmp/ccXOsttd.s 			page 32
+ARM GAS  /tmp/ccdUEzgz.s 			page 32
 
 
  1768              	.LBB125:
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1822 0b9a 69D0     		beq	.L274
  1823 0b9c 4FF07E51 		mov	r1, #1065353216
  1824 0ba0 0191     		str	r1, [sp, #4]	@ float
-ARM GAS  /tmp/ccXOsttd.s 			page 33
+ARM GAS  /tmp/ccdUEzgz.s 			page 33
 
 
  1825 0ba2 7BE6     		b	.L100
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1879 0bea 294F     		ldr	r7, .L320+20
  1880 0bec A7F80EA0 		strh	sl, [r7, #14]	@ movhi
  1881              		.loc 1 1630 0
-ARM GAS  /tmp/ccXOsttd.s 			page 34
+ARM GAS  /tmp/ccdUEzgz.s 			page 34
 
 
  1882 0bf0 4746     		mov	r7, r8
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1936 0c40 CBF68070 		movt	r0, 49024
  1937 0c44 0190     		str	r0, [sp, #4]	@ float
  1938 0c46 D1E6     		b	.L172
-ARM GAS  /tmp/ccXOsttd.s 			page 35
+ARM GAS  /tmp/ccdUEzgz.s 			page 35
 
 
  1939              	.LVL163:
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  1993              	.LFB69:
  1994              		.loc 1 167 0
  1995              		.cfi_startproc
-ARM GAS  /tmp/ccXOsttd.s 			page 36
+ARM GAS  /tmp/ccdUEzgz.s 			page 36
 
 
  1996              		@ args = 0, pretend = 0, frame = 0
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2050 0018 7047     		bx	lr
  2051              		.cfi_endproc
  2052              	.LFE70:
-ARM GAS  /tmp/ccXOsttd.s 			page 37
+ARM GAS  /tmp/ccdUEzgz.s 			page 37
 
 
  2053              		.size	SmartMotorControllerGetPtr, .-SmartMotorControllerGetPtr
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2106              	.LVL176:
  2107 0000 0EB4     		push	{r1, r2, r3}
  2108              	.LCFI2:
-ARM GAS  /tmp/ccXOsttd.s 			page 38
+ARM GAS  /tmp/ccdUEzgz.s 			page 38
 
 
  2109              		.cfi_def_cfa_offset 12
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2163              		.cfi_startproc
  2164              		@ args = 0, pretend = 0, frame = 0
  2165              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/ccXOsttd.s 			page 39
+ARM GAS  /tmp/ccdUEzgz.s 			page 39
 
 
  2166              		@ link register save eliminated.
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2220              	.L341:
  2221              		.loc 1 256 0
  2222 001c 0020     		movs	r0, #0
-ARM GAS  /tmp/ccXOsttd.s 			page 40
+ARM GAS  /tmp/ccdUEzgz.s 			page 40
 
 
  2223              	.LVL189:
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2277              		.section	.text.SmartMotorSetFreeRpm,"ax",%progbits
  2278              		.align	2
  2279              		.p2align 4,,15
-ARM GAS  /tmp/ccXOsttd.s 			page 41
+ARM GAS  /tmp/ccdUEzgz.s 			page 41
 
 
  2280              		.global	SmartMotorSetFreeRpm
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2334 0044 2846     		mov	r0, r5
  2335 0046 0F46     		mov	r7, r1
  2336 0048 FFF7FEFF 		bl	__aeabi_f2d
-ARM GAS  /tmp/ccXOsttd.s 			page 42
+ARM GAS  /tmp/ccdUEzgz.s 			page 42
 
 
  2337 004c 0246     		mov	r2, r0
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2390 0016 0CEB8200 		add	r0, ip, r2, lsl #2
  2391              	.LVL198:
  2392 001a 0182     		strh	r1, [r0, #16]	@ movhi
-ARM GAS  /tmp/ccXOsttd.s 			page 43
+ARM GAS  /tmp/ccdUEzgz.s 			page 43
 
 
  2393              	.L348:
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2447              	.LVL201:
  2448              		.loc 1 352 0
  2449 0000 83B2     		uxth	r3, r0
-ARM GAS  /tmp/ccXOsttd.s 			page 44
+ARM GAS  /tmp/ccdUEzgz.s 			page 44
 
 
  2450 0002 022B     		cmp	r3, #2
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2504              		.p2align 4,,15
  2505              		.global	SmartMotorSetPowerExpanderStatusPort
  2506              		.thumb
-ARM GAS  /tmp/ccXOsttd.s 			page 45
+ARM GAS  /tmp/ccdUEzgz.s 			page 45
 
 
  2507              		.thumb_func
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2559              		.loc 1 408 0
  2560 0018 7047     		bx	lr
  2561              		.cfi_endproc
-ARM GAS  /tmp/ccXOsttd.s 			page 46
+ARM GAS  /tmp/ccdUEzgz.s 			page 46
 
 
  2562              	.LFE82:
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2615 0014 0180     		strh	r1, [r0, #0]	@ movhi
  2616              		.loc 1 428 0
  2617 0016 1A80     		strh	r2, [r3, #0]	@ movhi
-ARM GAS  /tmp/ccXOsttd.s 			page 47
+ARM GAS  /tmp/ccdUEzgz.s 			page 47
 
 
  2618              		.loc 1 429 0
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2671 000a C0F20000 		movt	r0, #:upper16:SmartMotorTask
  2672 000e FFF7FEFF 		bl	StartTaskWithPriority
  2673              		.loc 1 452 0
-ARM GAS  /tmp/ccXOsttd.s 			page 48
+ARM GAS  /tmp/ccdUEzgz.s 			page 48
 
 
  2674 0012 40F20000 		movw	r0, #:lower16:SmartMotorSlewRateTask
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2726              	.LBE135:
  2727              	.LBE138:
  2728              		.loc 1 465 0
-ARM GAS  /tmp/ccXOsttd.s 			page 49
+ARM GAS  /tmp/ccdUEzgz.s 			page 49
 
 
  2729 0014 40F20000 		movw	r0, #:lower16:SmartMotorTask
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2781              		.loc 1 486 0
  2782 000e C0F20000 		movt	r0, #:upper16:.LC1
  2783 0012 FFF7FEFF 		bl	vex_printf
-ARM GAS  /tmp/ccXOsttd.s 			page 50
+ARM GAS  /tmp/ccdUEzgz.s 			page 50
 
 
  2784              		.loc 1 492 0
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2838 00a2 B4F91210 		ldrsh	r1, [r4, #18]
  2839 00a6 40F20000 		movw	r0, #:lower16:.LC4
  2840 00aa C0F20000 		movt	r0, #:upper16:.LC4
-ARM GAS  /tmp/ccXOsttd.s 			page 51
+ARM GAS  /tmp/ccdUEzgz.s 			page 51
 
 
  2841 00ae 03EB4101 		add	r1, r3, r1, lsl #1
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2895 012e 94F90010 		ldrsb	r1, [r4, #0]
  2896 0132 C0F20000 		movt	r0, #:upper16:.LC6
  2897 0136 FFF7FEFF 		bl	vex_printf
-ARM GAS  /tmp/ccXOsttd.s 			page 52
+ARM GAS  /tmp/ccdUEzgz.s 			page 52
 
 
  2898              	.LVL216:
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  2952 01c2 C0F20000 		movt	r0, #:upper16:.LC3
  2953 01c6 FFF7FEFF 		bl	vex_printf
  2954              		.loc 1 505 0
-ARM GAS  /tmp/ccXOsttd.s 			page 53
+ARM GAS  /tmp/ccdUEzgz.s 			page 53
 
 
  2955 01ca B4F974C0 		ldrsh	ip, [r4, #116]
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3009 0256 C0F20000 		movt	r0, #:upper16:.LC5
  3010 025a FFF7FEFF 		bl	vex_printf
  3011              	.LVL225:
-ARM GAS  /tmp/ccXOsttd.s 			page 54
+ARM GAS  /tmp/ccdUEzgz.s 			page 54
 
 
  3012              		.loc 1 488 0
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3066 02ea C0F20000 		movt	r0, #:upper16:.LC3
  3067 02ee FFF7FEFF 		bl	vex_printf
  3068              		.loc 1 505 0
-ARM GAS  /tmp/ccXOsttd.s 			page 55
+ARM GAS  /tmp/ccdUEzgz.s 			page 55
 
 
  3069 02f2 B4F974C0 		ldrsh	ip, [r4, #116]
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3123 037c 7CB3     		cbz	r4, .L374
  3124              	.LVL234:
  3125              		.loc 1 502 0
-ARM GAS  /tmp/ccXOsttd.s 			page 56
+ARM GAS  /tmp/ccdUEzgz.s 			page 56
 
 
  3126 037e 40F20000 		movw	r0, #:lower16:.LC6
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3180 0408 606E     		ldr	r0, [r4, #100]	@ float
  3181 040a FFF7FEFF 		bl	__aeabi_f2d
  3182 040e 0246     		mov	r2, r0
-ARM GAS  /tmp/ccXOsttd.s 			page 57
+ARM GAS  /tmp/ccdUEzgz.s 			page 57
 
 
  3183 0410 40F20000 		movw	r0, #:lower16:.LC3
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3237 04a2 FFF7FEFF 		bl	vex_printf
  3238              	.L376:
  3239              	.LVL244:
-ARM GAS  /tmp/ccXOsttd.s 			page 58
+ARM GAS  /tmp/ccdUEzgz.s 			page 58
 
 
  3240              		.loc 1 509 0
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3294 0532 606E     		ldr	r0, [r4, #100]	@ float
  3295 0534 FFF7FEFF 		bl	__aeabi_f2d
  3296 0538 0246     		mov	r2, r0
-ARM GAS  /tmp/ccXOsttd.s 			page 59
+ARM GAS  /tmp/ccdUEzgz.s 			page 59
 
 
  3297 053a 40F20000 		movw	r0, #:lower16:.LC3
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3351 05cc FFF7FEFF 		bl	vex_printf
  3352              	.L378:
  3353              	.LVL253:
-ARM GAS  /tmp/ccXOsttd.s 			page 60
+ARM GAS  /tmp/ccdUEzgz.s 			page 60
 
 
  3354              		.loc 1 499 0
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3408 0654 0B46     		mov	r3, r1
  3409 0656 C0F20000 		movt	r0, #:upper16:.LC2
  3410 065a FFF7FEFF 		bl	vex_printf
-ARM GAS  /tmp/ccXOsttd.s 			page 61
+ARM GAS  /tmp/ccdUEzgz.s 			page 61
 
 
  3411              		.loc 1 504 0
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3465 06ec FFF7FEFF 		bl	vex_printf
  3466              		.loc 1 506 0
  3467 06f0 40F20000 		movw	r0, #:lower16:.LC5
-ARM GAS  /tmp/ccXOsttd.s 			page 62
+ARM GAS  /tmp/ccdUEzgz.s 			page 62
 
 
  3468 06f4 C0F20000 		movt	r0, #:upper16:.LC5
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3522 001a 0CDD     		ble	.L384
  3523              		.loc 1 544 0
  3524 001c 7F22     		movs	r2, #127
-ARM GAS  /tmp/ccXOsttd.s 			page 63
+ARM GAS  /tmp/ccdUEzgz.s 			page 63
 
 
  3525 001e 9A81     		strh	r2, [r3, #12]	@ movhi
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3579              		@ args = 0, pretend = 0, frame = 0
  3580              		@ frame_needed = 0, uses_anonymous_args = 0
  3581              	.LVL270:
-ARM GAS  /tmp/ccXOsttd.s 			page 64
+ARM GAS  /tmp/ccdUEzgz.s 			page 64
 
 
  3582 0000 2DE9F047 		push	{r4, r5, r6, r7, r8, r9, sl, lr}
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3636 004a 7965     		str	r1, [r7, #84]	@ float
  3637              		.loc 1 587 0
  3638 004c BA64     		str	r2, [r7, #72]	@ float
-ARM GAS  /tmp/ccXOsttd.s 			page 65
+ARM GAS  /tmp/ccdUEzgz.s 			page 65
 
 
  3639              		.loc 1 588 0
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3693              		.loc 1 588 0
  3694 008e C7F88020 		str	r2, [r7, #128]	@ float
  3695              		.loc 1 590 0
-ARM GAS  /tmp/ccXOsttd.s 			page 66
+ARM GAS  /tmp/ccdUEzgz.s 			page 66
 
 
  3696 0092 87F89A30 		strb	r3, [r7, #154]
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3750              		.loc 1 620 0
  3751 0112 C4F29909 		movt	r9, 16537
  3752              		.loc 1 621 0
-ARM GAS  /tmp/ccXOsttd.s 			page 67
+ARM GAS  /tmp/ccdUEzgz.s 			page 67
 
 
  3753 0116 4FF07F58 		mov	r8, #1069547520
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3807 015c A070     		strb	r0, [r4, #2]
  3808              		.loc 1 615 0
  3809 015e 00F0A580 		beq	.L391
-ARM GAS  /tmp/ccXOsttd.s 			page 68
+ARM GAS  /tmp/ccdUEzgz.s 			page 68
 
 
  3810 0162 0328     		cmp	r0, #3
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3864 01b6 A16C     		ldr	r1, [r4, #72]	@ float
  3865              		.loc 1 701 0
  3866 01b8 C4F860E0 		str	lr, [r4, #96]	@ float
-ARM GAS  /tmp/ccXOsttd.s 			page 69
+ARM GAS  /tmp/ccdUEzgz.s 			page 69
 
 
  3867              		.loc 1 703 0
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3921 01fc 0021     		movs	r1, #0
  3922              		.loc 1 656 0
  3923 01fe 46F2C342 		movw	r2, #25795
-ARM GAS  /tmp/ccXOsttd.s 			page 70
+ARM GAS  /tmp/ccdUEzgz.s 			page 70
 
 
  3924              		.loc 1 653 0
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  3978              		.loc 1 641 0
  3979 025e 0023     		movs	r3, #0
  3980 0260 C4F23033 		movt	r3, 17200
-ARM GAS  /tmp/ccXOsttd.s 			page 71
+ARM GAS  /tmp/ccdUEzgz.s 			page 71
 
 
  3981              		.loc 1 639 0
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4035 02b6 C3F62A2C 		movt	ip, 14890
  4036              		.loc 1 623 0
  4037 02ba C3F68051 		movt	r1, 15744
-ARM GAS  /tmp/ccXOsttd.s 			page 72
+ARM GAS  /tmp/ccdUEzgz.s 			page 72
 
 
  4038              		.loc 1 624 0
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4090 0006 1DD8     		bhi	.L412
  4091              		.loc 1 753 0
  4092 0008 CAB2     		uxtb	r2, r1
-ARM GAS  /tmp/ccXOsttd.s 			page 73
+ARM GAS  /tmp/ccdUEzgz.s 			page 73
 
 
  4093 000a 092A     		cmp	r2, #9
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4146              		.thumb
  4147              		.thumb_func
  4148              		.type	SmartMotorsSetEncoderGearing, %function
-ARM GAS  /tmp/ccXOsttd.s 			page 74
+ARM GAS  /tmp/ccdUEzgz.s 			page 74
 
 
  4149              	SmartMotorsSetEncoderGearing:
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4202              		@ frame_needed = 0, uses_anonymous_args = 1
  4203              		@ link register save eliminated.
  4204              	.LVL305:
-ARM GAS  /tmp/ccXOsttd.s 			page 75
+ARM GAS  /tmp/ccdUEzgz.s 			page 75
 
 
  4205 0000 08B4     		push	{r3}
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4259 005a C0F20005 		movt	r5, #:upper16:.LANCHOR0
  4260 005e 05F17C0C 		add	ip, r5, #124
  4261              	.LVL308:
-ARM GAS  /tmp/ccXOsttd.s 			page 76
+ARM GAS  /tmp/ccdUEzgz.s 			page 76
 
 
  4262              		.loc 1 839 0
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4316 00e2 08BF     		it	eq
  4317 00e4 45F00105 		orreq	r5, r5, #1
  4318 00e8 002D     		cmp	r5, #0
-ARM GAS  /tmp/ccXOsttd.s 			page 77
+ARM GAS  /tmp/ccdUEzgz.s 			page 77
 
 
  4319 00ea 40F07281 		bne	.L425
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4373 015e 7D42     		rsbs	r5, r7, #0
  4374 0160 45EB0705 		adc	r5, r5, r7
  4375 0164 0429     		cmp	r1, #4
-ARM GAS  /tmp/ccXOsttd.s 			page 78
+ARM GAS  /tmp/ccdUEzgz.s 			page 78
 
 
  4376 0166 08BF     		it	eq
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4430 01e4 05F53A7C 		add	ip, r5, #744
  4431              	.LVL318:
  4432              		.loc 1 839 0
-ARM GAS  /tmp/ccXOsttd.s 			page 79
+ARM GAS  /tmp/ccdUEzgz.s 			page 79
 
 
  4433 01e8 EFB1     		cbz	r7, .L435
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4487 026a 45F00105 		orreq	r5, r5, #1
  4488 026e 002D     		cmp	r5, #0
  4489 0270 40F09F80 		bne	.L440
-ARM GAS  /tmp/ccXOsttd.s 			page 80
+ARM GAS  /tmp/ccdUEzgz.s 			page 80
 
 
  4490              	.L438:
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4544 02e0 24DC     		bgt	.L416
  4545              		.loc 1 842 0 is_stmt 1
  4546 02e2 A0F1090C 		sub	ip, r0, #9
-ARM GAS  /tmp/ccXOsttd.s 			page 81
+ARM GAS  /tmp/ccdUEzgz.s 			page 81
 
 
  4547 02e6 DCF10000 		rsbs	r0, ip, #0
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4601 0340 6746     		mov	r7, ip
  4602 0342 47F8685F 		str	r5, [r7, #104]!
  4603              		.loc 1 851 0
-ARM GAS  /tmp/ccXOsttd.s 			page 82
+ARM GAS  /tmp/ccdUEzgz.s 			page 82
 
 
  4604 0346 0025     		movs	r5, #0
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4658 0392 40F20005 		movw	r5, #:lower16:.LANCHOR3
  4659 0396 C0F20005 		movt	r5, #:upper16:.LANCHOR3
  4660              		.loc 1 846 0
-ARM GAS  /tmp/ccXOsttd.s 			page 83
+ARM GAS  /tmp/ccdUEzgz.s 			page 83
 
 
  4661 039a 05F16807 		add	r7, r5, #104
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4715              		.loc 1 851 0
  4716 03ee AF60     		str	r7, [r5, #8]
  4717 03f0 7DE6     		b	.L423
-ARM GAS  /tmp/ccXOsttd.s 			page 84
+ARM GAS  /tmp/ccdUEzgz.s 			page 84
 
 
  4718              	.LVL346:
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4772 0446 0027     		movs	r7, #0
  4773              		.loc 1 845 0
  4774 0448 45F828C0 		str	ip, [r5, r8, lsl #2]
-ARM GAS  /tmp/ccXOsttd.s 			page 85
+ARM GAS  /tmp/ccdUEzgz.s 			page 85
 
 
  4775              		.loc 1 847 0
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4826              		.loc 1 903 0
  4827 0026 9DF80410 		ldrb	r1, [sp, #4]	@ zero_extendqisi2
  4828              	.LVL355:
-ARM GAS  /tmp/ccXOsttd.s 			page 86
+ARM GAS  /tmp/ccdUEzgz.s 			page 86
 
 
  4829              		.loc 1 893 0
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4883              	.LVL360:
  4884 000e 0646     		mov	r6, r0
  4885              		.loc 1 945 0
-ARM GAS  /tmp/ccXOsttd.s 			page 87
+ARM GAS  /tmp/ccdUEzgz.s 			page 87
 
 
  4886 0010 A06A     		ldr	r0, [r4, #40]
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4940              		.global	__aeabi_fadd
  4941              		.section	.text.SmartMotorSimulateSpeed,"ax",%progbits
  4942              		.align	2
-ARM GAS  /tmp/ccXOsttd.s 			page 88
+ARM GAS  /tmp/ccdUEzgz.s 			page 88
 
 
  4943              		.p2align 4,,15
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  4997              		.loc 1 982 0
  4998 0040 C0F20004 		movt	r4, #:upper16:.LANCHOR4
  4999 0044 34F91AB0 		ldrsh	fp, [r4, sl, lsl #1]
-ARM GAS  /tmp/ccXOsttd.s 			page 89
+ARM GAS  /tmp/ccdUEzgz.s 			page 89
 
 
  5000              		.loc 1 981 0
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5054              	.LVL374:
  5055 00aa 10B9     		cbnz	r0, .L455
  5056 00ac 0026     		movs	r6, #0
-ARM GAS  /tmp/ccXOsttd.s 			page 90
+ARM GAS  /tmp/ccdUEzgz.s 			page 90
 
 
  5057 00ae CBF68076 		movt	r6, 49024
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5109              		.cfi_def_cfa_offset 36
  5110              		.cfi_offset 14, -4
  5111              		.cfi_offset 11, -8
-ARM GAS  /tmp/ccXOsttd.s 			page 91
+ARM GAS  /tmp/ccdUEzgz.s 			page 91
 
 
  5112              		.cfi_offset 10, -12
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5166 005a 4FF07E50 		mov	r0, #1065353216
  5167 005e FFF7FEFF 		bl	__aeabi_fsub
  5168              		.loc 1 1061 0
-ARM GAS  /tmp/ccXOsttd.s 			page 92
+ARM GAS  /tmp/ccdUEzgz.s 			page 92
 
 
  5169 0062 0A2D     		cmp	r5, #10
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5223              	.LVL389:
  5224 00b2 FFF7FEFF 		bl	__aeabi_fmul
  5225              	.LBB176:
-ARM GAS  /tmp/ccXOsttd.s 			page 93
+ARM GAS  /tmp/ccdUEzgz.s 			page 93
 
 
  5226              	.LBB177:
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5280              	.LVL394:
  5281              		.loc 2 65 0
  5282 0116 4FF2F850 		movw	r0, #62968
-ARM GAS  /tmp/ccXOsttd.s 			page 94
+ARM GAS  /tmp/ccdUEzgz.s 			page 94
 
 
  5283              	.LVL395:
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5337              		.loc 2 61 0
  5338 0174 FFF7FEFF 		bl	__aeabi_fcmplt
  5339              	.LVL401:
-ARM GAS  /tmp/ccXOsttd.s 			page 95
+ARM GAS  /tmp/ccdUEzgz.s 			page 95
 
 
  5340 0178 4FF07E57 		mov	r7, #1065353216
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5394 01f6 FFF7FEFF 		bl	__aeabi_fsub
  5395 01fa 4FF09641 		mov	r1, #1258291200
  5396 01fe FFF7FEFF 		bl	__aeabi_fmul
-ARM GAS  /tmp/ccXOsttd.s 			page 96
+ARM GAS  /tmp/ccdUEzgz.s 			page 96
 
 
  5397 0202 FFF7FEFF 		bl	__aeabi_f2uiz
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5451              		.loc 1 1082 0
  5452 024a 2846     		mov	r0, r5
  5453 024c FFF7FEFF 		bl	__aeabi_f2d
-ARM GAS  /tmp/ccXOsttd.s 			page 97
+ARM GAS  /tmp/ccdUEzgz.s 			page 97
 
 
  5454 0250 CDE90001 		strd	r0, [sp]
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5508 02d6 0146     		mov	r1, r0
  5509 02d8 2846     		mov	r0, r5
  5510 02da FFF7FEFF 		bl	__aeabi_fadd
-ARM GAS  /tmp/ccXOsttd.s 			page 98
+ARM GAS  /tmp/ccdUEzgz.s 			page 98
 
 
  5511 02de 3946     		mov	r1, r7
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5565 0344 4FF05051 		mov	r1, #872415232
  5566 0348 FFF7FEFF 		bl	__aeabi_fmul
  5567              		.loc 2 78 0
-ARM GAS  /tmp/ccXOsttd.s 			page 99
+ARM GAS  /tmp/ccdUEzgz.s 			page 99
 
 
  5568 034c 47F27731 		movw	r1, #29559
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5622 03c0 0146     		mov	r1, r0
  5623 03c2 2846     		mov	r0, r5
  5624 03c4 FFF7FEFF 		bl	__aeabi_fadd
-ARM GAS  /tmp/ccXOsttd.s 			page 100
+ARM GAS  /tmp/ccdUEzgz.s 			page 100
 
 
  5625 03c8 0446     		mov	r4, r0
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5679              	.LVL429:
  5680              	.LBB214:
  5681              	.LBB208:
-ARM GAS  /tmp/ccXOsttd.s 			page 101
+ARM GAS  /tmp/ccdUEzgz.s 			page 101
 
 
  5682              		.loc 1 142 0
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5736 0464 FFF7FEFF 		bl	__aeabi_i2f
  5737              	.LBB221:
  5738              	.LBB170:
-ARM GAS  /tmp/ccXOsttd.s 			page 102
+ARM GAS  /tmp/ccdUEzgz.s 			page 102
 
 
  5739              		.loc 1 142 0
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5793              	.LBE224:
  5794              	.LBB225:
  5795              	.LBB184:
-ARM GAS  /tmp/ccXOsttd.s 			page 103
+ARM GAS  /tmp/ccdUEzgz.s 			page 103
 
 
  5796              	.LBB183:
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5850              	.LBB229:
  5851              	.LBB172:
  5852 04f2 0020     		movs	r0, #0
-ARM GAS  /tmp/ccXOsttd.s 			page 104
+ARM GAS  /tmp/ccdUEzgz.s 			page 104
 
 
  5853 04f4 0023     		movs	r3, #0
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5906              	.LBE174:
  5907              	.LBE233:
  5908              		.cfi_endproc
-ARM GAS  /tmp/ccXOsttd.s 			page 105
+ARM GAS  /tmp/ccdUEzgz.s 			page 105
 
 
  5909              	.LFE98:
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  5963              		.loc 1 1148 0
  5964 0022 9A78     		ldrb	r2, [r3, #2]	@ zero_extendqisi2
  5965 0024 0ABB     		cbnz	r2, .L539
-ARM GAS  /tmp/ccXOsttd.s 			page 106
+ARM GAS  /tmp/ccdUEzgz.s 			page 106
 
 
  5966              	.L529:
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6020 0076 0546     		mov	r5, r0
  6021 0078 6061     		str	r0, [r4, #20]	@ float
  6022 007a D4E7     		b	.L529
-ARM GAS  /tmp/ccXOsttd.s 			page 107
+ARM GAS  /tmp/ccdUEzgz.s 			page 107
 
 
  6023              	.LVL462:
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6077              		.loc 1 1183 0
  6078 000a 0E46     		mov	r6, r1
  6079              		.loc 1 1185 0
-ARM GAS  /tmp/ccXOsttd.s 			page 108
+ARM GAS  /tmp/ccdUEzgz.s 			page 108
 
 
  6080 000c FFF7FEFF 		bl	vexMotorGet
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6134 0062 256E     		ldr	r5, [r4, #96]	@ float
  6135 0064 8246     		mov	sl, r0
  6136 0066 2846     		mov	r0, r5
-ARM GAS  /tmp/ccXOsttd.s 			page 109
+ARM GAS  /tmp/ccdUEzgz.s 			page 109
 
 
  6137 0068 8B46     		mov	fp, r1
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6191              		.loc 1 1203 0
  6192 00e8 616C     		ldr	r1, [r4, #68]	@ float
  6193 00ea 2846     		mov	r0, r5
-ARM GAS  /tmp/ccXOsttd.s 			page 110
+ARM GAS  /tmp/ccdUEzgz.s 			page 110
 
 
  6194 00ec FFF7FEFF 		bl	__aeabi_fmul
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6248 0174 256E     		ldr	r5, [r4, #96]	@ float
  6249              		.loc 1 1205 0
  6250 0176 6FF07E06 		mvn	r6, #126
-ARM GAS  /tmp/ccXOsttd.s 			page 111
+ARM GAS  /tmp/ccdUEzgz.s 			page 111
 
 
  6251              	.LVL475:
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6305 001e 0746     		mov	r7, r0
  6306 0020 216F     		ldr	r1, [r4, #112]	@ float
  6307 0022 2846     		mov	r0, r5
-ARM GAS  /tmp/ccXOsttd.s 			page 112
+ARM GAS  /tmp/ccdUEzgz.s 			page 112
 
 
  6308 0024 FFF7FEFF 		bl	__aeabi_fsub
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6361              		.loc 1 1260 0
  6362 000e 0646     		mov	r6, r0
  6363              		.loc 1 1258 0
-ARM GAS  /tmp/ccXOsttd.s 			page 113
+ARM GAS  /tmp/ccdUEzgz.s 			page 113
 
 
  6364 0010 2846     		mov	r0, r5
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6417              		.loc 1 1280 0
  6418 000a 406E     		ldr	r0, [r0, #100]	@ float
  6419              	.LVL483:
-ARM GAS  /tmp/ccXOsttd.s 			page 114
+ARM GAS  /tmp/ccdUEzgz.s 			page 114
 
 
  6420 000c 0021     		movs	r1, #0
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6474              		.global	__aeabi_dcmpgt
  6475 005c AFF30080 		.section	.text.SmartMotorControllerMonitorPtc,"ax",%progbits
  6476              		.align	2
-ARM GAS  /tmp/ccXOsttd.s 			page 115
+ARM GAS  /tmp/ccdUEzgz.s 			page 115
 
 
  6477              		.p2align 4,,15
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6531 0030 22F00040 		bic	r0, r2, #-2147483648
  6532 0034 FFF7FEFF 		bl	__aeabi_f2d
  6533              	.LVL490:
-ARM GAS  /tmp/ccXOsttd.s 			page 116
+ARM GAS  /tmp/ccdUEzgz.s 			page 116
 
 
  6534 0038 69A3     		adr	r3, .L624
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6588 009c FFF7FEFF 		bl	__aeabi_dcmpgt
  6589 00a0 0028     		cmp	r0, #0
  6590 00a2 40F08180 		bne	.L622
-ARM GAS  /tmp/ccXOsttd.s 			page 117
+ARM GAS  /tmp/ccdUEzgz.s 			page 117
 
 
  6591              	.L589:
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6645 00f4 002E     		cmp	r6, #0
  6646 00f6 55D0     		beq	.L617
  6647 00f8 EE6D     		ldr	r6, [r5, #92]	@ float
-ARM GAS  /tmp/ccXOsttd.s 			page 118
+ARM GAS  /tmp/ccdUEzgz.s 			page 118
 
 
  6648 00fa 4146     		mov	r1, r8
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6702              	.L606:
  6703 0150 2E66     		str	r6, [r5, #96]	@ float
  6704              		.loc 1 1379 0
-ARM GAS  /tmp/ccXOsttd.s 			page 119
+ARM GAS  /tmp/ccdUEzgz.s 			page 119
 
 
  6705 0152 2846     		mov	r0, r5
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6759 01a2 D5E7     		b	.L606
  6760              	.LVL521:
  6761              	.L617:
-ARM GAS  /tmp/ccXOsttd.s 			page 120
+ARM GAS  /tmp/ccdUEzgz.s 			page 120
 
 
  6762 01a4 4646     		mov	r6, r8
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6814              		.align	2
  6815              		.p2align 4,,15
  6816              		.global	SmartMotorMonitorCurrent
-ARM GAS  /tmp/ccXOsttd.s 			page 121
+ARM GAS  /tmp/ccdUEzgz.s 			page 121
 
 
  6817              		.thumb
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6871 0042 4046     		mov	r0, r8
  6872 0044 0F46     		mov	r7, r1
  6873 0046 FFF7FEFF 		bl	__aeabi_f2d
-ARM GAS  /tmp/ccXOsttd.s 			page 122
+ARM GAS  /tmp/ccdUEzgz.s 			page 122
 
 
  6874 004a 09A3     		adr	r3, .L635
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6927              		.loc 1 1441 0
  6928 000c B0F93030 		ldrsh	r3, [r0, #48]
  6929              	.LVL536:
-ARM GAS  /tmp/ccXOsttd.s 			page 123
+ARM GAS  /tmp/ccdUEzgz.s 			page 123
 
 
  6930              		.loc 1 1447 0
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  6984              	.LVL545:
  6985 0066 1B18     		adds	r3, r3, r0
  6986              	.LVL546:
-ARM GAS  /tmp/ccXOsttd.s 			page 124
+ARM GAS  /tmp/ccdUEzgz.s 			page 124
 
 
  6987              	.L643:
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7040 000c 0121     		movs	r1, #1
  7041              		.loc 1 1466 0
  7042 000e 87B0     		sub	sp, sp, #28
-ARM GAS  /tmp/ccXOsttd.s 			page 125
+ARM GAS  /tmp/ccdUEzgz.s 			page 125
 
 
  7043              	.LCFI30:
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7097              		.loc 1 1485 0
  7098 0080 8146     		mov	r9, r0
  7099              	.LVL554:
-ARM GAS  /tmp/ccXOsttd.s 			page 126
+ARM GAS  /tmp/ccdUEzgz.s 			page 126
 
 
  7100              		.loc 1 1490 0
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7154 00d4 5046     		mov	r0, sl
  7155 00d6 FFF7FEFF 		bl	__aeabi_fsub
  7156 00da 0146     		mov	r1, r0
-ARM GAS  /tmp/ccXOsttd.s 			page 127
+ARM GAS  /tmp/ccdUEzgz.s 			page 127
 
 
  7157 00dc 5846     		mov	r0, fp
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7211              	.LVL567:
  7212              	.LBB246:
  7213              	.LBB247:
-ARM GAS  /tmp/ccXOsttd.s 			page 128
+ARM GAS  /tmp/ccdUEzgz.s 			page 128
 
 
  7214              		.loc 1 1258 0
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7268              		.loc 1 1531 0
  7269 0190 6548     		ldr	r0, .L676+16
  7270 0192 FFF7FEFF 		bl	SmartMotorControllerCurrent
-ARM GAS  /tmp/ccXOsttd.s 			page 129
+ARM GAS  /tmp/ccdUEzgz.s 			page 129
 
 
  7271              	.LVL573:
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7325 01ee FFF7FEFF 		bl	vexDigitalPinSet
  7326              	.L656:
  7327              	.LVL578:
-ARM GAS  /tmp/ccXOsttd.s 			page 130
+ARM GAS  /tmp/ccdUEzgz.s 			page 130
 
 
  7328              		.loc 1 1531 0
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7382 0256 02DB     		blt	.L658
  7383              		.loc 1 1541 0
  7384 0258 0121     		movs	r1, #1
-ARM GAS  /tmp/ccXOsttd.s 			page 131
+ARM GAS  /tmp/ccdUEzgz.s 			page 131
 
 
  7385 025a FFF7FEFF 		bl	vexDigitalPinSet
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7439 02c0 FFF7FEFF 		bl	__aeabi_fcmplt
  7440              		.loc 1 1522 0
  7441 02c4 0546     		mov	r5, r0
-ARM GAS  /tmp/ccXOsttd.s 			page 132
+ARM GAS  /tmp/ccdUEzgz.s 			page 132
 
 
  7442              		.loc 1 1559 0
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7496              		.loc 1 1510 0
  7497 0300 2046     		mov	r0, r4
  7498 0302 4946     		mov	r1, r9
-ARM GAS  /tmp/ccXOsttd.s 			page 133
+ARM GAS  /tmp/ccdUEzgz.s 			page 133
 
 
  7499 0304 FFF7FEFF 		bl	SmartMotorMonitorPtc
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7552 036e 0246     		mov	r2, r0
  7553 0370 0B46     		mov	r3, r1
  7554 0372 DDE90401 		ldrd	r0, [sp, #16]
-ARM GAS  /tmp/ccXOsttd.s 			page 134
+ARM GAS  /tmp/ccdUEzgz.s 			page 134
 
 
  7555 0376 FFF7FEFF 		bl	__aeabi_dmul
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7608 03d8 68000000 		.word	.LANCHOR3+104
  7609 03dc 34000000 		.word	.LANCHOR3+52
  7610              	.LBE269:
-ARM GAS  /tmp/ccXOsttd.s 			page 135
+ARM GAS  /tmp/ccdUEzgz.s 			page 135
 
 
  7611              		.cfi_endproc
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7652 0033 00       		.space	1
  7653              	.LC3:
  7654 0034 54656D70 		.ascii	"Temp:%6.2f \000"
-ARM GAS  /tmp/ccXOsttd.s 			page 136
+ARM GAS  /tmp/ccdUEzgz.s 			page 136
 
 
  7654      3A25362E 
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7691              	sPorts:
  7692 0000 00000000 		.space	156
  7692      00000000 
-ARM GAS  /tmp/ccXOsttd.s 			page 137
+ARM GAS  /tmp/ccdUEzgz.s 			page 137
 
 
  7692      00000000 
@@ -8187,10 +8187,10 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7713 0006 00000000 		.4byte	.Ldebug_abbrev0
  7714 000a 04       		.byte	0x4
  7715 000b 01       		.uleb128 0x1
- 7716 000c 640A0000 		.4byte	.LASF253
+ 7716 000c 870A0000 		.4byte	.LASF253
  7717 0010 01       		.byte	0x1
  7718 0011 EE000000 		.4byte	.LASF254
- 7719 0015 0A0C0000 		.4byte	.LASF255
+ 7719 0015 9C080000 		.4byte	.LASF255
  7720 0019 00000000 		.4byte	0
  7721 001d 00000000 		.4byte	0
  7722 0021 F0040000 		.4byte	.Ldebug_ranges0+0x4f0
@@ -8202,23 +8202,23 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7728 0030 02       		.uleb128 0x2
  7729 0031 01       		.byte	0x1
  7730 0032 06       		.byte	0x6
- 7731 0033 920B0000 		.4byte	.LASF1
+ 7731 0033 B50B0000 		.4byte	.LASF1
  7732 0037 02       		.uleb128 0x2
  7733 0038 01       		.byte	0x1
  7734 0039 08       		.byte	0x8
- 7735 003a 560A0000 		.4byte	.LASF2
+ 7735 003a 790A0000 		.4byte	.LASF2
  7736 003e 02       		.uleb128 0x2
  7737 003f 02       		.byte	0x2
  7738 0040 05       		.byte	0x5
- 7739 0041 9C080000 		.4byte	.LASF3
+ 7739 0041 BF080000 		.4byte	.LASF3
  7740 0045 02       		.uleb128 0x2
  7741 0046 02       		.byte	0x2
  7742 0047 07       		.byte	0x7
- 7743 0048 AC0B0000 		.4byte	.LASF4
+ 7743 0048 CF0B0000 		.4byte	.LASF4
  7744 004c 03       		.uleb128 0x3
  7745 004d 04       		.byte	0x4
  7746 004e 05       		.byte	0x5
-ARM GAS  /tmp/ccXOsttd.s 			page 138
+ARM GAS  /tmp/ccdUEzgz.s 			page 138
 
 
  7747 004f 696E7400 		.ascii	"int\000"
@@ -8233,13 +8233,13 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7756 0061 02       		.uleb128 0x2
  7757 0062 04       		.byte	0x4
  7758 0063 05       		.byte	0x5
- 7759 0064 C5080000 		.4byte	.LASF7
+ 7759 0064 E8080000 		.4byte	.LASF7
  7760 0068 04       		.uleb128 0x4
  7761 0069 04       		.byte	0x4
  7762 006a 02       		.uleb128 0x2
  7763 006b 04       		.byte	0x4
  7764 006c 07       		.byte	0x7
- 7765 006d C3090000 		.4byte	.LASF8
+ 7765 006d E6090000 		.4byte	.LASF8
  7766 0071 02       		.uleb128 0x2
  7767 0072 01       		.byte	0x1
  7768 0073 08       		.byte	0x8
@@ -8252,7 +8252,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7775 0083 02       		.uleb128 0x2
  7776 0084 08       		.byte	0x8
  7777 0085 04       		.byte	0x4
- 7778 0086 260C0000 		.4byte	.LASF10
+ 7778 0086 2D0C0000 		.4byte	.LASF10
  7779 008a 02       		.uleb128 0x2
  7780 008b 04       		.byte	0x4
  7781 008c 04       		.byte	0x4
@@ -8267,7 +8267,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7790 009e 2A       		.byte	0x2a
  7791 009f 37000000 		.4byte	0x37
  7792 00a3 07       		.uleb128 0x7
- 7793 00a4 0D0A0000 		.4byte	.LASF14
+ 7793 00a4 300A0000 		.4byte	.LASF14
  7794 00a8 03       		.byte	0x3
  7795 00a9 4F       		.byte	0x4f
  7796 00aa 61000000 		.4byte	0x61
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7801 00b5 6A000000 		.4byte	0x6a
  7802 00b9 07       		.uleb128 0x7
  7803 00ba 2C030000 		.4byte	.LASF16
-ARM GAS  /tmp/ccXOsttd.s 			page 139
+ARM GAS  /tmp/ccdUEzgz.s 			page 139
 
 
  7804 00be 04       		.byte	0x4
@@ -8294,12 +8294,12 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7814 00d1 2C       		.byte	0x2c
  7815 00d2 98000000 		.4byte	0x98
  7816 00d6 07       		.uleb128 0x7
- 7817 00d7 270A0000 		.4byte	.LASF19
+ 7817 00d7 4A0A0000 		.4byte	.LASF19
  7818 00db 04       		.byte	0x4
  7819 00dc 2D       		.byte	0x2d
  7820 00dd 98000000 		.4byte	0x98
  7821 00e1 07       		.uleb128 0x7
- 7822 00e2 BB090000 		.4byte	.LASF20
+ 7822 00e2 DE090000 		.4byte	.LASF20
  7823 00e6 04       		.byte	0x4
  7824 00e7 2E       		.byte	0x2e
  7825 00e8 98000000 		.4byte	0x98
@@ -8338,12 +8338,12 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7858 0133 48       		.byte	0x48
  7859 0134 06       		.byte	0x6
  7860 0135 5E       		.byte	0x5e
-ARM GAS  /tmp/ccXOsttd.s 			page 140
+ARM GAS  /tmp/ccdUEzgz.s 			page 140
 
 
  7861 0136 53020000 		.4byte	0x253
  7862 013a 09       		.uleb128 0x9
- 7863 013b 1C090000 		.4byte	.LASF27
+ 7863 013b 3F090000 		.4byte	.LASF27
  7864 013f 06       		.byte	0x6
  7865 0140 5F       		.byte	0x5f
  7866 0141 78020000 		.4byte	0x278
@@ -8351,7 +8351,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7868 0146 23       		.byte	0x23
  7869 0147 00       		.uleb128 0
  7870 0148 09       		.uleb128 0x9
- 7871 0149 B4090000 		.4byte	.LASF28
+ 7871 0149 D7090000 		.4byte	.LASF28
  7872 014d 06       		.byte	0x6
  7873 014e 61       		.byte	0x61
  7874 014f 78020000 		.4byte	0x278
@@ -8367,7 +8367,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7884 0162 23       		.byte	0x23
  7885 0163 08       		.uleb128 0x8
  7886 0164 09       		.uleb128 0x9
- 7887 0165 39090000 		.4byte	.LASF30
+ 7887 0165 5C090000 		.4byte	.LASF30
  7888 0169 06       		.byte	0x6
  7889 016a 64       		.byte	0x64
  7890 016b 44030000 		.4byte	0x344
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7915 0199 02       		.byte	0x2
  7916 019a 23       		.byte	0x23
  7917 019b 18       		.uleb128 0x18
-ARM GAS  /tmp/ccXOsttd.s 			page 141
+ARM GAS  /tmp/ccdUEzgz.s 			page 141
 
 
  7918 019c 09       		.uleb128 0x9
@@ -8418,7 +8418,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7932 01b6 23       		.byte	0x23
  7933 01b7 1D       		.uleb128 0x1d
  7934 01b8 09       		.uleb128 0x9
- 7935 01b9 810A0000 		.4byte	.LASF36
+ 7935 01b9 A40A0000 		.4byte	.LASF36
  7936 01bd 06       		.byte	0x6
  7937 01be 82       		.byte	0x82
  7938 01bf E1000000 		.4byte	0xe1
@@ -8426,7 +8426,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7940 01c4 23       		.byte	0x23
  7941 01c5 1E       		.uleb128 0x1e
  7942 01c6 09       		.uleb128 0x9
- 7943 01c7 C10A0000 		.4byte	.LASF37
+ 7943 01c7 E40A0000 		.4byte	.LASF37
  7944 01cb 06       		.byte	0x6
  7945 01cc 88       		.byte	0x88
  7946 01cd EC000000 		.4byte	0xec
@@ -8458,10 +8458,10 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7972 01fc 23       		.byte	0x23
  7973 01fd 28       		.uleb128 0x28
  7974 01fe 09       		.uleb128 0x9
-ARM GAS  /tmp/ccXOsttd.s 			page 142
+ARM GAS  /tmp/ccdUEzgz.s 			page 142
 
 
- 7975 01ff D5090000 		.4byte	.LASF40
+ 7975 01ff F8090000 		.4byte	.LASF40
  7976 0203 06       		.byte	0x6
  7977 0204 BF       		.byte	0xbf
  7978 0205 7E020000 		.4byte	0x27e
@@ -8477,7 +8477,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  7988 0218 23       		.byte	0x23
  7989 0219 34       		.uleb128 0x34
  7990 021a 09       		.uleb128 0x9
- 7991 021b AD080000 		.4byte	.LASF42
+ 7991 021b D0080000 		.4byte	.LASF42
  7992 021f 06       		.byte	0x6
  7993 0220 C9       		.byte	0xc9
  7994 0221 0D010000 		.4byte	0x10d
@@ -8515,10 +8515,10 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8026 0256 61       		.byte	0x61
  8027 0257 78020000 		.4byte	0x278
  8028 025b 09       		.uleb128 0x9
- 8029 025c 1C090000 		.4byte	.LASF27
+ 8029 025c 3F090000 		.4byte	.LASF27
  8030 0260 05       		.byte	0x5
  8031 0261 62       		.byte	0x62
-ARM GAS  /tmp/ccXOsttd.s 			page 143
+ARM GAS  /tmp/ccdUEzgz.s 			page 143
 
 
  8032 0262 78020000 		.4byte	0x278
@@ -8526,7 +8526,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8034 0267 23       		.byte	0x23
  8035 0268 00       		.uleb128 0
  8036 0269 09       		.uleb128 0x9
- 8037 026a B4090000 		.4byte	.LASF28
+ 8037 026a D7090000 		.4byte	.LASF28
  8038 026e 05       		.byte	0x5
  8039 026f 64       		.byte	0x64
  8040 0270 78020000 		.4byte	0x278
@@ -8548,7 +8548,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8056 028c 6B       		.byte	0x6b
  8057 028d A0020000 		.4byte	0x2a0
  8058 0291 09       		.uleb128 0x9
- 8059 0292 1C090000 		.4byte	.LASF27
+ 8059 0292 3F090000 		.4byte	.LASF27
  8060 0296 05       		.byte	0x5
  8061 0297 6D       		.byte	0x6d
  8062 0298 78020000 		.4byte	0x278
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8086 02c8 1F01     		.2byte	0x11f
  8087 02ca AB020000 		.4byte	0x2ab
  8088 02ce 02       		.byte	0x2
-ARM GAS  /tmp/ccXOsttd.s 			page 144
+ARM GAS  /tmp/ccdUEzgz.s 			page 144
 
 
  8089 02cf 23       		.byte	0x23
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8143 032e AB020000 		.4byte	0x2ab
  8144 0332 02       		.byte	0x2
  8145 0333 23       		.byte	0x23
-ARM GAS  /tmp/ccXOsttd.s 			page 145
+ARM GAS  /tmp/ccdUEzgz.s 			page 145
 
 
  8146 0334 1C       		.uleb128 0x1c
@@ -8684,21 +8684,21 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8186 037f 68000000 		.4byte	0x68
  8187 0383 00       		.byte	0
  8188 0384 07       		.uleb128 0x7
- 8189 0385 5E090000 		.4byte	.LASF52
+ 8189 0385 81090000 		.4byte	.LASF52
  8190 0389 08       		.byte	0x8
  8191 038a 5D       		.byte	0x5d
  8192 038b 8F030000 		.4byte	0x38f
  8193 038f 08       		.uleb128 0x8
- 8194 0390 5E090000 		.4byte	.LASF52
+ 8194 0390 81090000 		.4byte	.LASF52
  8195 0394 14       		.byte	0x14
  8196 0395 08       		.byte	0x8
  8197 0396 64       		.byte	0x64
  8198 0397 E2030000 		.4byte	0x3e2
  8199 039b 09       		.uleb128 0x9
- 8200 039c FB0A0000 		.4byte	.LASF53
+ 8200 039c 1E0B0000 		.4byte	.LASF53
  8201 03a0 08       		.byte	0x8
  8202 03a1 65       		.byte	0x65
-ARM GAS  /tmp/ccXOsttd.s 			page 146
+ARM GAS  /tmp/ccdUEzgz.s 			page 146
 
 
  8203 03a2 E2030000 		.4byte	0x3e2
@@ -8706,7 +8706,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8205 03a7 23       		.byte	0x23
  8206 03a8 00       		.uleb128 0
  8207 03a9 09       		.uleb128 0x9
- 8208 03aa 350C0000 		.4byte	.LASF54
+ 8208 03aa 3C0C0000 		.4byte	.LASF54
  8209 03ae 08       		.byte	0x8
  8210 03af 67       		.byte	0x67
  8211 03b0 E2030000 		.4byte	0x3e2
@@ -8722,7 +8722,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8221 03c3 23       		.byte	0x23
  8222 03c4 08       		.uleb128 0x8
  8223 03c5 09       		.uleb128 0x9
- 8224 03c6 020C0000 		.4byte	.LASF56
+ 8224 03c6 250C0000 		.4byte	.LASF56
  8225 03ca 08       		.byte	0x8
  8226 03cb 6A       		.byte	0x6a
  8227 03cc 67030000 		.4byte	0x367
@@ -8747,7 +8747,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8246 03eb 76       		.byte	0x76
  8247 03ec 29040000 		.4byte	0x429
  8248 03f0 09       		.uleb128 0x9
- 8249 03f1 FB0A0000 		.4byte	.LASF53
+ 8249 03f1 1E0B0000 		.4byte	.LASF53
  8250 03f5 08       		.byte	0x8
  8251 03f6 77       		.byte	0x77
  8252 03f7 E2030000 		.4byte	0x3e2
@@ -8755,10 +8755,10 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8254 03fc 23       		.byte	0x23
  8255 03fd 00       		.uleb128 0
  8256 03fe 09       		.uleb128 0x9
- 8257 03ff 350C0000 		.4byte	.LASF54
+ 8257 03ff 3C0C0000 		.4byte	.LASF54
  8258 0403 08       		.byte	0x8
  8259 0404 79       		.byte	0x79
-ARM GAS  /tmp/ccXOsttd.s 			page 147
+ARM GAS  /tmp/ccdUEzgz.s 			page 147
 
 
  8260 0405 E2030000 		.4byte	0x3e2
@@ -8811,14 +8811,14 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8307 045b 23       		.byte	0x23
  8308 045c 08       		.uleb128 0x8
  8309 045d 09       		.uleb128 0x9
- 8310 045e BF0B0000 		.4byte	.LASF62
+ 8310 045e E20B0000 		.4byte	.LASF62
  8311 0462 09       		.byte	0x9
  8312 0463 62       		.byte	0x62
  8313 0464 44030000 		.4byte	0x344
  8314 0468 02       		.byte	0x2
  8315 0469 23       		.byte	0x23
  8316 046a 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccXOsttd.s 			page 148
+ARM GAS  /tmp/ccdUEzgz.s 			page 148
 
 
  8317 046b 09       		.uleb128 0x9
@@ -8847,7 +8847,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8340 0494 18       		.uleb128 0x18
  8341 0495 00       		.byte	0
  8342 0496 07       		.uleb128 0x7
- 8343 0497 880A0000 		.4byte	.LASF66
+ 8343 0497 AB0A0000 		.4byte	.LASF66
  8344 049b 09       		.byte	0x9
  8345 049c 6B       		.byte	0x6b
  8346 049d 39040000 		.4byte	0x439
@@ -8874,11 +8874,11 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8367 04c7 23       		.byte	0x23
  8368 04c8 08       		.uleb128 0x8
  8369 04c9 09       		.uleb128 0x9
- 8370 04ca 670B0000 		.4byte	.LASF70
+ 8370 04ca 8A0B0000 		.4byte	.LASF70
  8371 04ce 0A       		.byte	0xa
  8372 04cf 31       		.byte	0x31
  8373 04d0 D8040000 		.4byte	0x4d8
-ARM GAS  /tmp/ccXOsttd.s 			page 149
+ARM GAS  /tmp/ccdUEzgz.s 			page 149
 
 
  8374 04d4 02       		.byte	0x2
@@ -8904,7 +8904,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8394 04f7 9D       		.byte	0x9d
  8395 04f8 02010000 		.4byte	0x102
  8396 04fc 12       		.uleb128 0x12
- 8397 04fd 770C0000 		.4byte	.LASF72
+ 8397 04fd 7E0C0000 		.4byte	.LASF72
  8398 0501 06       		.byte	0x6
  8399 0502 A4       		.byte	0xa4
  8400 0503 02010000 		.4byte	0x102
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8428 053d 14       		.uleb128 0x14
  8429 053e 25050000 		.4byte	.LASF77
  8430 0542 01       		.sleb128 1
-ARM GAS  /tmp/ccXOsttd.s 			page 150
+ARM GAS  /tmp/ccdUEzgz.s 			page 150
 
 
  8431 0543 14       		.uleb128 0x14
@@ -8960,7 +8960,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8447 0562 73050000 		.4byte	.LASF83
  8448 0566 07       		.sleb128 7
  8449 0567 14       		.uleb128 0x14
- 8450 0568 830B0000 		.4byte	.LASF84
+ 8450 0568 A60B0000 		.4byte	.LASF84
  8451 056c 08       		.sleb128 8
  8452 056d 00       		.byte	0
  8453 056e 07       		.uleb128 0x7
@@ -8974,7 +8974,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8461 057c 8D       		.byte	0x8d
  8462 057d D6050000 		.4byte	0x5d6
  8463 0581 14       		.uleb128 0x14
- 8464 0582 7D090000 		.4byte	.LASF86
+ 8464 0582 A0090000 		.4byte	.LASF86
  8465 0586 7F       		.sleb128 -1
  8466 0587 14       		.uleb128 0x14
  8467 0588 FE060000 		.4byte	.LASF87
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8485 05ac 52070000 		.4byte	.LASF93
  8486 05b0 06       		.sleb128 6
  8487 05b1 14       		.uleb128 0x14
-ARM GAS  /tmp/ccXOsttd.s 			page 151
+ARM GAS  /tmp/ccdUEzgz.s 			page 151
 
 
  8488 05b2 60070000 		.4byte	.LASF94
@@ -9030,7 +9030,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8514 05e4 A2       		.byte	0xa2
  8515 05e5 F6050000 		.4byte	0x5f6
  8516 05e9 14       		.uleb128 0x14
- 8517 05ea C50B0000 		.4byte	.LASF101
+ 8517 05ea E80B0000 		.4byte	.LASF101
  8518 05ee 00       		.sleb128 0
  8519 05ef 14       		.uleb128 0x14
  8520 05f0 CF030000 		.4byte	.LASF102
@@ -9045,7 +9045,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8529 05ff 9C020000 		.4byte	.LASF103
  8530 0603 00       		.sleb128 0
  8531 0604 14       		.uleb128 0x14
- 8532 0605 1A0A0000 		.4byte	.LASF104
+ 8532 0605 3D0A0000 		.4byte	.LASF104
  8533 0609 01       		.sleb128 1
  8534 060a 14       		.uleb128 0x14
  8535 060b 41030000 		.4byte	.LASF105
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8542 0618 2F020000 		.4byte	.LASF107
  8543 061c 0D       		.byte	0xd
  8544 061d 68       		.byte	0x68
-ARM GAS  /tmp/ccXOsttd.s 			page 152
+ARM GAS  /tmp/ccdUEzgz.s 			page 152
 
 
  8545 061e F6050000 		.4byte	0x5f6
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8599 0687 2C080000 		.4byte	.LASF121
  8600 068b 00       		.sleb128 0
  8601 068c 14       		.uleb128 0x14
-ARM GAS  /tmp/ccXOsttd.s 			page 153
+ARM GAS  /tmp/ccdUEzgz.s 			page 153
 
 
  8602 068d 3A080000 		.4byte	.LASF122
@@ -9145,7 +9145,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8623 06b7 E1030000 		.4byte	.LASF129
  8624 06bb 08       		.sleb128 8
  8625 06bc 14       		.uleb128 0x14
- 8626 06bd CE080000 		.4byte	.LASF130
+ 8626 06bd F1080000 		.4byte	.LASF130
  8627 06c1 E300     		.sleb128 99
  8628 06c3 00       		.byte	0
  8629 06c4 0B       		.uleb128 0xb
@@ -9154,7 +9154,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8632 06c7 9C       		.byte	0x9c
  8633 06c8 B7080000 		.4byte	0x8b7
  8634 06cc 09       		.uleb128 0x9
- 8635 06cd 150A0000 		.4byte	.LASF131
+ 8635 06cd 380A0000 		.4byte	.LASF131
  8636 06d1 0F       		.byte	0xf
  8637 06d2 9E       		.byte	0x9e
  8638 06d3 73060000 		.4byte	0x673
@@ -9162,7 +9162,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8640 06d8 23       		.byte	0x23
  8641 06d9 00       		.uleb128 0
  8642 06da 09       		.uleb128 0x9
- 8643 06db A30C0000 		.4byte	.LASF132
+ 8643 06db AA0C0000 		.4byte	.LASF132
  8644 06df 0F       		.byte	0xf
  8645 06e0 A1       		.byte	0xa1
  8646 06e1 73060000 		.4byte	0x673
@@ -9170,7 +9170,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8648 06e6 23       		.byte	0x23
  8649 06e7 01       		.uleb128 0x1
  8650 06e8 09       		.uleb128 0x9
- 8651 06e9 510A0000 		.4byte	.LASF133
+ 8651 06e9 740A0000 		.4byte	.LASF133
  8652 06ed 0F       		.byte	0xf
  8653 06ee A4       		.byte	0xa4
  8654 06ef 17060000 		.4byte	0x617
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8656 06f4 23       		.byte	0x23
  8657 06f5 02       		.uleb128 0x2
  8658 06f6 09       		.uleb128 0x9
-ARM GAS  /tmp/ccXOsttd.s 			page 154
+ARM GAS  /tmp/ccdUEzgz.s 			page 154
 
 
  8659 06f7 E7050000 		.4byte	.LASF134
@@ -9189,7 +9189,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8664 0702 23       		.byte	0x23
  8665 0703 04       		.uleb128 0x4
  8666 0704 09       		.uleb128 0x9
- 8667 0705 620B0000 		.4byte	.LASF135
+ 8667 0705 850B0000 		.4byte	.LASF135
  8668 0709 0F       		.byte	0xf
  8669 070a AB       		.byte	0xab
  8670 070b 6A090000 		.4byte	0x96a
@@ -9213,7 +9213,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8688 072c 23       		.byte	0x23
  8689 072d 0E       		.uleb128 0xe
  8690 072e 09       		.uleb128 0x9
- 8691 072f 300A0000 		.4byte	.LASF138
+ 8691 072f 530A0000 		.4byte	.LASF138
  8692 0733 0F       		.byte	0xf
  8693 0734 B2       		.byte	0xb2
  8694 0735 3E000000 		.4byte	0x3e
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8713 0757 14       		.uleb128 0x14
  8714 0758 09       		.uleb128 0x9
  8715 0759 59020000 		.4byte	.LASF141
-ARM GAS  /tmp/ccXOsttd.s 			page 155
+ARM GAS  /tmp/ccdUEzgz.s 			page 155
 
 
  8716 075d 0F       		.byte	0xf
@@ -9256,7 +9256,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8728 0772 23       		.byte	0x23
  8729 0773 1C       		.uleb128 0x1c
  8730 0774 09       		.uleb128 0x9
- 8731 0775 280B0000 		.4byte	.LASF143
+ 8731 0775 4B0B0000 		.4byte	.LASF143
  8732 0779 0F       		.byte	0xf
  8733 077a BC       		.byte	0xbc
  8734 077b 8A000000 		.4byte	0x8a
@@ -9280,7 +9280,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8752 079c 23       		.byte	0x23
  8753 079d 28       		.uleb128 0x28
  8754 079e 09       		.uleb128 0x9
- 8755 079f 9E0B0000 		.4byte	.LASF145
+ 8755 079f C10B0000 		.4byte	.LASF145
  8756 07a3 0F       		.byte	0xf
  8757 07a4 C1       		.byte	0xc1
  8758 07a5 8A000000 		.4byte	0x8a
@@ -9296,9 +9296,9 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8768 07b8 23       		.byte	0x23
  8769 07b9 30       		.uleb128 0x30
  8770 07ba 09       		.uleb128 0x9
- 8771 07bb 6B090000 		.4byte	.LASF146
+ 8771 07bb 8E090000 		.4byte	.LASF146
  8772 07bf 0F       		.byte	0xf
-ARM GAS  /tmp/ccXOsttd.s 			page 156
+ARM GAS  /tmp/ccdUEzgz.s 			page 156
 
 
  8773 07c0 C5       		.byte	0xc5
@@ -9315,7 +9315,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8784 07d4 23       		.byte	0x23
  8785 07d5 38       		.uleb128 0x38
  8786 07d6 09       		.uleb128 0x9
- 8787 07d7 EB080000 		.4byte	.LASF148
+ 8787 07d7 0E090000 		.4byte	.LASF148
  8788 07db 0F       		.byte	0xf
  8789 07dc C7       		.byte	0xc7
  8790 07dd 8A000000 		.4byte	0x8a
@@ -9339,7 +9339,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8808 07fe 23       		.byte	0x23
  8809 07ff 44       		.uleb128 0x44
  8810 0800 09       		.uleb128 0x9
- 8811 0801 C40C0000 		.4byte	.LASF151
+ 8811 0801 CB0C0000 		.4byte	.LASF151
  8812 0805 0F       		.byte	0xf
  8813 0806 CA       		.byte	0xca
  8814 0807 8A000000 		.4byte	0x8a
@@ -9355,10 +9355,10 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8824 081a 23       		.byte	0x23
  8825 081b 4C       		.uleb128 0x4c
  8826 081c 09       		.uleb128 0x9
- 8827 081d 920A0000 		.4byte	.LASF153
+ 8827 081d B50A0000 		.4byte	.LASF153
  8828 0821 0F       		.byte	0xf
  8829 0822 CE       		.byte	0xce
-ARM GAS  /tmp/ccXOsttd.s 			page 157
+ARM GAS  /tmp/ccdUEzgz.s 			page 157
 
 
  8830 0823 8A000000 		.4byte	0x8a
@@ -9366,7 +9366,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8832 0828 23       		.byte	0x23
  8833 0829 50       		.uleb128 0x50
  8834 082a 09       		.uleb128 0x9
- 8835 082b 700A0000 		.4byte	.LASF154
+ 8835 082b 930A0000 		.4byte	.LASF154
  8836 082f 0F       		.byte	0xf
  8837 0830 D0       		.byte	0xd0
  8838 0831 8A000000 		.4byte	0x8a
@@ -9382,7 +9382,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8848 0844 23       		.byte	0x23
  8849 0845 58       		.uleb128 0x58
  8850 0846 09       		.uleb128 0x9
- 8851 0847 B8080000 		.4byte	.LASF156
+ 8851 0847 DB080000 		.4byte	.LASF156
  8852 084b 0F       		.byte	0xf
  8853 084c D5       		.byte	0xd5
  8854 084d 8A000000 		.4byte	0x8a
@@ -9406,7 +9406,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8872 086e 23       		.byte	0x23
  8873 086f 64       		.uleb128 0x64
  8874 0870 09       		.uleb128 0x9
- 8875 0871 990C0000 		.4byte	.LASF159
+ 8875 0871 A00C0000 		.4byte	.LASF159
  8876 0875 0F       		.byte	0xf
  8877 0876 DB       		.byte	0xdb
  8878 0877 8A000000 		.4byte	0x8a
@@ -9418,14 +9418,14 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8884 0883 0F       		.byte	0xf
  8885 0884 DC       		.byte	0xdc
  8886 0885 8A000000 		.4byte	0x8a
-ARM GAS  /tmp/ccXOsttd.s 			page 158
+ARM GAS  /tmp/ccdUEzgz.s 			page 158
 
 
  8887 0889 02       		.byte	0x2
  8888 088a 23       		.byte	0x23
  8889 088b 6C       		.uleb128 0x6c
  8890 088c 09       		.uleb128 0x9
- 8891 088d 2F090000 		.4byte	.LASF161
+ 8891 088d 52090000 		.4byte	.LASF161
  8892 0891 0F       		.byte	0xf
  8893 0892 DD       		.byte	0xdd
  8894 0893 8A000000 		.4byte	0x8a
@@ -9433,7 +9433,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8896 0898 23       		.byte	0x23
  8897 0899 70       		.uleb128 0x70
  8898 089a 09       		.uleb128 0x9
- 8899 089b 23090000 		.4byte	.LASF162
+ 8899 089b 46090000 		.4byte	.LASF162
  8900 089f 0F       		.byte	0xf
  8901 08a0 DE       		.byte	0xde
  8902 08a1 3E000000 		.4byte	0x3e
@@ -9464,7 +9464,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8927 08d1 23       		.byte	0x23
  8928 08d2 00       		.uleb128 0
  8929 08d3 15       		.uleb128 0x15
- 8930 08d4 920A0000 		.4byte	.LASF153
+ 8930 08d4 B50A0000 		.4byte	.LASF153
  8931 08d8 0F       		.byte	0xf
  8932 08d9 0901     		.2byte	0x109
  8933 08db 8A000000 		.4byte	0x8a
@@ -9478,12 +9478,12 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8941 08ea 8A000000 		.4byte	0x8a
  8942 08ee 02       		.byte	0x2
  8943 08ef 23       		.byte	0x23
-ARM GAS  /tmp/ccXOsttd.s 			page 159
+ARM GAS  /tmp/ccdUEzgz.s 			page 159
 
 
  8944 08f0 18       		.uleb128 0x18
  8945 08f1 15       		.uleb128 0x15
- 8946 08f2 B8080000 		.4byte	.LASF156
+ 8946 08f2 DB080000 		.4byte	.LASF156
  8947 08f6 0F       		.byte	0xf
  8948 08f7 0D01     		.2byte	0x10d
  8949 08f9 8A000000 		.4byte	0x8a
@@ -9499,7 +9499,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8959 090d 23       		.byte	0x23
  8960 090e 20       		.uleb128 0x20
  8961 090f 15       		.uleb128 0x15
- 8962 0910 990C0000 		.4byte	.LASF159
+ 8962 0910 A00C0000 		.4byte	.LASF159
  8963 0914 0F       		.byte	0xf
  8964 0915 1101     		.2byte	0x111
  8965 0917 8A000000 		.4byte	0x8a
@@ -9515,7 +9515,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8975 092b 23       		.byte	0x23
  8976 092c 28       		.uleb128 0x28
  8977 092d 15       		.uleb128 0x15
- 8978 092e 2F090000 		.4byte	.LASF161
+ 8978 092e 52090000 		.4byte	.LASF161
  8979 0932 0F       		.byte	0xf
  8980 0933 1301     		.2byte	0x113
  8981 0935 8A000000 		.4byte	0x8a
@@ -9523,7 +9523,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8983 093a 23       		.byte	0x23
  8984 093b 2C       		.uleb128 0x2c
  8985 093c 15       		.uleb128 0x15
- 8986 093d 23090000 		.4byte	.LASF162
+ 8986 093d 46090000 		.4byte	.LASF162
  8987 0941 0F       		.byte	0xf
  8988 0942 1601     		.2byte	0x116
  8989 0944 3E000000 		.4byte	0x3e
@@ -9531,14 +9531,14 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  8991 0949 23       		.byte	0x23
  8992 094a 30       		.uleb128 0x30
  8993 094b 15       		.uleb128 0x15
- 8994 094c D10A0000 		.4byte	.LASF166
+ 8994 094c F40A0000 		.4byte	.LASF166
  8995 0950 0F       		.byte	0xf
  8996 0951 1901     		.2byte	0x119
  8997 0953 D6050000 		.4byte	0x5d6
  8998 0957 02       		.byte	0x2
  8999 0958 23       		.byte	0x23
  9000 0959 32       		.uleb128 0x32
-ARM GAS  /tmp/ccXOsttd.s 			page 160
+ARM GAS  /tmp/ccdUEzgz.s 			page 160
 
 
  9001 095a 15       		.uleb128 0x15
@@ -9569,7 +9569,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9026 098c 04       		.byte	0x4
  9027 098d 70090000 		.4byte	0x970
  9028 0991 18       		.uleb128 0x18
- 9029 0992 A4090000 		.4byte	.LASF169
+ 9029 0992 C7090000 		.4byte	.LASF169
  9030 0996 0F       		.byte	0xf
  9031 0997 1D01     		.2byte	0x11d
  9032 0999 B7080000 		.4byte	0x8b7
@@ -9592,13 +9592,13 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9049 09bd 3D       		.byte	0x3d
  9050 09be 8A000000 		.4byte	0x8a
  9051 09c2 1B       		.uleb128 0x1b
- 9052 09c3 CB0A0000 		.4byte	.LASF171
+ 9052 09c3 EE0A0000 		.4byte	.LASF171
  9053 09c7 02       		.byte	0x2
  9054 09c8 3E       		.byte	0x3e
  9055 09c9 8A000000 		.4byte	0x8a
  9056 09cd 1C       		.uleb128 0x1c
  9057 09ce 7700     		.ascii	"w\000"
-ARM GAS  /tmp/ccXOsttd.s 			page 161
+ARM GAS  /tmp/ccdUEzgz.s 			page 161
 
 
  9058 09d0 02       		.byte	0x2
@@ -9632,7 +9632,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9086 09ff DF090000 		.4byte	0x9df
  9087 0a03 00       		.byte	0
  9088 0a04 19       		.uleb128 0x19
- 9089 0a05 360B0000 		.4byte	.LASF173
+ 9089 0a05 590B0000 		.4byte	.LASF173
  9090 0a09 02       		.byte	0x2
  9091 0a0a 47       		.byte	0x47
  9092 0a0b 01       		.byte	0x1
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9112 0a30 6900     		.ascii	"i\000"
  9113 0a32 02       		.byte	0x2
  9114 0a33 49       		.byte	0x49
-ARM GAS  /tmp/ccXOsttd.s 			page 162
+ARM GAS  /tmp/ccdUEzgz.s 			page 162
 
 
  9115 0a34 AE000000 		.4byte	0xae
@@ -9718,10 +9718,10 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9169 0a97 01       		.byte	0x1
  9170 0a98 1F       		.uleb128 0x1f
  9171 0a99 01       		.byte	0x1
-ARM GAS  /tmp/ccXOsttd.s 			page 163
+ARM GAS  /tmp/ccdUEzgz.s 			page 163
 
 
- 9172 0a9a DB0A0000 		.4byte	.LASF175
+ 9172 0a9a FE0A0000 		.4byte	.LASF175
  9173 0a9e 01       		.byte	0x1
  9174 0a9f B401     		.2byte	0x1b4
  9175 0aa1 01       		.byte	0x1
@@ -9741,7 +9741,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9189 0ab9 8A000000 		.4byte	0x8a
  9190 0abd 00       		.byte	0
  9191 0abe 20       		.uleb128 0x20
- 9192 0abf 3B0A0000 		.4byte	.LASF256
+ 9192 0abf 5E0A0000 		.4byte	.LASF256
  9193 0ac3 01       		.byte	0x1
  9194 0ac4 E303     		.2byte	0x3e3
  9195 0ac6 01       		.byte	0x1
@@ -9758,7 +9758,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9206 0adc E303     		.2byte	0x3e3
  9207 0ade 4C000000 		.4byte	0x4c
  9208 0ae2 23       		.uleb128 0x23
- 9209 0ae3 150A0000 		.4byte	.LASF131
+ 9209 0ae3 380A0000 		.4byte	.LASF131
  9210 0ae7 01       		.byte	0x1
  9211 0ae8 E503     		.2byte	0x3e5
  9212 0aea 6E050000 		.4byte	0x56e
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9226 0b06 D104     		.2byte	0x4d1
  9227 0b08 8B090000 		.4byte	0x98b
  9228 0b0c 22       		.uleb128 0x22
-ARM GAS  /tmp/ccXOsttd.s 			page 164
+ARM GAS  /tmp/ccdUEzgz.s 			page 164
 
 
  9229 0b0d 14040000 		.4byte	.LASF177
@@ -9793,7 +9793,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9238 0b24 00       		.byte	0
  9239 0b25 24       		.uleb128 0x24
  9240 0b26 01       		.byte	0x1
- 9241 0b27 FC080000 		.4byte	.LASF180
+ 9241 0b27 1F090000 		.4byte	.LASF180
  9242 0b2b 01       		.byte	0x1
  9243 0b2c E604     		.2byte	0x4e6
  9244 0b2e 01       		.byte	0x1
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9283 0b8b 2D000000 		.4byte	.LLST1
  9284 0b8f 27       		.uleb128 0x27
  9285 0b90 E7050000 		.4byte	.LASF134
-ARM GAS  /tmp/ccXOsttd.s 			page 165
+ARM GAS  /tmp/ccdUEzgz.s 			page 165
 
 
  9286 0b94 01       		.byte	0x1
@@ -9852,7 +9852,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9294 0ba4 4C000000 		.4byte	0x4c
  9295 0ba8 40000000 		.4byte	.LLST2
  9296 0bac 28       		.uleb128 0x28
- 9297 0bad E7090000 		.4byte	.LASF182
+ 9297 0bad 0A0A0000 		.4byte	.LASF182
  9298 0bb1 01       		.byte	0x1
  9299 0bb2 3B06     		.2byte	0x63b
  9300 0bb4 4C000000 		.4byte	0x4c
@@ -9889,7 +9889,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9331 0c04 4C000000 		.4byte	0x4c
  9332 0c08 2D       		.uleb128 0x2d
  9333 0c09 01       		.byte	0x1
- 9334 0c0a 9A0A0000 		.4byte	.LASF184
+ 9334 0c0a BD0A0000 		.4byte	.LASF184
  9335 0c0e 01       		.byte	0x1
  9336 0c0f A6       		.byte	0xa6
  9337 0c10 01       		.byte	0x1
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9340 0c19 1C000000 		.4byte	.LFE69
  9341 0c1d 02       		.byte	0x2
  9342 0c1e 7D       		.byte	0x7d
-ARM GAS  /tmp/ccXOsttd.s 			page 166
+ARM GAS  /tmp/ccdUEzgz.s 			page 166
 
 
  9343 0c1f 00       		.sleb128 0
@@ -9952,13 +9952,13 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9391 0c8b 00       		.byte	0
  9392 0c8c 2F       		.uleb128 0x2f
  9393 0c8d 01       		.byte	0x1
- 9394 0c8e EC0B0000 		.4byte	.LASF188
+ 9394 0c8e 0F0C0000 		.4byte	.LASF188
  9395 0c92 01       		.byte	0x1
  9396 0c93 D8       		.byte	0xd8
  9397 0c94 01       		.byte	0x1
  9398 0c95 8A000000 		.4byte	0x8a
  9399 0c99 00000000 		.4byte	.LFB72
-ARM GAS  /tmp/ccXOsttd.s 			page 167
+ARM GAS  /tmp/ccdUEzgz.s 			page 167
 
 
  9400 0c9d 3E000000 		.4byte	.LFE72
@@ -9982,7 +9982,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9418 0cc5 00       		.byte	0
  9419 0cc6 2D       		.uleb128 0x2d
  9420 0cc7 01       		.byte	0x1
- 9421 0cc8 490B0000 		.4byte	.LASF189
+ 9421 0cc8 6C0B0000 		.4byte	.LASF189
  9422 0ccc 01       		.byte	0x1
  9423 0ccd EC       		.byte	0xec
  9424 0cce 01       		.byte	0x1
@@ -10002,7 +10002,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9438 0cf1 00       		.byte	0
  9439 0cf2 2D       		.uleb128 0x2d
  9440 0cf3 01       		.byte	0x1
- 9441 0cf4 8E090000 		.4byte	.LASF190
+ 9441 0cf4 B1090000 		.4byte	.LASF190
  9442 0cf8 01       		.byte	0x1
  9443 0cf9 FC       		.byte	0xfc
  9444 0cfa 01       		.byte	0x1
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9454 0d13 01       		.byte	0x1
  9455 0d14 FC       		.byte	0xfc
  9456 0d15 73060000 		.4byte	0x673
-ARM GAS  /tmp/ccXOsttd.s 			page 168
+ARM GAS  /tmp/ccdUEzgz.s 			page 168
 
 
  9457 0d19 690D0000 		.4byte	.LLST13
@@ -10040,7 +10040,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9473 0d40 73060000 		.4byte	0x673
  9474 0d44 B20D0000 		.4byte	.LLST15
  9475 0d48 34       		.uleb128 0x34
- 9476 0d49 920A0000 		.4byte	.LASF153
+ 9476 0d49 B50A0000 		.4byte	.LASF153
  9477 0d4d 01       		.byte	0x1
  9478 0d4e 1001     		.2byte	0x110
  9479 0d50 8A000000 		.4byte	0x8a
@@ -10051,7 +10051,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9484 0d58 00       		.byte	0
  9485 0d59 32       		.uleb128 0x32
  9486 0d5a 01       		.byte	0x1
- 9487 0d5b 6E0B0000 		.4byte	.LASF192
+ 9487 0d5b 910B0000 		.4byte	.LASF192
  9488 0d5f 01       		.byte	0x1
  9489 0d60 2001     		.2byte	0x120
  9490 0d62 01       		.byte	0x1
@@ -10078,12 +10078,12 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9511 0d99 8B090000 		.4byte	0x98b
  9512 0d9d 0B0E0000 		.4byte	.LLST19
  9513 0da1 00       		.byte	0
-ARM GAS  /tmp/ccXOsttd.s 			page 169
+ARM GAS  /tmp/ccdUEzgz.s 			page 169
 
 
  9514 0da2 35       		.uleb128 0x35
  9515 0da3 01       		.byte	0x1
- 9516 0da4 D60B0000 		.4byte	.LASF194
+ 9516 0da4 F90B0000 		.4byte	.LASF194
  9517 0da8 01       		.byte	0x1
  9518 0da9 3A01     		.2byte	0x13a
  9519 0dab 01       		.byte	0x1
@@ -10109,7 +10109,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9539 0dd9 00       		.byte	0
  9540 0dda 36       		.uleb128 0x36
  9541 0ddb 01       		.byte	0x1
- 9542 0ddc 090B0000 		.4byte	.LASF196
+ 9542 0ddc 2C0B0000 		.4byte	.LASF196
  9543 0de0 01       		.byte	0x1
  9544 0de1 4E01     		.2byte	0x14e
  9545 0de3 01       		.byte	0x1
@@ -10138,7 +10138,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9568 0e1a 1C000000 		.4byte	.LFE79
  9569 0e1e 02       		.byte	0x2
  9570 0e1f 7D       		.byte	0x7d
-ARM GAS  /tmp/ccXOsttd.s 			page 170
+ARM GAS  /tmp/ccdUEzgz.s 			page 170
 
 
  9571 0e20 00       		.sleb128 0
@@ -10169,7 +10169,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9596 0e57 4C000000 		.4byte	0x4c
  9597 0e5b 6D0E0000 		.4byte	.LLST23
  9598 0e5f 34       		.uleb128 0x34
- 9599 0e60 150A0000 		.4byte	.LASF131
+ 9599 0e60 380A0000 		.4byte	.LASF131
  9600 0e64 01       		.byte	0x1
  9601 0e65 7101     		.2byte	0x171
  9602 0e67 D6050000 		.4byte	0x5d6
@@ -10189,7 +10189,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9616 0e82 00       		.sleb128 0
  9617 0e83 960E0000 		.4byte	0xe96
  9618 0e87 34       		.uleb128 0x34
- 9619 0e88 150A0000 		.4byte	.LASF131
+ 9619 0e88 380A0000 		.4byte	.LASF131
  9620 0e8c 01       		.byte	0x1
  9621 0e8d 8701     		.2byte	0x187
  9622 0e8f 6E050000 		.4byte	0x56e
@@ -10198,10 +10198,10 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9625 0e95 00       		.byte	0
  9626 0e96 37       		.uleb128 0x37
  9627 0e97 01       		.byte	0x1
-ARM GAS  /tmp/ccXOsttd.s 			page 171
+ARM GAS  /tmp/ccdUEzgz.s 			page 171
 
 
- 9628 0e98 A90C0000 		.4byte	.LASF200
+ 9628 0e98 B00C0000 		.4byte	.LASF200
  9629 0e9c 01       		.byte	0x1
  9630 0e9d 9401     		.2byte	0x194
  9631 0e9f 01       		.byte	0x1
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9682 0f11 8D0A0000 		.4byte	0xa8d
  9683 0f15 02000000 		.4byte	.LBB129
  9684 0f19 78010000 		.4byte	.Ldebug_ranges0+0x178
-ARM GAS  /tmp/ccXOsttd.s 			page 172
+ARM GAS  /tmp/ccdUEzgz.s 			page 172
 
 
  9685 0f1d 01       		.byte	0x1
@@ -10272,7 +10272,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9693 0f30 00       		.byte	0
  9694 0f31 32       		.uleb128 0x32
  9695 0f32 01       		.byte	0x1
- 9696 0f33 AB0A0000 		.4byte	.LASF204
+ 9696 0f33 CE0A0000 		.4byte	.LASF204
  9697 0f37 01       		.byte	0x1
  9698 0f38 DA01     		.2byte	0x1da
  9699 0f3a 01       		.byte	0x1
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9739 0f9e 33       		.uleb128 0x33
  9740 0f9f 01020000 		.4byte	.LASF185
  9741 0fa3 01       		.byte	0x1
-ARM GAS  /tmp/ccXOsttd.s 			page 173
+ARM GAS  /tmp/ccdUEzgz.s 			page 173
 
 
  9742 0fa4 1302     		.2byte	0x213
@@ -10348,7 +10348,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9766 0fdc 00       		.byte	0
  9767 0fdd 32       		.uleb128 0x32
  9768 0fde 01       		.byte	0x1
- 9769 0fdf 4E090000 		.4byte	.LASF208
+ 9769 0fdf 71090000 		.4byte	.LASF208
  9770 0fe3 01       		.byte	0x1
  9771 0fe4 3C02     		.2byte	0x23c
  9772 0fe6 01       		.byte	0x1
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9796 1022 32       		.uleb128 0x32
  9797 1023 01       		.byte	0x1
  9798 1024 CD010000 		.4byte	.LASF209
-ARM GAS  /tmp/ccXOsttd.s 			page 174
+ARM GAS  /tmp/ccdUEzgz.s 			page 174
 
 
  9799 1028 01       		.byte	0x1
@@ -10389,7 +10389,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9804 1034 72130000 		.4byte	.LLST39
  9805 1038 79100000 		.4byte	0x1079
  9806 103c 33       		.uleb128 0x33
- 9807 103d E0090000 		.4byte	.LASF210
+ 9807 103d 030A0000 		.4byte	.LASF210
  9808 1041 01       		.byte	0x1
  9809 1042 EA02     		.2byte	0x2ea
  9810 1044 73060000 		.4byte	0x673
@@ -10415,7 +10415,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9830 1078 00       		.byte	0
  9831 1079 32       		.uleb128 0x32
  9832 107a 01       		.byte	0x1
- 9833 107b F0090000 		.4byte	.LASF212
+ 9833 107b 130A0000 		.4byte	.LASF212
  9834 107f 01       		.byte	0x1
  9835 1080 1303     		.2byte	0x313
  9836 1082 01       		.byte	0x1
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9853 10b3 29       		.uleb128 0x29
  9854 10b4 6D00     		.ascii	"m\000"
  9855 10b6 01       		.byte	0x1
-ARM GAS  /tmp/ccXOsttd.s 			page 175
+ARM GAS  /tmp/ccdUEzgz.s 			page 175
 
 
  9856 10b7 1903     		.2byte	0x319
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9910 1135 6D00     		.ascii	"m\000"
  9911 1137 01       		.byte	0x1
  9912 1138 3F03     		.2byte	0x33f
-ARM GAS  /tmp/ccXOsttd.s 			page 176
+ARM GAS  /tmp/ccdUEzgz.s 			page 176
 
 
  9913 113a 8B090000 		.4byte	0x98b
@@ -10506,7 +10506,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9915 1142 00       		.byte	0
  9916 1143 32       		.uleb128 0x32
  9917 1144 01       		.byte	0x1
- 9918 1145 470C0000 		.4byte	.LASF215
+ 9918 1145 4E0C0000 		.4byte	.LASF215
  9919 1149 01       		.byte	0x1
  9920 114a 7703     		.2byte	0x377
  9921 114c 01       		.byte	0x1
@@ -10521,13 +10521,13 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9930 1165 73060000 		.4byte	0x673
  9931 1169 BE160000 		.4byte	.LLST56
  9932 116d 33       		.uleb128 0x33
- 9933 116e 150A0000 		.4byte	.LASF131
+ 9933 116e 380A0000 		.4byte	.LASF131
  9934 1172 01       		.byte	0x1
  9935 1173 7703     		.2byte	0x377
  9936 1175 6E050000 		.4byte	0x56e
  9937 1179 D1160000 		.4byte	.LLST57
  9938 117d 33       		.uleb128 0x33
- 9939 117e 280B0000 		.4byte	.LASF143
+ 9939 117e 4B0B0000 		.4byte	.LASF143
  9940 1182 01       		.byte	0x1
  9941 1183 7703     		.2byte	0x377
  9942 1185 8A000000 		.4byte	0x8a
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9967 11ba 80000000 		.4byte	.LFE95
  9968 11be 25170000 		.4byte	.LLST60
  9969 11c2 E5110000 		.4byte	0x11e5
-ARM GAS  /tmp/ccXOsttd.s 			page 177
+ARM GAS  /tmp/ccdUEzgz.s 			page 177
 
 
  9970 11c6 26       		.uleb128 0x26
@@ -10576,7 +10576,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  9982 11e4 00       		.byte	0
  9983 11e5 32       		.uleb128 0x32
  9984 11e6 01       		.byte	0x1
- 9985 11e7 5F0C0000 		.4byte	.LASF218
+ 9985 11e7 660C0000 		.4byte	.LASF218
  9986 11eb 01       		.byte	0x1
  9987 11ec C303     		.2byte	0x3c3
  9988 11ee 01       		.byte	0x1
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10024 1241 3D       		.uleb128 0x3d
  10025 1242 6600     		.ascii	"f\000"
  10026 1244 01       		.byte	0x1
-ARM GAS  /tmp/ccXOsttd.s 			page 178
+ARM GAS  /tmp/ccdUEzgz.s 			page 178
 
 
  10027 1245 C803     		.2byte	0x3c8
@@ -10656,7 +10656,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10059 1296 06       		.uleb128 0x6
  10060 1297 86120000 		.4byte	0x1286
  10061 129b 19       		.uleb128 0x19
- 10062 129c 2D0C0000 		.4byte	.LASF222
+ 10062 129c 340C0000 		.4byte	.LASF222
  10063 12a0 02       		.byte	0x2
  10064 12a1 54       		.byte	0x54
  10065 12a2 01       		.byte	0x1
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10081 12c0 8A000000 		.4byte	0x8a
  10082 12c4 00000000 		.4byte	.LFB98
  10083 12c8 40050000 		.4byte	.LFE98
-ARM GAS  /tmp/ccXOsttd.s 			page 179
+ARM GAS  /tmp/ccdUEzgz.s 			page 179
 
 
  10084 12cc 42180000 		.4byte	.LLST69
@@ -10690,13 +10690,13 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10090 12da 8B090000 		.4byte	0x98b
  10091 12de 6F180000 		.4byte	.LLST70
  10092 12e2 33       		.uleb128 0x33
- 10093 12e3 3D0C0000 		.4byte	.LASF224
+ 10093 12e3 440C0000 		.4byte	.LASF224
  10094 12e7 01       		.byte	0x1
  10095 12e8 0A04     		.2byte	0x40a
  10096 12ea 8A000000 		.4byte	0x8a
  10097 12ee 8D180000 		.4byte	.LLST71
  10098 12f2 28       		.uleb128 0x28
- 10099 12f3 A6080000 		.4byte	.LASF225
+ 10099 12f3 C9080000 		.4byte	.LASF225
  10100 12f7 01       		.byte	0x1
  10101 12f8 0C04     		.2byte	0x40c
  10102 12fa 8A000000 		.4byte	0x8a
@@ -10728,17 +10728,17 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10128 1334 8A000000 		.4byte	0x8a
  10129 1338 0C190000 		.4byte	.LLST74
  10130 133c 28       		.uleb128 0x28
- 10131 133d F3080000 		.4byte	.LASF228
+ 10131 133d 16090000 		.4byte	.LASF228
  10132 1341 01       		.byte	0x1
  10133 1342 1004     		.2byte	0x410
  10134 1344 8A000000 		.4byte	0x8a
  10135 1348 35190000 		.4byte	.LLST75
  10136 134c 28       		.uleb128 0x28
- 10137 134d 030B0000 		.4byte	.LASF229
+ 10137 134d 260B0000 		.4byte	.LASF229
  10138 1351 01       		.byte	0x1
  10139 1352 1204     		.2byte	0x412
  10140 1354 8A000000 		.4byte	0x8a
-ARM GAS  /tmp/ccXOsttd.s 			page 180
+ARM GAS  /tmp/ccdUEzgz.s 			page 180
 
 
  10141 1358 49190000 		.4byte	.LLST76
@@ -10755,13 +10755,13 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10152 1374 8A000000 		.4byte	0x8a
  10153 1378 7A190000 		.4byte	.LLST78
  10154 137c 28       		.uleb128 0x28
- 10155 137d A40B0000 		.4byte	.LASF231
+ 10155 137d C70B0000 		.4byte	.LASF231
  10156 1381 01       		.byte	0x1
  10157 1382 1304     		.2byte	0x413
  10158 1384 8A000000 		.4byte	0x8a
  10159 1388 92190000 		.4byte	.LLST79
  10160 138c 28       		.uleb128 0x28
- 10161 138d 3F090000 		.4byte	.LASF232
+ 10161 138d 62090000 		.4byte	.LASF232
  10162 1391 01       		.byte	0x1
  10163 1392 1304     		.2byte	0x413
  10164 1394 8A000000 		.4byte	0x8a
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10195 13ea 3F       		.uleb128 0x3f
  10196 13eb AC120000 		.4byte	0x12ac
  10197 13ef 40       		.uleb128 0x40
-ARM GAS  /tmp/ccXOsttd.s 			page 181
+ARM GAS  /tmp/ccdUEzgz.s 			page 181
 
 
  10198 13f0 9D090000 		.4byte	0x99d
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10252 147b 54       		.byte	0x54
  10253 147c 44       		.uleb128 0x44
  10254 147d CD090000 		.4byte	0x9cd
-ARM GAS  /tmp/ccXOsttd.s 			page 182
+ARM GAS  /tmp/ccdUEzgz.s 			page 182
 
 
  10255 1481 42       		.uleb128 0x42
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10309 150a 2104     		.2byte	0x421
  10310 150c 1A150000 		.4byte	0x151a
  10311 1510 2B       		.uleb128 0x2b
-ARM GAS  /tmp/ccXOsttd.s 			page 183
+ARM GAS  /tmp/ccdUEzgz.s 			page 183
 
 
  10312 1511 830A0000 		.4byte	0xa83
@@ -10977,8 +10977,8 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10365 1594 8B090000 		.4byte	0x98b
  10366 1598 381D0000 		.4byte	.LLST98
  10367 159c 33       		.uleb128 0x33
- 10368 159d 3D0C0000 		.4byte	.LASF224
-ARM GAS  /tmp/ccXOsttd.s 			page 184
+ 10368 159d 440C0000 		.4byte	.LASF224
+ARM GAS  /tmp/ccdUEzgz.s 			page 184
 
 
  10369 15a1 01       		.byte	0x1
@@ -11038,11 +11038,11 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10423 1635 FD04     		.2byte	0x4fd
  10424 1637 8B090000 		.4byte	0x98b
  10425 163b 7B1E0000 		.4byte	.LLST108
-ARM GAS  /tmp/ccXOsttd.s 			page 185
+ARM GAS  /tmp/ccdUEzgz.s 			page 185
 
 
  10426 163f 33       		.uleb128 0x33
- 10427 1640 3D0C0000 		.4byte	.LASF224
+ 10427 1640 440C0000 		.4byte	.LASF224
  10428 1644 01       		.byte	0x1
  10429 1645 FD04     		.2byte	0x4fd
  10430 1647 8A000000 		.4byte	0x8a
@@ -11065,7 +11065,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10447 1670 5B0B0000 		.4byte	0xb5b
  10448 1674 D71E0000 		.4byte	.LLST111
  10449 1678 33       		.uleb128 0x33
- 10450 1679 3D0C0000 		.4byte	.LASF224
+ 10450 1679 440C0000 		.4byte	.LASF224
  10451 167d 01       		.byte	0x1
  10452 167e 2E05     		.2byte	0x52e
  10453 1680 8A000000 		.4byte	0x8a
@@ -11098,12 +11098,12 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10480 16c5 0A210000 		.4byte	.LLST116
  10481 16c9 00       		.byte	0
  10482 16ca 00       		.byte	0
-ARM GAS  /tmp/ccXOsttd.s 			page 186
+ARM GAS  /tmp/ccdUEzgz.s 			page 186
 
 
  10483 16cb 32       		.uleb128 0x32
  10484 16cc 01       		.byte	0x1
- 10485 16cd 800C0000 		.4byte	.LASF239
+ 10485 16cd 870C0000 		.4byte	.LASF239
  10486 16d1 01       		.byte	0x1
  10487 16d2 7105     		.2byte	0x571
  10488 16d4 01       		.byte	0x1
@@ -11118,7 +11118,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10497 16eb 8B090000 		.4byte	0x98b
  10498 16ef 69210000 		.4byte	.LLST118
  10499 16f3 33       		.uleb128 0x33
- 10500 16f4 3D0C0000 		.4byte	.LASF224
+ 10500 16f4 440C0000 		.4byte	.LASF224
  10501 16f8 01       		.byte	0x1
  10502 16f9 7105     		.2byte	0x571
  10503 16fb 8A000000 		.4byte	0x8a
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10537 174e 9C05     		.2byte	0x59c
  10538 1750 4C000000 		.4byte	0x4c
  10539 1754 78220000 		.4byte	.LLST124
-ARM GAS  /tmp/ccXOsttd.s 			page 187
+ARM GAS  /tmp/ccdUEzgz.s 			page 187
 
 
  10540 1758 00       		.byte	0
@@ -11180,7 +11180,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10556 177f 68000000 		.4byte	0x68
  10557 1783 C3220000 		.4byte	.LLST126
  10558 1787 27       		.uleb128 0x27
- 10559 1788 3F0B0000 		.4byte	.LASF243
+ 10559 1788 620B0000 		.4byte	.LASF243
  10560 178c 01       		.byte	0x1
  10561 178d BB05     		.2byte	0x5bb
  10562 178f D9180000 		.4byte	0x18d9
@@ -11206,7 +11206,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10582 17bc 4C000000 		.4byte	0x4c
  10583 17c0 3E230000 		.4byte	.LLST128
  10584 17c4 28       		.uleb128 0x28
- 10585 17c5 3D0C0000 		.4byte	.LASF224
+ 10585 17c5 440C0000 		.4byte	.LASF224
  10586 17c9 01       		.byte	0x1
  10587 17ca BF05     		.2byte	0x5bf
  10588 17cc 8A000000 		.4byte	0x8a
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10594 17dc 01       		.byte	0x1
  10595 17dd CF05     		.2byte	0x5cf
  10596 17df 8B090000 		.4byte	0x98b
-ARM GAS  /tmp/ccXOsttd.s 			page 188
+ARM GAS  /tmp/ccdUEzgz.s 			page 188
 
 
  10597 17e3 A7230000 		.4byte	.LLST130
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10651 186f F905     		.2byte	0x5f9
  10652 1871 5B0B0000 		.4byte	0xb5b
  10653 1875 8D240000 		.4byte	.LLST137
-ARM GAS  /tmp/ccXOsttd.s 			page 189
+ARM GAS  /tmp/ccdUEzgz.s 			page 189
 
 
  10654 1879 2C       		.uleb128 0x2c
@@ -11314,7 +11314,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10684 18c4 41       		.uleb128 0x41
  10685 18c5 D0040000 		.4byte	.Ldebug_ranges0+0x4d0
  10686 18c9 23       		.uleb128 0x23
- 10687 18ca 72090000 		.4byte	.LASF245
+ 10687 18ca 95090000 		.4byte	.LASF245
  10688 18ce 01       		.byte	0x1
  10689 18cf 1506     		.2byte	0x615
  10690 18d1 8A000000 		.4byte	0x8a
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10708 18f5 DE180000 		.4byte	0x18de
  10709 18f9 05       		.byte	0x5
  10710 18fa 03       		.byte	0x3
-ARM GAS  /tmp/ccXOsttd.s 			page 190
+ARM GAS  /tmp/ccdUEzgz.s 			page 190
 
 
  10711 18fb 00000000 		.4byte	sMotors
@@ -11381,14 +11381,14 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10748 194d 01       		.byte	0x1
  10749 194e 01       		.byte	0x1
  10750 194f 4A       		.uleb128 0x4a
- 10751 1950 48090000 		.4byte	.LASF251
+ 10751 1950 6B090000 		.4byte	.LASF251
  10752 1954 09       		.byte	0x9
  10753 1955 6F       		.byte	0x6f
  10754 1956 96040000 		.4byte	0x496
  10755 195a 01       		.byte	0x1
  10756 195b 01       		.byte	0x1
  10757 195c 4B       		.uleb128 0x4b
- 10758 195d DE080000 		.4byte	.LASF252
+ 10758 195d 01090000 		.4byte	.LASF252
  10759 1961 10       		.byte	0x10
  10760 1962 0706     		.2byte	0x607
  10761 1964 24050000 		.4byte	0x524
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10765              		.section	.debug_abbrev,"",%progbits
  10766              	.Ldebug_abbrev0:
  10767 0000 01       		.uleb128 0x1
-ARM GAS  /tmp/ccXOsttd.s 			page 191
+ARM GAS  /tmp/ccdUEzgz.s 			page 191
 
 
  10768 0001 11       		.uleb128 0x11
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10822 0037 49       		.uleb128 0x49
  10823 0038 13       		.uleb128 0x13
  10824 0039 00       		.byte	0
-ARM GAS  /tmp/ccXOsttd.s 			page 192
+ARM GAS  /tmp/ccdUEzgz.s 			page 192
 
 
  10825 003a 00       		.byte	0
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10879 0070 03       		.uleb128 0x3
  10880 0071 08       		.uleb128 0x8
  10881 0072 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccXOsttd.s 			page 193
+ARM GAS  /tmp/ccdUEzgz.s 			page 193
 
 
  10882 0073 0B       		.uleb128 0xb
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10936 00a9 01       		.byte	0x1
  10937 00aa 27       		.uleb128 0x27
  10938 00ab 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccXOsttd.s 			page 194
+ARM GAS  /tmp/ccdUEzgz.s 			page 194
 
 
  10939 00ac 01       		.uleb128 0x1
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  10993 00e2 13       		.uleb128 0x13
  10994 00e3 00       		.byte	0
  10995 00e4 00       		.byte	0
-ARM GAS  /tmp/ccXOsttd.s 			page 195
+ARM GAS  /tmp/ccdUEzgz.s 			page 195
 
 
  10996 00e5 14       		.uleb128 0x14
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11050 011b 00       		.byte	0
  11051 011c 19       		.uleb128 0x19
  11052 011d 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccXOsttd.s 			page 196
+ARM GAS  /tmp/ccdUEzgz.s 			page 196
 
 
  11053 011e 01       		.byte	0x1
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11107 0154 00       		.byte	0
  11108 0155 00       		.byte	0
  11109 0156 1D       		.uleb128 0x1d
-ARM GAS  /tmp/ccXOsttd.s 			page 197
+ARM GAS  /tmp/ccdUEzgz.s 			page 197
 
 
  11110 0157 0D       		.uleb128 0xd
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11164 018d 0B       		.uleb128 0xb
  11165 018e 3B       		.uleb128 0x3b
  11166 018f 05       		.uleb128 0x5
-ARM GAS  /tmp/ccXOsttd.s 			page 198
+ARM GAS  /tmp/ccdUEzgz.s 			page 198
 
 
  11167 0190 27       		.uleb128 0x27
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11221 01c6 3A       		.uleb128 0x3a
  11222 01c7 0B       		.uleb128 0xb
  11223 01c8 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccXOsttd.s 			page 199
+ARM GAS  /tmp/ccdUEzgz.s 			page 199
 
 
  11224 01c9 05       		.uleb128 0x5
@@ -11938,7 +11938,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11278 01ff 03       		.uleb128 0x3
  11279 0200 0E       		.uleb128 0xe
  11280 0201 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccXOsttd.s 			page 200
+ARM GAS  /tmp/ccdUEzgz.s 			page 200
 
 
  11281 0202 0B       		.uleb128 0xb
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11335 0238 00       		.byte	0
  11336 0239 00       		.byte	0
  11337 023a 2B       		.uleb128 0x2b
-ARM GAS  /tmp/ccXOsttd.s 			page 201
+ARM GAS  /tmp/ccdUEzgz.s 			page 201
 
 
  11338 023b 05       		.uleb128 0x5
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11392 0271 0B       		.uleb128 0xb
  11393 0272 3B       		.uleb128 0x3b
  11394 0273 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccXOsttd.s 			page 202
+ARM GAS  /tmp/ccdUEzgz.s 			page 202
 
 
  11395 0274 49       		.uleb128 0x49
@@ -12118,7 +12118,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11449 02aa 3F       		.uleb128 0x3f
  11450 02ab 0C       		.uleb128 0xc
  11451 02ac 03       		.uleb128 0x3
-ARM GAS  /tmp/ccXOsttd.s 			page 203
+ARM GAS  /tmp/ccdUEzgz.s 			page 203
 
 
  11452 02ad 0E       		.uleb128 0xe
@@ -12178,7 +12178,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11506 02e3 3A       		.uleb128 0x3a
  11507 02e4 0B       		.uleb128 0xb
  11508 02e5 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccXOsttd.s 			page 204
+ARM GAS  /tmp/ccdUEzgz.s 			page 204
 
 
  11509 02e6 05       		.uleb128 0x5
@@ -12238,7 +12238,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11563 031c 01       		.uleb128 0x1
  11564 031d 40       		.uleb128 0x40
  11565 031e 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccXOsttd.s 			page 205
+ARM GAS  /tmp/ccdUEzgz.s 			page 205
 
 
  11566 031f 00       		.byte	0
@@ -12298,7 +12298,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11620 0355 03       		.uleb128 0x3
  11621 0356 08       		.uleb128 0x8
  11622 0357 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccXOsttd.s 			page 206
+ARM GAS  /tmp/ccdUEzgz.s 			page 206
 
 
  11623 0358 0B       		.uleb128 0xb
@@ -12358,7 +12358,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11677 038e 00       		.byte	0
  11678 038f 31       		.uleb128 0x31
  11679 0390 13       		.uleb128 0x13
-ARM GAS  /tmp/ccXOsttd.s 			page 207
+ARM GAS  /tmp/ccdUEzgz.s 			page 207
 
 
  11680 0391 00       		.byte	0
@@ -12418,7 +12418,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11734 03c7 11       		.uleb128 0x11
  11735 03c8 01       		.uleb128 0x1
  11736 03c9 12       		.uleb128 0x12
-ARM GAS  /tmp/ccXOsttd.s 			page 208
+ARM GAS  /tmp/ccdUEzgz.s 			page 208
 
 
  11737 03ca 01       		.uleb128 0x1
@@ -12478,7 +12478,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11791 0400 13       		.uleb128 0x13
  11792 0401 02       		.uleb128 0x2
  11793 0402 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccXOsttd.s 			page 209
+ARM GAS  /tmp/ccdUEzgz.s 			page 209
 
 
  11794 0403 00       		.byte	0
@@ -12538,7 +12538,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11848 0023 C000     		.sleb128 64
  11849 0025 00000000 		.4byte	0
  11850 0029 00000000 		.4byte	0
-ARM GAS  /tmp/ccXOsttd.s 			page 210
+ARM GAS  /tmp/ccdUEzgz.s 			page 210
 
 
  11851              	.LLST1:
@@ -12598,7 +12598,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11905 00b0 1A030000 		.4byte	.LVL40
  11906 00b4 0200     		.2byte	0x2
  11907 00b6 36       		.byte	0x36
-ARM GAS  /tmp/ccXOsttd.s 			page 211
+ARM GAS  /tmp/ccdUEzgz.s 			page 211
 
 
  11908 00b7 9F       		.byte	0x9f
@@ -12658,7 +12658,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  11962 013a 35       		.byte	0x35
  11963 013b 9F       		.byte	0x9f
  11964 013c 8A060000 		.4byte	.LVL73
-ARM GAS  /tmp/ccXOsttd.s 			page 212
+ARM GAS  /tmp/ccdUEzgz.s 			page 212
 
 
  11965 0140 C2060000 		.4byte	.LVL74
@@ -12718,7 +12718,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12019 01c0 D0070000 		.4byte	.LVL91
  12020 01c4 E6070000 		.4byte	.LVL93
  12021 01c8 0200     		.2byte	0x2
-ARM GAS  /tmp/ccXOsttd.s 			page 213
+ARM GAS  /tmp/ccdUEzgz.s 			page 213
 
 
  12022 01ca 35       		.byte	0x35
@@ -12778,7 +12778,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12076 024c 0200     		.2byte	0x2
  12077 024e 37       		.byte	0x37
  12078 024f 9F       		.byte	0x9f
-ARM GAS  /tmp/ccXOsttd.s 			page 214
+ARM GAS  /tmp/ccdUEzgz.s 			page 214
 
 
  12079 0250 FA0A0000 		.4byte	.LVL139
@@ -12838,7 +12838,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12133 02d3 9F       		.byte	0x9f
  12134 02d4 AA0B0000 		.4byte	.LVL150
  12135 02d8 CA0B0000 		.4byte	.LVL152
-ARM GAS  /tmp/ccXOsttd.s 			page 215
+ARM GAS  /tmp/ccdUEzgz.s 			page 215
 
 
  12136 02dc 0200     		.2byte	0x2
@@ -12898,7 +12898,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12190 035c 480C0000 		.4byte	.LVL163
  12191 0360 0200     		.2byte	0x2
  12192 0362 38       		.byte	0x38
-ARM GAS  /tmp/ccXOsttd.s 			page 216
+ARM GAS  /tmp/ccdUEzgz.s 			page 216
 
 
  12193 0363 9F       		.byte	0x9f
@@ -12958,7 +12958,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12247 03ee 68010000 		.4byte	.LVL14
  12248 03f2 0100     		.2byte	0x1
  12249 03f4 50       		.byte	0x50
-ARM GAS  /tmp/ccXOsttd.s 			page 217
+ARM GAS  /tmp/ccdUEzgz.s 			page 217
 
 
  12250 03f5 68010000 		.4byte	.LVL14
@@ -13018,7 +13018,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12304 048c 0100     		.2byte	0x1
  12305 048e 50       		.byte	0x50
  12306 048f 8C020000 		.4byte	.LVL32
-ARM GAS  /tmp/ccXOsttd.s 			page 218
+ARM GAS  /tmp/ccdUEzgz.s 			page 218
 
 
  12307 0493 B0020000 		.4byte	.LVL33
@@ -13078,7 +13078,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12361 0528 50       		.byte	0x50
  12362 0529 B4030000 		.4byte	.LVL49
  12363 052d F6030000 		.4byte	.LVL51
-ARM GAS  /tmp/ccXOsttd.s 			page 219
+ARM GAS  /tmp/ccdUEzgz.s 			page 219
 
 
  12364 0531 0100     		.2byte	0x1
@@ -13138,7 +13138,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12418 05c3 C6070000 		.4byte	.LVL90
  12419 05c7 D0070000 		.4byte	.LVL91
  12420 05cb 0100     		.2byte	0x1
-ARM GAS  /tmp/ccXOsttd.s 			page 220
+ARM GAS  /tmp/ccdUEzgz.s 			page 220
 
 
  12421 05cd 52       		.byte	0x52
@@ -13198,7 +13198,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12475 0661 0200     		.2byte	0x2
  12476 0663 91       		.byte	0x91
  12477 0664 48       		.sleb128 -56
-ARM GAS  /tmp/ccXOsttd.s 			page 221
+ARM GAS  /tmp/ccdUEzgz.s 			page 221
 
 
  12478 0665 EC000000 		.4byte	.LVL6
@@ -13258,7 +13258,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12532 06f8 0200     		.2byte	0x2
  12533 06fa 91       		.byte	0x91
  12534 06fb 48       		.sleb128 -56
-ARM GAS  /tmp/ccXOsttd.s 			page 222
+ARM GAS  /tmp/ccdUEzgz.s 			page 222
 
 
  12535 06fc 48040000 		.4byte	.LVL56
@@ -13318,7 +13318,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12589 078d 03       		.byte	0x3
  12590 078e E8020000 		.4byte	.LANCHOR0+744
  12591 0792 9F       		.byte	0x9f
-ARM GAS  /tmp/ccXOsttd.s 			page 223
+ARM GAS  /tmp/ccdUEzgz.s 			page 223
 
 
  12592 0793 32070000 		.4byte	.LVL76
@@ -13378,7 +13378,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12646 0824 9F       		.byte	0x9f
  12647 0825 1C080000 		.4byte	.LVL95
  12648 0829 32080000 		.4byte	.LVL97
-ARM GAS  /tmp/ccXOsttd.s 			page 224
+ARM GAS  /tmp/ccdUEzgz.s 			page 224
 
 
  12649 082d 0600     		.2byte	0x6
@@ -13438,7 +13438,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12703 08bb 03       		.byte	0x3
  12704 08bc 64030000 		.4byte	.LANCHOR0+868
  12705 08c0 9F       		.byte	0x9f
-ARM GAS  /tmp/ccXOsttd.s 			page 225
+ARM GAS  /tmp/ccdUEzgz.s 			page 225
 
 
  12706 08c1 FA0A0000 		.4byte	.LVL139
@@ -13498,7 +13498,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12760 0951 A40B0000 		.4byte	.LVL149
  12761 0955 0600     		.2byte	0x6
  12762 0957 03       		.byte	0x3
-ARM GAS  /tmp/ccXOsttd.s 			page 226
+ARM GAS  /tmp/ccdUEzgz.s 			page 226
 
 
  12763 0958 F0010000 		.4byte	.LANCHOR0+496
@@ -13558,7 +13558,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12817 09e8 0100     		.2byte	0x1
  12818 09ea 55       		.byte	0x55
  12819 09eb 2A0C0000 		.4byte	.LVL160
-ARM GAS  /tmp/ccXOsttd.s 			page 227
+ARM GAS  /tmp/ccdUEzgz.s 			page 227
 
 
  12820 09ef 340C0000 		.4byte	.LVL161
@@ -13618,7 +13618,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12874 0a7e DE040000 		.4byte	.LVL63
  12875 0a82 0200     		.2byte	0x2
  12876 0a84 91       		.byte	0x91
-ARM GAS  /tmp/ccXOsttd.s 			page 228
+ARM GAS  /tmp/ccdUEzgz.s 			page 228
 
 
  12877 0a85 44       		.sleb128 -60
@@ -13678,7 +13678,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12931 0b0f 44       		.sleb128 -60
  12932 0b10 DE090000 		.4byte	.LVL124
  12933 0b14 E1090000 		.4byte	.LVL125-1
-ARM GAS  /tmp/ccXOsttd.s 			page 229
+ARM GAS  /tmp/ccdUEzgz.s 			page 229
 
 
  12934 0b18 0100     		.2byte	0x1
@@ -13738,7 +13738,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  12988 0ba1 50       		.byte	0x50
  12989 0ba2 57080000 		.4byte	.LVL101-1
  12990 0ba6 84080000 		.4byte	.LVL102
-ARM GAS  /tmp/ccXOsttd.s 			page 230
+ARM GAS  /tmp/ccdUEzgz.s 			page 230
 
 
  12991 0baa 0200     		.2byte	0x2
@@ -13798,7 +13798,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13045 0c34 0200     		.2byte	0x2
  13046 0c36 91       		.byte	0x91
  13047 0c37 50       		.sleb128 -48
-ARM GAS  /tmp/ccXOsttd.s 			page 231
+ARM GAS  /tmp/ccdUEzgz.s 			page 231
 
 
  13048 0c38 940A0000 		.4byte	.LVL136
@@ -13858,7 +13858,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13102 0cc3 00000000 		.4byte	.LVL172
  13103 0cc7 16000000 		.4byte	.LVL173
  13104 0ccb 0100     		.2byte	0x1
-ARM GAS  /tmp/ccXOsttd.s 			page 232
+ARM GAS  /tmp/ccdUEzgz.s 			page 232
 
 
  13105 0ccd 50       		.byte	0x50
@@ -13918,7 +13918,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13159 0d5e 0100     		.2byte	0x1
  13160 0d60 53       		.byte	0x53
  13161 0d61 00000000 		.4byte	0
-ARM GAS  /tmp/ccXOsttd.s 			page 233
+ARM GAS  /tmp/ccdUEzgz.s 			page 233
 
 
  13162 0d65 00000000 		.4byte	0
@@ -13978,7 +13978,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13216 0df0 00000000 		.4byte	0
  13217 0df4 00000000 		.4byte	0
  13218              	.LLST18:
-ARM GAS  /tmp/ccXOsttd.s 			page 234
+ARM GAS  /tmp/ccdUEzgz.s 			page 234
 
 
  13219 0df8 00000000 		.4byte	.LVL192
@@ -14038,7 +14038,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13273 0e8b 00       		.sleb128 0
  13274 0e8c 0A000000 		.4byte	.LCFI5
  13275 0e90 26000000 		.4byte	.LFE86
-ARM GAS  /tmp/ccXOsttd.s 			page 235
+ARM GAS  /tmp/ccdUEzgz.s 			page 235
 
 
  13276 0e94 0200     		.2byte	0x2
@@ -14098,7 +14098,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13330 0f18 0200     		.2byte	0x2
  13331 0f1a 34       		.byte	0x34
  13332 0f1b 9F       		.byte	0x9f
-ARM GAS  /tmp/ccXOsttd.s 			page 236
+ARM GAS  /tmp/ccdUEzgz.s 			page 236
 
 
  13333 0f1c 52020000 		.4byte	.LVL224
@@ -14158,7 +14158,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13387 0f9f 9F       		.byte	0x9f
  13388 0fa0 98060000 		.4byte	.LVL260
  13389 0fa4 FC060000 		.4byte	.LVL263
-ARM GAS  /tmp/ccXOsttd.s 			page 237
+ARM GAS  /tmp/ccdUEzgz.s 			page 237
 
 
  13390 0fa8 0200     		.2byte	0x2
@@ -14218,7 +14218,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13444 102e 0100     		.2byte	0x1
  13445 1030 54       		.byte	0x54
  13446 1031 8E010000 		.4byte	.LVL218
-ARM GAS  /tmp/ccXOsttd.s 			page 238
+ARM GAS  /tmp/ccdUEzgz.s 			page 238
 
 
  13447 1035 9D010000 		.4byte	.LVL219-1
@@ -14278,7 +14278,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13501 10c0 55040000 		.4byte	.LVL242-1
  13502 10c4 0300     		.2byte	0x3
  13503 10c6 75       		.byte	0x75
-ARM GAS  /tmp/ccXOsttd.s 			page 239
+ARM GAS  /tmp/ccdUEzgz.s 			page 239
 
 
  13504 10c7 C400     		.sleb128 68
@@ -14338,7 +14338,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13558 1158 5E020000 		.4byte	.LVL225
  13559 115c 0600     		.2byte	0x6
  13560 115e 03       		.byte	0x3
-ARM GAS  /tmp/ccXOsttd.s 			page 240
+ARM GAS  /tmp/ccdUEzgz.s 			page 240
 
 
  13561 115f 00000000 		.4byte	sPorts
@@ -14398,7 +14398,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13615 11ec 00000000 		.4byte	0
  13616 11f0 00000000 		.4byte	0
  13617              	.LLST34:
-ARM GAS  /tmp/ccXOsttd.s 			page 241
+ARM GAS  /tmp/ccdUEzgz.s 			page 241
 
 
  13618 11f4 1A000000 		.4byte	.LVL265
@@ -14458,7 +14458,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13672 127a 6C000000 		.4byte	.LVL276
  13673 127e 6E000000 		.4byte	.LVL277
  13674 1282 0200     		.2byte	0x2
-ARM GAS  /tmp/ccXOsttd.s 			page 242
+ARM GAS  /tmp/ccdUEzgz.s 			page 242
 
 
  13675 1284 31       		.byte	0x31
@@ -14518,7 +14518,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13729 1306 0100     		.2byte	0x1
  13730 1308 55       		.byte	0x55
  13731 1309 D6010000 		.4byte	.LVL292
-ARM GAS  /tmp/ccXOsttd.s 			page 243
+ARM GAS  /tmp/ccdUEzgz.s 			page 243
 
 
  13732 130d E8010000 		.4byte	.LVL293
@@ -14578,7 +14578,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13786 1396 12000000 		.4byte	.LVL295
  13787 139a 0100     		.2byte	0x1
  13788 139c 50       		.byte	0x50
-ARM GAS  /tmp/ccXOsttd.s 			page 244
+ARM GAS  /tmp/ccdUEzgz.s 			page 244
 
 
  13789 139d 12000000 		.4byte	.LVL295
@@ -14638,7 +14638,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13843 141c 1A000000 		.4byte	.LVL302
  13844 1420 0100     		.2byte	0x1
  13845 1422 50       		.byte	0x50
-ARM GAS  /tmp/ccXOsttd.s 			page 245
+ARM GAS  /tmp/ccdUEzgz.s 			page 245
 
 
  13846 1423 00000000 		.4byte	0
@@ -14698,7 +14698,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13900 14b0 0100     		.2byte	0x1
  13901 14b2 51       		.byte	0x51
  13902 14b3 34030000 		.4byte	.LVL334
-ARM GAS  /tmp/ccXOsttd.s 			page 246
+ARM GAS  /tmp/ccdUEzgz.s 			page 246
 
 
  13903 14b7 52040000 		.4byte	.LFE93
@@ -14758,7 +14758,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  13957 153d 26020000 		.4byte	.LVL319
  13958 1541 0200     		.2byte	0x2
  13959 1543 36       		.byte	0x36
-ARM GAS  /tmp/ccXOsttd.s 			page 247
+ARM GAS  /tmp/ccdUEzgz.s 			page 247
 
 
  13960 1544 9F       		.byte	0x9f
@@ -14818,7 +14818,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14014 15c7 34       		.byte	0x34
  14015 15c8 9F       		.byte	0x9f
  14016 15c9 32040000 		.4byte	.LVL350
-ARM GAS  /tmp/ccXOsttd.s 			page 248
+ARM GAS  /tmp/ccdUEzgz.s 			page 248
 
 
  14017 15cd 52040000 		.4byte	.LFE93
@@ -14878,7 +14878,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14071 1653 5C       		.byte	0x5c
  14072 1654 CA020000 		.4byte	.LVL324
  14073 1658 D0020000 		.4byte	.LVL325
-ARM GAS  /tmp/ccXOsttd.s 			page 249
+ARM GAS  /tmp/ccdUEzgz.s 			page 249
 
 
  14074 165c 0600     		.2byte	0x6
@@ -14938,7 +14938,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14128 16e8 38000000 		.4byte	.LVL356
  14129 16ec 0100     		.2byte	0x1
  14130 16ee 52       		.byte	0x52
-ARM GAS  /tmp/ccXOsttd.s 			page 250
+ARM GAS  /tmp/ccdUEzgz.s 			page 250
 
 
  14131 16ef 38000000 		.4byte	.LVL356
@@ -14998,7 +14998,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14185 176d 51       		.byte	0x51
  14186 176e 0D000000 		.4byte	.LVL360-1
  14187 1772 3A000000 		.4byte	.LVL361
-ARM GAS  /tmp/ccXOsttd.s 			page 251
+ARM GAS  /tmp/ccdUEzgz.s 			page 251
 
 
  14188 1776 0100     		.2byte	0x1
@@ -15058,7 +15058,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14242 1805 50       		.byte	0x50
  14243 1806 90000000 		.4byte	.LVL371
  14244 180a D8000000 		.4byte	.LFE96
-ARM GAS  /tmp/ccXOsttd.s 			page 252
+ARM GAS  /tmp/ccdUEzgz.s 			page 252
 
 
  14245 180e 0100     		.2byte	0x1
@@ -15118,7 +15118,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14299 189c 40050000 		.4byte	.LFE98
  14300 18a0 0200     		.2byte	0x2
  14301 18a2 91       		.byte	0x91
-ARM GAS  /tmp/ccXOsttd.s 			page 253
+ARM GAS  /tmp/ccdUEzgz.s 			page 253
 
 
  14302 18a3 54       		.sleb128 -44
@@ -15178,7 +15178,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14356 1931 00000000 		.4byte	0
  14357              	.LLST75:
  14358 1935 AE030000 		.4byte	.LVL424
-ARM GAS  /tmp/ccXOsttd.s 			page 254
+ARM GAS  /tmp/ccdUEzgz.s 			page 254
 
 
  14359 1939 1A040000 		.4byte	.LVL428
@@ -15238,7 +15238,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14413 19ca 00000000 		.4byte	0
  14414              	.LLST81:
  14415 19ce 16000000 		.4byte	.LVL380
-ARM GAS  /tmp/ccXOsttd.s 			page 255
+ARM GAS  /tmp/ccdUEzgz.s 			page 255
 
 
  14416 19d2 2E000000 		.4byte	.LVL381
@@ -15298,7 +15298,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14470              	.LLST83:
  14471 1a64 C6000000 		.4byte	.LVL390
  14472 1a68 C9000000 		.4byte	.LVL391-1
-ARM GAS  /tmp/ccXOsttd.s 			page 256
+ARM GAS  /tmp/ccdUEzgz.s 			page 256
 
 
  14473 1a6c 0100     		.2byte	0x1
@@ -15358,7 +15358,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14527              	.LLST86:
  14528 1b00 5E010000 		.4byte	.LVL398
  14529 1b04 60010000 		.4byte	.LVL399
-ARM GAS  /tmp/ccXOsttd.s 			page 257
+ARM GAS  /tmp/ccdUEzgz.s 			page 257
 
 
  14530 1b08 0300     		.2byte	0x3
@@ -15418,7 +15418,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14584 1b8d 50       		.byte	0x50
  14585 1b8e 93       		.byte	0x93
  14586 1b8f 04       		.uleb128 0x4
-ARM GAS  /tmp/ccXOsttd.s 			page 258
+ARM GAS  /tmp/ccdUEzgz.s 			page 258
 
 
  14587 1b90 0C020000 		.4byte	.LVL410
@@ -15478,7 +15478,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14641 1c19 38040000 		.4byte	.LVL432
  14642 1c1d 3F040000 		.4byte	.LVL433-1
  14643 1c21 0200     		.2byte	0x2
-ARM GAS  /tmp/ccXOsttd.s 			page 259
+ARM GAS  /tmp/ccdUEzgz.s 			page 259
 
 
  14644 1c23 76       		.byte	0x76
@@ -15538,7 +15538,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14698 1cae 32       		.byte	0x32
  14699 1caf 9F       		.byte	0x9f
  14700 1cb0 26000000 		.4byte	.LVL456
-ARM GAS  /tmp/ccXOsttd.s 			page 260
+ARM GAS  /tmp/ccdUEzgz.s 			page 260
 
 
  14701 1cb4 2E000000 		.4byte	.LVL457
@@ -15598,7 +15598,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14755              	.LLST98:
  14756 1d38 00000000 		.4byte	.LVL464
  14757 1d3c 0A000000 		.4byte	.LVL465
-ARM GAS  /tmp/ccXOsttd.s 			page 261
+ARM GAS  /tmp/ccdUEzgz.s 			page 261
 
 
  14758 1d40 0100     		.2byte	0x1
@@ -15658,7 +15658,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14812 1dc5 02000000 		.4byte	.LCFI23
  14813 1dc9 4A000000 		.4byte	.LFE101
  14814 1dcd 0200     		.2byte	0x2
-ARM GAS  /tmp/ccXOsttd.s 			page 262
+ARM GAS  /tmp/ccdUEzgz.s 			page 262
 
 
  14815 1dcf 7D       		.byte	0x7d
@@ -15718,7 +15718,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14869 1e5b 00000000 		.4byte	.LFB103
  14870 1e5f 02000000 		.4byte	.LCFI25
  14871 1e63 0200     		.2byte	0x2
-ARM GAS  /tmp/ccXOsttd.s 			page 263
+ARM GAS  /tmp/ccdUEzgz.s 			page 263
 
 
  14872 1e65 7D       		.byte	0x7d
@@ -15778,7 +15778,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14926 1ef1 E8010000 		.4byte	.LFE104
  14927 1ef5 0100     		.2byte	0x1
  14928 1ef7 54       		.byte	0x54
-ARM GAS  /tmp/ccXOsttd.s 			page 264
+ARM GAS  /tmp/ccdUEzgz.s 			page 264
 
 
  14929 1ef8 00000000 		.4byte	0
@@ -15838,7 +15838,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  14983 1f85 55       		.byte	0x55
  14984 1f86 14010000 		.4byte	.LVL509
  14985 1f8a 27010000 		.4byte	.LVL510-1
-ARM GAS  /tmp/ccXOsttd.s 			page 265
+ARM GAS  /tmp/ccdUEzgz.s 			page 265
 
 
  14986 1f8e 0200     		.2byte	0x2
@@ -15898,7 +15898,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15040 2017 9F       		.byte	0x9f
  15041 2018 A6000000 		.4byte	.LVL500
  15042 201c C2000000 		.4byte	.LVL503
-ARM GAS  /tmp/ccXOsttd.s 			page 266
+ARM GAS  /tmp/ccdUEzgz.s 			page 266
 
 
  15043 2020 0200     		.2byte	0x2
@@ -15958,7 +15958,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15097 20a0 B4010000 		.4byte	.LVL526
  15098 20a4 0200     		.2byte	0x2
  15099 20a6 32       		.byte	0x32
-ARM GAS  /tmp/ccXOsttd.s 			page 267
+ARM GAS  /tmp/ccdUEzgz.s 			page 267
 
 
  15100 20a7 9F       		.byte	0x9f
@@ -16018,7 +16018,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15154 2133 0100     		.2byte	0x1
  15155 2135 50       		.byte	0x50
  15156 2136 CE010000 		.4byte	.LVL531
-ARM GAS  /tmp/ccXOsttd.s 			page 268
+ARM GAS  /tmp/ccdUEzgz.s 			page 268
 
 
  15157 213a E8010000 		.4byte	.LFE104
@@ -16078,7 +16078,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15211 21c5 00000000 		.4byte	.LVL535
  15212 21c9 66000000 		.4byte	.LVL545
  15213 21cd 0100     		.2byte	0x1
-ARM GAS  /tmp/ccXOsttd.s 			page 269
+ARM GAS  /tmp/ccdUEzgz.s 			page 269
 
 
  15214 21cf 50       		.byte	0x50
@@ -16138,7 +16138,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15268 2254 0200     		.2byte	0x2
  15269 2256 70       		.byte	0x70
  15270 2257 08       		.sleb128 8
-ARM GAS  /tmp/ccXOsttd.s 			page 270
+ARM GAS  /tmp/ccdUEzgz.s 			page 270
 
 
  15271 2258 46000000 		.4byte	.LVL542
@@ -16198,7 +16198,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15325 22e2 F2010000 		.4byte	.LVL578
  15326 22e6 5E020000 		.4byte	.LVL584
  15327 22ea 0200     		.2byte	0x2
-ARM GAS  /tmp/ccXOsttd.s 			page 271
+ARM GAS  /tmp/ccdUEzgz.s 			page 271
 
 
  15328 22ec 32       		.byte	0x32
@@ -16258,7 +16258,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15382              	.LLST129:
  15383 2373 4E000000 		.4byte	.LVL552
  15384 2377 5E000000 		.4byte	.LVL553
-ARM GAS  /tmp/ccXOsttd.s 			page 272
+ARM GAS  /tmp/ccdUEzgz.s 			page 272
 
 
  15385 237b 0100     		.2byte	0x1
@@ -16318,7 +16318,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15439 240c AA000000 		.4byte	.LVL556
  15440 2410 B6000000 		.4byte	.LVL557
  15441 2414 0100     		.2byte	0x1
-ARM GAS  /tmp/ccXOsttd.s 			page 273
+ARM GAS  /tmp/ccdUEzgz.s 			page 273
 
 
  15442 2416 50       		.byte	0x50
@@ -16378,7 +16378,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15496 24a8 00000000 		.4byte	.LANCHOR3
  15497 24ac 9F       		.byte	0x9f
  15498 24ad 00000000 		.4byte	0
-ARM GAS  /tmp/ccXOsttd.s 			page 274
+ARM GAS  /tmp/ccdUEzgz.s 			page 274
 
 
  15499 24b1 00000000 		.4byte	0
@@ -16438,7 +16438,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15553 2547 00000000 		.4byte	0
  15554              		.section	.debug_aranges,"",%progbits
  15555 0000 4C010000 		.4byte	0x14c
-ARM GAS  /tmp/ccXOsttd.s 			page 275
+ARM GAS  /tmp/ccdUEzgz.s 			page 275
 
 
  15556 0004 0200     		.2byte	0x2
@@ -16498,7 +16498,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15610 00d0 00000000 		.4byte	.LFB92
  15611 00d4 28000000 		.4byte	.LFE92-.LFB92
  15612 00d8 00000000 		.4byte	.LFB93
-ARM GAS  /tmp/ccXOsttd.s 			page 276
+ARM GAS  /tmp/ccdUEzgz.s 			page 276
 
 
  15613 00dc 52040000 		.4byte	.LFE93-.LFB93
@@ -16558,7 +16558,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15667 005c 40090000 		.4byte	.LBE105
  15668 0060 88090000 		.4byte	.LBB108
  15669 0064 8A090000 		.4byte	.LBE108
-ARM GAS  /tmp/ccXOsttd.s 			page 277
+ARM GAS  /tmp/ccdUEzgz.s 			page 277
 
 
  15670 0068 8C090000 		.4byte	.LBB109
@@ -16618,7 +16618,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15724 0140 F2090000 		.4byte	.LBB114
  15725 0144 F4090000 		.4byte	.LBE114
  15726 0148 F6090000 		.4byte	.LBB115
-ARM GAS  /tmp/ccXOsttd.s 			page 278
+ARM GAS  /tmp/ccdUEzgz.s 			page 278
 
 
  15727 014c 120A0000 		.4byte	.LBE115
@@ -16678,7 +16678,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15781 0224 5E010000 		.4byte	.LBE185
  15782 0228 B8040000 		.4byte	.LBB225
  15783 022c C6040000 		.4byte	.LBE225
-ARM GAS  /tmp/ccXOsttd.s 			page 279
+ARM GAS  /tmp/ccdUEzgz.s 			page 279
 
 
  15784 0230 00000000 		.4byte	0
@@ -16738,7 +16738,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15838 0308 34030000 		.4byte	.LBB202
  15839 030c 3C030000 		.4byte	.LBE202
  15840 0310 40030000 		.4byte	.LBB203
-ARM GAS  /tmp/ccXOsttd.s 			page 280
+ARM GAS  /tmp/ccdUEzgz.s 			page 280
 
 
  15841 0314 96030000 		.4byte	.LBE203
@@ -16798,7 +16798,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15895 03ec 00000000 		.4byte	0
  15896 03f0 BE000000 		.4byte	.LBB240
  15897 03f4 00010000 		.4byte	.LBE240
-ARM GAS  /tmp/ccXOsttd.s 			page 281
+ARM GAS  /tmp/ccdUEzgz.s 			page 281
 
 
  15898 03f8 02010000 		.4byte	.LBB243
@@ -16858,7 +16858,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  15952 04d0 A4020000 		.4byte	.LBB259
  15953 04d4 D4020000 		.4byte	.LBE259
  15954 04d8 D6020000 		.4byte	.LBB260
-ARM GAS  /tmp/ccXOsttd.s 			page 282
+ARM GAS  /tmp/ccdUEzgz.s 			page 282
 
 
  15955 04dc DE020000 		.4byte	.LBE260
@@ -16918,7 +16918,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16009 05b4 28000000 		.4byte	.LFE92
  16010 05b8 00000000 		.4byte	.LFB93
  16011 05bc 52040000 		.4byte	.LFE93
-ARM GAS  /tmp/ccXOsttd.s 			page 283
+ARM GAS  /tmp/ccdUEzgz.s 			page 283
 
 
  16012 05c0 00000000 		.4byte	.LFB94
@@ -16978,7 +16978,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16052      7573506F 
  16052      727400
  16053              	.LASF238:
-ARM GAS  /tmp/ccXOsttd.s 			page 284
+ARM GAS  /tmp/ccdUEzgz.s 			page 284
 
 
  16054 003a 6D5F7361 		.ascii	"m_safe_current\000"
@@ -17038,7 +17038,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16080      6F00
  16081              	.LASF147:
  16082 00ce 695F7374 		.ascii	"i_stall\000"
-ARM GAS  /tmp/ccXOsttd.s 			page 285
+ARM GAS  /tmp/ccdUEzgz.s 			page 285
 
 
  16082      616C6C00 
@@ -17098,7 +17098,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16111              	.LASF68:
  16112 016e 6D5F7175 		.ascii	"m_queue\000"
  16112      65756500 
-ARM GAS  /tmp/ccXOsttd.s 			page 286
+ARM GAS  /tmp/ccdUEzgz.s 			page 286
 
 
  16113              	.LASF98:
@@ -17158,7 +17158,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16140      725F3130 
  16140      00
  16141              	.LASF240:
-ARM GAS  /tmp/ccXOsttd.s 			page 287
+ARM GAS  /tmp/ccdUEzgz.s 			page 287
 
 
  16142 0214 536D6172 		.ascii	"SmartMotorControllerSetLed\000"
@@ -17218,7 +17218,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16163              	.LASF191:
  16164 02bd 5F536D61 		.ascii	"_SmartMotorSetLimitCurent\000"
  16164      72744D6F 
-ARM GAS  /tmp/ccXOsttd.s 			page 288
+ARM GAS  /tmp/ccdUEzgz.s 			page 288
 
 
  16164      746F7253 
@@ -17278,7 +17278,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16189              	.LASF165:
  16190 0375 6D6F746F 		.ascii	"motors\000"
  16190      727300
-ARM GAS  /tmp/ccXOsttd.s 			page 289
+ARM GAS  /tmp/ccdUEzgz.s 			page 289
 
 
  16191              	.LASF234:
@@ -17338,7 +17338,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16214      6500
  16215              	.LASF9:
  16216 041e 63686172 		.ascii	"char\000"
-ARM GAS  /tmp/ccXOsttd.s 			page 290
+ARM GAS  /tmp/ccdUEzgz.s 			page 290
 
 
  16216      00
@@ -17398,7 +17398,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16247              	.LASF110:
  16248 04b8 6B566578 		.ascii	"kVexMotor_2\000"
  16248      4D6F746F 
-ARM GAS  /tmp/ccXOsttd.s 			page 291
+ARM GAS  /tmp/ccdUEzgz.s 			page 291
 
 
  16248      725F3200 
@@ -17458,7 +17458,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16273              	.LASF81:
  16274 0559 6B566578 		.ascii	"kVexAnalog_6\000"
  16274      416E616C 
-ARM GAS  /tmp/ccXOsttd.s 			page 292
+ARM GAS  /tmp/ccdUEzgz.s 			page 292
 
 
  16274      6F675F36 
@@ -17518,7 +17518,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16298 0611 6D73675F 		.ascii	"msg_t\000"
  16298      7400
  16299              	.LASF230:
-ARM GAS  /tmp/ccXOsttd.s 			page 293
+ARM GAS  /tmp/ccdUEzgz.s 			page 293
 
 
  16300 0617 695F6261 		.ascii	"i_bar\000"
@@ -17578,7 +17578,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16324      7400
  16325              	.LASF64:
  16326 06cc 725F6F6C 		.ascii	"r_older\000"
-ARM GAS  /tmp/ccXOsttd.s 			page 294
+ARM GAS  /tmp/ccdUEzgz.s 			page 294
 
 
  16326      64657200 
@@ -17638,7 +17638,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16348      44696769 
  16348      74616C5F 
  16348      3900
-ARM GAS  /tmp/ccXOsttd.s 			page 295
+ARM GAS  /tmp/ccdUEzgz.s 			page 295
 
 
  16349              	.LASF50:
@@ -17698,7 +17698,7 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16376      6F725365 
  16376      74506F77 
  16376      65724578 
-ARM GAS  /tmp/ccXOsttd.s 			page 296
+ARM GAS  /tmp/ccdUEzgz.s 			page 296
 
 
  16377              	.LASF121:
@@ -17741,525 +17741,525 @@ ARM GAS  /tmp/ccXOsttd.s 			page 1
  16392      4368616E 
  16392      6E656C5F 
  16392      3800
- 16393              	.LASF3:
- 16394 089c 73686F72 		.ascii	"short int\000"
- 16394      7420696E 
- 16394      7400
- 16395              	.LASF225:
- 16396 08a6 765F6265 		.ascii	"v_bemf\000"
- 16396      6D6600
- 16397              	.LASF42:
- 16398 08ad 705F6570 		.ascii	"p_epending\000"
- 16398      656E6469 
- 16398      6E6700
- 16399              	.LASF156:
- 16400 08b8 73616665 		.ascii	"safe_current\000"
- 16400      5F637572 
- 16400      72656E74 
- 16400      00
- 16401              	.LASF7:
-ARM GAS  /tmp/ccXOsttd.s 			page 297
+ 16393              	.LASF255:
+ 16394 089c 2F686F6D 		.ascii	"/home/aolsen/vrc-9999/TossUp-Joker\000"
+ 16394      652F616F 
+ 16394      6C73656E 
+ 16394      2F767263 
+ 16394      2D393939 
+ 16395              	.LASF3:
+ 16396 08bf 73686F72 		.ascii	"short int\000"
+ 16396      7420696E 
+ 16396      7400
+ 16397              	.LASF225:
+ 16398 08c9 765F6265 		.ascii	"v_bemf\000"
+ 16398      6D6600
+ 16399              	.LASF42:
+ 16400 08d0 705F6570 		.ascii	"p_epending\000"
+ 16400      656E6469 
+ 16400      6E6700
+ARM GAS  /tmp/ccdUEzgz.s 			page 297
 
 
- 16402 08c5 6C6F6E67 		.ascii	"long int\000"
- 16402      20696E74 
+ 16401              	.LASF156:
+ 16402 08db 73616665 		.ascii	"safe_current\000"
+ 16402      5F637572 
+ 16402      72656E74 
  16402      00
- 16403              	.LASF130:
- 16404 08ce 6B496D65 		.ascii	"kImeChannelNone\000"
- 16404      4368616E 
- 16404      6E656C4E 
- 16404      6F6E6500 
- 16405              	.LASF252:
- 16406 08de 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 16406      52784275 
- 16406      66666572 
- 16406      00
- 16407              	.LASF148:
- 16408 08eb 725F6D6F 		.ascii	"r_motor\000"
- 16408      746F7200 
- 16409              	.LASF228:
- 16410 08f3 64757479 		.ascii	"duty_off\000"
- 16410      5F6F6666 
- 16410      00
- 16411              	.LASF180:
- 16412 08fc 536D6172 		.ascii	"SmartMotorControllerTemperature\000"
- 16412      744D6F74 
- 16412      6F72436F 
- 16412      6E74726F 
- 16412      6C6C6572 
- 16413              	.LASF27:
- 16414 091c 705F6E65 		.ascii	"p_next\000"
- 16414      787400
- 16415              	.LASF162:
- 16416 0923 7074635F 		.ascii	"ptc_tripped\000"
- 16416      74726970 
- 16416      70656400 
- 16417              	.LASF161:
- 16418 092f 745F616D 		.ascii	"t_ambient\000"
- 16418      6269656E 
- 16418      7400
- 16419              	.LASF30:
- 16420 0939 705F6374 		.ascii	"p_ctx\000"
- 16420      7800
- 16421              	.LASF232:
- 16422 093f 695F7373 		.ascii	"i_ss_off\000"
- 16422      5F6F6666 
- 16422      00
- 16423              	.LASF251:
- 16424 0948 726C6973 		.ascii	"rlist\000"
- 16424      7400
- 16425              	.LASF208:
- 16426 094e 536D6172 		.ascii	"SmartMotorsInit\000"
- 16426      744D6F74 
- 16426      6F727349 
- 16426      6E697400 
- 16427              	.LASF52:
- 16428 095e 56697274 		.ascii	"VirtualTimer\000"
- 16428      75616C54 
- 16428      696D6572 
- 16428      00
-ARM GAS  /tmp/ccXOsttd.s 			page 298
+ 16403              	.LASF7:
+ 16404 08e8 6C6F6E67 		.ascii	"long int\000"
+ 16404      20696E74 
+ 16404      00
+ 16405              	.LASF130:
+ 16406 08f1 6B496D65 		.ascii	"kImeChannelNone\000"
+ 16406      4368616E 
+ 16406      6E656C4E 
+ 16406      6F6E6500 
+ 16407              	.LASF252:
+ 16408 0901 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 16408      52784275 
+ 16408      66666572 
+ 16408      00
+ 16409              	.LASF148:
+ 16410 090e 725F6D6F 		.ascii	"r_motor\000"
+ 16410      746F7200 
+ 16411              	.LASF228:
+ 16412 0916 64757479 		.ascii	"duty_off\000"
+ 16412      5F6F6666 
+ 16412      00
+ 16413              	.LASF180:
+ 16414 091f 536D6172 		.ascii	"SmartMotorControllerTemperature\000"
+ 16414      744D6F74 
+ 16414      6F72436F 
+ 16414      6E74726F 
+ 16414      6C6C6572 
+ 16415              	.LASF27:
+ 16416 093f 705F6E65 		.ascii	"p_next\000"
+ 16416      787400
+ 16417              	.LASF162:
+ 16418 0946 7074635F 		.ascii	"ptc_tripped\000"
+ 16418      74726970 
+ 16418      70656400 
+ 16419              	.LASF161:
+ 16420 0952 745F616D 		.ascii	"t_ambient\000"
+ 16420      6269656E 
+ 16420      7400
+ 16421              	.LASF30:
+ 16422 095c 705F6374 		.ascii	"p_ctx\000"
+ 16422      7800
+ 16423              	.LASF232:
+ 16424 0962 695F7373 		.ascii	"i_ss_off\000"
+ 16424      5F6F6666 
+ 16424      00
+ 16425              	.LASF251:
+ 16426 096b 726C6973 		.ascii	"rlist\000"
+ 16426      7400
+ 16427              	.LASF208:
+ 16428 0971 536D6172 		.ascii	"SmartMotorsInit\000"
+ 16428      744D6F74 
+ 16428      6F727349 
+ARM GAS  /tmp/ccdUEzgz.s 			page 298
 
 
- 16429              	.LASF146:
- 16430 096b 695F6672 		.ascii	"i_free\000"
- 16430      656500
- 16431              	.LASF245:
- 16432 0972 70655F62 		.ascii	"pe_battery\000"
- 16432      61747465 
- 16432      727900
- 16433              	.LASF86:
- 16434 097d 6B566578 		.ascii	"kVexDigital_None\000"
- 16434      44696769 
- 16434      74616C5F 
- 16434      4E6F6E65 
- 16434      00
- 16435              	.LASF190:
- 16436 098e 536D6172 		.ascii	"SmartMotorGetLimitCmd\000"
- 16436      744D6F74 
- 16436      6F724765 
- 16436      744C696D 
- 16436      6974436D 
- 16437              	.LASF169:
- 16438 09a4 736D6172 		.ascii	"smartController\000"
- 16438      74436F6E 
- 16438      74726F6C 
- 16438      6C657200 
- 16439              	.LASF28:
- 16440 09b4 705F7072 		.ascii	"p_prev\000"
- 16440      657600
- 16441              	.LASF20:
- 16442 09bb 74726566 		.ascii	"trefs_t\000"
- 16442      735F7400 
- 16443              	.LASF8:
- 16444 09c3 6C6F6E67 		.ascii	"long unsigned int\000"
- 16444      20756E73 
- 16444      69676E65 
- 16444      6420696E 
- 16444      7400
- 16445              	.LASF40:
- 16446 09d5 705F6D73 		.ascii	"p_msgqueue\000"
- 16446      67717565 
- 16446      756500
- 16447              	.LASF210:
- 16448 09e0 6D617374 		.ascii	"master\000"
- 16448      657200
- 16449              	.LASF182:
- 16450 09e7 6D6F746F 		.ascii	"motorTmp\000"
- 16450      72546D70 
- 16450      00
- 16451              	.LASF212:
- 16452 09f0 536D6172 		.ascii	"SmartMotorsSetEncoderGearing\000"
- 16452      744D6F74 
- 16452      6F727353 
- 16452      6574456E 
- 16452      636F6465 
- 16453              	.LASF14:
- 16454 0a0d 696E7433 		.ascii	"int32_t\000"
- 16454      325F7400 
- 16455              	.LASF131:
-ARM GAS  /tmp/ccXOsttd.s 			page 299
+ 16428      6E697400 
+ 16429              	.LASF52:
+ 16430 0981 56697274 		.ascii	"VirtualTimer\000"
+ 16430      75616C54 
+ 16430      696D6572 
+ 16430      00
+ 16431              	.LASF146:
+ 16432 098e 695F6672 		.ascii	"i_free\000"
+ 16432      656500
+ 16433              	.LASF245:
+ 16434 0995 70655F62 		.ascii	"pe_battery\000"
+ 16434      61747465 
+ 16434      727900
+ 16435              	.LASF86:
+ 16436 09a0 6B566578 		.ascii	"kVexDigital_None\000"
+ 16436      44696769 
+ 16436      74616C5F 
+ 16436      4E6F6E65 
+ 16436      00
+ 16437              	.LASF190:
+ 16438 09b1 536D6172 		.ascii	"SmartMotorGetLimitCmd\000"
+ 16438      744D6F74 
+ 16438      6F724765 
+ 16438      744C696D 
+ 16438      6974436D 
+ 16439              	.LASF169:
+ 16440 09c7 736D6172 		.ascii	"smartController\000"
+ 16440      74436F6E 
+ 16440      74726F6C 
+ 16440      6C657200 
+ 16441              	.LASF28:
+ 16442 09d7 705F7072 		.ascii	"p_prev\000"
+ 16442      657600
+ 16443              	.LASF20:
+ 16444 09de 74726566 		.ascii	"trefs_t\000"
+ 16444      735F7400 
+ 16445              	.LASF8:
+ 16446 09e6 6C6F6E67 		.ascii	"long unsigned int\000"
+ 16446      20756E73 
+ 16446      69676E65 
+ 16446      6420696E 
+ 16446      7400
+ 16447              	.LASF40:
+ 16448 09f8 705F6D73 		.ascii	"p_msgqueue\000"
+ 16448      67717565 
+ 16448      756500
+ 16449              	.LASF210:
+ 16450 0a03 6D617374 		.ascii	"master\000"
+ 16450      657200
+ 16451              	.LASF182:
+ 16452 0a0a 6D6F746F 		.ascii	"motorTmp\000"
+ 16452      72546D70 
+ 16452      00
+ 16453              	.LASF212:
+ 16454 0a13 536D6172 		.ascii	"SmartMotorsSetEncoderGearing\000"
+ 16454      744D6F74 
+ 16454      6F727353 
+ARM GAS  /tmp/ccdUEzgz.s 			page 299
 
 
- 16456 0a15 706F7274 		.ascii	"port\000"
- 16456      00
- 16457              	.LASF104:
- 16458 0a1a 6B566578 		.ascii	"kVexMotor269\000"
- 16458      4D6F746F 
- 16458      72323639 
+ 16454      6574456E 
+ 16454      636F6465 
+ 16455              	.LASF14:
+ 16456 0a30 696E7433 		.ascii	"int32_t\000"
+ 16456      325F7400 
+ 16457              	.LASF131:
+ 16458 0a38 706F7274 		.ascii	"port\000"
  16458      00
- 16459              	.LASF19:
- 16460 0a27 74737461 		.ascii	"tstate_t\000"
- 16460      74655F74 
+ 16459              	.LASF104:
+ 16460 0a3d 6B566578 		.ascii	"kVexMotor269\000"
+ 16460      4D6F746F 
+ 16460      72323639 
  16460      00
- 16461              	.LASF138:
- 16462 0a30 6D6F746F 		.ascii	"motor_slew\000"
- 16462      725F736C 
- 16462      657700
- 16463              	.LASF256:
- 16464 0a3b 536D6172 		.ascii	"SmartMotorSensorSpeed\000"
- 16464      744D6F74 
- 16464      6F725365 
- 16464      6E736F72 
- 16464      53706565 
- 16465              	.LASF133:
- 16466 0a51 74797065 		.ascii	"type\000"
- 16466      00
- 16467              	.LASF2:
- 16468 0a56 756E7369 		.ascii	"unsigned char\000"
- 16468      676E6564 
- 16468      20636861 
- 16468      7200
- 16469              	.LASF253:
- 16470 0a64 474E5520 		.ascii	"GNU C 4.6.3\000"
- 16470      4320342E 
- 16470      362E3300 
- 16471              	.LASF154:
- 16472 0a70 66696C74 		.ascii	"filtered_current\000"
- 16472      65726564 
- 16472      5F637572 
- 16472      72656E74 
- 16472      00
- 16473              	.LASF36:
- 16474 0a81 705F7265 		.ascii	"p_refs\000"
- 16474      667300
- 16475              	.LASF66:
- 16476 0a88 52656164 		.ascii	"ReadyList\000"
- 16476      794C6973 
- 16476      7400
- 16477              	.LASF153:
- 16478 0a92 63757272 		.ascii	"current\000"
- 16478      656E7400 
- 16479              	.LASF184:
- 16480 0a9a 536D6172 		.ascii	"SmartMotorGetPtr\000"
- 16480      744D6F74 
- 16480      6F724765 
- 16480      74507472 
- 16480      00
- 16481              	.LASF204:
- 16482 0aab 536D6172 		.ascii	"SmartMotorDebugStatus\000"
-ARM GAS  /tmp/ccXOsttd.s 			page 300
+ 16461              	.LASF19:
+ 16462 0a4a 74737461 		.ascii	"tstate_t\000"
+ 16462      74655F74 
+ 16462      00
+ 16463              	.LASF138:
+ 16464 0a53 6D6F746F 		.ascii	"motor_slew\000"
+ 16464      725F736C 
+ 16464      657700
+ 16465              	.LASF256:
+ 16466 0a5e 536D6172 		.ascii	"SmartMotorSensorSpeed\000"
+ 16466      744D6F74 
+ 16466      6F725365 
+ 16466      6E736F72 
+ 16466      53706565 
+ 16467              	.LASF133:
+ 16468 0a74 74797065 		.ascii	"type\000"
+ 16468      00
+ 16469              	.LASF2:
+ 16470 0a79 756E7369 		.ascii	"unsigned char\000"
+ 16470      676E6564 
+ 16470      20636861 
+ 16470      7200
+ 16471              	.LASF253:
+ 16472 0a87 474E5520 		.ascii	"GNU C 4.6.3\000"
+ 16472      4320342E 
+ 16472      362E3300 
+ 16473              	.LASF154:
+ 16474 0a93 66696C74 		.ascii	"filtered_current\000"
+ 16474      65726564 
+ 16474      5F637572 
+ 16474      72656E74 
+ 16474      00
+ 16475              	.LASF36:
+ 16476 0aa4 705F7265 		.ascii	"p_refs\000"
+ 16476      667300
+ 16477              	.LASF66:
+ 16478 0aab 52656164 		.ascii	"ReadyList\000"
+ 16478      794C6973 
+ 16478      7400
+ 16479              	.LASF153:
+ 16480 0ab5 63757272 		.ascii	"current\000"
+ 16480      656E7400 
+ 16481              	.LASF184:
+ 16482 0abd 536D6172 		.ascii	"SmartMotorGetPtr\000"
+ARM GAS  /tmp/ccdUEzgz.s 			page 300
 
 
  16482      744D6F74 
- 16482      6F724465 
- 16482      62756753 
- 16482      74617475 
- 16483              	.LASF37:
- 16484 0ac1 705F7072 		.ascii	"p_preempt\000"
- 16484      65656D70 
- 16484      7400
- 16485              	.LASF171:
- 16486 0acb 636C6970 		.ascii	"clipp\000"
- 16486      7000
- 16487              	.LASF166:
- 16488 0ad1 73746174 		.ascii	"statusLed\000"
- 16488      75734C65 
- 16488      6400
- 16489              	.LASF175:
- 16490 0adb 536D6172 		.ascii	"SmartMotorCurrentMonitorDisable\000"
- 16490      744D6F74 
- 16490      6F724375 
- 16490      7272656E 
- 16490      744D6F6E 
- 16491              	.LASF53:
- 16492 0afb 76745F6E 		.ascii	"vt_next\000"
- 16492      65787400 
- 16493              	.LASF229:
- 16494 0b03 695F6D61 		.ascii	"i_max\000"
- 16494      7800
- 16495              	.LASF196:
- 16496 0b09 536D6172 		.ascii	"SmartMotorGetControllerCurrent\000"
- 16496      744D6F74 
- 16496      6F724765 
- 16496      74436F6E 
- 16496      74726F6C 
- 16497              	.LASF143:
- 16498 0b28 7469636B 		.ascii	"ticks_per_rev\000"
- 16498      735F7065 
- 16498      725F7265 
- 16498      7600
- 16499              	.LASF173:
- 16500 0b36 66617374 		.ascii	"fastlog2\000"
- 16500      6C6F6732 
- 16500      00
- 16501              	.LASF243:
- 16502 0b3f 6C6F6F70 		.ascii	"loopDelay\000"
- 16502      44656C61 
- 16502      7900
- 16503              	.LASF189:
- 16504 0b49 536D6172 		.ascii	"SmartMotorGetTemperature\000"
- 16504      744D6F74 
- 16504      6F724765 
- 16504      7454656D 
- 16504      70657261 
- 16505              	.LASF135:
- 16506 0b62 62616E6B 		.ascii	"bank\000"
- 16506      00
- 16507              	.LASF70:
- 16508 0b67 6D5F6E65 		.ascii	"m_next\000"
-ARM GAS  /tmp/ccXOsttd.s 			page 301
+ 16482      6F724765 
+ 16482      74507472 
+ 16482      00
+ 16483              	.LASF204:
+ 16484 0ace 536D6172 		.ascii	"SmartMotorDebugStatus\000"
+ 16484      744D6F74 
+ 16484      6F724465 
+ 16484      62756753 
+ 16484      74617475 
+ 16485              	.LASF37:
+ 16486 0ae4 705F7072 		.ascii	"p_preempt\000"
+ 16486      65656D70 
+ 16486      7400
+ 16487              	.LASF171:
+ 16488 0aee 636C6970 		.ascii	"clipp\000"
+ 16488      7000
+ 16489              	.LASF166:
+ 16490 0af4 73746174 		.ascii	"statusLed\000"
+ 16490      75734C65 
+ 16490      6400
+ 16491              	.LASF175:
+ 16492 0afe 536D6172 		.ascii	"SmartMotorCurrentMonitorDisable\000"
+ 16492      744D6F74 
+ 16492      6F724375 
+ 16492      7272656E 
+ 16492      744D6F6E 
+ 16493              	.LASF53:
+ 16494 0b1e 76745F6E 		.ascii	"vt_next\000"
+ 16494      65787400 
+ 16495              	.LASF229:
+ 16496 0b26 695F6D61 		.ascii	"i_max\000"
+ 16496      7800
+ 16497              	.LASF196:
+ 16498 0b2c 536D6172 		.ascii	"SmartMotorGetControllerCurrent\000"
+ 16498      744D6F74 
+ 16498      6F724765 
+ 16498      74436F6E 
+ 16498      74726F6C 
+ 16499              	.LASF143:
+ 16500 0b4b 7469636B 		.ascii	"ticks_per_rev\000"
+ 16500      735F7065 
+ 16500      725F7265 
+ 16500      7600
+ 16501              	.LASF173:
+ 16502 0b59 66617374 		.ascii	"fastlog2\000"
+ 16502      6C6F6732 
+ 16502      00
+ 16503              	.LASF243:
+ 16504 0b62 6C6F6F70 		.ascii	"loopDelay\000"
+ 16504      44656C61 
+ 16504      7900
+ 16505              	.LASF189:
+ 16506 0b6c 536D6172 		.ascii	"SmartMotorGetTemperature\000"
+ 16506      744D6F74 
+ 16506      6F724765 
+ 16506      7454656D 
+ARM GAS  /tmp/ccdUEzgz.s 			page 301
 
 
- 16508      787400
- 16509              	.LASF192:
- 16510 0b6e 536D6172 		.ascii	"SmartMotorSetFreeRpm\000"
- 16510      744D6F74 
- 16510      6F725365 
- 16510      74467265 
- 16510      6552706D 
- 16511              	.LASF84:
- 16512 0b83 6B566578 		.ascii	"kVexAnalog_Num\000"
- 16512      416E616C 
- 16512      6F675F4E 
- 16512      756D00
- 16513              	.LASF1:
- 16514 0b92 7369676E 		.ascii	"signed char\000"
- 16514      65642063 
- 16514      68617200 
- 16515              	.LASF145:
- 16516 0b9e 64656C74 		.ascii	"delta\000"
- 16516      6100
- 16517              	.LASF231:
- 16518 0ba4 695F7373 		.ascii	"i_ss_on\000"
- 16518      5F6F6E00 
- 16519              	.LASF4:
- 16520 0bac 73686F72 		.ascii	"short unsigned int\000"
- 16520      7420756E 
- 16520      7369676E 
- 16520      65642069 
- 16520      6E7400
- 16521              	.LASF62:
- 16522 0bbf 725F6374 		.ascii	"r_ctx\000"
- 16522      7800
- 16523              	.LASF101:
- 16524 0bc5 6B566578 		.ascii	"kVexDigitalInput\000"
- 16524      44696769 
- 16524      74616C49 
- 16524      6E707574 
- 16524      00
- 16525              	.LASF194:
- 16526 0bd6 536D6172 		.ascii	"SmartMotorSetSlewRate\000"
- 16526      744D6F74 
- 16526      6F725365 
- 16526      74536C65 
- 16526      77526174 
- 16527              	.LASF188:
- 16528 0bec 5F536D61 		.ascii	"_SmartMotorGetCurrent\000"
- 16528      72744D6F 
- 16528      746F7247 
- 16528      65744375 
- 16528      7272656E 
- 16529              	.LASF56:
- 16530 0c02 76745F66 		.ascii	"vt_func\000"
- 16530      756E6300 
- 16531              	.LASF255:
- 16532 0c0a 2F686F6D 		.ascii	"/home/aolsen/pros/9999-0.13\000"
- 16532      652F616F 
- 16532      6C73656E 
- 16532      2F70726F 
-ARM GAS  /tmp/ccXOsttd.s 			page 302
+ 16506      70657261 
+ 16507              	.LASF135:
+ 16508 0b85 62616E6B 		.ascii	"bank\000"
+ 16508      00
+ 16509              	.LASF70:
+ 16510 0b8a 6D5F6E65 		.ascii	"m_next\000"
+ 16510      787400
+ 16511              	.LASF192:
+ 16512 0b91 536D6172 		.ascii	"SmartMotorSetFreeRpm\000"
+ 16512      744D6F74 
+ 16512      6F725365 
+ 16512      74467265 
+ 16512      6552706D 
+ 16513              	.LASF84:
+ 16514 0ba6 6B566578 		.ascii	"kVexAnalog_Num\000"
+ 16514      416E616C 
+ 16514      6F675F4E 
+ 16514      756D00
+ 16515              	.LASF1:
+ 16516 0bb5 7369676E 		.ascii	"signed char\000"
+ 16516      65642063 
+ 16516      68617200 
+ 16517              	.LASF145:
+ 16518 0bc1 64656C74 		.ascii	"delta\000"
+ 16518      6100
+ 16519              	.LASF231:
+ 16520 0bc7 695F7373 		.ascii	"i_ss_on\000"
+ 16520      5F6F6E00 
+ 16521              	.LASF4:
+ 16522 0bcf 73686F72 		.ascii	"short unsigned int\000"
+ 16522      7420756E 
+ 16522      7369676E 
+ 16522      65642069 
+ 16522      6E7400
+ 16523              	.LASF62:
+ 16524 0be2 725F6374 		.ascii	"r_ctx\000"
+ 16524      7800
+ 16525              	.LASF101:
+ 16526 0be8 6B566578 		.ascii	"kVexDigitalInput\000"
+ 16526      44696769 
+ 16526      74616C49 
+ 16526      6E707574 
+ 16526      00
+ 16527              	.LASF194:
+ 16528 0bf9 536D6172 		.ascii	"SmartMotorSetSlewRate\000"
+ 16528      744D6F74 
+ 16528      6F725365 
+ 16528      74536C65 
+ 16528      77526174 
+ 16529              	.LASF188:
+ 16530 0c0f 5F536D61 		.ascii	"_SmartMotorGetCurrent\000"
+ 16530      72744D6F 
+ 16530      746F7247 
+ 16530      65744375 
+ 16530      7272656E 
+ 16531              	.LASF56:
+ 16532 0c25 76745F66 		.ascii	"vt_func\000"
+ARM GAS  /tmp/ccdUEzgz.s 			page 302
 
 
- 16532      732F3939 
+ 16532      756E6300 
  16533              	.LASF10:
- 16534 0c26 646F7562 		.ascii	"double\000"
+ 16534 0c2d 646F7562 		.ascii	"double\000"
  16534      6C6500
  16535              	.LASF222:
- 16536 0c2d 66617374 		.ascii	"fastexp\000"
+ 16536 0c34 66617374 		.ascii	"fastexp\000"
  16536      65787000 
  16537              	.LASF54:
- 16538 0c35 76745F70 		.ascii	"vt_prev\000"
+ 16538 0c3c 76745F70 		.ascii	"vt_prev\000"
  16538      72657600 
  16539              	.LASF224:
- 16540 0c3d 765F6261 		.ascii	"v_battery\000"
+ 16540 0c44 765F6261 		.ascii	"v_battery\000"
  16540      74746572 
  16540      7900
  16541              	.LASF215:
- 16542 0c47 5F536D61 		.ascii	"_SmartMotorSetRpmSensor\000"
+ 16542 0c4e 5F536D61 		.ascii	"_SmartMotorSetRpmSensor\000"
  16542      72744D6F 
  16542      746F7253 
  16542      65745270 
  16542      6D53656E 
  16543              	.LASF218:
- 16544 0c5f 536D6172 		.ascii	"SmartMotorSimulateSpeed\000"
+ 16544 0c66 536D6172 		.ascii	"SmartMotorSimulateSpeed\000"
  16544      744D6F74 
  16544      6F725369 
  16544      6D756C61 
  16544      74655370 
  16545              	.LASF72:
- 16546 0c77 65786974 		.ascii	"exitcode\000"
+ 16546 0c7e 65786974 		.ascii	"exitcode\000"
  16546      636F6465 
  16546      00
  16547              	.LASF239:
- 16548 0c80 536D6172 		.ascii	"SmartMotorMonitorCurrent\000"
+ 16548 0c87 536D6172 		.ascii	"SmartMotorMonitorCurrent\000"
  16548      744D6F74 
  16548      6F724D6F 
  16548      6E69746F 
  16548      72437572 
  16549              	.LASF159:
- 16550 0c99 745F636F 		.ascii	"t_const_1\000"
+ 16550 0ca0 745F636F 		.ascii	"t_const_1\000"
  16550      6E73745F 
  16550      3100
  16551              	.LASF132:
- 16552 0ca3 65706F72 		.ascii	"eport\000"
+ 16552 0caa 65706F72 		.ascii	"eport\000"
  16552      7400
  16553              	.LASF200:
- 16554 0ca9 536D6172 		.ascii	"SmartMotorPtcMonitorEnable\000"
+ 16554 0cb0 536D6172 		.ascii	"SmartMotorPtcMonitorEnable\000"
  16554      744D6F74 
  16554      6F725074 
  16554      634D6F6E 
  16554      69746F72 
  16555              	.LASF151:
- 16556 0cc4 72706D5F 		.ascii	"rpm_free\000"
+ 16556 0ccb 72706D5F 		.ascii	"rpm_free\000"
  16556      66726565 
  16556      00
  16557              		.ident	"GCC: (Sourcery CodeBench Lite 2012.03-56) 4.6.3"
-ARM GAS  /tmp/ccXOsttd.s 			page 303
+ARM GAS  /tmp/ccdUEzgz.s 			page 303
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 smartmotor.c
-     /tmp/ccXOsttd.s:22     .text.SmartMotorSlewRateTask:00000000 $t
-     /tmp/ccXOsttd.s:28     .text.SmartMotorSlewRateTask:00000000 SmartMotorSlewRateTask
-     /tmp/ccXOsttd.s:7644   .rodata.str1.4:00000000 .LC0
-     /tmp/ccXOsttd.s:7623   .bss.sMotors:00000000 .LANCHOR0
-     /tmp/ccXOsttd.s:7637   .bss.CurrentLimitEnabled:00000000 .LANCHOR1
-     /tmp/ccXOsttd.s:7630   .bss.PtcLimitEnabled:00000000 .LANCHOR2
-     /tmp/ccXOsttd.s:604    .text.SmartMotorSlewRateTask:000003c4 $d
-     /tmp/ccXOsttd.s:616    .text.SmartMotorSlewRateTask:000003e4 $t
-     /tmp/ccXOsttd.s:1155   .text.SmartMotorSlewRateTask:000007fc $d
-     /tmp/ccXOsttd.s:1166   .text.SmartMotorSlewRateTask:0000081c $t
-     /tmp/ccXOsttd.s:1705   .text.SmartMotorSlewRateTask:00000ac4 $d
-     /tmp/ccXOsttd.s:1718   .text.SmartMotorSlewRateTask:00000ae4 $t
-     /tmp/ccXOsttd.s:1972   .text.SmartMotorSlewRateTask:00000c7c $d
-     /tmp/ccXOsttd.s:1986   .text.SmartMotorGetPtr:00000000 $t
-     /tmp/ccXOsttd.s:1992   .text.SmartMotorGetPtr:00000000 SmartMotorGetPtr
-     /tmp/ccXOsttd.s:2021   .text.SmartMotorControllerGetPtr:00000000 $t
-     /tmp/ccXOsttd.s:2027   .text.SmartMotorControllerGetPtr:00000000 SmartMotorControllerGetPtr
-     /tmp/ccXOsttd.s:7688   .bss.sPorts:00000000 .LANCHOR3
-     /tmp/ccXOsttd.s:2055   .text.SmartMotorGetSpeed:00000000 $t
-     /tmp/ccXOsttd.s:2061   .text.SmartMotorGetSpeed:00000000 SmartMotorGetSpeed
-     /tmp/ccXOsttd.s:2093   .text._SmartMotorGetCurrent:00000000 $t
-     /tmp/ccXOsttd.s:2099   .text._SmartMotorGetCurrent:00000000 _SmartMotorGetCurrent
-     /tmp/ccXOsttd.s:2154   .text.SmartMotorGetTemperature:00000000 $t
-     /tmp/ccXOsttd.s:2160   .text.SmartMotorGetTemperature:00000000 SmartMotorGetTemperature
-     /tmp/ccXOsttd.s:2192   .text.SmartMotorGetLimitCmd:00000000 $t
-     /tmp/ccXOsttd.s:2198   .text.SmartMotorGetLimitCmd:00000000 SmartMotorGetLimitCmd
-     /tmp/ccXOsttd.s:2230   .text._SmartMotorSetLimitCurent:00000000 $t
-     /tmp/ccXOsttd.s:2236   .text._SmartMotorSetLimitCurent:00000000 _SmartMotorSetLimitCurent
-     /tmp/ccXOsttd.s:2278   .text.SmartMotorSetFreeRpm:00000000 $t
-     /tmp/ccXOsttd.s:2284   .text.SmartMotorSetFreeRpm:00000000 SmartMotorSetFreeRpm
-     /tmp/ccXOsttd.s:2358   .text.SmartMotorSetFreeRpm:00000070 $d
-     /tmp/ccXOsttd.s:2364   .text.SmartMotorSetSlewRate:00000000 $t
-     /tmp/ccXOsttd.s:2370   .text.SmartMotorSetSlewRate:00000000 SmartMotorSetSlewRate
-     /tmp/ccXOsttd.s:2399   .text.SmartMotorGetControllerCurrent:00000000 $t
-     /tmp/ccXOsttd.s:2405   .text.SmartMotorGetControllerCurrent:00000000 SmartMotorGetControllerCurrent
-     /tmp/ccXOsttd.s:2434   .text.SmartMotorGetControllerTemperature:00000000 $t
-     /tmp/ccXOsttd.s:2440   .text.SmartMotorGetControllerTemperature:00000000 SmartMotorGetControllerTemperature
-     /tmp/ccXOsttd.s:2469   .text.SmartMotorSetControllerStatusLed:00000000 $t
-     /tmp/ccXOsttd.s:2475   .text.SmartMotorSetControllerStatusLed:00000000 SmartMotorSetControllerStatusLed
-     /tmp/ccXOsttd.s:2503   .text.SmartMotorSetPowerExpanderStatusPort:00000000 $t
-     /tmp/ccXOsttd.s:2509   .text.SmartMotorSetPowerExpanderStatusPort:00000000 SmartMotorSetPowerExpanderStatusPort
-     /tmp/ccXOsttd.s:2530   .text.SmartMotorPtcMonitorEnable:00000000 $t
-     /tmp/ccXOsttd.s:2536   .text.SmartMotorPtcMonitorEnable:00000000 SmartMotorPtcMonitorEnable
-     /tmp/ccXOsttd.s:2565   .text.SmartMotorPtcMonitorDisable:00000000 $t
-     /tmp/ccXOsttd.s:2571   .text.SmartMotorPtcMonitorDisable:00000000 SmartMotorPtcMonitorDisable
-     /tmp/ccXOsttd.s:2589   .text.SmartMotorCurrentMonitorEnable:00000000 $t
-     /tmp/ccXOsttd.s:2595   .text.SmartMotorCurrentMonitorEnable:00000000 SmartMotorCurrentMonitorEnable
-     /tmp/ccXOsttd.s:2624   .text.SmartMotorCurrentMonitorDisable:00000000 $t
-     /tmp/ccXOsttd.s:2630   .text.SmartMotorCurrentMonitorDisable:00000000 SmartMotorCurrentMonitorDisable
-     /tmp/ccXOsttd.s:2648   .text.SmartMotorRun:00000000 $t
-     /tmp/ccXOsttd.s:2654   .text.SmartMotorRun:00000000 SmartMotorRun
-     /tmp/ccXOsttd.s:7015   .text.SmartMotorTask:00000000 SmartMotorTask
-     /tmp/ccXOsttd.s:2686   .text.SmartMotorStop:00000000 $t
-     /tmp/ccXOsttd.s:2692   .text.SmartMotorStop:00000000 SmartMotorStop
-     /tmp/ccXOsttd.s:2756   .text.SmartMotorDebugStatus:00000000 $t
-ARM GAS  /tmp/ccXOsttd.s 			page 304
+     /tmp/ccdUEzgz.s:22     .text.SmartMotorSlewRateTask:00000000 $t
+     /tmp/ccdUEzgz.s:28     .text.SmartMotorSlewRateTask:00000000 SmartMotorSlewRateTask
+     /tmp/ccdUEzgz.s:7644   .rodata.str1.4:00000000 .LC0
+     /tmp/ccdUEzgz.s:7623   .bss.sMotors:00000000 .LANCHOR0
+     /tmp/ccdUEzgz.s:7637   .bss.CurrentLimitEnabled:00000000 .LANCHOR1
+     /tmp/ccdUEzgz.s:7630   .bss.PtcLimitEnabled:00000000 .LANCHOR2
+     /tmp/ccdUEzgz.s:604    .text.SmartMotorSlewRateTask:000003c4 $d
+     /tmp/ccdUEzgz.s:616    .text.SmartMotorSlewRateTask:000003e4 $t
+     /tmp/ccdUEzgz.s:1155   .text.SmartMotorSlewRateTask:000007fc $d
+     /tmp/ccdUEzgz.s:1166   .text.SmartMotorSlewRateTask:0000081c $t
+     /tmp/ccdUEzgz.s:1705   .text.SmartMotorSlewRateTask:00000ac4 $d
+     /tmp/ccdUEzgz.s:1718   .text.SmartMotorSlewRateTask:00000ae4 $t
+     /tmp/ccdUEzgz.s:1972   .text.SmartMotorSlewRateTask:00000c7c $d
+     /tmp/ccdUEzgz.s:1986   .text.SmartMotorGetPtr:00000000 $t
+     /tmp/ccdUEzgz.s:1992   .text.SmartMotorGetPtr:00000000 SmartMotorGetPtr
+     /tmp/ccdUEzgz.s:2021   .text.SmartMotorControllerGetPtr:00000000 $t
+     /tmp/ccdUEzgz.s:2027   .text.SmartMotorControllerGetPtr:00000000 SmartMotorControllerGetPtr
+     /tmp/ccdUEzgz.s:7688   .bss.sPorts:00000000 .LANCHOR3
+     /tmp/ccdUEzgz.s:2055   .text.SmartMotorGetSpeed:00000000 $t
+     /tmp/ccdUEzgz.s:2061   .text.SmartMotorGetSpeed:00000000 SmartMotorGetSpeed
+     /tmp/ccdUEzgz.s:2093   .text._SmartMotorGetCurrent:00000000 $t
+     /tmp/ccdUEzgz.s:2099   .text._SmartMotorGetCurrent:00000000 _SmartMotorGetCurrent
+     /tmp/ccdUEzgz.s:2154   .text.SmartMotorGetTemperature:00000000 $t
+     /tmp/ccdUEzgz.s:2160   .text.SmartMotorGetTemperature:00000000 SmartMotorGetTemperature
+     /tmp/ccdUEzgz.s:2192   .text.SmartMotorGetLimitCmd:00000000 $t
+     /tmp/ccdUEzgz.s:2198   .text.SmartMotorGetLimitCmd:00000000 SmartMotorGetLimitCmd
+     /tmp/ccdUEzgz.s:2230   .text._SmartMotorSetLimitCurent:00000000 $t
+     /tmp/ccdUEzgz.s:2236   .text._SmartMotorSetLimitCurent:00000000 _SmartMotorSetLimitCurent
+     /tmp/ccdUEzgz.s:2278   .text.SmartMotorSetFreeRpm:00000000 $t
+     /tmp/ccdUEzgz.s:2284   .text.SmartMotorSetFreeRpm:00000000 SmartMotorSetFreeRpm
+     /tmp/ccdUEzgz.s:2358   .text.SmartMotorSetFreeRpm:00000070 $d
+     /tmp/ccdUEzgz.s:2364   .text.SmartMotorSetSlewRate:00000000 $t
+     /tmp/ccdUEzgz.s:2370   .text.SmartMotorSetSlewRate:00000000 SmartMotorSetSlewRate
+     /tmp/ccdUEzgz.s:2399   .text.SmartMotorGetControllerCurrent:00000000 $t
+     /tmp/ccdUEzgz.s:2405   .text.SmartMotorGetControllerCurrent:00000000 SmartMotorGetControllerCurrent
+     /tmp/ccdUEzgz.s:2434   .text.SmartMotorGetControllerTemperature:00000000 $t
+     /tmp/ccdUEzgz.s:2440   .text.SmartMotorGetControllerTemperature:00000000 SmartMotorGetControllerTemperature
+     /tmp/ccdUEzgz.s:2469   .text.SmartMotorSetControllerStatusLed:00000000 $t
+     /tmp/ccdUEzgz.s:2475   .text.SmartMotorSetControllerStatusLed:00000000 SmartMotorSetControllerStatusLed
+     /tmp/ccdUEzgz.s:2503   .text.SmartMotorSetPowerExpanderStatusPort:00000000 $t
+     /tmp/ccdUEzgz.s:2509   .text.SmartMotorSetPowerExpanderStatusPort:00000000 SmartMotorSetPowerExpanderStatusPort
+     /tmp/ccdUEzgz.s:2530   .text.SmartMotorPtcMonitorEnable:00000000 $t
+     /tmp/ccdUEzgz.s:2536   .text.SmartMotorPtcMonitorEnable:00000000 SmartMotorPtcMonitorEnable
+     /tmp/ccdUEzgz.s:2565   .text.SmartMotorPtcMonitorDisable:00000000 $t
+     /tmp/ccdUEzgz.s:2571   .text.SmartMotorPtcMonitorDisable:00000000 SmartMotorPtcMonitorDisable
+     /tmp/ccdUEzgz.s:2589   .text.SmartMotorCurrentMonitorEnable:00000000 $t
+     /tmp/ccdUEzgz.s:2595   .text.SmartMotorCurrentMonitorEnable:00000000 SmartMotorCurrentMonitorEnable
+     /tmp/ccdUEzgz.s:2624   .text.SmartMotorCurrentMonitorDisable:00000000 $t
+     /tmp/ccdUEzgz.s:2630   .text.SmartMotorCurrentMonitorDisable:00000000 SmartMotorCurrentMonitorDisable
+     /tmp/ccdUEzgz.s:2648   .text.SmartMotorRun:00000000 $t
+     /tmp/ccdUEzgz.s:2654   .text.SmartMotorRun:00000000 SmartMotorRun
+     /tmp/ccdUEzgz.s:7015   .text.SmartMotorTask:00000000 SmartMotorTask
+     /tmp/ccdUEzgz.s:2686   .text.SmartMotorStop:00000000 $t
+     /tmp/ccdUEzgz.s:2692   .text.SmartMotorStop:00000000 SmartMotorStop
+     /tmp/ccdUEzgz.s:2756   .text.SmartMotorDebugStatus:00000000 $t
+ARM GAS  /tmp/ccdUEzgz.s 			page 304
 
 
-     /tmp/ccXOsttd.s:2762   .text.SmartMotorDebugStatus:00000000 SmartMotorDebugStatus
-     /tmp/ccXOsttd.s:7647   .rodata.str1.4:0000000c .LC1
-     /tmp/ccXOsttd.s:7650   .rodata.str1.4:00000024 .LC2
-     /tmp/ccXOsttd.s:7653   .rodata.str1.4:00000034 .LC3
-     /tmp/ccXOsttd.s:7655   .rodata.str1.4:00000040 .LC4
-     /tmp/ccXOsttd.s:7657   .rodata.str1.4:0000004c .LC5
-     /tmp/ccXOsttd.s:7660   .rodata.str1.4:00000050 .LC6
-     /tmp/ccXOsttd.s:7662   .rodata.str1.4:00000068 .LC7
-     /tmp/ccXOsttd.s:7665   .rodata.str1.4:00000080 .LC8
-     /tmp/ccXOsttd.s:3483   .text._SetMotor:00000000 $t
-     /tmp/ccXOsttd.s:3489   .text._SetMotor:00000000 _SetMotor
-     /tmp/ccXOsttd.s:3569   .text.SmartMotorsInit:00000000 $t
-     /tmp/ccXOsttd.s:3575   .text.SmartMotorsInit:00000000 SmartMotorsInit
-     /tmp/ccXOsttd.s:4060   .text.SmartMotorsInit:000002e0 $d
-     /tmp/ccXOsttd.s:4065   .text.SmartMotorLinkMotors:00000000 $t
-     /tmp/ccXOsttd.s:4071   .text.SmartMotorLinkMotors:00000000 SmartMotorLinkMotors
-     /tmp/ccXOsttd.s:4143   .text.SmartMotorsSetEncoderGearing:00000000 $t
-     /tmp/ccXOsttd.s:4149   .text.SmartMotorsSetEncoderGearing:00000000 SmartMotorsSetEncoderGearing
-     /tmp/ccXOsttd.s:4191   .text._SmartMotorsAddPowerExtender:00000000 $t
-     /tmp/ccXOsttd.s:4197   .text._SmartMotorsAddPowerExtender:00000000 _SmartMotorsAddPowerExtender
-     /tmp/ccXOsttd.s:4785   .text._SmartMotorSetRpmSensor:00000000 $t
-     /tmp/ccXOsttd.s:4791   .text._SmartMotorSetRpmSensor:00000000 _SmartMotorSetRpmSensor
-     /tmp/ccXOsttd.s:4852   .text.SmartMotorSpeed:00000000 $t
-     /tmp/ccXOsttd.s:4858   .text.SmartMotorSpeed:00000000 SmartMotorSpeed
-     /tmp/ccXOsttd.s:4935   .text.SmartMotorSpeed:00000078 $d
-     /tmp/ccXOsttd.s:4942   .text.SmartMotorSimulateSpeed:00000000 $t
-     /tmp/ccXOsttd.s:4948   .text.SmartMotorSimulateSpeed:00000000 SmartMotorSimulateSpeed
-     /tmp/ccXOsttd.s:7672   .rodata.spd_table.8582:00000000 .LANCHOR4
-     /tmp/ccXOsttd.s:5081   .text.SmartMotorSimulateSpeed:000000d0 $d
-     /tmp/ccXOsttd.s:5094   .text.SmartMotorCurrent:00000000 $t
-     /tmp/ccXOsttd.s:5100   .text.SmartMotorCurrent:00000000 SmartMotorCurrent
-     /tmp/ccXOsttd.s:5532   .text.SmartMotorCurrent:00000310 $d
-     /tmp/ccXOsttd.s:5539   .text.SmartMotorCurrent:00000320 $t
-     /tmp/ccXOsttd.s:5902   .text.SmartMotorCurrent:00000530 $d
-     /tmp/ccXOsttd.s:5912   .text.SmartMotorControllerCurrent:00000000 $t
-     /tmp/ccXOsttd.s:5918   .text.SmartMotorControllerCurrent:00000000 SmartMotorControllerCurrent
-     /tmp/ccXOsttd.s:6048   .text.SmartMotorSafeCommand:00000000 $t
-     /tmp/ccXOsttd.s:6054   .text.SmartMotorSafeCommand:00000000 SmartMotorSafeCommand
-     /tmp/ccXOsttd.s:6256   .text.SmartMotorSafeCommand:00000180 $d
-     /tmp/ccXOsttd.s:6264   .text.SmartMotorTemperature:00000000 $t
-     /tmp/ccXOsttd.s:6270   .text.SmartMotorTemperature:00000000 SmartMotorTemperature
-     /tmp/ccXOsttd.s:6328   .text.SmartMotorControllerTemperature:00000000 $t
-     /tmp/ccXOsttd.s:6334   .text.SmartMotorControllerTemperature:00000000 SmartMotorControllerTemperature
-     /tmp/ccXOsttd.s:6392   .text.SmartMotorMonitorPtc:00000000 $t
-     /tmp/ccXOsttd.s:6398   .text.SmartMotorMonitorPtc:00000000 SmartMotorMonitorPtc
-     /tmp/ccXOsttd.s:6476   .text.SmartMotorControllerMonitorPtc:00000000 $t
-     /tmp/ccXOsttd.s:6482   .text.SmartMotorControllerMonitorPtc:00000000 SmartMotorControllerMonitorPtc
-     /tmp/ccXOsttd.s:6806   .text.SmartMotorControllerMonitorPtc:000001e0 $d
-     /tmp/ccXOsttd.s:6814   .text.SmartMotorMonitorCurrent:00000000 $t
-     /tmp/ccXOsttd.s:6820   .text.SmartMotorMonitorCurrent:00000000 SmartMotorMonitorCurrent
-     /tmp/ccXOsttd.s:6895   .text.SmartMotorMonitorCurrent:00000070 $d
-     /tmp/ccXOsttd.s:6901   .text.SmartMotorControllerSetLed:00000000 $t
-     /tmp/ccXOsttd.s:6907   .text.SmartMotorControllerSetLed:00000000 SmartMotorControllerSetLed
-     /tmp/ccXOsttd.s:7009   .text.SmartMotorTask:00000000 $t
-     /tmp/ccXOsttd.s:7668   .rodata.str1.4:00000098 .LC9
-     /tmp/ccXOsttd.s:7616   .data.delayTimeMs.8667:00000000 .LANCHOR5
-     /tmp/ccXOsttd.s:7510   .text.SmartMotorTask:00000318 $d
-ARM GAS  /tmp/ccXOsttd.s 			page 305
+     /tmp/ccdUEzgz.s:2762   .text.SmartMotorDebugStatus:00000000 SmartMotorDebugStatus
+     /tmp/ccdUEzgz.s:7647   .rodata.str1.4:0000000c .LC1
+     /tmp/ccdUEzgz.s:7650   .rodata.str1.4:00000024 .LC2
+     /tmp/ccdUEzgz.s:7653   .rodata.str1.4:00000034 .LC3
+     /tmp/ccdUEzgz.s:7655   .rodata.str1.4:00000040 .LC4
+     /tmp/ccdUEzgz.s:7657   .rodata.str1.4:0000004c .LC5
+     /tmp/ccdUEzgz.s:7660   .rodata.str1.4:00000050 .LC6
+     /tmp/ccdUEzgz.s:7662   .rodata.str1.4:00000068 .LC7
+     /tmp/ccdUEzgz.s:7665   .rodata.str1.4:00000080 .LC8
+     /tmp/ccdUEzgz.s:3483   .text._SetMotor:00000000 $t
+     /tmp/ccdUEzgz.s:3489   .text._SetMotor:00000000 _SetMotor
+     /tmp/ccdUEzgz.s:3569   .text.SmartMotorsInit:00000000 $t
+     /tmp/ccdUEzgz.s:3575   .text.SmartMotorsInit:00000000 SmartMotorsInit
+     /tmp/ccdUEzgz.s:4060   .text.SmartMotorsInit:000002e0 $d
+     /tmp/ccdUEzgz.s:4065   .text.SmartMotorLinkMotors:00000000 $t
+     /tmp/ccdUEzgz.s:4071   .text.SmartMotorLinkMotors:00000000 SmartMotorLinkMotors
+     /tmp/ccdUEzgz.s:4143   .text.SmartMotorsSetEncoderGearing:00000000 $t
+     /tmp/ccdUEzgz.s:4149   .text.SmartMotorsSetEncoderGearing:00000000 SmartMotorsSetEncoderGearing
+     /tmp/ccdUEzgz.s:4191   .text._SmartMotorsAddPowerExtender:00000000 $t
+     /tmp/ccdUEzgz.s:4197   .text._SmartMotorsAddPowerExtender:00000000 _SmartMotorsAddPowerExtender
+     /tmp/ccdUEzgz.s:4785   .text._SmartMotorSetRpmSensor:00000000 $t
+     /tmp/ccdUEzgz.s:4791   .text._SmartMotorSetRpmSensor:00000000 _SmartMotorSetRpmSensor
+     /tmp/ccdUEzgz.s:4852   .text.SmartMotorSpeed:00000000 $t
+     /tmp/ccdUEzgz.s:4858   .text.SmartMotorSpeed:00000000 SmartMotorSpeed
+     /tmp/ccdUEzgz.s:4935   .text.SmartMotorSpeed:00000078 $d
+     /tmp/ccdUEzgz.s:4942   .text.SmartMotorSimulateSpeed:00000000 $t
+     /tmp/ccdUEzgz.s:4948   .text.SmartMotorSimulateSpeed:00000000 SmartMotorSimulateSpeed
+     /tmp/ccdUEzgz.s:7672   .rodata.spd_table.8582:00000000 .LANCHOR4
+     /tmp/ccdUEzgz.s:5081   .text.SmartMotorSimulateSpeed:000000d0 $d
+     /tmp/ccdUEzgz.s:5094   .text.SmartMotorCurrent:00000000 $t
+     /tmp/ccdUEzgz.s:5100   .text.SmartMotorCurrent:00000000 SmartMotorCurrent
+     /tmp/ccdUEzgz.s:5532   .text.SmartMotorCurrent:00000310 $d
+     /tmp/ccdUEzgz.s:5539   .text.SmartMotorCurrent:00000320 $t
+     /tmp/ccdUEzgz.s:5902   .text.SmartMotorCurrent:00000530 $d
+     /tmp/ccdUEzgz.s:5912   .text.SmartMotorControllerCurrent:00000000 $t
+     /tmp/ccdUEzgz.s:5918   .text.SmartMotorControllerCurrent:00000000 SmartMotorControllerCurrent
+     /tmp/ccdUEzgz.s:6048   .text.SmartMotorSafeCommand:00000000 $t
+     /tmp/ccdUEzgz.s:6054   .text.SmartMotorSafeCommand:00000000 SmartMotorSafeCommand
+     /tmp/ccdUEzgz.s:6256   .text.SmartMotorSafeCommand:00000180 $d
+     /tmp/ccdUEzgz.s:6264   .text.SmartMotorTemperature:00000000 $t
+     /tmp/ccdUEzgz.s:6270   .text.SmartMotorTemperature:00000000 SmartMotorTemperature
+     /tmp/ccdUEzgz.s:6328   .text.SmartMotorControllerTemperature:00000000 $t
+     /tmp/ccdUEzgz.s:6334   .text.SmartMotorControllerTemperature:00000000 SmartMotorControllerTemperature
+     /tmp/ccdUEzgz.s:6392   .text.SmartMotorMonitorPtc:00000000 $t
+     /tmp/ccdUEzgz.s:6398   .text.SmartMotorMonitorPtc:00000000 SmartMotorMonitorPtc
+     /tmp/ccdUEzgz.s:6476   .text.SmartMotorControllerMonitorPtc:00000000 $t
+     /tmp/ccdUEzgz.s:6482   .text.SmartMotorControllerMonitorPtc:00000000 SmartMotorControllerMonitorPtc
+     /tmp/ccdUEzgz.s:6806   .text.SmartMotorControllerMonitorPtc:000001e0 $d
+     /tmp/ccdUEzgz.s:6814   .text.SmartMotorMonitorCurrent:00000000 $t
+     /tmp/ccdUEzgz.s:6820   .text.SmartMotorMonitorCurrent:00000000 SmartMotorMonitorCurrent
+     /tmp/ccdUEzgz.s:6895   .text.SmartMotorMonitorCurrent:00000070 $d
+     /tmp/ccdUEzgz.s:6901   .text.SmartMotorControllerSetLed:00000000 $t
+     /tmp/ccdUEzgz.s:6907   .text.SmartMotorControllerSetLed:00000000 SmartMotorControllerSetLed
+     /tmp/ccdUEzgz.s:7009   .text.SmartMotorTask:00000000 $t
+     /tmp/ccdUEzgz.s:7668   .rodata.str1.4:00000098 .LC9
+     /tmp/ccdUEzgz.s:7616   .data.delayTimeMs.8667:00000000 .LANCHOR5
+     /tmp/ccdUEzgz.s:7510   .text.SmartMotorTask:00000318 $d
+ARM GAS  /tmp/ccdUEzgz.s 			page 305
 
 
-     /tmp/ccXOsttd.s:7521   .text.SmartMotorTask:00000330 $t
-     /tmp/ccXOsttd.s:7606   .text.SmartMotorTask:000003d0 $d
-     /tmp/ccXOsttd.s:7615   .data.delayTimeMs.8667:00000000 $d
-     /tmp/ccXOsttd.s:7619   .data.delayTimeMs.8667:00000000 delayTimeMs.8667
-     /tmp/ccXOsttd.s:7622   .bss.sMotors:00000000 $d
-     /tmp/ccXOsttd.s:7626   .bss.sMotors:00000000 sMotors
-     /tmp/ccXOsttd.s:7629   .bss.PtcLimitEnabled:00000000 $d
-     /tmp/ccXOsttd.s:7633   .bss.PtcLimitEnabled:00000000 PtcLimitEnabled
-     /tmp/ccXOsttd.s:7636   .bss.CurrentLimitEnabled:00000000 $d
-     /tmp/ccXOsttd.s:7640   .bss.CurrentLimitEnabled:00000000 CurrentLimitEnabled
-     /tmp/ccXOsttd.s:7643   .rodata.str1.4:00000000 $d
-     /tmp/ccXOsttd.s:7671   .rodata.spd_table.8582:00000000 $d
-     /tmp/ccXOsttd.s:7675   .rodata.spd_table.8582:00000000 spd_table.8582
-     /tmp/ccXOsttd.s:7687   .bss.sPorts:00000000 $d
-     /tmp/ccXOsttd.s:7691   .bss.sPorts:00000000 sPorts
+     /tmp/ccdUEzgz.s:7521   .text.SmartMotorTask:00000330 $t
+     /tmp/ccdUEzgz.s:7606   .text.SmartMotorTask:000003d0 $d
+     /tmp/ccdUEzgz.s:7615   .data.delayTimeMs.8667:00000000 $d
+     /tmp/ccdUEzgz.s:7619   .data.delayTimeMs.8667:00000000 delayTimeMs.8667
+     /tmp/ccdUEzgz.s:7622   .bss.sMotors:00000000 $d
+     /tmp/ccdUEzgz.s:7626   .bss.sMotors:00000000 sMotors
+     /tmp/ccdUEzgz.s:7629   .bss.PtcLimitEnabled:00000000 $d
+     /tmp/ccdUEzgz.s:7633   .bss.PtcLimitEnabled:00000000 PtcLimitEnabled
+     /tmp/ccdUEzgz.s:7636   .bss.CurrentLimitEnabled:00000000 $d
+     /tmp/ccdUEzgz.s:7640   .bss.CurrentLimitEnabled:00000000 CurrentLimitEnabled
+     /tmp/ccdUEzgz.s:7643   .rodata.str1.4:00000000 $d
+     /tmp/ccdUEzgz.s:7671   .rodata.spd_table.8582:00000000 $d
+     /tmp/ccdUEzgz.s:7675   .rodata.spd_table.8582:00000000 spd_table.8582
+     /tmp/ccdUEzgz.s:7687   .bss.sPorts:00000000 $d
+     /tmp/ccdUEzgz.s:7691   .bss.sPorts:00000000 sPorts
                      .debug_frame:00000010 $d
-     /tmp/ccXOsttd.s:1985   .text.SmartMotorSlewRateTask:00000c9c $t
-     /tmp/ccXOsttd.s:2363   .text.SmartMotorSetFreeRpm:00000078 $t
-     /tmp/ccXOsttd.s:4064   .text.SmartMotorsInit:000002e4 $t
-     /tmp/ccXOsttd.s:5093   .text.SmartMotorSimulateSpeed:000000d8 $t
-     /tmp/ccXOsttd.s:6813   .text.SmartMotorControllerMonitorPtc:000001e8 $t
-     /tmp/ccXOsttd.s:6900   .text.SmartMotorMonitorCurrent:00000078 $t
+     /tmp/ccdUEzgz.s:1985   .text.SmartMotorSlewRateTask:00000c9c $t
+     /tmp/ccdUEzgz.s:2363   .text.SmartMotorSetFreeRpm:00000078 $t
+     /tmp/ccdUEzgz.s:4064   .text.SmartMotorsInit:000002e4 $t
+     /tmp/ccdUEzgz.s:5093   .text.SmartMotorSimulateSpeed:000000d8 $t
+     /tmp/ccdUEzgz.s:6813   .text.SmartMotorControllerMonitorPtc:000001e8 $t
+     /tmp/ccdUEzgz.s:6900   .text.SmartMotorMonitorCurrent:00000078 $t
 
 UNDEFINED SYMBOLS
 __aeabi_i2f
@@ -18295,7 +18295,7 @@ __aeabi_d2iz
 __aeabi_fcmple
 __aeabi_dsub
 __aeabi_dcmpgt
-ARM GAS  /tmp/ccXOsttd.s 			page 306
+ARM GAS  /tmp/ccdUEzgz.s 			page 306
 
 
 __aeabi_dcmplt
