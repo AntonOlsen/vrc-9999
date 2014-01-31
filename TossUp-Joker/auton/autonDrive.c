@@ -34,12 +34,12 @@ void autonDrive( int speed, int inches ) {
 	}
 
 	// Reverse motors to stop coast
-    vexMotorSet( MotorDriveL1, -speed );
-    vexMotorSet( MotorDriveL2, -speed );
-    vexMotorSet( MotorDriveR1, -speed );
-    vexMotorSet( MotorDriveR2, -speed );
+    vexMotorSet( MotorDriveL1, -speed/2 );
+    vexMotorSet( MotorDriveL2, -speed/2 );
+    vexMotorSet( MotorDriveR1, -speed/2 );
+    vexMotorSet( MotorDriveR2, -speed/2 );
 
-    vexSleep( 20 );
+    vexSleep( abs(speed/8) );
 
     // Stop motors
     vexMotorSet( MotorDriveL1, 0 );
