@@ -34,28 +34,20 @@ void IntakeSystemControl( short direction ) {
 /*  direction is -1 (intake) or 1 (outtake)									   */
 /*-----------------------------------------------------------------------------*/
 
-task IntakeTask(void *arg) {
+void operatorIntake(void *arg) {
     short   direction;
 
     (void)arg;
-    vexTaskRegister("Intake task");
 
-    while( TRUE )
-        {
-        // Get controller
-    	if( vexControllerGet( Btn5U ) == 1) {
-    		direction = -1;
-    	} else if( vexControllerGet( Btn5D ) == 1) {
-    		direction = 1;
-    	} else {
-    		direction = 0;
-    	}
+    // Get controller
+   	if( vexControllerGet( Btn5U ) == 1) {
+   		direction = -1;
+   	} else if( vexControllerGet( Btn5D ) == 1) {
+   		direction = 1;
+   	} else {
+   		direction = 0;
+   	}
 
-    	IntakeSystemControl( direction );
-
-        wait1Msec(25);
-    }
-
-    return( (msg_t) 0);
+   	IntakeSystemControl( direction );
 }
 

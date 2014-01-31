@@ -31,15 +31,16 @@ static int16_t GetArmPot(void) {
 /*  arm pid (actually just P) control task                                     */
 /*-----------------------------------------------------------------------------*/
 task ArmPidController(void *arg) {
+    (void)arg;
+
     int    armSensorCurrentValue;
     int    armError;
     float  armDrive;
     static float  pid_K = 0.3;
-    (void)arg;
-    vexTaskRegister("arm pid");
-    while( TRUE ) {
 
-//		vexLcdPrintf( VEX_LCD_DISPLAY_1, VEX_LCD_LINE_1, "%4d %4d", GetArmPot(), GetArmPosition() );
+    vexTaskRegister("arm pid");
+
+    while( TRUE ) {
 
         // Read the sensor value and scale
         armSensorCurrentValue = GetArmPot();
@@ -68,40 +69,33 @@ task ArmPidController(void *arg) {
 /*-----------------------------------------------------------------------------*/
 /*  Task to control arm (and claw) movement                                    */
 /*-----------------------------------------------------------------------------*/
-task ArmTask(void *arg) {
+void operatorArm(void *arg) {
     (void)arg;
-    vexTaskRegister("manual arm");
+
     // use joystick to modify the requested position
-    while( TRUE ) {
-        // presets
-        if( vexControllerGet( Btn8U ) == 1 )
-            SetArmPosition( armPositionHigh );
-        else
-        if( vexControllerGet( Btn8R ) == 1 )
-            SetArmPosition( armPositionMid );
-        else
-        if( vexControllerGet( Btn8D ) == 1 )
-            SetArmPosition( armPositionLow );
-        else
-        if( vexControllerGet( Btn6U ) == 1)
-      		SetArmPosition( GetArmPosition() - 25 );
-        else
-        if( vexControllerGet( Btn6D ) == 1 )
-            SetArmPosition( GetArmPosition() + 25 );
-        else
-        	// Check the limit switches if no buttons are pressed
-        	if ( vexDigitalPinGet( armLimitL ) == 0 || vexDigitalPinGet( armLimitL ) == 0 ) {
-        		// Reset the values.
-                SetArmPosition( GetArmPot() );
-        		armPositionLow = GetArmPot();
-        		armPositionMid = armPositionLow - 800;
-        		armPositionHigh = armPositionLow - 1500;
-
-        	}
-
-        // don't hog cpu
-        wait1Msec(25);
-    }
-
-    return( (msg_t) 0);
+   	// presets first, then manual up/down
+    if( vexControllerGet( Btn8U ) == 1 )
+        SetArmPosition( armPositionHigh );
+    else
+    if( vexControllerGet( Btn8R ) == 1 )
+        SetArmPosition( armPositionMid );
+    else
+    if( vexControllerGet( Btn8D ) == 1 )
+        SetArmPosition( armPositionLow );
+    else
+    if( vexControllerGet( Btn6U ) == 1)				// Up
+        SetArmPosition( GetArmPosition() - 25 );
+    else
+    if( vexControllerGet( Btn6D ) == 1 )			// Down
+    	// TODO - Make the motor move, regardless of position if we hold this long enough.
+        SetArmPosition( GetArmPosition() + 25 );
+    else
+  	// Check the limit switches if no buttons are pressed
+   	if ( vexDigitalPinGet( armLimitL ) == 0 || vexDigitalPinGet( armLimitL ) == 0 ) {
+   		// Reset the values.
+        SetArmPosition( GetArmPot() );
+  		armPositionLow = GetArmPot();
+   		armPositionMid = armPositionLow - 800;
+   		armPositionHigh = armPositionLow - 1500;
+   	}
 }
