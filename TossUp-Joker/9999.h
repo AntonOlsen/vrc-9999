@@ -74,4 +74,3 @@ static  vexMotorCfg mConfig[kVexMotorNum] = {
 
 #define ArmPotL          kVexAnalog_8
 #define ArmPotR          kVexAnalog_3
-
