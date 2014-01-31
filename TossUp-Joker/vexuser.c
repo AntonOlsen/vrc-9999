@@ -55,6 +55,8 @@
 
 #include "9999.h"
 
+#include "common/gyro.c"
+
 #include "common/arm.c"
 #include "common/intake.c"
 #include "common/flipper.c"
@@ -81,7 +83,10 @@ void vexUserSetup() {
  *  Start other tasks and initialize user variables here
  */
 void vexUserInit() {
-	gyro_base = vexAdcGet( kVexAnalog_1 );
+	// gyro_base is used by the stability control.
+	gyro_base = vexAdcGet( kVexAnalog_2 );
+
+	// vexGryo is used by the autonGyroTurn
 	vexGyroInit();
 
     // Init the arm pot.
@@ -138,15 +143,17 @@ msg_t vexOperator( void *arg ) {
 
     // Start our own tasks
     StartTask( ArmPidController );
-    StartTask( ArmTask );
-    StartTask( IntakeTask );
-    StartTask( FlipperTask );
-    StartTask( DriveTask );
 
 	// Run until asked to terminate
 	while(!chThdShouldTerminate()) {
 		// flash led/digi out
 		vexDigitalPinSet( kVexDigital_12, (blink++ >> 3) & 1);	// Slow blink the enabled heartbeat (Green LED)
+
+		operatorArm( 0 );
+		operatorIntake( 0 );
+		operatorFlipper( 0 );
+
+		operatorDrive( 0 );
 
 		// status on LCD
 		vexLcdPrintf( VEX_LCD_DISPLAY_1, VEX_LCD_LINE_1, "%4.2fV   %8.1f", vexSpiGetMainBattery() / 1000.0, chTimeNow() / 1000.0 );
@@ -154,9 +161,6 @@ msg_t vexOperator( void *arg ) {
 
 		vexLcdPrintf( VEX_LCD_DISPLAY_2, VEX_LCD_LINE_1, "%4.2fV   %8.1f", vexSpiGetMainBattery() / 1000.0, chTimeNow() / 1000.0 );
 		vexLcdPrintf( VEX_LCD_DISPLAY_2, VEX_LCD_LINE_2, "L %5.2f R %5.2f", getInchesLeft(), getInchesRight() );
-
-//		vexLcdPrintf( VEX_LCD_DISPLAY_1, VEX_LCD_LINE_2, "%d", GetArmPot() );
-//		vexLcdPrintf( VEX_LCD_DISPLAY_2, VEX_LCD_LINE_2, "%d", GetArmPot() );
 
 		// Don't hog cpu
 		vexSleep( 25 );
