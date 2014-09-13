@@ -95,6 +95,12 @@ void vexUserInit() {
     // This task is for the sole purpose of selecting auton
     StartTask( autonSelect );
 
+	vexDigitalPinSet( kVexDigital_9, 0 );	// Turn off Red IME LED
+	vexDigitalPinSet( kVexDigital_10, 0 );	// Turn off Red Stall LED
+	vexDigitalPinSet( kVexDigital_11, 0 );	// Turn off Green Auton Select LED
+	vexDigitalPinSet( kVexDigital_12, 1 );	// Turn on Green Good LED
+
+
 }
 
 /*-----------------------------------------------------------------------------*/

@@ -98,7 +98,7 @@ bin/obj/vexuser.o: vexuser.c \
  ../convex/cortex/opt/smartmotor.h ../convex/cortex/opt/vexgyro.h \
  ../convex/cortex/opt/robotc_glue.h 9999.h common/gyro.c common/gyro.h \
  common/arm.c common/intake.c common/flipper.c drive/drive.c \
- auton/auton.c auton/autonDrive.c auton/autonTurn.c
+ auton/auton.c auton/autonDrive.c auton/autonTurn.c auton/skills.c
 
 /opt/pros/toolchain/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/include/stdlib.h:
 
@@ -341,3 +341,5 @@ auton/auton.c:
 auton/autonDrive.c:
 
 auton/autonTurn.c:
+
+auton/skills.c:

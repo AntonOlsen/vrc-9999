@@ -4,7 +4,7 @@
 #define ARM    3
 #define INTAKE 4
 
-static int16_t runAutonProgram=3;   // 0=None
+static int16_t runAutonProgram=5;   // 0=None
 static int16_t runAutonColor=1;		// 0=left, 1=right
 
 char c0[] = "Lft";
@@ -27,7 +27,7 @@ void autonIntake( int direction ) {
 
 }
 
-#define NUM_PROGRAMS   6
+#define NUM_PROGRAMS   7
 
 char n0[] = "None";
 
@@ -41,7 +41,7 @@ void auton0( int side ) {
 }
 
 
-char n1[] = "Hang PushBalls";
+char n1[] = "HangPushBalls";
 
 void auton1( int side ) {
 
@@ -68,51 +68,52 @@ void auton1( int side ) {
 
 }
 
-char n2[] = "Hang Push1";
+char n2[] = "HangPush1";
 
 void auton2( int side ) {
 
+	int topSpeed = 96;
+
 	// Pick up 2 balls
 	autonIntake( -1 );
-	autonDrive( 128, 18 );
+	autonDrive( topSpeed, 18 );
 	vexSleep(250);
-	autonDrive( 64, 6 );
-	autonDrive( 32, 6 );
-	autonDrive( 32, 6 );
+	autonDrive( topSpeed/2, 6 );
+	autonDrive( topSpeed/4, 6 );
+	autonDrive( topSpeed/4, 6 );
 	//autonIntake( 0 );
 
 	// Clear wall and turn 90
 	autonIntake( 0 );
-	autonDrive( -64, 1.5 );
-	autonTurn(  48, 90*side );
+	autonDrive( -topSpeed/4, 1.5 );
+	autonTurn(  topSpeed/2, 90*side );
 	// Square off wall
-	autonDrive( -64, 12 );
+	autonDrive( -topSpeed/2, 12 );
 
 	//armRequestedValue = armPositionMid+300;
 
 	// Drive toward center
-	autonDrive( 128, 12 );
+	autonDrive( topSpeed/2, 12 );
 	vexSleep(250);
 
 	// Turn toward first big ball
-	autonTurn( 64, 30*side );
+	autonTurn( topSpeed/2, 30*side );
 	vexSleep(250);
 
 	autonIntake( 0 );
-	autonDrive( 64, 12 );
+	autonDrive( topSpeed/2, 12 );
 	vexSleep(50);
 	armRequestedValue -= 200;
-	autonDrive( 48,  6 );
+	autonDrive( topSpeed/2,  6 );
 	armRequestedValue -= 200;
-	autonDrive( 48,  6 );
+	autonDrive( topSpeed/2,  6 );
 	vexSleep(250);
-	autonDrive( -64, 12 );
+	autonDrive( -topSpeed/2, 12 );
 	armRequestedValue = armPositionLow;
 
 }
 
-
-char n3[] = "Mid KnockScore";
+char n3[] = "MidKnockStash";
 
 void auton3( int side ) {
 
@@ -158,7 +159,7 @@ void auton3( int side ) {
 
 }
 
-char n4[] = "Mid ScoreOpp";
+char n4[] = "MidScoreOpp";
 
 void auton4( int side ) {
 
@@ -200,7 +201,7 @@ void auton4( int side ) {
 
 }
 
-char n5[] = "Hang ScoreBig";
+char n5[] = "HangScoreBig";
 
 void auton5( int side ) {
 
@@ -224,14 +225,15 @@ void auton5( int side ) {
 	// Back up
 	autonDrive( -128, 18 );
 	vexSleep(100);
+	autonDrive(   32,  1 );
 
 	// Flipper Down
     vexMotorSet( MotorFlipperL, 127 );
     vexMotorSet( MotorFlipperR, 127 );
-	vexSleep(1100);
+	vexSleep(1000);
 	vexMotorSet( MotorFlipperL, -8 );
     vexMotorSet( MotorFlipperR, -8 );
-	vexSleep(10);
+	vexSleep(25);
 	vexMotorSet( MotorFlipperL, 0 );
     vexMotorSet( MotorFlipperR, 0 );
 
@@ -251,15 +253,15 @@ void auton5( int side ) {
 	// Flipper Up
     vexMotorSet( MotorFlipperL, -127 );
     vexMotorSet( MotorFlipperR, -127 );
-	autonDrive( 128, 6 );
-	vexSleep(800);
+	autonDrive( 128, 4 );
+	vexSleep(600);
 
 	// Hold ball
 	vexMotorSet( MotorFlipperL, -16 );
     vexMotorSet( MotorFlipperR, -16 );
 
     // Back up a little
-	autonDrive( -128, 6 );
+	autonDrive( -128, 4 );
 
     // Turn back toward goal
     autonGyroTurn( 128, -90*side );
@@ -282,12 +284,12 @@ void auton5( int side ) {
     vexMotorSet( MotorFlipperR, 16 );
 
     // Start backing under barrier
-	autonDrive(  -64, 12 );
+	autonDrive(  -127, 8 );
 
 	// Push ball over rail
 	vexMotorSet( MotorFlipperL, -32 );
     vexMotorSet( MotorFlipperR, -32 );
-	autonDrive(  -64, 12 );
+	autonDrive(  -127, 12 );
 
 	// Drop flippers
 	vexMotorSet( MotorFlipperL, 64 );
@@ -302,9 +304,11 @@ void auton5( int side ) {
 	// Raise flippers
 	vexMotorSet( MotorFlipperL, -127 );
     vexMotorSet( MotorFlipperR, -127 );
-	vexSleep(250);
+	vexSleep(50);
+	vexMotorSet( MotorFlipperL, -64 );
+    vexMotorSet( MotorFlipperR, -64 );
 
-    // Turn 180
+    // Turn 90 more
     autonGyroTurn( 128, -90*side );
 	vexMotorSet( MotorFlipperL, 0 );
     vexMotorSet( MotorFlipperR, 0 );
@@ -315,7 +319,10 @@ void auton5( int side ) {
     autonDrive(  64, 24 );
 
     // Start outake
+    autonDrive( 128, 6 );
+    autonDrive( 128, 6 );
 	autonIntake( 1 );
+    autonDrive( 128, 6 );
     autonDrive( 128, 6 );
     autonDrive( 128, 6 );
 
@@ -324,8 +331,9 @@ void auton5( int side ) {
 
 }
 
+#include "skills.c"
 
-char *ProgName[NUM_PROGRAMS] = { n0, n1, n2, n3, n4, n5 };
+char *ProgName[NUM_PROGRAMS] = { n0, n1, n2, n3, n4, n5, n6 };
 
 task autonSelect( void *arg ) {
     (void)arg;
@@ -419,6 +427,9 @@ task autonRun( void *arg ) {
 		break;
 	case 5:
 		auton5( side );
+		break;
+	case 6:
+		skills( side );
 		break;
     case 0:
   	default:

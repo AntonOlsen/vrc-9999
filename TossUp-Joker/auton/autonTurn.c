@@ -1,3 +1,6 @@
+
+
+
 void autonGyroTurn( int speed, int degrees ) {
 
 	float inchesL=0;
@@ -7,6 +10,8 @@ void autonGyroTurn( int speed, int degrees ) {
 	int turned=0;
 	int error=0;
 
+	int gyroGain=1;
+
 	// Reverse speed if turning left (negative degrees)
 	if (degrees < 0) {
 		speed = -speed;
@@ -14,7 +19,7 @@ void autonGyroTurn( int speed, int degrees ) {
 
 	// Gyro returns 10x the actual degrees.
 	// We set direction above, so we can deal with positive angles from here on
-	degrees = abs(degrees) * 9; // Lose 10% of the angle.
+	degrees = abs(degrees) * (10 - 1); // Lose 10% of the angle.
 
 	// Used for stall detection
 	resetImeLeft();
@@ -39,12 +44,12 @@ void autonGyroTurn( int speed, int degrees ) {
 		speed = speed * error / degrees;
 
 		if (speed < 0) {
-			if (speed > -64) {
-				speed = -64;
+			if (speed > -32) {
+				speed = -32;
 			}
 		} else {
-			if (speed < 64) {
-				speed = 64;
+			if (speed < 32) {
+				speed = 32;
 			}
 		}
 
@@ -55,6 +60,7 @@ void autonGyroTurn( int speed, int degrees ) {
 		if (inchesL == getInchesLeft() && inchesR == getInchesRight() ) {
 			timeout++;
 			if( timeout > 45 ) {
+				vexDigitalPinSet( kVexDigital_10, 1 );	// Turn on Red Stall LED
 				vexLcdPrintf( VEX_LCD_DISPLAY_1, VEX_LCD_LINE_2, "Stall %4d", getGyro() );
 				vexLcdPrintf( VEX_LCD_DISPLAY_2, VEX_LCD_LINE_2, "Stall %4d", getGyro() );
 				break;

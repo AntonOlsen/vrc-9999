@@ -25,7 +25,7 @@ static  vexDigiCfg  dConfig[kVexDigital_Num] = {
 
 /*
 
-Joke Motors. 9999 always starts from the center with drive wheels, arm, and intake.
+Joker Motors. 9999 always starts from the center with drive wheels, arm, and intake.
 
 Robots with power expanders will use 5/6 for drive and Y to the expander. Robots
 with no expander will use 45/67 for drive. 
@@ -44,6 +44,10 @@ static  vexMotorCfg mConfig[kVexMotorNum] = {
         { kVexMotor_9,      kVexMotor393T,      kVexMotorNormal,    kVexSensorNone,  0 },
         { kVexMotor_10,     kVexMotor393T,      kVexMotorNormal,    kVexSensorNone,  0 }
 };
+
+// Used in speedcontrol.c
+int16_t driveL[3] = {  kVexMotor_7, kVexMotor_6, 0 };
+int16_t driveR[3] = {  kVexMotor_4, kVexMotor_5, 0 };
 
 #define MotorFlipperR	 kVexMotor_1
 
